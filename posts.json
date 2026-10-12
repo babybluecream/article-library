@@ -658,6 +658,175 @@
   "article": true
  },
  {
+  "title": "아프리티프 ㅣ 미국 선물 보합, 유가 93달러와 대형 은행 실적 앞둔 관망세 ㅣ261012",
+  "date": "2026-10-12",
+  "category": "macro",
+  "sub": "미국 시황",
+  "tickers": [
+   "JPM",
+   "GS",
+   "WFC",
+   "C",
+   "CRM",
+   "IREN"
+  ],
+  "url": "https://x.com/babybluecream/status/2109622459502887156",
+  "summary": "미국 지수 선물 보합, WTI 93달러 재상승. 내일 JPM·GS·WFC·C·JNJ·UNH 실적을 앞둔 관망세.",
+  "source": "본인",
+  "access": "free",
+  "id": "2109622459502887156",
+  "partial": false,
+  "article": true
+ },
+ {
+  "title": "미국주식 주간 Top Picks 26.10.12 (대신증권)",
+  "date": "2026-10-12",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2109581864570859868",
+  "summary": "",
+  "source": "본인",
+  "access": "locked",
+  "label": "증권사 리포트 정리",
+  "id": "2109581864570859868",
+  "partial": false
+ },
+ {
+  "title": "HANA US Weekly: OpenAI 매출 논란, 플랫폼 기업의 매력 부각 (하나증권)",
+  "date": "2026-10-12",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2109581330329874826",
+  "summary": "",
+  "source": "정리",
+  "access": "free",
+  "label": "증권사 리포트 정리",
+  "id": "2109581330329874826",
+  "partial": false
+ },
+ {
+  "title": "$RTX 26Q3 Preview: 12분기 연속 상회, 이번에도 이어질까 (대신증권)",
+  "date": "2026-10-12",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "RTX"
+  ],
+  "url": "https://x.com/babybluecream/status/2109580836882247865",
+  "summary": "",
+  "source": "정리",
+  "access": "free",
+  "label": "증권사 리포트 정리",
+  "id": "2109580836882247865",
+  "partial": false
+ },
+ {
+  "title": "KODEX 미국AI에이전트액티브, 10/13 상장 (하나증권)",
+  "date": "2026-10-12",
+  "category": "money",
+  "sub": "자산배분·ETF",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2109579240412963199",
+  "summary": "",
+  "source": "정리",
+  "access": "free",
+  "label": "증권사 리포트 정리",
+  "id": "2109579240412963199",
+  "partial": false
+ },
+ {
+  "title": "자동차, 팔아도 안 팔아도 문제 (메리츠증권)",
+  "date": "2026-10-12",
+  "category": "econ",
+  "sub": "산업 배경",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2109579129226170386",
+  "summary": "",
+  "source": "정리",
+  "access": "free",
+  "label": "증권사 리포트 정리",
+  "id": "2109579129226170386",
+  "partial": false
+ },
+ {
+  "title": "미국 원자력, 아직 우라늄이 제일 낫다 (하나증권)",
+  "date": "2026-10-12",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "CCJ"
+  ],
+  "url": "https://x.com/babybluecream/status/2109578473463525881",
+  "summary": "",
+  "source": "정리",
+  "access": "free",
+  "label": "증권사 리포트 정리",
+  "id": "2109578473463525881",
+  "partial": false
+ },
+ {
+  "title": "애플, 아이폰 18 프로 생산 축소 지시 (대신증권)",
+  "date": "2026-10-12",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "AAPL"
+  ],
+  "url": "https://x.com/babybluecream/status/2109578177274335569",
+  "summary": "",
+  "source": "정리",
+  "access": "free",
+  "label": "증권사 리포트 정리",
+  "id": "2109578177274335569",
+  "partial": false
+ },
+ {
+  "title": "넷플릭스 3Q26 프리뷰 (대신증권, 매수 유지)",
+  "date": "2026-10-12",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "NFLX"
+  ],
+  "url": "https://x.com/babybluecream/status/2109577741054120103",
+  "summary": "",
+  "source": "정리",
+  "access": "free",
+  "label": "증권사 리포트 정리",
+  "id": "2109577741054120103",
+  "partial": false
+ },
+ {
+  "title": "동탄 트램 이달 착공 추진, 남동탄 아파트 신고가 ㅣ261012",
+  "date": "2026-10-12",
+  "category": "realestate",
+  "sub": "정책·뉴스",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2109558053251301516",
+  "summary": "동탄 트램이 계약 단계에 들어가 이달 말 우선시공분 착공 추진. 남동탄 호수공원 일대 아파트 신고가와 규제 이후에도 이어진 상승세.",
+  "source": "본인",
+  "access": "free",
+  "id": "2109558053251301516",
+  "partial": false,
+  "article": true
+ },
+ {
+  "title": "오픈AI 연환산 매출 500억 달러 vs 700억 달러 논란 ㅣ261012",
+  "date": "2026-10-12",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2109556760600305747",
+  "summary": "FT·블룸버그 보도의 500억 vs 700억 차이는 순액법·총액법 집계 방식. 연환산 매출 한계와 비상장 AI 공시 공백이 기술주 변동을 키움.",
+  "source": "본인",
+  "access": "free",
+  "id": "2109556760600305747",
+  "partial": false,
+  "article": true
+ },
+ {
   "title": "테슬라 AI 비전과 주가 전환점 ㅣ261008",
   "date": "2026-10-08",
   "category": "us",
