@@ -2880,6 +2880,23 @@
   "partial": false
  },
  {
+  "title": "크리스 밀러 미중 기술 휴전 관련 구독 아티클",
+  "date": "2026-08-01",
+  "category": "macro",
+  "sub": "구독 아티클",
+  "tickers": [
+   "NVDA"
+  ],
+  "url": "https://x.com/babybluecream/status/2083507587438526495",
+  "summary": "",
+  "source": "본인",
+  "access": "locked",
+  "id": "2083507587438526495",
+  "partial": false,
+  "label": "FT 정리",
+  "article": true
+ },
+ {
   "title": "채권시장이 베센트에게 준 뼈아픈 교훈",
   "date": "2026-08-23",
   "category": "macro",
@@ -3224,6 +3241,7 @@
   "source": "본인",
   "access": "locked",
   "id": "2105295589860851767",
-  "partial": false
+  "partial": false,
+  "article": true
  }
 ]

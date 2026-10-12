@@ -6,7 +6,7 @@
   var CATS = [{ id: 'all', label: '전체' }], CAT_LABEL = { all: '전체' }, PATH = [];
   var HIDDEN = { start: 1 }; // 시작하기(구독 안내)는 읽기 순서 0단계에서만 보임
   var posts = [], byId = {};
-  var state = { view: 'index', stage: '0', cat: 'all', sub: null, free: false, xa: false, q: '', sort: 'desc', ticker: null };
+  var state = { view: 'index', stage: '0', cat: 'all', sub: null, free: false, xa: false, lock: false, q: '', sort: 'desc', ticker: null };
   var $ = function (id) { return document.getElementById(id); };
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
   function fmt(d) { var p = String(d).split('-'); return p.length === 3 ? p[0] + '.' + p[1] + '.' + p[2] : d; }
@@ -23,6 +23,7 @@
     if (!skip.sub && state.sub && p.sub !== state.sub) return false;
     if (!skip.free && state.free && !isFree(p)) return false;
     if (!skip.xa && state.xa && !p.xarticle) return false;
+    if (!skip.lock && state.lock && p.access !== 'locked') return false;
     if (!skip.ticker && state.ticker && (p.tickers || []).indexOf(state.ticker) === -1) return false;
     if (state.q) {
       var hay = norm(p.title + ' ' + (p.tickers || []).join(' ') + ' ' + (p.summary || '') + ' ' + (CAT_LABEL[p.category] || '') + ' ' + (p.sub || '') + ' ' + (p.source === '번역' ? '번역' : '') + ' ' + (p.label || '') + (p.xarticle || p.article ? ' 아티클 article' : ''));
@@ -71,6 +72,9 @@
     $('freeBtn').innerHTML = '<span class="fl">FREE만 보기</span><span class="fn">' + nFree + '</span>';
     var nXa = posts.filter(function (p) { return p.xarticle && pass(p, { xa: true }); }).length;
     $('xaBtn').setAttribute('aria-pressed', String(state.xa));
+    var nLk = posts.filter(function (p) { return p.access === 'locked' && pass(p, { lock: true }); }).length;
+    $('lockBtn').setAttribute('aria-pressed', String(state.lock));
+    $('lockBtn').innerHTML = '<span class="fl">🔒 구독자 전용</span><span class="fn">' + nLk + '</span>';
     $('xaBtn').innerHTML = '<span class="fl">X 아티클만</span><span class="fn">' + nXa + '</span>';
     var c = tickerCounts(true), ks = Object.keys(c).sort();
     if (state.ticker && ks.indexOf(state.ticker) === -1) ks.unshift(state.ticker);
@@ -86,13 +90,13 @@
     var lead = step != null ? '<span class="no step">' + step + '</span>' : '<span class="no">' + pad(p._n) + '</span>';
     if (p.access === 'locked') {
       return '<li class="row locked cat-' + esc(p.category) + '" style="--i:' + (i % 12) + '">' +
-        '<a class="hit" href="' + esc(p.url) + '" target="_blank" rel="noopener" aria-label="' + esc(p.title) + ' — X에서 열기(구독자 전용)">' + lead +
+        '<a class="hit" href="' + esc(p.url) + '" target="_blank" rel="noopener" aria-label="' + esc(p.title) + ' — 구독자 전용 · X에서 보기">' + lead +
         '<time class="date" datetime="' + esc(p.date) + '">' + esc(fmt(p.date)) + '</time>' +
         '<span class="cat">' + esc(CAT_LABEL[p.category] || p.category) + '</span>' + accTag(p) +
         '<span class="ttl"><span class="lk" aria-hidden="true">🔒</span> ' + esc(p.title) + extraTags(p) + '</span>' +
         '<span class="sum sum-lock" aria-hidden="true">████████ ██████ ████ ███████ ██████</span>' +
         '<span class="tks">' + tks(p) + '</span>' +
-        '<span class="go go-lock">X에서 열기(구독자 전용)</span></a></li>';
+        '<span class="go go-lock">구독자 전용 · X에서 보기 ↗</span></a></li>';
     }
     return '<li class="row cat-' + esc(p.category) + (p.source === '번역' ? ' is-tr' : '') + '" style="--i:' + (i % 12) + '">' +
       '<a class="hit" href="' + esc(p.url) + '" target="_blank" rel="noopener">' + lead +
@@ -128,6 +132,7 @@
     if (state.sub) parts.push(state.sub);
     if (state.free) parts.push('FREE');
     if (state.xa) parts.push('X 아티클');
+    if (state.lock) parts.push('구독자 전용');
     if (state.ticker) parts.push('$' + state.ticker);
     if (state.q) parts.push('“' + state.q + '”');
     $('count').textContent = CFG.countPrefix + (parts.length ? parts.join(' · ') + ' — ' : '') + list.length + ' / ' + posts.filter(visible).length;
@@ -185,14 +190,15 @@
     h.split('&').forEach(function (x) { var a = x.split('='); if (a[0]) kv[a[0]] = decodeURIComponent(a[1] || ''); });
     if (kv.path != null || h === 'path') { state.view = 'path'; if (kv.path) state.stage = kv.path; }
     else if (h === 'about' || h === 'index') { state.view = 'index'; }
-    else { state.view = 'index'; if (kv.cat && CAT_LABEL[kv.cat]) { state.cat = kv.cat; state.sub = null; } if (kv.free) state.free = kv.free === '1'; if (kv.xa) state.xa = kv.xa === '1'; }
+    else { state.view = 'index'; if (kv.cat && CAT_LABEL[kv.cat]) { state.cat = kv.cat; state.sub = null; } if (kv.free) state.free = kv.free === '1'; if (kv.xa) state.xa = kv.xa === '1'; if (kv.lock) state.lock = kv.lock === '1'; }
   }
   function goStage(k) { state.view = 'path'; state.stage = k; history.replaceState(null, '', '#path=' + k); render(); window.scrollTo(0, $('path').offsetTop - 50); }
   function bind() {
     $('cats').addEventListener('click', function (e) { var x = e.target.closest('[data-cat]'); if (x) { state.cat = x.getAttribute('data-cat'); state.sub = null; render(); } });
     $('subs').addEventListener('click', function (e) { var x = e.target.closest('[data-sub]'); if (x) { state.sub = x.getAttribute('data-sub') || null; render(); } });
-    $('freeBtn').addEventListener('click', function () { state.free = !state.free; render(); });
+    $('freeBtn').addEventListener('click', function () { state.free = !state.free; if (state.free) state.lock = false; render(); });
     $('xaBtn').addEventListener('click', function () { state.xa = !state.xa; render(); });
+    $('lockBtn').addEventListener('click', function () { state.lock = !state.lock; if (state.lock) state.free = false; render(); });
     $('chips').addEventListener('click', function (e) { var x = e.target.closest('[data-ticker]'); if (!x) return; var t = x.getAttribute('data-ticker'); state.ticker = state.ticker === t ? null : t; render(); });
     $('moreTickers').addEventListener('click', function () {
       var w = $('tickerWrap'), open = !w.classList.contains('open');
@@ -202,7 +208,7 @@
     $('q').addEventListener('input', function (e) { clearTimeout(tm); tm = setTimeout(function () { state.q = e.target.value.trim(); render(); }, 90); });
     $('clearQ').addEventListener('click', function () { $('q').value = ''; state.q = ''; render(); $('q').focus(); });
     $('sortBtn').addEventListener('click', function () { state.sort = state.sort === 'desc' ? 'asc' : 'desc'; render(); });
-    $('empty').addEventListener('click', function (e) { if (!e.target.closest('#resetAll')) return; state.cat = 'all'; state.sub = null; state.free = false; state.xa = false; state.q = ''; state.ticker = null; $('q').value = ''; render(); });
+    $('empty').addEventListener('click', function (e) { if (!e.target.closest('#resetAll')) return; state.cat = 'all'; state.sub = null; state.free = false; state.xa = false; state.lock = false; state.q = ''; state.ticker = null; $('q').value = ''; render(); });
     document.addEventListener('click', function (e) {
       var st = e.target.closest('[data-stage]'); if (st) { goStage(st.getAttribute('data-stage')); return; }
       var g = e.target.closest('[data-goto]'); if (g) { goStage(g.getAttribute('data-goto')); return; }
