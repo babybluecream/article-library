@@ -366,7 +366,8 @@
   "sub": "구독 아티클",
   "source": "본인",
   "id": "2089539564503462250",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "애플이 중국에서만 따로 만든 AI 모델ㅣ알리바바와의 이원 전략이 의미하는 것 ㅣTango Down ㅣ260818",
@@ -379,7 +380,8 @@
   "sub": "구독 아티클",
   "source": "본인",
   "id": "2089555107016999396",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "드러켄밀러 26.2분기 딥다이브 ㅣTango Down ㅣ260818",
@@ -392,7 +394,8 @@
   "sub": "구독 아티클",
   "source": "본인",
   "id": "2089630989324898710",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "시추에이션 어웨어니스 붕괴 하는 그날 사건",
@@ -405,7 +408,8 @@
   "sub": "구독 아티클",
   "source": "본인",
   "id": "2089662195361886292",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "DB, Morgan Stanley가 최근 다르게 본 기업",
@@ -419,7 +423,8 @@
   "source": "본인",
   "id": "2071222342270017707",
   "partial": false,
-  "label": "증권사 리포트 정리"
+  "label": "증권사 리포트 정리",
+  "article": true
  },
  {
   "title": "안두릴 투자 가능한 방법",
@@ -432,7 +437,8 @@
   "sub": "구독 아티클",
   "source": "본인",
   "id": "2048953009972064327",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "SpaceX S-1 관련 아티클",
@@ -445,7 +451,8 @@
   "sub": "구독 아티클",
   "source": "본인",
   "id": "2058853339895574745",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "머스크가 세계 최대 칩 공장을 텍사스에 짓는 이유 ㅣ260807",
@@ -461,7 +468,8 @@
   "sub": "구독 아티클",
   "source": "본인",
   "id": "2085547707402433001",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "$PENG 업데이트 ㅣ260709",
@@ -476,7 +484,8 @@
   "sub": "구독 아티클",
   "source": "본인",
   "id": "2075229411243385090",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "$SITM 27.32% 업데이트",
@@ -491,7 +500,8 @@
   "sub": "섹터·테마",
   "source": "정리",
   "id": "2052391285340930328",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "$CBRS 세레브라스 Raise Summit 컨퍼런스콜 일부",
@@ -506,7 +516,8 @@
   "sub": "섹터·테마",
   "source": "정리",
   "id": "2076251310639468698",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "$PENG 병목ㅣ컴퓨팅이 아니라 메모리",
@@ -521,7 +532,8 @@
   "sub": "섹터·테마",
   "source": "정리",
   "id": "2076328910242062448",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "레노버 CEO, 메모리발 원가 인플레이션 언급",
@@ -534,7 +546,8 @@
   "sub": "금리·환율·지정학",
   "source": "정리",
   "id": "2072081453803094127",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "모건스탠리, 톱픽 삼성전자→삼성전기 ㅣ260812",
@@ -548,7 +561,8 @@
   "source": "정리",
   "id": "2087372466599743808",
   "partial": false,
-  "label": "증권사 리포트 정리"
+  "label": "증권사 리포트 정리",
+  "article": true
  },
  {
   "title": "모건스탠리 연준 동결 전망 ㅣ260904",
@@ -562,7 +576,8 @@
   "source": "정리",
   "id": "2095822452958101610",
   "partial": false,
-  "label": "증권사 리포트 정리"
+  "label": "증권사 리포트 정리",
+  "article": true
  },
  {
   "title": "피터틸 포트폴리오ㅣ데이터센터로 가는 전기에 베팅 ㅣ260826",
@@ -575,7 +590,8 @@
   "sub": "유명 투자자 포트폴리오",
   "source": "정리",
   "id": "2092370738003206603",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "주식이 아니라 비즈니스를 봐라 ㅣ260508",
@@ -591,7 +607,8 @@
   "sub": "투자 철학·심리",
   "source": "정리",
   "id": "2052531876754268196",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "세일즈포스, ‘에이전트포스’ 간판 일부 내린다 ㅣ260912",
@@ -607,7 +624,8 @@
   "sub": "섹터·테마",
   "source": "정리",
   "id": "2098711596742881633",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "슈퍼위크, 소음과 신호 사이 ㅣ260706",
@@ -620,7 +638,8 @@
   "sub": "국내증시·한국 반도체",
   "source": "정리",
   "id": "2073917477982228718",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "$TQQQ 세 계좌 26년 성과 비교 ㅣ261012",
@@ -635,7 +654,8 @@
   "sub": "리스크·사이징·레버리지",
   "source": "정리",
   "id": "2109421368525857232",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "테슬라 AI 비전과 주가 전환점 ㅣ261008",
@@ -650,7 +670,8 @@
   "sub": "섹터·테마",
   "source": "정리",
   "id": "2107950992713302480",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "엔비디아 멀티플이 M7보다 낮아진 이유 ㅣ261007",
@@ -665,7 +686,8 @@
   "sub": "섹터·테마",
   "source": "정리",
   "id": "2107723225656607070",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "엔비디아 자사주 매입 확대 ㅣ261007",
@@ -680,7 +702,8 @@
   "sub": "섹터·테마",
   "source": "정리",
   "id": "2107723805418557482",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "깅코 바이오웍스 신고가 직후 급락 ㅣ261007",
@@ -697,7 +720,8 @@
   "sub": "섹터·테마",
   "source": "정리",
   "id": "2107735367554347170",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "구글과 콘스텔레이션 원전 전력 계약, 발전주 동반 급등 ㅣ261006",
@@ -713,7 +737,8 @@
   "sub": "섹터·테마",
   "source": "정리",
   "id": "2107604957151326279",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "골드만삭스, 테슬라 주가는 AI 사업 전망이 좌우 ㅣ261007",
@@ -729,7 +754,8 @@
   "source": "정리",
   "id": "2107599372947161092",
   "partial": false,
-  "label": "증권사 리포트 정리"
+  "label": "증권사 리포트 정리",
+  "article": true
  },
  {
   "title": "오픈AI와 메타의 AI 수익화 경로 ㅣ261008",
@@ -742,7 +768,8 @@
   "sub": "섹터·테마",
   "source": "정리",
   "id": "2108121091097166011",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "소비자 AI의 수익 구조와 한계 ㅣ261008",
@@ -757,7 +784,8 @@
   "sub": "섹터·테마",
   "source": "정리",
   "id": "2108125576963973555",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "반도체 고점론 ㅣ261010",
@@ -772,7 +800,8 @@
   "sub": "섹터·테마",
   "source": "정리",
   "id": "2108907077779550567",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "유가 105달러 돌파와 AI 실적 호조 ㅣ261009",
@@ -789,7 +818,8 @@
   "sub": "미국 시황",
   "source": "정리",
   "id": "2108281413804134424",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "나이트콜 ㅣ주요 뉴스 ㅣ261007",
@@ -808,7 +838,8 @@
   "sub": "미국 시황",
   "source": "정리",
   "id": "2107952943723118616",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "모닝콜 ㅣ미국 증시 사상 최고치 마감 ㅣ261006",
@@ -826,7 +857,8 @@
   "sub": "미국 시황",
   "source": "정리",
   "id": "2107594830507598012",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "구글 AI 지금 뭐하누 ㅣ260930",
@@ -841,7 +873,8 @@
   "sub": "섹터·테마",
   "source": "정리",
   "id": "2105253475525578929",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "제미니4 아르곤 제한공개 ㅣ261001",
@@ -854,7 +887,8 @@
   "sub": "섹터·테마",
   "source": "정리",
   "id": "2105421326311956803",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "AMD 첫 600달러 돌파, AI 에이전트발 CPU 재평가 ㅣ260922",
@@ -870,7 +904,8 @@
   "sub": "섹터·테마",
   "source": "정리",
   "id": "2102143283095114222",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "OpenAI 연방기관 요금제 전환 ㅣ260910",
@@ -883,7 +918,8 @@
   "sub": "섹터·테마",
   "source": "정리",
   "id": "2098051355906920664",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "아이폰 20 프로 루머 ㅣ260905",
@@ -898,7 +934,8 @@
   "sub": "섹터·테마",
   "source": "정리",
   "id": "2096003684392173873",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "테슬라 유럽 등록·FSD·사이버캡 ㅣ260903",
@@ -913,7 +950,8 @@
   "sub": "섹터·테마",
   "source": "정리",
   "id": "2095283925962863090",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "테슬라 8월 유럽 신차 대수, FSD 승인전 사이버캡 출격 ㅣ260902",
@@ -928,7 +966,8 @@
   "sub": "섹터·테마",
   "source": "정리",
   "id": "2095118842259480578",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "소니가 콘솔을 비싸게 팔고도 이익을 지키는 이유 ㅣ260830",
@@ -943,7 +982,8 @@
   "sub": "섹터·테마",
   "source": "정리",
   "id": "2093919690879836235",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "FSD 값, 경쟁이 세지면 오히려 떨어질까? ㅣ260825",
@@ -958,7 +998,8 @@
   "sub": "섹터·테마",
   "source": "정리",
   "id": "2092036452788076723",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "FSD 고정비 대 가격 ㅣ260824",
@@ -973,7 +1014,8 @@
   "sub": "섹터·테마",
   "source": "정리",
   "id": "2091830655357505702",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "오픈AI, 앤트로픽에 밀린 뒤 재기 시도 ㅣ260801",
@@ -986,7 +1028,8 @@
   "sub": "섹터·테마",
   "source": "정리",
   "id": "2083440590864429391",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "메타·앤트로픽 컴퓨팅 임대 협상 ㅣ260716",
@@ -1001,7 +1044,8 @@
   "sub": "섹터·테마",
   "source": "정리",
   "id": "2078271611312971999",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "모카, 테슬라 FSD 라이트 한국 실주행 후기 정리 ㅣ260716",
@@ -1014,7 +1058,8 @@
   "sub": "섹터·테마",
   "source": "정리",
   "id": "2077932603102154855",
-  "partial": false
+  "partial": false,
+  "article": true
  },
  {
   "title": "$AMPX Deep Dive ㅣ260313 (구독 맛보기)",
@@ -2847,7 +2892,8 @@
   "id": "2091181084272636110",
   "partial": false,
   "xarticle": true,
-  "label": "WSJ 정리"
+  "label": "WSJ 정리",
+  "article": true
  },
  {
   "title": "애플이 CIA에 진 숨겨진 빚",
@@ -2864,7 +2910,8 @@
   "id": "2091079391115952574",
   "partial": false,
   "xarticle": true,
-  "label": "WSJ 정리"
+  "label": "WSJ 정리",
+  "article": true
  },
  {
   "title": "CNBC ㅣ SK하이닉스 최태원 인터뷰",
@@ -2878,7 +2925,8 @@
   "access": "free",
   "id": "2088279762146148864",
   "partial": false,
-  "xarticle": true
+  "xarticle": true,
+  "article": true
  },
  {
   "title": "지금은 창업 최고의 시기",
@@ -2892,7 +2940,8 @@
   "access": "free",
   "id": "2084298794318069983",
   "partial": false,
-  "xarticle": true
+  "xarticle": true,
+  "article": true
  },
  {
   "title": "CIA 스파이가 만든 UAE의 AI 승리",
@@ -2909,7 +2958,8 @@
   "id": "2078710655562170369",
   "partial": false,
   "xarticle": true,
-  "label": "WSJ 정리"
+  "label": "WSJ 정리",
+  "article": true
  },
  {
   "title": "옵티머스 3세대, 슬라이드에서 발주서로 전환",
@@ -2925,7 +2975,8 @@
   "access": "free",
   "id": "2075250842865897842",
   "partial": false,
-  "xarticle": true
+  "xarticle": true,
+  "article": true
  },
  {
   "title": "마벨 주총 6분, 통과되지 않은 단 하나의 안건",
@@ -2941,7 +2992,8 @@
   "access": "free",
   "id": "2071589473738174927",
   "partial": false,
-  "xarticle": true
+  "xarticle": true,
+  "article": true
  },
  {
   "title": "세일러의 전환",
@@ -2959,7 +3011,8 @@
   "access": "free",
   "id": "2071588139307831614",
   "partial": false,
-  "xarticle": true
+  "xarticle": true,
+  "article": true
  },
  {
   "title": "100달러 부품으로 만든 해자",
@@ -2975,7 +3028,8 @@
   "access": "free",
   "id": "2070905078077325751",
   "partial": false,
-  "xarticle": true
+  "xarticle": true,
+  "article": true
  },
  {
   "title": "고기는 왜 맛있을까",
@@ -2989,7 +3043,8 @@
   "access": "free",
   "id": "2070894750597853301",
   "partial": false,
-  "xarticle": true
+  "xarticle": true,
+  "article": true
  },
  {
   "title": "시간 앞에서는 모두가 빈손이다",
@@ -3003,7 +3058,8 @@
   "access": "free",
   "id": "2069059419262832756",
   "partial": false,
-  "xarticle": true
+  "xarticle": true,
+  "article": true
  },
  {
   "title": "당신의 시간이 곧 할인율이다",
@@ -3017,7 +3073,8 @@
   "access": "free",
   "id": "2068713716582146424",
   "partial": false,
-  "xarticle": true
+  "xarticle": true,
+  "article": true
  },
  {
   "title": "추론의 시대, 칩과 모델이 함께 달리다",
@@ -3031,7 +3088,8 @@
   "access": "free",
   "id": "2068705728450421174",
   "partial": false,
-  "xarticle": true
+  "xarticle": true,
+  "article": true
  },
  {
   "title": "HBM이 아니라 평범한 D램이 2026년 메모리 시장을 뒤흔든다",
@@ -3047,7 +3105,8 @@
   "access": "free",
   "id": "2068586707037962287",
   "partial": false,
-  "xarticle": true
+  "xarticle": true,
+  "article": true
  },
  {
   "title": "Anthropic ㅣ과학자의 이동, 그 숫자들의 이야기",
@@ -3063,7 +3122,8 @@
   "access": "free",
   "id": "2068367556021551482",
   "partial": false,
-  "xarticle": true
+  "xarticle": true,
+  "article": true
  },
  {
   "title": "Claude Fable 5와 Mythos 5 전략",
@@ -3077,7 +3137,8 @@
   "access": "free",
   "id": "2064455631785034154",
   "partial": false,
-  "xarticle": true
+  "xarticle": true,
+  "article": true
  },
  {
   "title": "베타 먼저, 알파는 나중ㅣ260425",
@@ -3094,7 +3155,8 @@
   "access": "free",
   "id": "2048158950831624679",
   "partial": false,
-  "xarticle": true
+  "xarticle": true,
+  "article": true
  },
  {
   "title": "주가는 왜 움직이는가 — 수요·기대·심리의 삼각구도",
@@ -3111,7 +3173,8 @@
   "access": "free",
   "id": "2045274613484298377",
   "partial": false,
-  "xarticle": true
+  "xarticle": true,
+  "article": true
  },
  {
   "title": "$MSTR 투자 thesis",
@@ -3128,7 +3191,8 @@
   "access": "free",
   "id": "2045265244327645573",
   "partial": false,
-  "xarticle": true
+  "xarticle": true,
+  "article": true
  },
  {
   "title": "TERAFAB | The Largest Chip Manufacturing Facility Ever",
@@ -3144,7 +3208,8 @@
   "access": "free",
   "id": "2042634240475672717",
   "partial": false,
-  "xarticle": true
+  "xarticle": true,
+  "article": true
  },
  {
   "title": "마이크론 4분기 실적 예측치 Deep Dive (구독 아티클)",

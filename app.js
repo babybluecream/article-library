@@ -14,17 +14,18 @@
   function pad(n) { return ('00' + n).slice(-3); }
   function idOf(p) { return String(p.url).split('/').pop(); }
   function isFree(p) { return p.access !== 'locked'; }
+  function inCat(p, id) { return id === 'all' || (id === 'article' ? !!p.article : p.category === id); }
   function visible(p) { return !HIDDEN[p.category]; }
   function pass(p, skip) {
     skip = skip || {};
     if (!visible(p)) return false;
-    if (!skip.cat && state.cat !== 'all' && p.category !== state.cat) return false;
+    if (!skip.cat && !inCat(p, state.cat)) return false;
     if (!skip.sub && state.sub && p.sub !== state.sub) return false;
     if (!skip.free && state.free && !isFree(p)) return false;
     if (!skip.xa && state.xa && !p.xarticle) return false;
     if (!skip.ticker && state.ticker && (p.tickers || []).indexOf(state.ticker) === -1) return false;
     if (state.q) {
-      var hay = norm(p.title + ' ' + (p.tickers || []).join(' ') + ' ' + (p.summary || '') + ' ' + (CAT_LABEL[p.category] || '') + ' ' + (p.sub || '') + ' ' + (p.source === '번역' ? '번역' : '') + ' ' + (p.label || '') + (p.xarticle ? ' 아티클 article' : ''));
+      var hay = norm(p.title + ' ' + (p.tickers || []).join(' ') + ' ' + (p.summary || '') + ' ' + (CAT_LABEL[p.category] || '') + ' ' + (p.sub || '') + ' ' + (p.source === '번역' ? '번역' : '') + ' ' + (p.label || '') + (p.xarticle || p.article ? ' 아티클 article' : ''));
       var t = state.q.toLowerCase().replace(/\$/g, '').split(/\s+/).filter(Boolean);
       for (var i = 0; i < t.length; i++) if (hay.indexOf(norm(t[i])) === -1) return false;
     }
@@ -55,7 +56,7 @@
   }
   function renderFilters() {
     $('cats').innerHTML = CATS.map(function (c) {
-      var n = posts.filter(function (p) { return (c.id === 'all' || p.category === c.id) && pass(p, { cat: true, sub: true }); }).length;
+      var n = posts.filter(function (p) { return inCat(p, c.id) && pass(p, { cat: true, sub: true }); }).length;
       return b('data-cat', c.id, c.label, state.cat === c.id, n);
     }).join('');
     var subs = [];
