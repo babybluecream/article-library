@@ -2210,81 +2210,10 @@
   "partial": false
  },
  {
-  "title": "이더리움 개요·ETH와 가스·PoS 구조",
-  "date": "2025-12-22",
-  "category": "macro",
-  "sub": "디지털자산",
-  "tickers": [
-   "ETH"
-  ],
-  "url": "https://x.com/babybluecream/status/2003109147123052719",
-  "summary": "이더리움은 블록체인 위에서 스마트 컨트랙트와 탈중앙화 애플리케이션(DApp) 생태계를 구축할 수 있는 플랫폼임. 비트코인보다 확장성과 유연성이 높으며, 스테이블코인 등 다양한 토큰 시스템이 이더리움 같은 플랫폼…",
-  "source": "정리",
-  "access": "free",
-  "id": "2003109147123052719",
-  "partial": false
- },
- {
-  "title": "디지털 자산의 진화: 블록체인에서 스테이블코인까지",
-  "date": "2025-12-22",
-  "category": "macro",
-  "sub": "디지털자산",
-  "tickers": [],
-  "url": "https://x.com/babybluecream/status/2003106197021614080",
-  "summary": "블록체인은 거래 데이터를 일정 단위로 묶은 블록을 암호학적 해시함수로 서로 연결한 분산원장임. 모든 참여자가 거래 내역을 공유하고 검증하기 때문에 중앙기관 없이도 신뢰가 유지되며, 한 블록이라도 조작하려면 이전…",
-  "source": "정리",
-  "access": "free",
-  "id": "2003106197021614080",
-  "partial": false
- },
- {
-  "title": "양자컴퓨터, 비트코인 해킹 가능?",
-  "date": "2025-12-24",
-  "category": "macro",
-  "sub": "디지털자산",
-  "tickers": [
-   "BTC"
-  ],
-  "url": "https://x.com/babybluecream/status/2003743027320455568",
-  "summary": "양자컴퓨터가 비트코인 해킹 가능하다는 주장은 쇼어 알고리즘으로 ECDSA 타원곡선 암호 공개키에서 개인키 역산하는 데서 나오는데 고전 컴퓨터 지수시간 vs 양자 다항시간으로 256비트 키 몇 시간 만에 깨지만 논…",
-  "source": "정리",
-  "access": "free",
-  "id": "2003743027320455568",
-  "partial": false
- },
- {
-  "title": "미국 국채는 이제 스테이블코인이 산다",
-  "date": "2025-03-12",
-  "category": "macro",
-  "sub": "디지털자산",
-  "tickers": [],
-  "url": "https://x.com/babybluecream/status/1899826510405763482",
-  "summary": "스테이블 코인이란? · 스테이블 코인은 법정화폐(USD 등)를 담보로 하여 발행되는 디지털 자산으로, 이를 발행하는 기업들은 일정량의 법정화폐 또는 이에 준하는 자산을 준비금으로 보유해야 한다. · 현재 $200…",
-  "source": "정리",
-  "access": "free",
-  "id": "1899826510405763482",
-  "partial": false
- },
- {
-  "title": "비트코인 최악의 겨울 국면 분석 ㅣ260206",
-  "date": "2026-02-06",
-  "category": "macro",
-  "sub": "디지털자산",
-  "tickers": [
-   "BTC"
-  ],
-  "url": "https://x.com/babybluecream/status/2019680229665697992",
-  "summary": "비트코인 가격이 작년 10월 고점 대비 약 44% 하락한 상태이며, 다른 암호화폐들은 더 큰 낙폭을 기록하고 있음. 이번이 역사상 가장 큰 하락장은 아닐 수 있으나, 지금까지의 크립토 겨울 중 체감상 가장 혹독한…",
-  "source": "정리",
-  "access": "free",
-  "id": "2019680229665697992",
-  "partial": false
- },
- {
   "title": "$MSTR 순 비트코인 가치 vs 시가총액",
   "date": "2025-12-02",
   "category": "us",
-  "sub": "디지털자산 관련주",
+  "sub": "섹터·테마",
   "tickers": [
    "MSTR",
    "BTC"
@@ -2300,7 +2229,7 @@
   "title": "$STRC 우선주 구조와 투자 타당성 ㅣ260321",
   "date": "2026-03-21",
   "category": "us",
-  "sub": "디지털자산 관련주",
+  "sub": "섹터·테마",
   "tickers": [
    "STRC",
    "MSTR",
@@ -3016,7 +2945,7 @@
   "title": "세일러의 전환",
   "date": "2026-06-29",
   "category": "us",
-  "sub": "디지털자산 관련주",
+  "sub": "섹터·테마",
   "tickers": [
    "MSTR",
    "STRC",
@@ -3197,7 +3126,7 @@
   "title": "$MSTR 투자 thesis",
   "date": "2026-04-18",
   "category": "us",
-  "sub": "디지털자산 관련주",
+  "sub": "섹터·테마",
   "tickers": [
    "MSTR",
    "BTC"
