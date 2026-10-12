@@ -174,3 +174,15 @@ a{color:inherit}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;
 .xa-tag{display:inline-block;margin-left:6px;font-family:var(--f);font-size:10px;font-weight:700;color:var(--cyan);border:1px solid var(--cyan);padding:0 4px;vertical-align:2px}
 .lbl{display:inline-block;margin-left:6px;font-family:var(--k);font-size:11px;font-weight:600;color:var(--amber);border:1px dashed var(--amber);padding:0 5px;vertical-align:1px}
 .sum-note{font-size:12px;opacity:.8}
+
+/* mobile row fix: badges / <GO> never wrap; category+subcategory takes the flexible column */
+.acc,.go,.go-lock,.lbl,.xa-tag,.tk{white-space:nowrap;word-break:keep-all;flex-shrink:0}
+.acc{display:inline-block;min-width:4.6em;text-align:center;box-sizing:border-box;line-height:1.5}
+@media(max-width:959px){
+ .acc,.go{align-self:start}
+ .hit{grid-template-columns:auto auto minmax(0,1fr) auto auto}
+ .cat{min-width:0;line-height:1.35;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+ .cat i{display:block;font-size:11px;overflow:hidden;text-overflow:ellipsis}.cat i::before{content:none}
+ .row.locked .hit{grid-template-areas:"no date cat acc acc" "ttl ttl ttl ttl ttl" "sum sum sum sum sum" "tks tks tks tks tks" "go go go go go"}
+ .row.locked .go-lock{justify-self:start;margin-top:4px}
+}
