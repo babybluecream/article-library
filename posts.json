@@ -804,6 +804,24 @@
   "article": true
  },
  {
+  "title": "반도체 고점론 보충｜적정주가·사이클·중국 점유율 ㅣ261011",
+  "date": "2026-10-11",
+  "category": "macro",
+  "sub": "국내증시·한국 반도체",
+  "tickers": [
+   "NVDA",
+   "TSM",
+   "MU"
+  ],
+  "url": "https://x.com/babybluecream/status/2109099366288093575",
+  "summary": "적정주가 삼성전자 7만원·SK하이닉스 20만원 주장과 메모리 사이클·중국 점유율·DRAM 반독점 소송까지 19개 포인트 정리. $NVDA·$TSM 실적과 메모리 사이클은 별개라는 시각.",
+  "source": "정리",
+  "access": "free",
+  "id": "2109099366288093575",
+  "partial": false,
+  "article": true
+ },
+ {
   "title": "유가 105달러 돌파와 AI 실적 호조 ㅣ261009",
   "date": "2026-10-09",
   "category": "macro",
@@ -2910,6 +2928,19 @@
   "source": "정리",
   "access": "free",
   "id": "2109415824750674020",
+  "partial": false
+ },
+ {
+  "title": "말기 암 환자 연명치료 결정 전 가족이 알아야 할 것 ㅣ261012",
+  "date": "2026-10-12",
+  "category": "extra",
+  "sub": "마인드·커리어",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2109405940973994308",
+  "summary": "연명치료·요양·연명의료계획서·진통제·경제 사정까지 가족이 알아둘 14개 항목 실용 가이드. 환자의 생사는 의료진·가족 노력만으로 정해지지 않으며 자책은 결과를 바꾸지 못함.",
+  "source": "정리",
+  "access": "free",
+  "id": "2109405940973994308",
   "partial": false
  },
  {
