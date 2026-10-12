@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>펝귄 아티클 라이브러리</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --card: #1a1d27;
+      --text: #e8eaed;
+      --muted: #9aa0a6;
+      --accent: #4c9aff;
+      --border: #2d3139;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .container { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem; }
+    header { text-align: center; margin-bottom: 3rem; }
+    h1 { font-size: 2.2rem; margin: 0 0 0.5rem; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; }
+    .search {
+      width: 100%; max-width: 480px; margin: 1.5rem auto 0;
+      padding: 0.8rem 1rem; border-radius: 12px; border: 1px solid var(--border);
+      background: var(--card); color: var(--text); font-size: 1rem;
+    }
+    .category { margin-bottom: 2.5rem; }
+    .category h2 { font-size: 1.4rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; }
+    .article {
+      background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+      padding: 1.1rem 1.3rem; margin: 0.8rem 0; transition: transform 0.15s;
+    }
+    .article:hover { transform: translateY(-2px); }
+    .article a { color: var(--accent); text-decoration: none; font-weight: 600; }
+    .article a:hover { text-decoration: underline; }
+    .meta { color: var(--muted); font-size: 0.85rem; margin-top: 0.3rem; }
+    footer { text-align: center; color: var(--muted); font-size: 0.85rem; margin-top: 4rem; padding-bottom: 2rem; }
+    .badge { display: inline-block; background: #2a4a7a; color: #a8c7ff; font-size: 0.75rem; padding: 0.2rem 0.5rem; border-radius: 6px; margin-left: 0.5rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>펝귄 아티클 라이브러리</h1>
+      <p class="subtitle">구독자 전용 콘텐츠를 한눈에 모아보는 공간</p>
+      <input type="text" class="search" placeholder="타이틀이나 주제로 검색..." id="search" onkeyup="filterArticles()">
+    </header>
+
+    <section class="category" data-category="deepdive">
+      <h2>Deep Dive <span class="badge">심층 분석</span></h2>
+      <div class="article">
+        <a href="https://x.com/babybluecream/status/2092553323794813003" target="_blank">$NTRA Deep Dive ㅣ260826</a>
+        <div class="meta">나테라 시그나테라 · 분자진단</div>
+      </div>
+      <div class="article">
+        <a href="https://x.com/babybluecream/status/2092591313137041908" target="_blank">$ABCL Deep Dive ㅣ260826</a>
+        <div class="meta">애브셀레라 · 항체 플랫폼</div>
+      </div>
+      <div class="article">
+        <a href="https://x.com/babybluecream/status/2092608557858652254" target="_blank">$LPTH Deep Dive ㅣ260826</a>
+        <div class="meta">라이트패스 · 적외선 광학</div>
+      </div>
+      <div class="article">
+        <a href="https://x.com/babybluecream/status/2093309069000147421" target="_blank">$TSLA Deep Dive ㅣ260828</a>
+        <div class="meta">테슬라 · AI·로보틱스 전환</div>
+      </div>
+    </section>
+
+    <section class="category" data-category="screening">
+      <h2>성장주 스크리닝 <span class="badge">Oscar Mike</span></h2>
+      <div class="article">
+        <a href="https://x.com/babybluecream/status/2093216525364924560" target="_blank">성장주 스크리닝 ㅣOscar Mikeㅣ260828</a>
+        <div class="meta">NVDA, TSM, PLTR, CRDO 등</div>
+      </div>
+      <div class="article">
+        <a href="https://x.com/babybluecream/status/2107376947332362292" target="_blank">성장주 스크리닝 ㅣ261006</a>
+        <div class="meta">기본적 지표 중심</div>
+      </div>
+    </section>
+
+    <section class="category" data-category="article">
+      <h2>아티클 & 업데이트</h2>
+      <div class="article">
+        <a href="https://x.com/babybluecream/status/2095886442597859372" target="_blank">$ALAB 구독자 포스팅 언급</a>
+        <div class="meta">9/3 구독자 포스팅 후 반응</div>
+      </div>
+      <div class="article">
+        <p style="margin:0; color:var(--muted);">더 많은 구독자 전용 아티클은 링크를 추가해 주시면 바로 업데이트합니다.</p>
+      </div>
+    </section>
+
+    <footer>
+      만들어진 날짜: 2026-10-12 · 데이터는 공개 포스트 기준<br>
+      구독자 전용 본문은 X에서 로그인 후 확인하세요.<br>
+      <a href="https://x.com/babybluecream" target="_blank" style="color:var(--accent);">X에서 구독하기 ↗</a>
+    </footer>
+  </div>
+
+  <script>
+    function filterArticles() {
+      const q = document.getElementById('search').value.toLowerCase();
+      document.querySelectorAll('.article').forEach(el => {
+        const text = el.innerText.toLowerCase();
+        el.style.display = text.includes(q) ? '' : 'none';
+      });
+    }
+  </script>
+</body>
+</html>
