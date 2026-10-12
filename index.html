@@ -2,114 +2,155 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>펝귄 아티클 라이브러리</title>
-  <style>
-    :root {
-      --bg: #0f1117;
-      --card: #1a1d27;
-      --text: #e8eaed;
-      --muted: #9aa0a6;
-      --accent: #4c9aff;
-      --border: #2d3139;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-    }
-    .container { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem; }
-    header { text-align: center; margin-bottom: 3rem; }
-    h1 { font-size: 2.2rem; margin: 0 0 0.5rem; }
-    .subtitle { color: var(--muted); font-size: 1.05rem; }
-    .search {
-      width: 100%; max-width: 480px; margin: 1.5rem auto 0;
-      padding: 0.8rem 1rem; border-radius: 12px; border: 1px solid var(--border);
-      background: var(--card); color: var(--text); font-size: 1rem;
-    }
-    .category { margin-bottom: 2.5rem; }
-    .category h2 { font-size: 1.4rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; }
-    .article {
-      background: var(--card); border: 1px solid var(--border); border-radius: 12px;
-      padding: 1.1rem 1.3rem; margin: 0.8rem 0; transition: transform 0.15s;
-    }
-    .article:hover { transform: translateY(-2px); }
-    .article a { color: var(--accent); text-decoration: none; font-weight: 600; }
-    .article a:hover { text-decoration: underline; }
-    .meta { color: var(--muted); font-size: 0.85rem; margin-top: 0.3rem; }
-    footer { text-align: center; color: var(--muted); font-size: 0.85rem; margin-top: 4rem; padding-bottom: 2rem; }
-    .badge { display: inline-block; background: #2a4a7a; color: #a8c7ff; font-size: 0.75rem; padding: 0.2rem 0.5rem; border-radius: 6px; margin-left: 0.5rem; }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>펭귄 라이브러리 · @babybluecream</title>
+  <meta name="description" content="펭귄(@babybluecream)의 미국 주식 구독 콘텐츠를 Deep Dive·성장주 스크리닝·아티클로 정리한 라이브러리.">
+  <meta name="theme-color" content="#f6f8fb" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d1117" media="(prefers-color-scheme: dark)">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:site_name" content="펭귄 라이브러리">
+  <meta property="og:title" content="펭귄 라이브러리 · 미국 주식 구독 콘텐츠 모음">
+  <meta property="og:description" content="개별 기업 Deep Dive, 성장주 스크리닝, 아티클을 한곳에서 찾아보세요. 원문은 X에서 열립니다.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@babybluecream">
+  <meta name="twitter:title" content="펭귄 라이브러리">
+  <meta name="twitter:description" content="미국 주식 구독 콘텐츠를 주제별로 정리한 라이브러리.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>펝귄 아티클 라이브러리</h1>
-      <p class="subtitle">구독자 전용 콘텐츠를 한눈에 모아보는 공간</p>
-      <input type="text" class="search" placeholder="타이틀이나 주제로 검색..." id="search" onkeyup="filterArticles()">
-    </header>
+  <a class="skip" href="#library">본문으로 건너뛰기</a>
 
-    <section class="category" data-category="deepdive">
-      <h2>Deep Dive <span class="badge">심층 분석</span></h2>
-      <div class="article">
-        <a href="https://x.com/babybluecream/status/2092553323794813003" target="_blank">$NTRA Deep Dive ㅣ260826</a>
-        <div class="meta">나테라 시그나테라 · 분자진단</div>
-      </div>
-      <div class="article">
-        <a href="https://x.com/babybluecream/status/2092591313137041908" target="_blank">$ABCL Deep Dive ㅣ260826</a>
-        <div class="meta">애브셀레라 · 항체 플랫폼</div>
-      </div>
-      <div class="article">
-        <a href="https://x.com/babybluecream/status/2092608557858652254" target="_blank">$LPTH Deep Dive ㅣ260826</a>
-        <div class="meta">라이트패스 · 적외선 광학</div>
-      </div>
-      <div class="article">
-        <a href="https://x.com/babybluecream/status/2093309069000147421" target="_blank">$TSLA Deep Dive ㅣ260828</a>
-        <div class="meta">테슬라 · AI·로보틱스 전환</div>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#top" aria-label="펭귄 라이브러리 홈">
+        <span class="brand-mark" aria-hidden="true">🐧</span>
+        <span class="brand-name">펭귄 라이브러리</span>
+      </a>
+      <nav class="topnav" aria-label="주요 메뉴">
+        <a href="#library">라이브러리</a>
+        <a href="#about">소개</a>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="다크 모드 전환" title="테마 전환">
+          <span class="icon-sun" aria-hidden="true">☀️</span><span class="icon-moon" aria-hidden="true">🌙</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow">@babybluecream · 미국 주식</p>
+        <h1>숫자로 읽는 성장주,<br class="br-m"> 필요할 때 다시 꺼내 보는 서재</h1>
+        <p class="lead">개별 기업 Deep Dive와 성장주 스크리닝을 주제별로 정리했습니다. 카드를 누르면 X에서 원문이 열립니다.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="https://x.com/babybluecream" target="_blank" rel="noopener">X에서 구독하기 ↗</a>
+          <a class="btn btn-ghost" href="https://x.com/babybluecream" target="_blank" rel="noopener">X 프로필 보기</a>
+        </div>
+        <dl class="stats" id="stats" aria-live="polite"></dl>
       </div>
     </section>
 
-    <section class="category" data-category="screening">
-      <h2>성장주 스크리닝 <span class="badge">Oscar Mike</span></h2>
-      <div class="article">
-        <a href="https://x.com/babybluecream/status/2093216525364924560" target="_blank">성장주 스크리닝 ㅣOscar Mikeㅣ260828</a>
-        <div class="meta">NVDA, TSM, PLTR, CRDO 등</div>
-      </div>
-      <div class="article">
-        <a href="https://x.com/babybluecream/status/2107376947332362292" target="_blank">성장주 스크리닝 ㅣ261006</a>
-        <div class="meta">기본적 지표 중심</div>
+    <section class="library" id="library" aria-labelledby="lib-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="lib-title">라이브러리</h2>
+          <p class="muted">종목 티커나 제목으로 검색하고, 카테고리로 골라 보세요.</p>
+        </div>
+
+        <div class="controls">
+          <div class="search">
+            <svg class="search-icon" aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            <label class="sr-only" for="q">검색</label>
+            <input id="q" type="search" placeholder="티커·제목 검색" autocomplete="off" spellcheck="false">
+            <button type="button" class="clear" id="clearQ" aria-label="검색어 지우기" hidden>×</button>
+          </div>
+          <div class="sort">
+            <label class="sr-only" for="sort">정렬</label>
+            <select id="sort">
+              <option value="desc">최신순</option>
+              <option value="asc">오래된순</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="tabs" role="tablist" aria-label="카테고리" id="tabs"></div>
+        <div class="chips" id="chips" aria-label="티커 필터"></div>
+
+        <p class="result-count muted" id="count" aria-live="polite"></p>
+        <div class="grid" id="grid"></div>
+        <div class="empty" id="empty" hidden></div>
       </div>
     </section>
 
-    <section class="category" data-category="article">
-      <h2>아티클 & 업데이트</h2>
-      <div class="article">
-        <a href="https://x.com/babybluecream/status/2095886442597859372" target="_blank">$ALAB 구독자 포스팅 언급</a>
-        <div class="meta">9/3 구독자 포스팅 후 반응</div>
-      </div>
-      <div class="article">
-        <p style="margin:0; color:var(--muted);">더 많은 구독자 전용 아티클은 링크를 추가해 주시면 바로 업데이트합니다.</p>
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="about-title">구독하면 받는 것</h2>
+          <p class="muted">X 구독자에게 제공되는 콘텐츠입니다.</p>
+        </div>
+        <ul class="features">
+          <li class="feature">
+            <span class="f-icon" aria-hidden="true">🔬</span>
+            <h3>Finviz 기반 기업 분석</h3>
+            <p>개별 기업을 사업 구조부터 숫자까지 따라가는 Deep Dive.</p>
+          </li>
+          <li class="feature">
+            <span class="f-icon" aria-hidden="true">📈</span>
+            <h3>성장주 스크리닝</h3>
+            <p>실적 기반으로 걸러 낸 성장주 후보와 핵심 지표 정리.</p>
+          </li>
+          <li class="feature">
+            <span class="f-icon" aria-hidden="true">🗂️</span>
+            <h3>유료 자료 정리</h3>
+            <p>유료 리서치 자료의 요점을 한국어로 정리.</p>
+          </li>
+          <li class="feature">
+            <span class="f-icon" aria-hidden="true">🎙️</span>
+            <h3>컨퍼런스콜 정리</h3>
+            <p>실적 발표 컨퍼런스콜의 주요 내용을 정리.</p>
+          </li>
+        </ul>
+
+        <div class="howto">
+          <h3>이렇게 쓰세요</h3>
+          <ol>
+            <li><strong>검색</strong> — 티커(예: NVDA)나 제목으로 찾습니다.</li>
+            <li><strong>카테고리·티커</strong> — 탭과 티커 칩으로 범위를 좁힙니다.</li>
+            <li><strong>원문 보기</strong> — 카드를 누르면 X에서 원문이 열립니다. 구독 전용 글은 구독한 X 계정으로 로그인해야 보입니다.</li>
+          </ol>
+        </div>
+
+        <div class="cta-box">
+          <div>
+            <h3>더 읽고 싶다면 X에서 구독하세요</h3>
+            <p class="muted">구독료와 제공 조건은 X 프로필에서 확인할 수 있습니다.</p>
+          </div>
+          <a class="btn btn-primary" href="https://x.com/babybluecream" target="_blank" rel="noopener">구독하기 ↗</a>
+        </div>
       </div>
     </section>
+  </main>
 
-    <footer>
-      만들어진 날짜: 2026-10-12 · 데이터는 공개 포스트 기준<br>
-      구독자 전용 본문은 X에서 로그인 후 확인하세요.<br>
-      <a href="https://x.com/babybluecream" target="_blank" style="color:var(--accent);">X에서 구독하기 ↗</a>
-    </footer>
-  </div>
+  <footer class="footer">
+    <div class="wrap">
+      <p>이 사이트는 글을 찾기 위한 목록입니다. 원문 열람과 구독은 X에서 이루어집니다.</p>
+      <p>투자 판단의 책임은 투자자 본인에게 있습니다. · <a href="https://x.com/babybluecream" target="_blank" rel="noopener">@babybluecream</a></p>
+    </div>
+  </footer>
 
-  <script>
-    function filterArticles() {
-      const q = document.getElementById('search').value.toLowerCase();
-      document.querySelectorAll('.article').forEach(el => {
-        const text = el.innerText.toLowerCase();
-        el.style.display = text.includes(q) ? '' : 'none';
-      });
-    }
-  </script>
+  <noscript><p class="noscript">목록을 보려면 JavaScript를 켜 주세요.</p></noscript>
+  <script src="app.js" defer></script>
 </body>
 </html>
