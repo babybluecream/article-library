@@ -3,112 +3,86 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Penguin Library 🐧 펭귄 라이브러리</title>
-  <meta name="description" content="펭귄(@babybluecream)의 미국 주식 노트 아카이브. Deep Dive, 성장주 스크리닝, 아티클을 한 줄씩 정리했습니다. 원문은 X에서 열립니다.">
-  <meta name="theme-color" content="#e4d8c6" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#2b241c" media="(prefers-color-scheme: dark)">
+  <title>Penguin Terminal 🐧 펭귄 라이브러리</title>
+  <meta name="description" content="펭귄(@babybluecream)의 미국 주식 노트 아카이브. 원문은 X에서 열립니다.">
+  <meta property="og:title" content="Penguin Terminal 🐧 펭귄 라이브러리">
   <meta property="og:type" content="website">
-  <meta property="og:locale" content="ko_KR">
-  <meta property="og:site_name" content="Penguin Library">
-  <meta property="og:title" content="Penguin Library 🐧 펭귄 라이브러리">
-  <meta property="og:description" content="Deep Dive · 성장주 스크리닝 · 아티클. 미국 주식 노트 아카이브. 원문은 X에서.">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@babybluecream">
-  <meta name="twitter:title" content="Penguin Library 🐧">
-  <meta name="twitter:description" content="미국 주식 노트 아카이브. 원문은 X에서.">
+  <meta name="theme-color" content="#07090a">
+  <meta property="og:description" content="Deep Dive · 성장주 스크리닝 · 아티클 데이터 인덱스">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=Nanum+Gothic+Coding:wght@400;700&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
   <link rel="stylesheet" href="style.css">
-  <script>
-    (function () {
-      try {
-        var t = localStorage.getItem('theme');
-        if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
-      } catch (e) {}
-    })();
-  </script>
+  <script>try{var t=localStorage.getItem('themeC');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
 </head>
 <body>
   <a class="skip" href="#index">목록으로 건너뛰기</a>
-
-  <header class="masthead" id="top">
-    <div class="band" aria-hidden="true"></div>
-    <div class="mast-inner">
-      <div class="mast-row">
-        <h1 class="title"><a href="#top">Penguin Library <span class="peng">🐧</span></a></h1>
-        <nav class="mast-nav mono" aria-label="바로가기">
-          <a href="#index">Index</a>
-          <a href="#about">About</a>
-          <a href="https://x.com/babybluecream" target="_blank" rel="noopener">X ↗</a>
-          <button type="button" class="theme" id="themeToggle" aria-label="다크 모드 전환"><span class="t-light">Dark</span><span class="t-dark">Light</span></button>
-        </nav>
-      </div>
-      <p class="tagline">펭귄(@babybluecream)의 미국 주식 노트. 줄을 누르면 X에서 원문이 열립니다.</p>
-      <hr class="dash">
-    </div>
+  <header class="bar">
+    <span class="brand"><span class="emo">🐧</span> PENGUIN<span class="dim">/</span>TERMINAL</span>
+    <span class="tag ok">● LIVE INDEX</span>
+    <nav class="nav" aria-label="바로가기">
+      <a class="nv-in" href="#index">[IDX]</a><a class="nv-in" href="#about">[SUB]</a><a href="https://x.com/babybluecream" target="_blank" rel="noopener">[X↗]</a>
+      <a class="fv-top" href="https://finviz.com/?affilId=324420513" target="_blank" rel="sponsored noopener" aria-label="Finviz 가입하기 (추천 링크, 새 탭)">Finviz 가입하기<small>추천 링크</small></a>
+      <button type="button" id="themeToggle" class="theme" aria-label="다크 모드 전환">[THEME]</button>
+    </nav>
   </header>
 
-  <main>
-    <section class="intro wrap" aria-label="소개">
-      <p class="statement">숫자로 읽는 성장주,<br>필요할 때 다시 꺼내 보는 <em>서재</em>.</p>
-      <dl class="counts mono" id="stats" aria-live="polite"></dl>
-      <p class="cta mono"><a class="btn" href="https://x.com/babybluecream" target="_blank" rel="noopener">X에서 구독하기 ↗</a></p>
-    </section>
+  <section class="hud">
+    <div class="hud-l">
+      <h1 class="h1">@babybluecream <span class="amber">US EQUITY NOTES</span></h1>
+      <p class="lead">// Deep Dive · 성장주 스크리닝 · 아티클. 행을 누르면 X 원문이 열립니다.</p>
+    </div>
+    <dl class="stats" id="stats"></dl>
+    <div class="ctas">
+      <a class="go-btn" href="https://x.com/babybluecream" target="_blank" rel="noopener">SUBSCRIBE &lt;GO&gt;</a>
+      <a class="go-btn fv" href="https://finviz.com/?affilId=324420513" target="_blank" rel="sponsored noopener">Finviz 가입하기 ↗</a>
+      <span class="disc">추천 링크 (Finviz 홍보대사)</span>
+    </div>
+  </section>
 
-    <section class="index wrap" id="index" aria-labelledby="index-title">
-      <h2 class="sr-only" id="index-title">글 목록</h2>
-
-      <div class="controls" role="search">
-        <label class="search">
-          <span class="mono label">검색</span>
-          <input id="q" type="search" placeholder="티커 또는 제목" autocomplete="off" spellcheck="false">
-          <button type="button" class="clear mono" id="clearQ" hidden aria-label="검색어 지우기">지우기</button>
-        </label>
-
-        <div class="filters mono">
-          <div class="frow" id="cats" role="group" aria-label="카테고리"></div>
-          <div class="frow" id="access" role="group" aria-label="공개 범위"></div>
-          <div class="frow sortrow">
-            <span class="label">정렬</span>
-            <button type="button" class="fbtn" id="sortBtn" aria-label="정렬 순서 바꾸기">최신순 ↓</button>
-          </div>
-        </div>
-
-        <div class="tickers mono" id="tickerWrap">
-          <div class="tlist" id="chips" role="group" aria-label="티커 필터"></div>
-          <button type="button" class="more fbtn" id="moreTickers" aria-expanded="false" aria-controls="chips">티커 전체 보기</button>
-        </div>
-      </div>
-
-      <hr class="dash">
-      <p class="status mono" id="count" aria-live="polite"></p>
-      <ol class="list" id="list"></ol>
-      <div class="empty" id="empty" hidden></div>
-    </section>
-
-    <section class="about wrap" id="about" aria-labelledby="about-title">
-      <hr class="dash">
-      <h2 class="section-title" id="about-title">구독하면 받는 네 가지</h2>
-      <ol class="four">
-        <li><span class="n mono">01</span><div><h3>Finviz 기반 기업 분석</h3><p>개별 기업을 사업 구조부터 숫자까지 따라가는 Deep Dive.</p></div></li>
-        <li><span class="n mono">02</span><div><h3>성장주 스크리닝</h3><p>실적 기반으로 걸러 낸 성장주 후보와 핵심 지표 정리.</p></div></li>
-        <li><span class="n mono">03</span><div><h3>유료 자료 정리</h3><p>유료 매체 기사와 관련 자료를 정리해 공유.</p></div></li>
-        <li><span class="n mono">04</span><div><h3>컨퍼런스콜 정리</h3><p>컨퍼런스콜과 투자 자료를 바탕으로 공부하고 정리한 내용.</p></div></li>
-      </ol>
-      <div class="howto mono">
-        <p><strong>사용법</strong> — 티커나 제목으로 검색하고, 카테고리·공개 범위·티커로 좁힌 뒤, 줄을 누르면 X 원문이 열립니다. <kbd>/</kbd> 키로 바로 검색.</p>
-        <p><strong>구독</strong> 표시는 구독자 전용 글을 안내하거나 그 일부를 공개한 글입니다. 전용 본문은 구독한 X 계정으로 로그인해야 보입니다.</p>
-      </div>
-      <p class="cta mono"><a class="btn" href="https://x.com/babybluecream" target="_blank" rel="noopener">구독하기 ↗</a></p>
-    </section>
+  <main id="index">
+    <label class="cmd">
+      <span class="prompt" aria-hidden="true">PENG&gt;</span>
+      <span class="sr-only">검색</span>
+      <input id="q" type="search" placeholder="" autocomplete="off" spellcheck="false" aria-label="티커 또는 제목 검색">
+      <span class="ph" aria-hidden="true">티커·제목 입력 (예: NVDA)</span><span class="cursor" aria-hidden="true"></span>
+      <button type="button" id="clearQ" class="clear" hidden aria-label="검색어 지우기">[ESC]</button>
+    </label>
+    <div class="fkeys">
+      <div class="fgrp"><span class="fl-lab">TYPE</span><div class="grp" id="cats" role="group" aria-label="카테고리"></div></div>
+      <div class="fgrp"><span class="fl-lab">ACCESS</span><div class="grp" id="access" role="group" aria-label="공개 범위"></div></div>
+      <div class="fgrp"><span class="fl-lab">SORT</span><button type="button" class="fb" id="sortBtn">DATE ↓</button></div>
+    </div>
+    <div class="tickers" id="tickerWrap">
+      <div class="grp chips" id="chips" role="group" aria-label="티커 필터"></div>
+      <button type="button" class="more" id="moreTickers" aria-expanded="false">[+ ALL TICKERS]</button>
+    </div>
+    <div class="thead" aria-hidden="true"><span>#</span><span>DATE</span><span>TYPE</span><span>ACC</span><span>TITLE</span><span>TICKERS</span><span></span></div>
+    <p class="count" id="count" aria-live="polite"></p>
+    <ol class="list" id="list"></ol>
+    <div class="empty" id="empty" hidden></div>
   </main>
 
-  <footer class="footer wrap mono">
-    <hr class="dash">
-    <p>이 사이트는 글을 찾기 위한 목록입니다. 원문 열람과 구독은 X에서 이루어집니다. 투자 판단의 책임은 투자자 본인에게 있습니다.</p>
-    <p><a href="https://x.com/babybluecream" target="_blank" rel="noopener">@babybluecream</a> · <a href="#top">맨 위로 ↑</a></p>
-  </footer>
-
-  <noscript><p class="wrap mono">목록을 보려면 JavaScript를 켜 주세요.</p></noscript>
+  <section class="about" id="about" aria-labelledby="ab">
+    <h2 id="ab" class="h2">&gt; SUBSCRIPTION.PACKAGE <span class="amber">구독하면 받는 것</span></h2>
+    <ol class="four">
+      <li><span class="k">01</span><b>Finviz 기반 기업 분석</b><span>사업 구조부터 숫자까지 따라가는 Deep Dive.</span></li>
+      <li><span class="k">02</span><b>성장주 스크리닝</b><span>실적 기반으로 걸러 낸 후보와 핵심 지표.</span></li>
+      <li><span class="k">03</span><b>유료 자료 정리</b><span>유료 매체 기사와 관련 자료 정리.</span></li>
+      <li><span class="k">04</span><b>컨퍼런스콜 정리</b><span>컨퍼런스콜·투자 자료를 공부하고 정리.</span></li>
+    </ol>
+    <div class="fv-box">
+      <p><span class="amber">&gt; DATA SOURCE</span> 모든 기업 분석은 Finviz 데이터를 기반으로 합니다. 같은 화면으로 직접 스크리닝해 보고 싶다면:</p>
+      <a class="go-btn fv" href="https://finviz.com/?affilId=324420513" target="_blank" rel="sponsored noopener">Finviz 가입하기 ↗</a>
+      <span class="disc">추천 링크 (Finviz 홍보대사) — 이 링크로 가입하면 펭귄에게 보상이 있을 수 있습니다.</span>
+    </div>
+    <p class="note">// SUB = 구독자 전용 글 안내 또는 일부 공개. 전용 본문은 구독한 X 계정으로 로그인해야 보입니다. <kbd>/</kbd> 로 검색.</p>
+  </section>
+  <footer class="foot">// 이 사이트는 글 목록입니다. 원문과 구독은 X에서. 투자 판단의 책임은 본인에게. — <a href="https://x.com/babybluecream" target="_blank" rel="noopener">@babybluecream</a></footer>
+  <script>window.MOCK={themeKey:'themeC',statLabels:['ENTRIES','TICKERS','LAST UPD'],goLabel:'&lt;GO&gt;',sortDesc:'DATE ↓',sortAsc:'DATE ↑',moreLabel:'[+ ALL TICKERS]',lessLabel:'[− COLLAPSE]',emptyBig:'NO MATCH_',countPrefix:'ROWS '};</script>
   <script src="app.js" defer></script>
 </body>
 </html>
