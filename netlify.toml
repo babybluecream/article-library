@@ -5,3 +5,8 @@
   for = "/posts.json"
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/path.json"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"

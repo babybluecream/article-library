@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Penguin Terminal 🐧 펭귄 라이브러리</title>
-  <meta name="description" content="펭귄(@babybluecream)의 미국 주식 노트 아카이브. 원문은 X에서 열립니다.">
+  <meta name="description" content="펭귄(@babybluecream)의 미국 주식 노트 아카이브. Deep Dive·스크리닝 방법·투자론과 재테크·팁까지, 원문은 X에서 열립니다.">
   <meta property="og:title" content="Penguin Terminal 🐧 펭귄 라이브러리">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary">
@@ -24,23 +24,36 @@
     <span class="brand"><span class="emo">🐧</span> PENGUIN<span class="dim">/</span>TERMINAL</span>
     <span class="tag ok">● LIVE INDEX</span>
     <nav class="nav" aria-label="바로가기">
-      <a class="nv-in" href="#index">[IDX]</a><a class="nv-in" href="#about">[SUB]</a><a href="https://x.com/babybluecream" target="_blank" rel="noopener">[X↗]</a>
+      <a class="nv-in" href="#index" data-view="index">[IDX]</a><a href="#path=0" data-view="path">[PATH]</a><a class="nv-in" href="#about">[SUB]</a><a href="https://x.com/babybluecream" target="_blank" rel="noopener">[X↗]</a>
       <a class="fv-top" href="https://finviz.com/?affilId=324420513" target="_blank" rel="sponsored noopener" aria-label="Finviz 가입하기 (추천 링크, 새 탭)">Finviz 가입하기<small>추천 링크</small></a>
       <button type="button" id="themeToggle" class="theme" aria-label="다크 모드 전환">[THEME]</button>
     </nav>
   </header>
 
-  <section class="hud">
+  <section class="hud" id="hud">
     <div class="hud-l">
       <h1 class="h1">@babybluecream <span class="amber">US EQUITY NOTES</span></h1>
-      <p class="lead">// Deep Dive · 성장주 스크리닝 · 아티클. 행을 누르면 X 원문이 열립니다.</p>
+      <p class="lead">// Deep Dive · 성장주 스크리닝 · 투자론. 재테크·부동산·팁은 별도 탭. 행을 누르면 X 원문이 열립니다.</p>
     </div>
     <dl class="stats" id="stats"></dl>
     <div class="ctas">
       <a class="go-btn" href="https://x.com/babybluecream" target="_blank" rel="noopener">SUBSCRIBE &lt;GO&gt;</a>
+      <span class="disc">리딩 없음 · 정보 제공 목적</span>
       <a class="go-btn fv" href="https://finviz.com/?affilId=324420513" target="_blank" rel="sponsored noopener">Finviz 가입하기 ↗</a>
-      <span class="disc">추천 링크 (Finviz 홍보대사)</span>
+      <span class="disc">추천 링크 (Finviz 홍보대사) · 가입 시 소정의 수수료를 받을 수 있습니다.</span>
     </div>
+  </section>
+
+  <section class="start" id="startBox" aria-labelledby="startH">
+    <h2 id="startH" class="h2">&gt; START.HERE <span class="amber">처음이라면 전체 읽어보기</span></h2>
+    <div class="start-chips" id="startChips"></div>
+    <p class="start-side">SIDE TRACK — <button type="button" class="lnk" data-stage="A">재테크·부동산</button> · <button type="button" class="lnk" data-stage="B">팁·사이트 모음</button></p>
+  </section>
+
+  <section id="path" class="path" hidden aria-labelledby="pathH">
+    <h2 id="pathH" class="h2">&gt; READING.PATH <span class="amber">전체 읽어보기</span></h2>
+    <div class="stages" id="stages" role="group" aria-label="단계"></div>
+    <div id="stageBody"></div>
   </section>
 
   <main id="index">
@@ -53,14 +66,15 @@
     </label>
     <div class="fkeys">
       <div class="fgrp"><span class="fl-lab">TYPE</span><div class="grp" id="cats" role="group" aria-label="카테고리"></div></div>
-      <div class="fgrp"><span class="fl-lab">ACCESS</span><div class="grp" id="access" role="group" aria-label="공개 범위"></div></div>
+      <div class="fgrp" id="subWrap" hidden><span class="fl-lab">SUB</span><div class="grp" id="subs" role="group" aria-label="세부 분류"></div></div>
+      <div class="fgrp"><span class="fl-lab">ACCESS</span><button type="button" class="fb" id="freeBtn" aria-pressed="false">FREE만 보기</button><button type="button" class="fb" id="xaBtn" aria-pressed="false">X 아티클만</button></div>
       <div class="fgrp"><span class="fl-lab">SORT</span><button type="button" class="fb" id="sortBtn">DATE ↓</button></div>
     </div>
     <div class="tickers" id="tickerWrap">
       <div class="grp chips" id="chips" role="group" aria-label="티커 필터"></div>
       <button type="button" class="more" id="moreTickers" aria-expanded="false">[+ ALL TICKERS]</button>
     </div>
-    <div class="thead" aria-hidden="true"><span>#</span><span>DATE</span><span>TYPE</span><span>ACC</span><span>TITLE</span><span>TICKERS</span><span></span></div>
+    <div class="thead" aria-hidden="true"><span>#</span><span>DATE</span><span>TYPE/SUB</span><span>ACC</span><span>TITLE</span><span>TICKERS</span><span></span></div>
     <p class="count" id="count" aria-live="polite"></p>
     <ol class="list" id="list"></ol>
     <div class="empty" id="empty" hidden></div>
@@ -77,9 +91,11 @@
     <div class="fv-box">
       <p><span class="amber">&gt; DATA SOURCE</span> 모든 기업 분석은 Finviz 데이터를 기반으로 합니다. 같은 화면으로 직접 스크리닝해 보고 싶다면:</p>
       <a class="go-btn fv" href="https://finviz.com/?affilId=324420513" target="_blank" rel="sponsored noopener">Finviz 가입하기 ↗</a>
-      <span class="disc">추천 링크 (Finviz 홍보대사) — 이 링크로 가입하면 펭귄에게 보상이 있을 수 있습니다.</span>
+      <span class="disc">추천 링크 (Finviz 홍보대사) · 가입 시 소정의 수수료를 받을 수 있습니다.</span>
     </div>
-    <p class="note">// SUB = 구독자 전용 글 안내 또는 일부 공개. 전용 본문은 구독한 X 계정으로 로그인해야 보입니다. <kbd>/</kbd> 로 검색.</p>
+    <p class="note">// FREE = 누구나 읽는 공개 글 · SAMPLE = 공개된 구독 샘플 · 🔒 SUB = 구독자 전용(제목·날짜·티커만 표시). 전용 본문은 구독한 X 계정으로 로그인해야 보입니다. <kbd>/</kbd> 로 검색.</p>
+    <p class="note">// 표기: [번역] 해외 투자자 글을 옮긴 것(펭귄 본인 성과 아님). "원문 일부" = 요약이 원문 앞부분만 보고 쓴 것. ARTICLE = X 아티클(장문). WSJ·증권사 리포트를 정리한 글은 제목과 출처 라벨만 표시합니다.</p>
+    <p class="note">// 리딩 없음 · 정보 제공 목적. 특정 종목 매매 추천을 하지 않습니다. 구독 안내는 X 프로필에서 확인하세요.</p>
   </section>
   <footer class="foot">// 이 사이트는 글 목록입니다. 원문과 구독은 X에서. 투자 판단의 책임은 본인에게. — <a href="https://x.com/babybluecream" target="_blank" rel="noopener">@babybluecream</a></footer>
   <script>window.MOCK={themeKey:'themeC',statLabels:['ENTRIES','TICKERS','LAST UPD'],goLabel:'&lt;GO&gt;',sortDesc:'DATE ↓',sortAsc:'DATE ↑',moreLabel:'[+ ALL TICKERS]',lessLabel:'[− COLLAPSE]',emptyBig:'NO MATCH_',countPrefix:'ROWS '};</script>

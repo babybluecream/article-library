@@ -1,743 +1,3164 @@
 [
-  {
-    "title": "$NTRA Deep Dive ㅣ260826",
-    "date": "2026-08-26",
-    "category": "deepdive",
-    "tickers": [
-      "NTRA"
-    ],
-    "url": "https://x.com/babybluecream/status/2092553323794813003",
-    "summary": "나테라는 미국 텍사스 오스틴에 본사를 둔 분자진단 기업. 피에 떠다니는 미세한 DNA 조각을 읽어 병을 잡아내는 검사를 만들고 판매함.",
-    "badge": "구독 컨텐츠 예시",
-    "access": "구독"
-  },
-  {
-    "title": "$ABCL Deep Dive ㅣ260826",
-    "date": "2026-08-26",
-    "category": "deepdive",
-    "tickers": [
-      "ABCL"
-    ],
-    "url": "https://x.com/babybluecream/status/2092591313137041908",
-    "summary": "애브셀레라는 캐나다 밴쿠버에 본사를 둔 임상단계 바이오텍. 핵심 자산은 항체 신약을 초고속으로 찾아내는 발굴 플랫폼.",
-    "badge": "구독 컨텐츠 예시",
-    "access": "구독"
-  },
-  {
-    "title": "$LPTH Deep Dive ㅣ260826",
-    "date": "2026-08-26",
-    "category": "deepdive",
-    "tickers": [
-      "LPTH"
-    ],
-    "url": "https://x.com/babybluecream/status/2092608557858652254",
-    "summary": "라이트패스 테크놀로지스는 미국 플로리다 올랜도에 본사를 둔 광학·적외선 부품 제조사. 렌즈·적외선 광학·열화상 카메라 같은 실물 광학 제품을 만듦.",
-    "badge": "구독 컨텐츠 예시",
-    "access": "구독"
-  },
-  {
-    "title": "$TSLA Deep Dive ㅣ260828",
-    "date": "2026-08-28",
-    "category": "deepdive",
-    "tickers": [
-      "TSLA"
-    ],
-    "url": "https://x.com/babybluecream/status/2093309069000147421",
-    "summary": "테슬라는 미국 텍사스 오스틴에 본사를 둔 전기차·에너지저장·AI 기업. 사업 폭이 자동차 한 곳에 머물지 않는 초대형주.",
-    "access": "공개"
-  },
-  {
-    "title": "$ALAB 구독자 포스팅",
-    "date": "2026-09-04",
-    "category": "deepdive",
-    "tickers": [
-      "ALAB"
-    ],
-    "url": "https://x.com/babybluecream/status/2095886442597859372",
-    "summary": "9/3 구독자 포스팅 했는데 오늘 11%.",
-    "access": "구독"
-  },
-  {
-    "title": "성장주 스크리닝 ㅣOscar Mikeㅣ260828",
-    "date": "2026-08-28",
-    "category": "screening",
-    "tickers": [
-      "NVDA"
-    ],
-    "url": "https://x.com/babybluecream/status/2093216525364924560",
-    "summary": "첫 번째 종목은 $NVDA. AI 가속기(GPU) 설계 절대강자로 데이터센터가 매출의 약 92%. Q2(FY27) 매출 $96.2B(+106%), 블랙웰 울트라 램프가 견인.",
-    "badge": "구독자 컨텐츠 예시",
-    "access": "구독"
-  },
-  {
-    "title": "성장주 스크리닝 ㅣ261006",
-    "date": "2026-10-06",
-    "category": "screening",
-    "tickers": [],
-    "url": "https://x.com/babybluecream/status/2107376947332362292",
-    "summary": "기술적 지표보다 기본적 지표. 개인의 무기는 시간이며, 실적 기반 좋은 기업을 오래 보유해 복리를 누려야 한다는 관점의 스크리닝.",
-    "access": "공개"
-  },
-  {
-    "title": "$ALM Deep Dive ㅣ260328",
-    "date": "2026-03-18",
-    "category": "deepdive",
-    "tickers": [
-      "ALM"
-    ],
-    "url": "https://x.com/babybluecream/status/2034257999326560364",
-    "summary": "공개된 구독자 컨텐츠. Almonty Industries는 텅스텐을 채굴·가공해 반도체 기업, 방위산업체, 산업용 고객에게 공급하는 광산 기업.",
-    "access": "구독"
-  },
-  {
-    "title": "$RELY 구독자 컨텐츠 맛보기 ㅣ260422",
-    "date": "2026-04-22",
-    "category": "deepdive",
-    "tickers": [
-      "RELY"
-    ],
-    "url": "https://x.com/babybluecream/status/2046962578447126668",
-    "summary": "디지털 해외송금의 조용한 정복자, Remitly. 이민자의 본국 송금 시장을 모바일 앱으로 파고든 핀테크 기업.",
-    "access": "구독"
-  },
-  {
-    "title": "$HSHP Deep Dive ㅣ260510",
-    "date": "2026-05-10",
-    "category": "deepdive",
-    "tickers": [
-      "HSHP"
-    ],
-    "url": "https://x.com/babybluecream/status/2053340381023236216",
-    "summary": "Himalaya Shipping. 스크리닝 기준 PEG 1 이하, Forward PE 15 이하. Q4 2025 실적, Q1 2026 상업 업데이트, BCI 지수, 배당 내역 기반.",
-    "access": "구독"
-  },
-  {
-    "title": "$MU Deep Dive ㅣ260510",
-    "date": "2026-05-10",
-    "category": "deepdive",
-    "tickers": [
-      "MU"
-    ],
-    "url": "https://x.com/babybluecream/status/2053347910129996100",
-    "summary": "Micron Technology. FQ2 2026 실적, HBM4 양산 개시, FQ3 2026 가이던스를 기반으로 작성한 분석.",
-    "access": "구독"
-  },
-  {
-    "title": "$TTMI Deep Dive",
-    "date": "2026-05-22",
-    "category": "deepdive",
-    "tickers": [
-      "TTMI"
-    ],
-    "url": "https://x.com/babybluecream/status/2057825110980227401",
-    "summary": "",
-    "access": "구독"
-  },
-  {
-    "title": "$INOD Deep Dive 레포트",
-    "date": "2026-06-05",
-    "category": "deepdive",
-    "tickers": [
-      "INOD"
-    ],
-    "url": "https://x.com/babybluecream/status/2062669045544190238",
-    "summary": "Finviz Peer Group에서 유일하게 살아남은 종목. Deep Dive 레포트를 구독자 아티클로 작성.",
-    "access": "구독"
-  },
-  {
-    "title": "$ETON 구독자 컨텐츠 일부 ㅣ260803",
-    "date": "2026-08-03",
-    "category": "deepdive",
-    "tickers": [
-      "ETON"
-    ],
-    "url": "https://x.com/babybluecream/status/2084287627650592892",
-    "summary": "이튼 파마슈티컬스, 희귀질환 치료제를 개발·상업화하는 나스닥 상장 제약사.",
-    "access": "구독"
-  },
-  {
-    "title": "$ALAB 아스테라 랩스 ㅣ260903",
-    "date": "2026-09-03",
-    "category": "deepdive",
-    "tickers": [
-      "ALAB"
-    ],
-    "url": "https://x.com/babybluecream/status/2095462518491840731",
-    "summary": "산호세 본사 팹리스. GPU가 아니라 GPU·XPU 사이 연결 칩을 판매. 2025 매출 $8.525억, 전년 대비 +115%.",
-    "access": "구독"
-  },
-  {
-    "title": "매출, 이익 기반 스크리너 ㅣOscar Mikeㅣ260507",
-    "date": "2026-05-07",
-    "category": "screening",
-    "tickers": [
-      "LLY",
-      "NBIX"
-    ],
-    "url": "https://x.com/babybluecream/status/2052129998388265423",
-    "summary": "구독 컨텐츠 일부. 최근 5거래일 주간 수익률 기준 섹터별 정리와 사업 설명.",
-    "access": "구독"
-  },
-  {
-    "title": "펀더멘탈 기본 + 모멘텀 스크리닝",
-    "date": "2026-06-12",
-    "category": "screening",
-    "tickers": [],
-    "url": "https://x.com/babybluecream/status/2065370245775458678",
-    "summary": "",
-    "access": "구독"
-  },
-  {
-    "title": "공개 스크리닝 타래 ㅣ$RDDT",
-    "date": "2026-07-02",
-    "category": "screening",
-    "tickers": [
-      "RDDT"
-    ],
-    "url": "https://x.com/babybluecream/status/2072585350648918486",
-    "summary": "구독자 컨텐츠로 올리던 스크리닝을 공개 타래로 올린 글.",
-    "access": "구독"
-  },
-  {
-    "title": "$NBIX 구독 스크리닝 ㅣ260707",
-    "date": "2026-07-08",
-    "category": "screening",
-    "tickers": [
-      "NBIX"
-    ],
-    "url": "https://x.com/babybluecream/status/2074508970266595601",
-    "summary": "뉴로크린 바이오사이언시스, 신경학·내분비학 전문 생명공학 기업.",
-    "access": "구독"
-  },
-  {
-    "title": "$BTSG 구독 스크리닝 ㅣ260708",
-    "date": "2026-07-08",
-    "category": "screening",
-    "tickers": [
-      "BTSG"
-    ],
-    "url": "https://x.com/babybluecream/status/2074510288012070946",
-    "summary": "너가 모를뿐 오르는 주식은 있음.",
-    "access": "구독"
-  },
-  {
-    "title": "구독 스크리닝 공개본 ㅣ260806",
-    "date": "2026-08-06",
-    "category": "screening",
-    "tickers": [],
-    "url": "https://x.com/babybluecream/status/2085284250748846271",
-    "summary": "구독글로 올리는 스크리닝을 공개글로도 한 번 올린 글.",
-    "access": "구독"
-  },
-  {
-    "title": "Oscar Mike ㅣ성장 모멘텀 스크리닝ㅣ260814",
-    "date": "2026-08-14",
-    "category": "screening",
-    "tickers": [
-      "CRDO",
-      "SKHY"
-    ],
-    "url": "https://x.com/babybluecream/status/2088234976596852849",
-    "summary": "구독자 컨텐츠. 주간 수익률 상위 종목을 섹터와 상승 배경과 함께 정리.",
-    "access": "구독"
-  },
-  {
-    "title": "Oscar Mike ㅣ260929",
-    "date": "2026-09-29",
-    "category": "screening",
-    "tickers": [
-      "P",
-      "SITM",
-      "MXL"
-    ],
-    "url": "https://x.com/babybluecream/status/2104899205202596066",
-    "summary": "Oscar Mike(On the Move) 스크리닝.",
-    "access": "공개"
-  },
-  {
-    "title": "스탠리 드러켄밀러 종목 스크리닝",
-    "date": "2025-11-30",
-    "category": "screening",
-    "tickers": [],
-    "url": "https://x.com/babybluecream/status/1995091582580932638",
-    "summary": "탑다운 매크로 스타일로 큰 그림을 먼저 보고 수혜 업종·자산군을 고른 뒤 개별 종목으로 내려가는 방식.",
-    "access": "공개"
-  },
-  {
-    "title": "딥시크가 가격을 올린 진짜 이유ㅣ토큰 전쟁의 방향이 바뀌었다 ㅣTango Down ㅣ260818",
-    "date": "2026-08-18",
-    "category": "article",
-    "tickers": [],
-    "url": "https://x.com/babybluecream/status/2089539564503462250",
-    "summary": "구독자 아티클 업데이트 공지.",
-    "access": "구독"
-  },
-  {
-    "title": "애플이 중국에서만 따로 만든 AI 모델ㅣ알리바바와의 이원 전략이 의미하는 것 ㅣTango Down ㅣ260818",
-    "date": "2026-08-18",
-    "category": "article",
-    "tickers": [],
-    "url": "https://x.com/babybluecream/status/2089555107016999396",
-    "summary": "구독자 아티클 업데이트 공지.",
-    "access": "구독"
-  },
-  {
-    "title": "드러켄밀러 26.2분기 딥다이브 ㅣTango Down ㅣ260818",
-    "date": "2026-08-18",
-    "category": "article",
-    "tickers": [],
-    "url": "https://x.com/babybluecream/status/2089630989324898710",
-    "summary": "구독자 아티클 업데이트 공지.",
-    "access": "구독"
-  },
-  {
-    "title": "시추에이션 어웨어니스 붕괴 하는 그날 사건",
-    "date": "2026-08-18",
-    "category": "article",
-    "tickers": [],
-    "url": "https://x.com/babybluecream/status/2089662195361886292",
-    "summary": "구독자 아티클 안내.",
-    "access": "구독"
-  },
-  {
-    "title": "DB, Morgan Stanley가 최근 다르게 본 기업",
-    "date": "2026-06-28",
-    "category": "article",
-    "tickers": [],
-    "url": "https://x.com/babybluecream/status/2071222342270017707",
-    "summary": "구독자 아티클로는 표를 많이 냈음.",
-    "access": "구독"
-  },
-  {
-    "title": "안두릴 투자 가능한 방법",
-    "date": "2026-04-28",
-    "category": "article",
-    "tickers": [],
-    "url": "https://x.com/babybluecream/status/2048953009972064327",
-    "summary": "구독자는 댓글의 아티클 링크 확인.",
-    "access": "구독"
-  },
-  {
-    "title": "SpaceX S-1 관련 아티클",
-    "date": "2026-05-25",
-    "category": "article",
-    "tickers": [],
-    "url": "https://x.com/babybluecream/status/2058853339895574745",
-    "summary": "구독자 아티클 추가 안내.",
-    "access": "구독"
-  },
-  {
-    "title": "머스크가 세계 최대 칩 공장을 텍사스에 짓는 이유 ㅣ260807",
-    "date": "2026-08-07",
-    "category": "article",
-    "tickers": [
-      "SPCX",
-      "TSLA"
-    ],
-    "url": "https://x.com/babybluecream/status/2085547707402433001",
-    "summary": "구독 아티클 안내.",
-    "access": "구독"
-  },
-  {
-    "title": "$PENG 업데이트 ㅣ260709",
-    "date": "2026-07-09",
-    "category": "article",
-    "tickers": [
-      "PENG"
-    ],
-    "url": "https://x.com/babybluecream/status/2075229411243385090",
-    "summary": "구독자는 구독자 글 참조.",
-    "access": "구독"
-  },
-  {
-    "title": "$SITM 27.32% 업데이트",
-    "date": "2026-05-07",
-    "category": "article",
-    "tickers": [
-      "SITM"
-    ],
-    "url": "https://x.com/babybluecream/status/2052391285340930328",
-    "summary": "스크리닝 정상 작동중. 26.1분기 실적 발표: 비GAAP EPS 1.44달러, 매출 1억 1360만 달러로 예상치 상회.",
-    "access": "구독"
-  },
-  {
-    "title": "$CBRS 세레브라스 Raise Summit 컨퍼런스콜 일부",
-    "date": "2026-07-12",
-    "category": "article",
-    "tickers": [
-      "CBRS"
-    ],
-    "url": "https://x.com/babybluecream/status/2076251310639468698",
-    "summary": "오픈AI 컴퓨팅 인프라 총괄과 세레브라스 CEO의 대화 정리.",
-    "access": "공개"
-  },
-  {
-    "title": "$PENG 병목ㅣ컴퓨팅이 아니라 메모리",
-    "date": "2026-07-13",
-    "category": "article",
-    "tickers": [
-      "PENG"
-    ],
-    "url": "https://x.com/babybluecream/status/2076328910242062448",
-    "summary": "CEO 발언 정리: 인퍼런스와 에이전틱 AI 확대로 HBM 등 메모리 수요가 커지는 흐름.",
-    "access": "공개"
-  },
-  {
-    "title": "레노버 CEO, 메모리발 원가 인플레이션 언급",
-    "date": "2026-07-01",
-    "category": "article",
-    "tickers": [],
-    "url": "https://x.com/babybluecream/status/2072081453803094127",
-    "summary": "2월·5월 실적 컨퍼런스콜과 인터뷰 기준. 메모리 가격 상승에 따른 PC 출하 압박 경고.",
-    "access": "공개"
-  },
-  {
-    "title": "모건스탠리, 톱픽 삼성전자→삼성전기 ㅣ260812",
-    "date": "2026-08-12",
-    "category": "article",
-    "tickers": [],
-    "url": "https://x.com/babybluecream/status/2087372466599743808",
-    "summary": "모건스탠리가 국내 기술주 최선호주를 삼성전자에서 삼성전기로 변경.",
-    "access": "공개"
-  },
-  {
-    "title": "모건스탠리 연준 동결 전망 ㅣ260904",
-    "date": "2026-09-04",
-    "category": "article",
-    "tickers": [],
-    "url": "https://x.com/babybluecream/status/2095822452958101610",
-    "summary": "매파적 잭슨홀 연설에도 9월 동결 전망. 근거는 8월 코어 CPI·PCE 전망치.",
-    "access": "공개"
-  },
-  {
-    "title": "피터틸 포트폴리오ㅣ데이터센터로 가는 전기에 베팅 ㅣ260826",
-    "date": "2026-08-26",
-    "category": "article",
-    "tickers": [],
-    "url": "https://x.com/babybluecream/status/2092370738003206603",
-    "summary": "틸 매크로의 2분기 말 13F 기준 포트폴리오 정리.",
-    "access": "공개"
-  },
-  {
-    "title": "주식이 아니라 비즈니스를 봐라 ㅣ260508",
-    "date": "2026-05-08",
-    "category": "article",
-    "tickers": [
-      "IREN",
-      "NVDA"
-    ],
-    "url": "https://x.com/babybluecream/status/2052531876754268196",
-    "summary": "주가는 단기 감정이, 장기로는 비즈니스가 결정. 매출·이익률·수주잔고·신규 고객을 보라는 글.",
-    "access": "공개"
-  },
-  {
-    "title": "세일즈포스, ‘에이전트포스’ 간판 일부 내린다 ㅣ260912",
-    "date": "2026-09-12",
-    "category": "article",
-    "tickers": [
-      "ORCL",
-      "CRM"
-    ],
-    "url": "https://x.com/babybluecream/status/2098711596742881633",
-    "summary": "드림포스를 앞두고 일부 주력 제품 이름에서 에이전트포스를 떼기로 한 결정 정리.",
-    "access": "공개"
-  },
-  {
-    "title": "슈퍼위크, 소음과 신호 사이 ㅣ260706",
-    "date": "2026-07-06",
-    "category": "article",
-    "tickers": [],
-    "url": "https://x.com/babybluecream/status/2073917477982228718",
-    "summary": "국내 증시 방향을 가를 이벤트가 몰린 한 주. 코스피 8000선 회복과 삼성전자 잠정실적 일정.",
-    "access": "공개"
-  },
-  {
-    "title": "$TQQQ 세 계좌 26년 성과 비교 ㅣ261012",
-    "date": "2026-10-12",
-    "category": "article",
-    "tickers": [
-      "TQQQ"
-    ],
-    "url": "https://x.com/babybluecream/status/2109421368525857232",
-    "summary": "나스닥100 하루 등락의 3배를 따라가는 레버리지 ETF 구조와 세 계좌 성과 비교.",
-    "access": "공개"
-  },
-  {
-    "title": "테슬라 AI 비전과 주가 전환점 ㅣ261008",
-    "date": "2026-10-08",
-    "category": "article",
-    "tickers": [
-      "TSLA"
-    ],
-    "url": "https://x.com/babybluecream/status/2107950992713302480",
-    "summary": "시장이 지불하는 근거는 자동차가 아니라 현실 세계 AI. 방향은 맞지만 일정이 밀려 있다는 점이 핵심.",
-    "access": "공개"
-  },
-  {
-    "title": "엔비디아 멀티플이 M7보다 낮아진 이유 ㅣ261007",
-    "date": "2026-10-07",
-    "category": "article",
-    "tickers": [
-      "NVDA"
-    ],
-    "url": "https://x.com/babybluecream/status/2107723225656607070",
-    "summary": "선행 PER 20배 아래로 M7 평균보다 낮아짐. 원인은 주가 약세가 아니라 이익 급증.",
-    "access": "공개"
-  },
-  {
-    "title": "엔비디아 자사주 매입 확대 ㅣ261007",
-    "date": "2026-10-07",
-    "category": "article",
-    "tickers": [
-      "NVDA"
-    ],
-    "url": "https://x.com/babybluecream/status/2107723805418557482",
-    "summary": "분기 자사주 매입이 두 분기 연속 약 200억달러로 사상 최대 수준.",
-    "access": "공개"
-  },
-  {
-    "title": "깅코 바이오웍스 신고가 직후 급락 ㅣ261007",
-    "date": "2026-10-07",
-    "category": "article",
-    "tickers": [
-      "DNA",
-      "TWST",
-      "TXG"
-    ],
-    "url": "https://x.com/babybluecream/status/2107735367554347170",
-    "summary": "52주 신고가 직후 하루 15.6% 하락. 바이오 AI 테마 전체에서 동시 매도.",
-    "access": "공개"
-  },
-  {
-    "title": "구글과 콘스텔레이션 원전 전력 계약, 발전주 동반 급등 ㅣ261006",
-    "date": "2026-10-07",
-    "category": "article",
-    "tickers": [
-      "GOOGL",
-      "CEG"
-    ],
-    "url": "https://x.com/babybluecream/status/2107604957151326279",
-    "summary": "두 건의 전력 계약, 합계 약 3,590메가와트.",
-    "access": "공개"
-  },
-  {
-    "title": "골드만삭스, 테슬라 주가는 AI 사업 전망이 좌우 ㅣ261007",
-    "date": "2026-10-07",
-    "category": "article",
-    "tickers": [
-      "TSLA"
-    ],
-    "url": "https://x.com/babybluecream/status/2107599372947161092",
-    "summary": "3분기 실적 앞두고 투자의견 중립, 목표주가 360달러 유지.",
-    "access": "공개"
-  },
-  {
-    "title": "오픈AI와 메타의 AI 수익화 경로 ㅣ261008",
-    "date": "2026-10-08",
-    "category": "article",
-    "tickers": [],
-    "url": "https://x.com/babybluecream/status/2108121091097166011",
-    "summary": "오픈AI ARR이 2026년 9월 말 약 700억 달러에 근접. 증가를 이끈 건 기업 매출.",
-    "access": "공개"
-  },
-  {
-    "title": "소비자 AI의 수익 구조와 한계 ㅣ261008",
-    "date": "2026-10-08",
-    "category": "article",
-    "tickers": [
-      "META"
-    ],
-    "url": "https://x.com/babybluecream/status/2108125576963973555",
-    "summary": "소비자 AI 수요는 확인됐지만 유료 이용자는 아직 적고, 더 큰 문제는 비용.",
-    "access": "공개"
-  },
-  {
-    "title": "반도체 고점론 ㅣ261010",
-    "date": "2026-10-10",
-    "category": "article",
-    "tickers": [
-      "MU"
-    ],
-    "url": "https://x.com/babybluecream/status/2108907077779550567",
-    "summary": "삼성전자 3분기 잠정실적 역대 최대. 마이크론 가이던스의 매출총이익률 하락을 근거로 한 고점론 정리.",
-    "access": "공개"
-  },
-  {
-    "title": "유가 105달러 돌파와 AI 실적 호조 ㅣ261009",
-    "date": "2026-10-09",
-    "category": "article",
-    "tickers": [
-      "TSM",
-      "APLD",
-      "PEP"
-    ],
-    "url": "https://x.com/babybluecream/status/2108281413804134424",
-    "summary": "유가·금리 상승으로 선물 하락, 반면 TSMC 9월 매출 +54.6% 등 AI 실적은 호조.",
-    "access": "공개"
-  },
-  {
-    "title": "나이트콜 ㅣ주요 뉴스 ㅣ261007",
-    "date": "2026-10-08",
-    "category": "article",
-    "tickers": [
-      "SPCX",
-      "NVDA",
-      "APO",
-      "TSM",
-      "AMZN"
-    ],
-    "url": "https://x.com/babybluecream/status/2107952943723118616",
-    "summary": "스페이스X의 엔비디아 칩 구매용 400억달러 조달 추진 등 주요 뉴스 정리.",
-    "access": "공개"
-  },
-  {
-    "title": "모닝콜 ㅣ미국 증시 사상 최고치 마감 ㅣ261006",
-    "date": "2026-10-07",
-    "category": "article",
-    "tickers": [
-      "SPX",
-      "COMP",
-      "CEG",
-      "GOOGL"
-    ],
-    "url": "https://x.com/babybluecream/status/2107594830507598012",
-    "summary": "금리 하락과 원전 계약이 상승을 주도한 장 마감 정리.",
-    "access": "공개"
-  },
-  {
-    "title": "구글 AI 지금 뭐하누 ㅣ260930",
-    "date": "2026-09-30",
-    "category": "article",
-    "tickers": [
-      "GOOGL"
-    ],
-    "url": "https://x.com/babybluecream/status/2105253475525578929",
-    "summary": "구글이 검색·제미니앱·클라우드에 나눠 배포 중인 AI 에이전트 실행 기능 정리.",
-    "access": "공개"
-  },
-  {
-    "title": "제미니4 아르곤 제한공개 ㅣ261001",
-    "date": "2026-10-01",
-    "category": "article",
-    "tickers": [],
-    "url": "https://x.com/babybluecream/status/2105421326311956803",
-    "summary": "여러 단계를 이어서 끝내는 모델. 현재는 방어 담당 기관용 페어윈드 테스터만 사용.",
-    "access": "공개"
-  },
-  {
-    "title": "AMD 첫 600달러 돌파, AI 에이전트발 CPU 재평가 ㅣ260922",
-    "date": "2026-09-22",
-    "category": "article",
-    "tickers": [
-      "AMD",
-      "META"
-    ],
-    "url": "https://x.com/babybluecream/status/2102143283095114222",
-    "summary": "종가 615.52달러로 사상 첫 600달러 돌파. 메타 AI 에이전트 뮤즈 출시가 계기.",
-    "access": "공개"
-  },
-  {
-    "title": "OpenAI 연방기관 요금제 전환 ㅣ260910",
-    "date": "2026-09-10",
-    "category": "article",
-    "tickers": [],
-    "url": "https://x.com/babybluecream/status/2098051355906920664",
-    "summary": "기관당 연 1달러 요금제를 끝내고 정가 50% 할인으로 전환.",
-    "access": "공개"
-  },
-  {
-    "title": "아이폰 20 프로 루머 ㅣ260905",
-    "date": "2026-09-05",
-    "category": "article",
-    "tickers": [
-      "AAPL"
-    ],
-    "url": "https://x.com/babybluecream/status/2096003684392173873",
-    "summary": "2027년 20주년 리디자인 모델 루머와 이름 문제 정리.",
-    "access": "공개"
-  },
-  {
-    "title": "테슬라 유럽 등록·FSD·사이버캡 ㅣ260903",
-    "date": "2026-09-03",
-    "category": "article",
-    "tickers": [
-      "TSLA"
-    ],
-    "url": "https://x.com/babybluecream/status/2095283925962863090",
-    "summary": "8월 유럽 등록 대수의 지역별 불균형, FSD 안전 대시보드 공개.",
-    "access": "공개"
-  },
-  {
-    "title": "테슬라 8월 유럽 신차 대수, FSD 승인전 사이버캡 출격 ㅣ260902",
-    "date": "2026-09-02",
-    "category": "article",
-    "tickers": [
-      "TSLA"
-    ],
-    "url": "https://x.com/babybluecream/status/2095118842259480578",
-    "summary": "프랑스 +279%, 덴마크 +104%, 노르웨이·스페인 -79% 등 나라별로 극명하게 갈린 한 달.",
-    "access": "공개"
-  },
-  {
-    "title": "소니가 콘솔을 비싸게 팔고도 이익을 지키는 이유 ㅣ260830",
-    "date": "2026-08-30",
-    "category": "article",
-    "tickers": [
-      "SONY"
-    ],
-    "url": "https://x.com/babybluecream/status/2093919690879836235",
-    "summary": "PS5 권장소비자가 재인상과 사업부별 이익률 정리.",
-    "access": "공개"
-  },
-  {
-    "title": "FSD 값, 경쟁이 세지면 오히려 떨어질까? ㅣ260825",
-    "date": "2026-08-25",
-    "category": "article",
-    "tickers": [
-      "TSLA"
-    ],
-    "url": "https://x.com/babybluecream/status/2092036452788076723",
-    "summary": "한계비용 0의 소프트웨어지만 학습 인프라에 먼저 큰돈을 붓는 구조.",
-    "access": "공개"
-  },
-  {
-    "title": "FSD 고정비 대 가격 ㅣ260824",
-    "date": "2026-08-24",
-    "category": "article",
-    "tickers": [
-      "TSLA"
-    ],
-    "url": "https://x.com/babybluecream/status/2091830655357505702",
-    "summary": "텍사스 학습 컴퓨트 115→260메가와트, 연말 목표 400메가와트. 감가상각 고정비 정리.",
-    "access": "공개"
-  },
-  {
-    "title": "오픈AI, 앤트로픽에 밀린 뒤 재기 시도 ㅣ260801",
-    "date": "2026-08-01",
-    "category": "article",
-    "tickers": [],
-    "url": "https://x.com/babybluecream/status/2083440590864429391",
-    "summary": "챗GPT 성장 둔화와 앤트로픽 부상, 참모진 재조정과 기업 고객 경쟁.",
-    "access": "공개"
-  },
-  {
-    "title": "메타·앤트로픽 컴퓨팅 임대 협상 ㅣ260716",
-    "date": "2026-07-18",
-    "category": "article",
-    "tickers": [
-      "META"
-    ],
-    "url": "https://x.com/babybluecream/status/2078271611312971999",
-    "summary": "NYT 보도: 2년간 최대 100억 달러 규모로 AI 데이터센터 컴퓨팅을 빌려주는 협상.",
-    "access": "공개"
-  },
-  {
-    "title": "모카, 테슬라 FSD 라이트 한국 실주행 후기 정리 ㅣ260716",
-    "date": "2026-07-17",
-    "category": "article",
-    "tickers": [],
-    "url": "https://x.com/babybluecream/status/2077932603102154855",
-    "summary": "5년 된 모델 Y로 밤·폭우 상황에서 FSD 라이트를 실주행 테스트한 내용.",
-    "access": "공개"
-  }
+ {
+  "title": "$NTRA Deep Dive ㅣ260826",
+  "date": "2026-08-26",
+  "category": "us",
+  "tickers": [
+   "NTRA"
+  ],
+  "url": "https://x.com/babybluecream/status/2092553323794813003",
+  "summary": "나테라는 미국 텍사스 오스틴에 본사를 둔 분자진단 기업. 피에 떠다니는 미세한 DNA 조각을 읽어 병을 잡아내는 검사를 만들고 판매함.",
+  "access": "sample",
+  "sub": "Deep Dive",
+  "source": "본인",
+  "id": "2092553323794813003",
+  "partial": false
+ },
+ {
+  "title": "$ABCL Deep Dive ㅣ260826",
+  "date": "2026-08-26",
+  "category": "us",
+  "tickers": [
+   "ABCL"
+  ],
+  "url": "https://x.com/babybluecream/status/2092591313137041908",
+  "summary": "애브셀레라는 캐나다 밴쿠버에 본사를 둔 임상단계 바이오텍. 핵심 자산은 항체 신약을 초고속으로 찾아내는 발굴 플랫폼.",
+  "access": "sample",
+  "sub": "Deep Dive",
+  "source": "본인",
+  "id": "2092591313137041908",
+  "partial": false
+ },
+ {
+  "title": "$LPTH Deep Dive ㅣ260826",
+  "date": "2026-08-26",
+  "category": "us",
+  "tickers": [
+   "LPTH"
+  ],
+  "url": "https://x.com/babybluecream/status/2092608557858652254",
+  "summary": "라이트패스 테크놀로지스는 미국 플로리다 올랜도에 본사를 둔 광학·적외선 부품 제조사. 렌즈·적외선 광학·열화상 카메라 같은 실물 광학 제품을 만듦.",
+  "access": "sample",
+  "sub": "Deep Dive",
+  "source": "본인",
+  "id": "2092608557858652254",
+  "partial": false
+ },
+ {
+  "title": "$TSLA Deep Dive ㅣ260828",
+  "date": "2026-08-28",
+  "category": "us",
+  "tickers": [
+   "TSLA"
+  ],
+  "url": "https://x.com/babybluecream/status/2093309069000147421",
+  "summary": "테슬라는 미국 텍사스 오스틴에 본사를 둔 전기차·에너지저장·AI 기업. 사업 폭이 자동차 한 곳에 머물지 않는 초대형주.",
+  "access": "free",
+  "sub": "Deep Dive",
+  "source": "본인",
+  "id": "2093309069000147421",
+  "partial": false
+ },
+ {
+  "title": "$ALAB 구독자 포스팅",
+  "date": "2026-09-04",
+  "category": "us",
+  "tickers": [
+   "ALAB"
+  ],
+  "url": "https://x.com/babybluecream/status/2095886442597859372",
+  "summary": "",
+  "access": "locked",
+  "sub": "Deep Dive",
+  "source": "본인",
+  "id": "2095886442597859372",
+  "partial": false
+ },
+ {
+  "title": "성장주 스크리닝 ㅣOscar Mikeㅣ260828",
+  "date": "2026-08-28",
+  "category": "us",
+  "tickers": [
+   "NVDA"
+  ],
+  "url": "https://x.com/babybluecream/status/2093216525364924560",
+  "summary": "첫 번째 종목은 $NVDA. AI 가속기(GPU) 설계 절대강자로 데이터센터가 매출의 약 92%. Q2(FY27) 매출 $96.2B(+106%), 블랙웰 울트라 램프가 견인.",
+  "access": "sample",
+  "sub": "스크리닝 결과",
+  "source": "본인",
+  "id": "2093216525364924560",
+  "partial": false
+ },
+ {
+  "title": "성장주 스크리닝 ㅣ261006",
+  "date": "2026-10-06",
+  "category": "us",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2107376947332362292",
+  "summary": "기술적 지표보다 기본적 지표. 개인의 무기는 시간이며, 실적 기반 좋은 기업을 오래 보유해 복리를 누려야 한다는 관점의 스크리닝.",
+  "access": "free",
+  "sub": "스크리닝 결과",
+  "source": "본인",
+  "id": "2107376947332362292",
+  "partial": false
+ },
+ {
+  "title": "$ALM Deep Dive ㅣ260328",
+  "date": "2026-03-18",
+  "category": "us",
+  "tickers": [
+   "ALM"
+  ],
+  "url": "https://x.com/babybluecream/status/2034257999326560364",
+  "summary": "공개된 구독자 컨텐츠. Almonty Industries는 텅스텐을 채굴·가공해 반도체 기업, 방위산업체, 산업용 고객에게 공급하는 광산 기업.",
+  "access": "sample",
+  "sub": "Deep Dive",
+  "source": "본인",
+  "id": "2034257999326560364",
+  "partial": false
+ },
+ {
+  "title": "$RELY 구독자 컨텐츠 맛보기 ㅣ260422",
+  "date": "2026-04-22",
+  "category": "us",
+  "tickers": [
+   "RELY"
+  ],
+  "url": "https://x.com/babybluecream/status/2046962578447126668",
+  "summary": "디지털 해외송금의 조용한 정복자, Remitly. 이민자의 본국 송금 시장을 모바일 앱으로 파고든 핀테크 기업.",
+  "access": "sample",
+  "sub": "Deep Dive",
+  "source": "본인",
+  "id": "2046962578447126668",
+  "partial": false
+ },
+ {
+  "title": "$HSHP Deep Dive ㅣ260510",
+  "date": "2026-05-10",
+  "category": "us",
+  "tickers": [
+   "HSHP"
+  ],
+  "url": "https://x.com/babybluecream/status/2053340381023236216",
+  "summary": "Himalaya Shipping. 스크리닝 기준 PEG 1 이하, Forward PE 15 이하. Q4 2025 실적, Q1 2026 상업 업데이트, BCI 지수, 배당 내역 기반.",
+  "access": "sample",
+  "sub": "Deep Dive",
+  "source": "본인",
+  "id": "2053340381023236216",
+  "partial": false
+ },
+ {
+  "title": "$MU Deep Dive ㅣ260510",
+  "date": "2026-05-10",
+  "category": "us",
+  "tickers": [
+   "MU"
+  ],
+  "url": "https://x.com/babybluecream/status/2053347910129996100",
+  "summary": "Micron Technology. FQ2 2026 실적, HBM4 양산 개시, FQ3 2026 가이던스를 기반으로 작성한 분석.",
+  "access": "sample",
+  "sub": "Deep Dive",
+  "source": "본인",
+  "id": "2053347910129996100",
+  "partial": false
+ },
+ {
+  "title": "$TTMI Deep Dive",
+  "date": "2026-05-22",
+  "category": "us",
+  "tickers": [
+   "TTMI"
+  ],
+  "url": "https://x.com/babybluecream/status/2057825110980227401",
+  "summary": "",
+  "access": "locked",
+  "sub": "Deep Dive",
+  "source": "본인",
+  "id": "2057825110980227401",
+  "partial": false
+ },
+ {
+  "title": "$INOD Deep Dive 레포트",
+  "date": "2026-06-05",
+  "category": "us",
+  "tickers": [
+   "INOD"
+  ],
+  "url": "https://x.com/babybluecream/status/2062669045544190238",
+  "summary": "",
+  "access": "locked",
+  "sub": "Deep Dive",
+  "source": "본인",
+  "id": "2062669045544190238",
+  "partial": false
+ },
+ {
+  "title": "$ETON 구독자 컨텐츠 일부 ㅣ260803",
+  "date": "2026-08-03",
+  "category": "us",
+  "tickers": [
+   "ETON"
+  ],
+  "url": "https://x.com/babybluecream/status/2084287627650592892",
+  "summary": "이튼 파마슈티컬스, 희귀질환 치료제를 개발·상업화하는 나스닥 상장 제약사.",
+  "access": "sample",
+  "sub": "Deep Dive",
+  "source": "본인",
+  "id": "2084287627650592892",
+  "partial": false
+ },
+ {
+  "title": "$ALAB 아스테라 랩스 ㅣ260903",
+  "date": "2026-09-03",
+  "category": "us",
+  "tickers": [
+   "ALAB"
+  ],
+  "url": "https://x.com/babybluecream/status/2095462518491840731",
+  "summary": "산호세 본사 팹리스. GPU가 아니라 GPU·XPU 사이 연결 칩을 판매. 2025 매출 $8.525억, 전년 대비 +115%.",
+  "access": "sample",
+  "sub": "Deep Dive",
+  "source": "본인",
+  "id": "2095462518491840731",
+  "partial": false
+ },
+ {
+  "title": "매출, 이익 기반 스크리너 ㅣOscar Mikeㅣ260507",
+  "date": "2026-05-07",
+  "category": "us",
+  "tickers": [
+   "LLY",
+   "NBIX"
+  ],
+  "url": "https://x.com/babybluecream/status/2052135314114932820",
+  "summary": "최근 5거래일 주간 수익률 기준 섹터별 정리와 사업 설명(같은 내용 재게시본).",
+  "access": "sample",
+  "sub": "스크리닝 결과",
+  "source": "본인",
+  "id": "2052135314114932820",
+  "partial": false
+ },
+ {
+  "title": "펀더멘탈 기본 + 모멘텀 스크리닝",
+  "date": "2026-06-12",
+  "category": "us",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2065370245775458678",
+  "summary": "",
+  "access": "sample",
+  "sub": "스크리닝 결과",
+  "source": "본인",
+  "id": "2065370245775458678",
+  "partial": false
+ },
+ {
+  "title": "공개 스크리닝 타래 ㅣ$RDDT",
+  "date": "2026-07-02",
+  "category": "us",
+  "tickers": [
+   "RDDT"
+  ],
+  "url": "https://x.com/babybluecream/status/2072585350648918486",
+  "summary": "구독자 컨텐츠로 올리던 스크리닝을 공개 타래로 올린 글.",
+  "access": "sample",
+  "sub": "스크리닝 결과",
+  "source": "본인",
+  "id": "2072585350648918486",
+  "partial": false
+ },
+ {
+  "title": "$NBIX 구독 스크리닝 ㅣ260707",
+  "date": "2026-07-08",
+  "category": "us",
+  "tickers": [
+   "NBIX"
+  ],
+  "url": "https://x.com/babybluecream/status/2074508970266595601",
+  "summary": "뉴로크린 바이오사이언시스, 신경학·내분비학 전문 생명공학 기업.",
+  "access": "sample",
+  "sub": "스크리닝 결과",
+  "source": "본인",
+  "id": "2074508970266595601",
+  "partial": false
+ },
+ {
+  "title": "$BTSG 구독 스크리닝 ㅣ260708",
+  "date": "2026-07-08",
+  "category": "us",
+  "tickers": [
+   "BTSG"
+  ],
+  "url": "https://x.com/babybluecream/status/2074510288012070946",
+  "summary": "",
+  "access": "locked",
+  "sub": "스크리닝 결과",
+  "source": "본인",
+  "id": "2074510288012070946",
+  "partial": false
+ },
+ {
+  "title": "구독 스크리닝 공개본 ㅣ260806",
+  "date": "2026-08-06",
+  "category": "us",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2085284250748846271",
+  "summary": "구독글로 올리는 스크리닝을 공개글로도 한 번 올린 글.",
+  "access": "sample",
+  "sub": "스크리닝 결과",
+  "source": "본인",
+  "id": "2085284250748846271",
+  "partial": false
+ },
+ {
+  "title": "Oscar Mike ㅣ성장 모멘텀 스크리닝ㅣ260814",
+  "date": "2026-08-14",
+  "category": "us",
+  "tickers": [
+   "CRDO",
+   "SKHY"
+  ],
+  "url": "https://x.com/babybluecream/status/2088234976596852849",
+  "summary": "구독자 컨텐츠. 주간 수익률 상위 종목을 섹터와 상승 배경과 함께 정리.",
+  "access": "sample",
+  "sub": "스크리닝 결과",
+  "source": "본인",
+  "id": "2088234976596852849",
+  "partial": false
+ },
+ {
+  "title": "Oscar Mike ㅣ260929",
+  "date": "2026-09-29",
+  "category": "us",
+  "tickers": [
+   "P",
+   "SITM",
+   "MXL"
+  ],
+  "url": "https://x.com/babybluecream/status/2104899205202596066",
+  "summary": "Oscar Mike(On the Move) 스크리닝.",
+  "access": "free",
+  "sub": "스크리닝 결과",
+  "source": "본인",
+  "id": "2104899205202596066",
+  "partial": false
+ },
+ {
+  "title": "스탠리 드러켄밀러 종목 스크리닝",
+  "date": "2025-11-30",
+  "category": "method",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1995091582580932638",
+  "summary": "탑다운 매크로 스타일로 큰 그림을 먼저 보고 수혜 업종·자산군을 고른 뒤 개별 종목으로 내려가는 방식.",
+  "access": "free",
+  "sub": "대가 전략 스크리닝",
+  "source": "정리",
+  "id": "1995091582580932638",
+  "partial": false
+ },
+ {
+  "title": "딥시크가 가격을 올린 진짜 이유ㅣ토큰 전쟁의 방향이 바뀌었다 ㅣTango Down ㅣ260818",
+  "date": "2026-08-18",
+  "category": "us",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2089539564503462250",
+  "summary": "",
+  "access": "locked",
+  "sub": "구독 아티클",
+  "source": "본인",
+  "id": "2089539564503462250",
+  "partial": false
+ },
+ {
+  "title": "애플이 중국에서만 따로 만든 AI 모델ㅣ알리바바와의 이원 전략이 의미하는 것 ㅣTango Down ㅣ260818",
+  "date": "2026-08-18",
+  "category": "us",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2089555107016999396",
+  "summary": "",
+  "access": "locked",
+  "sub": "구독 아티클",
+  "source": "본인",
+  "id": "2089555107016999396",
+  "partial": false
+ },
+ {
+  "title": "드러켄밀러 26.2분기 딥다이브 ㅣTango Down ㅣ260818",
+  "date": "2026-08-18",
+  "category": "us",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2089630989324898710",
+  "summary": "",
+  "access": "locked",
+  "sub": "구독 아티클",
+  "source": "본인",
+  "id": "2089630989324898710",
+  "partial": false
+ },
+ {
+  "title": "시추에이션 어웨어니스 붕괴 하는 그날 사건",
+  "date": "2026-08-18",
+  "category": "us",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2089662195361886292",
+  "summary": "",
+  "access": "locked",
+  "sub": "구독 아티클",
+  "source": "본인",
+  "id": "2089662195361886292",
+  "partial": false
+ },
+ {
+  "title": "DB, Morgan Stanley가 최근 다르게 본 기업",
+  "date": "2026-06-28",
+  "category": "us",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2071222342270017707",
+  "summary": "",
+  "access": "locked",
+  "sub": "구독 아티클",
+  "source": "본인",
+  "id": "2071222342270017707",
+  "partial": false,
+  "label": "증권사 리포트 정리"
+ },
+ {
+  "title": "안두릴 투자 가능한 방법",
+  "date": "2026-04-28",
+  "category": "us",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2048953009972064327",
+  "summary": "",
+  "access": "locked",
+  "sub": "구독 아티클",
+  "source": "본인",
+  "id": "2048953009972064327",
+  "partial": false
+ },
+ {
+  "title": "SpaceX S-1 관련 아티클",
+  "date": "2026-05-25",
+  "category": "us",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2058853339895574745",
+  "summary": "",
+  "access": "locked",
+  "sub": "구독 아티클",
+  "source": "본인",
+  "id": "2058853339895574745",
+  "partial": false
+ },
+ {
+  "title": "머스크가 세계 최대 칩 공장을 텍사스에 짓는 이유 ㅣ260807",
+  "date": "2026-08-07",
+  "category": "us",
+  "tickers": [
+   "SPCX",
+   "TSLA"
+  ],
+  "url": "https://x.com/babybluecream/status/2085547707402433001",
+  "summary": "",
+  "access": "locked",
+  "sub": "구독 아티클",
+  "source": "본인",
+  "id": "2085547707402433001",
+  "partial": false
+ },
+ {
+  "title": "$PENG 업데이트 ㅣ260709",
+  "date": "2026-07-09",
+  "category": "us",
+  "tickers": [
+   "PENG"
+  ],
+  "url": "https://x.com/babybluecream/status/2075229411243385090",
+  "summary": "",
+  "access": "locked",
+  "sub": "구독 아티클",
+  "source": "본인",
+  "id": "2075229411243385090",
+  "partial": false
+ },
+ {
+  "title": "$SITM 27.32% 업데이트",
+  "date": "2026-05-07",
+  "category": "us",
+  "tickers": [
+   "SITM"
+  ],
+  "url": "https://x.com/babybluecream/status/2052391285340930328",
+  "summary": "스크리닝 정상 작동중. 26.1분기 실적 발표: 비GAAP EPS 1.44달러, 매출 1억 1360만 달러로 예상치 상회.",
+  "access": "sample",
+  "sub": "섹터·테마",
+  "source": "정리",
+  "id": "2052391285340930328",
+  "partial": false
+ },
+ {
+  "title": "$CBRS 세레브라스 Raise Summit 컨퍼런스콜 일부",
+  "date": "2026-07-12",
+  "category": "us",
+  "tickers": [
+   "CBRS"
+  ],
+  "url": "https://x.com/babybluecream/status/2076251310639468698",
+  "summary": "오픈AI 컴퓨팅 인프라 총괄과 세레브라스 CEO의 대화 정리.",
+  "access": "free",
+  "sub": "섹터·테마",
+  "source": "정리",
+  "id": "2076251310639468698",
+  "partial": false
+ },
+ {
+  "title": "$PENG 병목ㅣ컴퓨팅이 아니라 메모리",
+  "date": "2026-07-13",
+  "category": "us",
+  "tickers": [
+   "PENG"
+  ],
+  "url": "https://x.com/babybluecream/status/2076328910242062448",
+  "summary": "CEO 발언 정리: 인퍼런스와 에이전틱 AI 확대로 HBM 등 메모리 수요가 커지는 흐름.",
+  "access": "free",
+  "sub": "섹터·테마",
+  "source": "정리",
+  "id": "2076328910242062448",
+  "partial": false
+ },
+ {
+  "title": "레노버 CEO, 메모리발 원가 인플레이션 언급",
+  "date": "2026-07-01",
+  "category": "macro",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2072081453803094127",
+  "summary": "2월·5월 실적 컨퍼런스콜과 인터뷰 기준. 메모리 가격 상승에 따른 PC 출하 압박 경고.",
+  "access": "free",
+  "sub": "금리·환율·지정학",
+  "source": "정리",
+  "id": "2072081453803094127",
+  "partial": false
+ },
+ {
+  "title": "모건스탠리, 톱픽 삼성전자→삼성전기 ㅣ260812",
+  "date": "2026-08-12",
+  "category": "macro",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2087372466599743808",
+  "summary": "",
+  "access": "free",
+  "sub": "국내증시·한국 반도체",
+  "source": "정리",
+  "id": "2087372466599743808",
+  "partial": false,
+  "label": "증권사 리포트 정리"
+ },
+ {
+  "title": "모건스탠리 연준 동결 전망 ㅣ260904",
+  "date": "2026-09-04",
+  "category": "macro",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2095822452958101610",
+  "summary": "",
+  "access": "free",
+  "sub": "금리·환율·지정학",
+  "source": "정리",
+  "id": "2095822452958101610",
+  "partial": false,
+  "label": "증권사 리포트 정리"
+ },
+ {
+  "title": "피터틸 포트폴리오ㅣ데이터센터로 가는 전기에 베팅 ㅣ260826",
+  "date": "2026-08-26",
+  "category": "principle",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2092370738003206603",
+  "summary": "틸 매크로의 2분기 말 13F 기준 포트폴리오 정리.",
+  "access": "free",
+  "sub": "유명 투자자 포트폴리오",
+  "source": "정리",
+  "id": "2092370738003206603",
+  "partial": false
+ },
+ {
+  "title": "주식이 아니라 비즈니스를 봐라 ㅣ260508",
+  "date": "2026-05-08",
+  "category": "principle",
+  "tickers": [
+   "IREN",
+   "NVDA"
+  ],
+  "url": "https://x.com/babybluecream/status/2052531876754268196",
+  "summary": "주가는 단기 감정이, 장기로는 비즈니스가 결정. 매출·이익률·수주잔고·신규 고객을 보라는 글.",
+  "access": "free",
+  "sub": "투자 철학·심리",
+  "source": "정리",
+  "id": "2052531876754268196",
+  "partial": false
+ },
+ {
+  "title": "세일즈포스, ‘에이전트포스’ 간판 일부 내린다 ㅣ260912",
+  "date": "2026-09-12",
+  "category": "us",
+  "tickers": [
+   "ORCL",
+   "CRM"
+  ],
+  "url": "https://x.com/babybluecream/status/2098711596742881633",
+  "summary": "드림포스를 앞두고 일부 주력 제품 이름에서 에이전트포스를 떼기로 한 결정 정리.",
+  "access": "free",
+  "sub": "섹터·테마",
+  "source": "정리",
+  "id": "2098711596742881633",
+  "partial": false
+ },
+ {
+  "title": "슈퍼위크, 소음과 신호 사이 ㅣ260706",
+  "date": "2026-07-06",
+  "category": "macro",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2073917477982228718",
+  "summary": "국내 증시 방향을 가를 이벤트가 몰린 한 주. 코스피 8000선 회복과 삼성전자 잠정실적 일정.",
+  "access": "free",
+  "sub": "국내증시·한국 반도체",
+  "source": "정리",
+  "id": "2073917477982228718",
+  "partial": false
+ },
+ {
+  "title": "$TQQQ 세 계좌 26년 성과 비교 ㅣ261012",
+  "date": "2026-10-12",
+  "category": "principle",
+  "tickers": [
+   "TQQQ"
+  ],
+  "url": "https://x.com/babybluecream/status/2109421368525857232",
+  "summary": "나스닥100 하루 등락의 3배를 따라가는 레버리지 ETF 구조와 세 계좌 성과 비교.",
+  "access": "free",
+  "sub": "리스크·사이징·레버리지",
+  "source": "정리",
+  "id": "2109421368525857232",
+  "partial": false
+ },
+ {
+  "title": "테슬라 AI 비전과 주가 전환점 ㅣ261008",
+  "date": "2026-10-08",
+  "category": "us",
+  "tickers": [
+   "TSLA"
+  ],
+  "url": "https://x.com/babybluecream/status/2107950992713302480",
+  "summary": "시장이 지불하는 근거는 자동차가 아니라 현실 세계 AI. 방향은 맞지만 일정이 밀려 있다는 점이 핵심.",
+  "access": "free",
+  "sub": "섹터·테마",
+  "source": "정리",
+  "id": "2107950992713302480",
+  "partial": false
+ },
+ {
+  "title": "엔비디아 멀티플이 M7보다 낮아진 이유 ㅣ261007",
+  "date": "2026-10-07",
+  "category": "us",
+  "tickers": [
+   "NVDA"
+  ],
+  "url": "https://x.com/babybluecream/status/2107723225656607070",
+  "summary": "선행 PER 20배 아래로 M7 평균보다 낮아짐. 원인은 주가 약세가 아니라 이익 급증.",
+  "access": "free",
+  "sub": "섹터·테마",
+  "source": "정리",
+  "id": "2107723225656607070",
+  "partial": false
+ },
+ {
+  "title": "엔비디아 자사주 매입 확대 ㅣ261007",
+  "date": "2026-10-07",
+  "category": "us",
+  "tickers": [
+   "NVDA"
+  ],
+  "url": "https://x.com/babybluecream/status/2107723805418557482",
+  "summary": "분기 자사주 매입이 두 분기 연속 약 200억달러로 사상 최대 수준.",
+  "access": "free",
+  "sub": "섹터·테마",
+  "source": "정리",
+  "id": "2107723805418557482",
+  "partial": false
+ },
+ {
+  "title": "깅코 바이오웍스 신고가 직후 급락 ㅣ261007",
+  "date": "2026-10-07",
+  "category": "us",
+  "tickers": [
+   "DNA",
+   "TWST",
+   "TXG"
+  ],
+  "url": "https://x.com/babybluecream/status/2107735367554347170",
+  "summary": "52주 신고가 직후 하루 15.6% 하락. 바이오 AI 테마 전체에서 동시 매도.",
+  "access": "free",
+  "sub": "섹터·테마",
+  "source": "정리",
+  "id": "2107735367554347170",
+  "partial": false
+ },
+ {
+  "title": "구글과 콘스텔레이션 원전 전력 계약, 발전주 동반 급등 ㅣ261006",
+  "date": "2026-10-07",
+  "category": "us",
+  "tickers": [
+   "GOOGL",
+   "CEG"
+  ],
+  "url": "https://x.com/babybluecream/status/2107604957151326279",
+  "summary": "두 건의 전력 계약, 합계 약 3,590메가와트.",
+  "access": "free",
+  "sub": "섹터·테마",
+  "source": "정리",
+  "id": "2107604957151326279",
+  "partial": false
+ },
+ {
+  "title": "골드만삭스, 테슬라 주가는 AI 사업 전망이 좌우 ㅣ261007",
+  "date": "2026-10-07",
+  "category": "us",
+  "tickers": [
+   "TSLA"
+  ],
+  "url": "https://x.com/babybluecream/status/2107599372947161092",
+  "summary": "",
+  "access": "free",
+  "sub": "실적·IB 전망",
+  "source": "정리",
+  "id": "2107599372947161092",
+  "partial": false,
+  "label": "증권사 리포트 정리"
+ },
+ {
+  "title": "오픈AI와 메타의 AI 수익화 경로 ㅣ261008",
+  "date": "2026-10-08",
+  "category": "us",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2108121091097166011",
+  "summary": "오픈AI ARR이 2026년 9월 말 약 700억 달러에 근접. 증가를 이끈 건 기업 매출.",
+  "access": "free",
+  "sub": "섹터·테마",
+  "source": "정리",
+  "id": "2108121091097166011",
+  "partial": false
+ },
+ {
+  "title": "소비자 AI의 수익 구조와 한계 ㅣ261008",
+  "date": "2026-10-08",
+  "category": "us",
+  "tickers": [
+   "META"
+  ],
+  "url": "https://x.com/babybluecream/status/2108125576963973555",
+  "summary": "소비자 AI 수요는 확인됐지만 유료 이용자는 아직 적고, 더 큰 문제는 비용.",
+  "access": "free",
+  "sub": "섹터·테마",
+  "source": "정리",
+  "id": "2108125576963973555",
+  "partial": false
+ },
+ {
+  "title": "반도체 고점론 ㅣ261010",
+  "date": "2026-10-10",
+  "category": "us",
+  "tickers": [
+   "MU"
+  ],
+  "url": "https://x.com/babybluecream/status/2108907077779550567",
+  "summary": "삼성전자 3분기 잠정실적 역대 최대. 마이크론 가이던스의 매출총이익률 하락을 근거로 한 고점론 정리.",
+  "access": "free",
+  "sub": "섹터·테마",
+  "source": "정리",
+  "id": "2108907077779550567",
+  "partial": false
+ },
+ {
+  "title": "유가 105달러 돌파와 AI 실적 호조 ㅣ261009",
+  "date": "2026-10-09",
+  "category": "macro",
+  "tickers": [
+   "TSM",
+   "APLD",
+   "PEP"
+  ],
+  "url": "https://x.com/babybluecream/status/2108281413804134424",
+  "summary": "유가·금리 상승으로 선물 하락, 반면 TSMC 9월 매출 +54.6% 등 AI 실적은 호조.",
+  "access": "free",
+  "sub": "미국 시황",
+  "source": "정리",
+  "id": "2108281413804134424",
+  "partial": false
+ },
+ {
+  "title": "나이트콜 ㅣ주요 뉴스 ㅣ261007",
+  "date": "2026-10-08",
+  "category": "macro",
+  "tickers": [
+   "SPCX",
+   "NVDA",
+   "APO",
+   "TSM",
+   "AMZN"
+  ],
+  "url": "https://x.com/babybluecream/status/2107952943723118616",
+  "summary": "스페이스X의 엔비디아 칩 구매용 400억달러 조달 추진 등 주요 뉴스 정리.",
+  "access": "free",
+  "sub": "미국 시황",
+  "source": "정리",
+  "id": "2107952943723118616",
+  "partial": false
+ },
+ {
+  "title": "모닝콜 ㅣ미국 증시 사상 최고치 마감 ㅣ261006",
+  "date": "2026-10-07",
+  "category": "macro",
+  "tickers": [
+   "SPX",
+   "COMP",
+   "CEG",
+   "GOOGL"
+  ],
+  "url": "https://x.com/babybluecream/status/2107594830507598012",
+  "summary": "금리 하락과 원전 계약이 상승을 주도한 장 마감 정리.",
+  "access": "free",
+  "sub": "미국 시황",
+  "source": "정리",
+  "id": "2107594830507598012",
+  "partial": false
+ },
+ {
+  "title": "구글 AI 지금 뭐하누 ㅣ260930",
+  "date": "2026-09-30",
+  "category": "us",
+  "tickers": [
+   "GOOGL"
+  ],
+  "url": "https://x.com/babybluecream/status/2105253475525578929",
+  "summary": "구글이 검색·제미니앱·클라우드에 나눠 배포 중인 AI 에이전트 실행 기능 정리.",
+  "access": "free",
+  "sub": "섹터·테마",
+  "source": "정리",
+  "id": "2105253475525578929",
+  "partial": false
+ },
+ {
+  "title": "제미니4 아르곤 제한공개 ㅣ261001",
+  "date": "2026-10-01",
+  "category": "us",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2105421326311956803",
+  "summary": "여러 단계를 이어서 끝내는 모델. 현재는 방어 담당 기관용 페어윈드 테스터만 사용.",
+  "access": "free",
+  "sub": "섹터·테마",
+  "source": "정리",
+  "id": "2105421326311956803",
+  "partial": false
+ },
+ {
+  "title": "AMD 첫 600달러 돌파, AI 에이전트발 CPU 재평가 ㅣ260922",
+  "date": "2026-09-22",
+  "category": "us",
+  "tickers": [
+   "AMD",
+   "META"
+  ],
+  "url": "https://x.com/babybluecream/status/2102143283095114222",
+  "summary": "종가 615.52달러로 사상 첫 600달러 돌파. 메타 AI 에이전트 뮤즈 출시가 계기.",
+  "access": "free",
+  "sub": "섹터·테마",
+  "source": "정리",
+  "id": "2102143283095114222",
+  "partial": false
+ },
+ {
+  "title": "OpenAI 연방기관 요금제 전환 ㅣ260910",
+  "date": "2026-09-10",
+  "category": "us",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2098051355906920664",
+  "summary": "기관당 연 1달러 요금제를 끝내고 정가 50% 할인으로 전환.",
+  "access": "free",
+  "sub": "섹터·테마",
+  "source": "정리",
+  "id": "2098051355906920664",
+  "partial": false
+ },
+ {
+  "title": "아이폰 20 프로 루머 ㅣ260905",
+  "date": "2026-09-05",
+  "category": "us",
+  "tickers": [
+   "AAPL"
+  ],
+  "url": "https://x.com/babybluecream/status/2096003684392173873",
+  "summary": "2027년 20주년 리디자인 모델 루머와 이름 문제 정리.",
+  "access": "free",
+  "sub": "섹터·테마",
+  "source": "정리",
+  "id": "2096003684392173873",
+  "partial": false
+ },
+ {
+  "title": "테슬라 유럽 등록·FSD·사이버캡 ㅣ260903",
+  "date": "2026-09-03",
+  "category": "us",
+  "tickers": [
+   "TSLA"
+  ],
+  "url": "https://x.com/babybluecream/status/2095283925962863090",
+  "summary": "8월 유럽 등록 대수의 지역별 불균형, FSD 안전 대시보드 공개.",
+  "access": "free",
+  "sub": "섹터·테마",
+  "source": "정리",
+  "id": "2095283925962863090",
+  "partial": false
+ },
+ {
+  "title": "테슬라 8월 유럽 신차 대수, FSD 승인전 사이버캡 출격 ㅣ260902",
+  "date": "2026-09-02",
+  "category": "us",
+  "tickers": [
+   "TSLA"
+  ],
+  "url": "https://x.com/babybluecream/status/2095118842259480578",
+  "summary": "프랑스 +279%, 덴마크 +104%, 노르웨이·스페인 -79% 등 나라별로 극명하게 갈린 한 달.",
+  "access": "free",
+  "sub": "섹터·테마",
+  "source": "정리",
+  "id": "2095118842259480578",
+  "partial": false
+ },
+ {
+  "title": "소니가 콘솔을 비싸게 팔고도 이익을 지키는 이유 ㅣ260830",
+  "date": "2026-08-30",
+  "category": "us",
+  "tickers": [
+   "SONY"
+  ],
+  "url": "https://x.com/babybluecream/status/2093919690879836235",
+  "summary": "PS5 권장소비자가 재인상과 사업부별 이익률 정리.",
+  "access": "free",
+  "sub": "섹터·테마",
+  "source": "정리",
+  "id": "2093919690879836235",
+  "partial": false
+ },
+ {
+  "title": "FSD 값, 경쟁이 세지면 오히려 떨어질까? ㅣ260825",
+  "date": "2026-08-25",
+  "category": "us",
+  "tickers": [
+   "TSLA"
+  ],
+  "url": "https://x.com/babybluecream/status/2092036452788076723",
+  "summary": "한계비용 0의 소프트웨어지만 학습 인프라에 먼저 큰돈을 붓는 구조.",
+  "access": "free",
+  "sub": "섹터·테마",
+  "source": "정리",
+  "id": "2092036452788076723",
+  "partial": false
+ },
+ {
+  "title": "FSD 고정비 대 가격 ㅣ260824",
+  "date": "2026-08-24",
+  "category": "us",
+  "tickers": [
+   "TSLA"
+  ],
+  "url": "https://x.com/babybluecream/status/2091830655357505702",
+  "summary": "텍사스 학습 컴퓨트 115→260메가와트, 연말 목표 400메가와트. 감가상각 고정비 정리.",
+  "access": "free",
+  "sub": "섹터·테마",
+  "source": "정리",
+  "id": "2091830655357505702",
+  "partial": false
+ },
+ {
+  "title": "오픈AI, 앤트로픽에 밀린 뒤 재기 시도 ㅣ260801",
+  "date": "2026-08-01",
+  "category": "us",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2083440590864429391",
+  "summary": "챗GPT 성장 둔화와 앤트로픽 부상, 참모진 재조정과 기업 고객 경쟁.",
+  "access": "free",
+  "sub": "섹터·테마",
+  "source": "정리",
+  "id": "2083440590864429391",
+  "partial": false
+ },
+ {
+  "title": "메타·앤트로픽 컴퓨팅 임대 협상 ㅣ260716",
+  "date": "2026-07-18",
+  "category": "us",
+  "tickers": [
+   "META"
+  ],
+  "url": "https://x.com/babybluecream/status/2078271611312971999",
+  "summary": "NYT 보도: 2년간 최대 100억 달러 규모로 AI 데이터센터 컴퓨팅을 빌려주는 협상.",
+  "access": "free",
+  "sub": "섹터·테마",
+  "source": "정리",
+  "id": "2078271611312971999",
+  "partial": false
+ },
+ {
+  "title": "모카, 테슬라 FSD 라이트 한국 실주행 후기 정리 ㅣ260716",
+  "date": "2026-07-17",
+  "category": "us",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2077932603102154855",
+  "summary": "5년 된 모델 Y로 밤·폭우 상황에서 FSD 라이트를 실주행 테스트한 내용.",
+  "access": "free",
+  "sub": "섹터·테마",
+  "source": "정리",
+  "id": "2077932603102154855",
+  "partial": false
+ },
+ {
+  "title": "$AMPX Deep Dive ㅣ260313 (구독 맛보기)",
+  "date": "2026-03-13",
+  "category": "us",
+  "sub": "Deep Dive",
+  "tickers": [
+   "AMPX"
+  ],
+  "url": "https://x.com/babybluecream/status/2032388568492970077",
+  "summary": "$AMPX ㅣ Deep Dive 260313 · Amprius Technologies · Amprius Technologies는 드론, 항공, 방위, 전기차 등에 쓰이는 초고에너지 밀도 배터리를 만드는 기업임.…",
+  "source": "본인",
+  "access": "sample",
+  "id": "2032388568492970077",
+  "partial": false
+ },
+ {
+  "title": "$ADI Deep Dive (구독 맛보기)",
+  "date": "2026-01-16",
+  "category": "us",
+  "sub": "Deep Dive",
+  "tickers": [
+   "ADI",
+   "TI"
+  ],
+  "url": "https://x.com/babybluecream/status/2011956170756640820",
+  "summary": "$ADI l Deep Dive 250116 · Analog Devices(ADI)는 아날로그 반도체의 절대 강자로, 공장 자동화부터 EV 배터리, 5G 기지국까지 디지털 세상의 '보이지 않는 심장' 역할을 하는…",
+  "source": "본인",
+  "access": "sample",
+  "id": "2011956170756640820",
+  "partial": false
+ },
+ {
+  "title": "$KGC Deep Dive ㅣ260128 (구독 맛보기)",
+  "date": "2026-01-28",
+  "category": "us",
+  "sub": "Deep Dive",
+  "tickers": [
+   "KGC"
+  ],
+  "url": "https://x.com/babybluecream/status/2016171658487464312",
+  "summary": "$KGC ㅣ Deep Dive 260128 · kinross gold corporation은 캐나다 토론토에 본사를 둔 세계적인 금 채굴 회사로, 금을 땅속 깊은 곳에서 캐내 정제해서 시장에 판매하는 사업을 주로…",
+  "source": "본인",
+  "access": "sample",
+  "id": "2016171658487464312",
+  "partial": false
+ },
+ {
+  "title": "$LASR ㅣ260803 (구독 컨텐츠 일부)",
+  "date": "2026-08-03",
+  "category": "us",
+  "sub": "Deep Dive",
+  "tickers": [
+   "LASR"
+  ],
+  "url": "https://x.com/babybluecream/status/2084292095502876870",
+  "summary": "$LASR 은 엔라이트(nLIGHT)로, 항공우주·방산, 산업, 미세가공용 반도체·파이버 레이저를 설계·제조하는 나스닥 상장사임. · 본사는 미국 워싱턴주 카마스, 2000년 설립(옛 nLight Photonic…",
+  "source": "본인",
+  "access": "sample",
+  "id": "2084292095502876870",
+  "partial": false
+ },
+ {
+  "title": "고성장 모멘텀 스크리너 ㅣOscar Mikeㅣ260509",
+  "date": "2026-05-09",
+  "category": "us",
+  "sub": "스크리닝 결과",
+  "tickers": [
+   "AAON",
+   "AMD",
+   "AMN",
+   "ASYS",
+   "AXTI",
+   "BDSX",
+   "BLDP",
+   "ELA"
+  ],
+  "url": "https://x.com/babybluecream/status/2053104743120314420",
+  "summary": "고성장 모멘텀 스크리너 l Oscar Mike 260509 · *Oscar Mike는 \"On the Move\" (이동 중) 또는 \"On Mission\" (작전 수행 중) 뜻 입니다. · 구독 시 주기적으로 스크리…",
+  "source": "본인",
+  "access": "sample",
+  "id": "2053104743120314420",
+  "partial": false
+ },
+ {
+  "title": "로보틱스 생태계 티커 맵",
+  "date": "2025-10-14",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "AMPX",
+   "AMZN",
+   "AVAV",
+   "DPRO",
+   "ENVX",
+   "FCX",
+   "HON",
+   "LMT"
+  ],
+  "url": "https://x.com/babybluecream/status/1977838018313728491",
+  "summary": "주요 금속 부품: $UUUU $NB $MP $FCX · 배터리 관련 기업: $QS $AMPX $ENVX · 휴머노이드 분야: $TSLA $HON $TER · 물류 응용: $AMZN $SYM $SERV · 방위산업…",
+  "source": "정리",
+  "access": "free",
+  "id": "1977838018313728491",
+  "partial": false
+ },
+ {
+  "title": "미군 1조 달러 지출, 주목할 분야와 티커",
+  "date": "2025-10-01",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "ACHR",
+   "AVAV",
+   "BA",
+   "BAH",
+   "CACI",
+   "DPRO",
+   "GD",
+   "HII"
+  ],
+  "url": "https://x.com/babybluecream/status/1973151295403074040",
+  "summary": "다음 분야를 주목할 것 · 드론 | $DPRO, $TXT, $ZENA, $JOBY, $ACHR, $RCAT, $OUST, $KULR, $AVAV, $KTOS · 사이버 & AI | $PLTR, $CACI, $BA…",
+  "source": "정리",
+  "access": "free",
+  "id": "1973151295403074040",
+  "partial": false
+ },
+ {
+  "title": "드론 주식 리스트",
+  "date": "2024-12-31",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "ACHR",
+   "AMZN",
+   "AVAV",
+   "BA",
+   "DPRO",
+   "DRSHF",
+   "EADSY",
+   "EH"
+  ],
+  "url": "https://x.com/babybluecream/status/1873845059478839488",
+  "summary": "Military Drones · $RCAT Red Cat · $AVAV AeroVironment · $ESLT Elbit Systems · $DRSHF DroneShield · $KTOS Kratos · Comm…",
+  "source": "정리",
+  "access": "free",
+  "id": "1873845059478839488",
+  "partial": false
+ },
+ {
+  "title": "매출총이익률 높은 12종목",
+  "date": "2025-09-30",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "AVGO",
+   "BKNG",
+   "FICO",
+   "GOOGL",
+   "LLY",
+   "META",
+   "MSFT",
+   "NVDA"
+  ],
+  "url": "https://x.com/babybluecream/status/1972854947822838157",
+  "summary": "타이완 반도체 $TSM 59% · 알파벳 $GOOGL 60% · 마이크로소프트 $MSFT 68% · S&P 글로벌 $SPGI 70% · 엔비디아 $NVDA 71% · 브로드컴 $AVGO 77% · 메타 플랫폼스…",
+  "source": "정리",
+  "access": "free",
+  "id": "1972854947822838157",
+  "partial": false
+ },
+ {
+  "title": "AI 메모리 슈퍼사이클 ㅣ260414",
+  "date": "2026-04-14",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "AMAT",
+   "LRCX",
+   "MU",
+   "SIMO",
+   "SNDK",
+   "STX",
+   "WDC"
+  ],
+  "url": "https://x.com/babybluecream/status/2043849681848152504",
+  "summary": "AI가 만든 메모리 슈퍼사이클. · 단순한 반도체 업황 회복이 아니라 구조적 수요 변화임. · AI 서버 한 대에 들어가는 메모리 용량이 근본적으로 달라졌음. · 일반 서버와 달리 AI 학습·추론 서버는 GPU에…",
+  "source": "정리",
+  "access": "free",
+  "id": "2043849681848152504",
+  "partial": false
+ },
+ {
+  "title": "AI 투자 다음 10년 프레임워크 ㅣ260324",
+  "date": "2026-03-24",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2036429496866210222",
+  "summary": "\"AI Is Eating the World\"라는 표현은 Marc Andreessen의 2011년 \"Software is Eating the World\"를 연상시키는 제목으로, AI가 소프트웨어처럼 모든 산업을 재…",
+  "source": "정리",
+  "access": "free",
+  "id": "2036429496866210222",
+  "partial": false
+ },
+ {
+  "title": "모건스탠리 2026 베스트 픽과 전략",
+  "date": "2025-12-29",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "AKAM",
+   "ALAB",
+   "AMZN",
+   "APPN",
+   "DDOG",
+   "FROG",
+   "MDB",
+   "NDAQ"
+  ],
+  "url": "https://x.com/babybluecream/status/2005422522297368814",
+  "summary": "",
+  "source": "정리",
+  "access": "free",
+  "id": "2005422522297368814",
+  "partial": false,
+  "label": "증권사 리포트 정리"
+ },
+ {
+  "title": "켈리공식, 헤지펀드 매니저와 블랙잭 고수가 쓰는 공식",
+  "date": "2026-01-13",
+  "category": "principle",
+  "sub": "리스크·사이징·레버리지",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2010750915507319035",
+  "summary": "\"돈 잃을 걱정 없이 자산 제일 빨리 커지게 하는 수학 비법\" · 100만원 가지고 동전 던지기 게임한다고 생각해봄. 앞면 나오면 100만원이 150만원 되고 뒷면 나오면 80만원 돼. 매번 얼마 걸어야 내 돈…",
+  "source": "정리",
+  "access": "free",
+  "id": "2010750915507319035",
+  "partial": false
+ },
+ {
+  "title": "포지션 사이징이 계좌를 지킨다 ㅣ260824",
+  "date": "2026-08-24",
+  "category": "principle",
+  "sub": "리스크·사이징·레버리지",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2091661219405169057",
+  "summary": "포지션 사이징이란 한 종목에 내 돈의 얼마를 넣느냐 · 즉 ‘한 판에 거는 금액의 크기’를 정하는 일임. · 종목을 잘 고르는 것만큼, 어쩌면 그보다 이 크기 조절이 계좌 생사를 가름. · 같은 매매를 해도 한…",
+  "source": "정리",
+  "access": "free",
+  "id": "2091661219405169057",
+  "partial": false
+ },
+ {
+  "title": "레버리지, 잃는 조건과 이기는 조건 ㅣ260810",
+  "date": "2026-08-10",
+  "category": "principle",
+  "sub": "리스크·사이징·레버리지",
+  "tickers": [
+   "IONQ"
+  ],
+  "url": "https://x.com/babybluecream/status/2086739434922447105",
+  "summary": "질문의 핵심은 “레버리지 수익률은 왜 단순 곱셈이 아니냐”임. · 답부터 말하면 투자 수익은 더해지는 게 아니라 앞선 결과 위에 곱해지며 굴러가기 때문임. · 그래서 눈에 보이는 평균은 산술평균이어도, 계좌에 찍…",
+  "source": "정리",
+  "access": "free",
+  "id": "2086739434922447105",
+  "partial": false
+ },
+ {
+  "title": "라오어 레버리지 투자 원칙 정리 ㅣ260925",
+  "date": "2026-09-25",
+  "category": "principle",
+  "sub": "리스크·사이징·레버리지",
+  "tickers": [
+   "SOXL",
+   "TQQQ"
+  ],
+  "url": "https://x.com/babybluecream/status/2103469461714112953",
+  "summary": "라오어의 책 무한매수법이 출간 5년 만에 다시 경영 분야 베스트셀러 10위권에 올라 한때 4~5위까지 기록함. 본인도 정확한 이유는 모르지만 입소문이 다시 퍼지는 것으로 보고 있으며, 유튜브에도 실전 후기가 다수…",
+  "source": "정리",
+  "access": "free",
+  "id": "2103469461714112953",
+  "partial": false
+ },
+ {
+  "title": "주식을 파는 타이밍 & 투자 자금 마련하는 법",
+  "date": "2025-11-16",
+  "category": "principle",
+  "sub": "투자 철학·심리",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1989849762707935668",
+  "summary": "미키피디아 클립 정리 · 투자 처음 시작할 때는 적은 금액으로 꾸준히 하는 게 중요함. 예를 들어 매년 1천만 원씩 투자하면 약 6년 만에 1억, 16년 만에 5억 이상 자산 증식 가능. · 투자 초기엔 수익이…",
+  "source": "정리",
+  "access": "free",
+  "id": "1989849762707935668",
+  "partial": false
+ },
+ {
+  "title": "병목 지점과 1위 기업 투자 전략 ㅣ260329",
+  "date": "2026-03-29",
+  "category": "principle",
+  "sub": "투자 철학·심리",
+  "tickers": [
+   "AAOI",
+   "ARM",
+   "AVGO",
+   "LITE",
+   "MRVL",
+   "TSEM"
+  ],
+  "url": "https://x.com/babybluecream/status/2038190092758503607",
+  "summary": "AI 인프라 사이클에서 가장 강력한 투자 원칙 중 하나는 시대의 병목 지점을 먼저 파악하고 그 자리를 점유한 1위 기업에 집중하는 것임. 역사적으로 강한 해자(moat)를 가진 기업군은 S&P 500 대비 5년…",
+  "source": "정리",
+  "access": "free",
+  "id": "2038190092758503607",
+  "partial": false
+ },
+ {
+  "title": "주가 = EPS × 멀티플 ㅣ260630",
+  "date": "2026-06-30",
+  "category": "principle",
+  "sub": "투자 철학·심리",
+  "tickers": [
+   "NVDA"
+  ],
+  "url": "https://x.com/babybluecream/status/2071911226259714473",
+  "summary": "주가 = EPS와 멀티플의 곱ㅣ260630 · 주가는 복잡해 보여도 뼈대만 보면 단 하나의 식, ‘EPS × 멀티플’로 환원됨. · 여기서 출발하면 이런 질문이 생김 · 똑같은 이익을 내는 두 회사가 왜 주가는…",
+  "source": "정리",
+  "access": "free",
+  "id": "2071911226259714473",
+  "partial": false
+ },
+ {
+  "title": "초보 투자자를 위한 몇 가지 팁",
+  "date": "2024-12-31",
+  "category": "principle",
+  "sub": "투자 철학·심리",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1873991821816410324",
+  "summary": "4단계 하락세에서는 절대로 주식을 매수하지 마세요. · 200일 이동평균선보다 낮은 주식은 절대 매수하지 마세요. · 뒤처진 기업이 아닌 선두 기업에 집중하세요. · 만약 그것이 너무 좋아서 진짜 같지 않다면…",
+  "source": "정리",
+  "access": "free",
+  "id": "1873991821816410324",
+  "partial": false
+ },
+ {
+  "title": "수렵채집 본능과 주식투자 ㅣ260323",
+  "date": "2026-03-23",
+  "category": "principle",
+  "sub": "투자 철학·심리",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2035959867694096674",
+  "summary": "인간의 뇌는 지금도 수렵채집인의 뇌임. 수십만 년간 먹이를 추적하고 자원을 탐색하는 과정에서 뇌는 '불확실한 보상'에 반응하도록 설계됐음. 주식시장은 이 설계에 완벽하게 들어맞는 환경임. 차트가 오를지 내릴지 모…",
+  "source": "정리",
+  "access": "free",
+  "id": "2035959867694096674",
+  "partial": false
+ },
+ {
+  "title": "주식수익의 구조(드러켄밀러) ㅣ260425",
+  "date": "2026-04-25",
+  "category": "principle",
+  "sub": "대가 전략·규칙",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2048017778389709118",
+  "summary": "대부분의 투자자들은 자신이 개별 종목을 잘 골라서 돈을 번다고 믿음. · 근데 드루켄밀러는 그 믿음 자체를 정면으로 깸. · 주가 수익의 절반은 시장 전체의 흐름, 즉 베타에서 온다는 것. · 종목을 아무리 잘…",
+  "source": "정리",
+  "access": "free",
+  "id": "2048017778389709118",
+  "partial": false
+ },
+ {
+  "title": "피터 린치의 20가지 교훈",
+  "date": "2025-05-11",
+  "category": "principle",
+  "sub": "대가 전략·규칙",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1921517976043532683",
+  "summary": "알고 투자하라: 투자하는 기업을 철저히 연구하라. · 장기적인 관점을 가져라: 투자 시 장기적인 관점을 유지하라. · 시장 예측을 무시하라: 시장 예측이 아닌 기업 성과에 집중하라. · 소형 기업을 주목하라: 이…",
+  "source": "정리",
+  "access": "free",
+  "id": "1921517976043532683",
+  "partial": false
+ },
+ {
+  "title": "빌 애크먼 핵심 투자 원칙",
+  "date": "2025-06-27",
+  "category": "principle",
+  "sub": "대가 전략·규칙",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1938591860441940093",
+  "summary": "Pershing Square의 핵심 투자 원칙 · 핵심 비즈니스 특성 · 간단하고 예측 가능하며, 자유현금흐름을 창출하는 비즈니스 · 진입 장벽이 강력함 · 통제할 수 없는 외부 요인에 대한 노출이 제한됨 · 일…",
+  "source": "정리",
+  "access": "free",
+  "id": "1938591860441940093",
+  "partial": false
+ },
+ {
+  "title": "뱅브로가 강조한 주식 매매 전략",
+  "date": "2025-07-18",
+  "category": "principle",
+  "sub": "대가 전략·규칙",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1946191988765884772",
+  "summary": "하락장 바닥 포착, 분할매수, 확실한 보조지표 활용, 시장 트렌드와 대응력이 핵심 · 하락장 바닥잡기 전략 · SMA180을 기준선으로 잡는다 · 대형주가 180일 이동평균선(SMA180)을 뚫고 내려가다가 다시…",
+  "source": "정리",
+  "access": "free",
+  "id": "1946191988765884772",
+  "partial": false
+ },
+ {
+  "title": "일본의 워런 버핏 후지모토 시게루 인터뷰 ㅣ260824",
+  "date": "2026-08-24",
+  "category": "principle",
+  "sub": "대가 전략·규칙",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2091703601861394940",
+  "summary": "인터뷰의 주인공은 71년 동안 일본 주식시장을 경험한 90세 현역 투자자 후지모토 시게루임. 1955년 19세의 나이로 처음 주식을 시작해 지금까지 손을 놓지 않은, ‘일본의 워런 버핏’으로 불리는 인물임. 반세…",
+  "source": "정리",
+  "access": "free",
+  "id": "2091703601861394940",
+  "partial": false
+ },
+ {
+  "title": "피터 틸 공개 포트폴리오, 72%가 에너지",
+  "date": "2026-08-24",
+  "category": "principle",
+  "sub": "유명 투자자 포트폴리오",
+  "tickers": [
+   "AEP",
+   "AMZN",
+   "CMS",
+   "DTE",
+   "FE",
+   "VIST",
+   "VST",
+   "XE"
+  ],
+  "url": "https://x.com/babybluecream/status/2091647938472935615",
+  "summary": "그리고 그는 포트폴리오의 72%를 AI의 가장 큰 병목 현상인 ‘에너지’ 분야에 집중 투자하고 있습니다. · $AMZN 아마존 — 28.2% · $VIST 비스타 에너지 — 18.1% · $VST 비스트라 — 1…",
+  "source": "정리",
+  "access": "free",
+  "id": "2091647938472935615",
+  "partial": false
+ },
+ {
+  "title": "드러켄밀러의 Q4 2025 매크로 베팅 ㅣ260318",
+  "date": "2026-03-18",
+  "category": "principle",
+  "sub": "유명 투자자 포트폴리오",
+  "tickers": [
+   "AA",
+   "AGX",
+   "ALM",
+   "BE",
+   "ENTG",
+   "LSCC",
+   "SCCO"
+  ],
+  "url": "https://x.com/babybluecream/status/2034134490843648375",
+  "summary": "스탠리 드러켄밀러가 운용하는 듀케인 패밀리 오피스(Duquesne Family Office)는 2025년 4분기 13F 공시를 통해 포트폴리오 대대적 재편을 단행했음. 총 운용 자산은 약 37억 달러 수준이었고…",
+  "source": "정리",
+  "access": "free",
+  "id": "2034134490843648375",
+  "partial": false
+ },
+ {
+  "title": "낸시 펠로시 포트폴리오",
+  "date": "2025-09-30",
+  "category": "principle",
+  "sub": "유명 투자자 포트폴리오",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1972972191609450681",
+  "summary": "낸시펠로시는 의원으로 재직하며 주식과 옵션거래로 큰 시세 차익을 남겨 논란이다. 가격 변동성이 큰 옵션거래를 통해 큰 시세 차익을 남겨 의원지위를 통해 접근가능한 내부정보를 이용해 돈을 번것이 아니냐는 의혹이 있…",
+  "source": "정리",
+  "access": "free",
+  "id": "1972972191609450681",
+  "partial": false
+ },
+ {
+  "title": "무료로 실적 잘 나올 기업 스크리닝 하는 법(Fnguide)",
+  "date": "2025-10-18",
+  "category": "method",
+  "sub": "무료 툴 입문",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1979357927283818550",
+  "summary": "구글에서 에프엔 가이드 Fnguide 어닝서프라이즈로 검색 · 구글이 직접 링크를 띄워줌 · 3분기 실적 어닝서프라이즈 기업 · 4개 바로뜸 · 매출 기준 삼성전자, LG에너지솔루션, 한진, LG전자",
+  "source": "본인",
+  "access": "free",
+  "id": "1979357927283818550",
+  "partial": false
+ },
+ {
+  "title": "FINVIZ 안 물리는 우량주 스크리너",
+  "date": "2025-10-25",
+  "category": "method",
+  "sub": "본인 Finviz 설정",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1981891056590520459",
+  "summary": "시총 Mega Cap · Industry Stock Only · 20 / 50 / 200 모두 상승 설정 · RSI 40 · 상승세 돈 잘 버는 친구들만 스크리닝임 · RSI 지금 저거 하면 하나도 안뜸 · 미국…",
+  "source": "본인",
+  "access": "free",
+  "id": "1981891056590520459",
+  "partial": false
+ },
+ {
+  "title": "지금도 앞으로도 잘 버는 기업 Finviz 스크리너",
+  "date": "2025-09-14",
+  "category": "method",
+  "sub": "본인 Finviz 설정",
+  "tickers": [
+   "AFRM",
+   "AGI",
+   "ALAB",
+   "AMD",
+   "ASM",
+   "AVPT",
+   "BROS",
+   "CCJ"
+  ],
+  "url": "https://x.com/babybluecream/status/1967040405163155662",
+  "summary": "설정값 · FCF30% 이상 · 기대 EPS 내년 + 5개년 25% 이상 · EPS QoQ + 매출 QoQ 25% 이상 · $AFRM $AGI $ALAB $AMD $ASM $AVPT $BROS $CCJ $CRDO…",
+  "source": "본인",
+  "access": "free",
+  "id": "1967040405163155662",
+  "partial": false
+ },
+ {
+  "title": "유동성·단기 모멘텀 종목 스크리닝",
+  "date": "2025-09-14",
+  "category": "method",
+  "sub": "본인 Finviz 설정",
+  "tickers": [
+   "AEI",
+   "ASST",
+   "BITF",
+   "CMCL",
+   "IVVD",
+   "PRE",
+   "SONN",
+   "SPHR"
+  ],
+  "url": "https://x.com/babybluecream/status/1967103106245619918",
+  "summary": "설정 기준과 의미 · EPS Growth TTM High (>25%) · 최근 12개월 EPS(주당순이익)가 전년 대비 25% 이상 성장한 기업만 필터링. · 이 설정은 실적이 눈에 띄게 늘어난 기업만 추려 성장…",
+  "source": "본인",
+  "access": "free",
+  "id": "1967103106245619918",
+  "partial": false
+ },
+ {
+  "title": "고성장 주식 Finviz 설정",
+  "date": "2025-11-14",
+  "category": "method",
+  "sub": "본인 Finviz 설정",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1989253153037115561",
+  "summary": "스크리닝은 투자에서 경쟁 우위를 만드는 시작점임. 수백 개 종목 중 제대로 된 리스트를 추리는 과정이 핵심. 설정 화면에서 거래소(Exchange)는 ‘Any’로 두되, Market Cap은 ‘최소 30억 달러’…",
+  "source": "본인",
+  "access": "free",
+  "id": "1989253153037115561",
+  "partial": false
+ },
+ {
+  "title": "강한 가격·패턴·실질 성장·테마 모멘텀 스크리너",
+  "date": "2025-11-28",
+  "category": "method",
+  "sub": "본인 Finviz 설정",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1994186385293758633",
+  "summary": "강한 가격, 탄탄한 패턴, 실질 성장, 테마 모멘텀 스크리너 · 첫 단계는 시가총액·가격 필터 넣는 것임. Mid 이상(예: 2B 달러↑)으로 두고, Price는 10달러 이상으로 설정해서 유동성 부족한 페니주…",
+  "source": "본인",
+  "access": "free",
+  "id": "1994186385293758633",
+  "partial": false
+ },
+ {
+  "title": "Finviz 추세 종목 스크리닝 설정",
+  "date": "2025-12-06",
+  "category": "method",
+  "sub": "본인 Finviz 설정",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1997174974336139604",
+  "summary": "기본 유동성 필터(Descriptive 탭) · Average Volume(Over 500K), Price(Over $5), Float(Under 100M 또는 Over 10M), Market Cap(Small…",
+  "source": "본인",
+  "access": "free",
+  "id": "1997174974336139604",
+  "partial": false
+ },
+ {
+  "title": "마크 미너비니 『Trade Like a Stock Market Wizard』 전략 정리",
+  "date": "2025-11-30",
+  "category": "method",
+  "sub": "대가 전략 스크리닝",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1994945103979508012",
+  "summary": "스톡 스크리닝은 52주 최고가의 25% 이내인 주식 중에서 시작함. · 주가가 30달러 미만인 종목은 배제함. · 200일 이동평균선(MA)은 최소 3개월 이상 상승 추세를 이어가야 함. · 50일 MA는 꼭 2…",
+  "source": "정리",
+  "access": "free",
+  "id": "1994945103979508012",
+  "partial": false
+ },
+ {
+  "title": "마크 미너비니 VCP 전략 셋업",
+  "date": "2025-12-01",
+  "category": "method",
+  "sub": "대가 전략 스크리닝",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1995464779486597465",
+  "summary": "VCP(Volatility Contraction Pattern)은 강한 상승 추세에서 조정 구간마다 변동성·조정 폭이 단계적으로 줄어들며 매물이 말라가는 패턴을 이용해, 다음 상방 돌파를 노리는 추세추종 브레이크…",
+  "source": "정리",
+  "access": "free",
+  "id": "1995464779486597465",
+  "partial": false
+ },
+ {
+  "title": "마크 미너비니 거래 규칙 ㅣ260202",
+  "date": "2026-02-02",
+  "category": "method",
+  "sub": "대가 전략 스크리닝",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2018162289560395841",
+  "summary": "항상 스탑로스를 사용임. 자본 보존이 최우선이라 시장 급변 때 손실을 딱 제한함. 미너비니 40년 경력에서 한 번도 안 까먹은 기본임. 진입 전에 스탑을 딱 정의함. 리스크 미리 계산해서 객관적으로 결정함. 기술…",
+  "source": "정리",
+  "access": "free",
+  "id": "2018162289560395841",
+  "partial": false
+ },
+ {
+  "title": "드러켄밀러 ROC 기반 FINVIZ 스크리너",
+  "date": "2025-11-29",
+  "category": "method",
+  "sub": "대가 전략 스크리닝",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1994769112925704294",
+  "summary": "#FINVIZ 스크리너 구현 가능 여부 · FINVIZ에서 기본 ROC(Rate of Change) 지표 지원으로 1차 모멘텀 스크린 가능하지만, Delta ROC나 2차 미분(가속도 변화)은 직접 계산 안 돼…",
+  "source": "정리",
+  "access": "free",
+  "id": "1994769112925704294",
+  "partial": false
+ },
+ {
+  "title": "추세추종 실전 스크리닝 ㅣ260317",
+  "date": "2026-03-17",
+  "category": "method",
+  "sub": "실전 루틴",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2033581426055262496",
+  "summary": "추세추종(Trend Following)의 핵심 전제는 \"오르는 것은 더 오르고, 내리는 것은 더 내린다\"는 모멘텀 효과임. 이 원리는 수십 년치 백테스트에서도 꾸준히 유효함이 확인됐고, 특히 신고가를 갱신 중인…",
+  "source": "정리",
+  "access": "free",
+  "id": "2033581426055262496",
+  "partial": false
+ },
+ {
+  "title": "찹찹님 Finviz 설정 설명 ㅣ260226",
+  "date": "2026-02-26",
+  "category": "method",
+  "sub": "실전 루틴",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2026915883604402596",
+  "summary": "Finviz는 미국 주식 시장 데이터를 한눈에 보여주는 무료 스크리너 사이트임. 주식 투자자들이 시총 크기나 공매도 비율 같은 조건을 입력하면 원하는 종목만 쏙쏙 걸러줌. 초보자도 마우스 클릭 몇 번으로 전문가처…",
+  "source": "정리",
+  "access": "free",
+  "id": "2026915883604402596",
+  "partial": false
+ },
+ {
+  "title": "연금계좌 투자 포트폴리오",
+  "date": "2026-01-03",
+  "category": "money",
+  "sub": "연금·절세·증여",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2007441442789306439",
+  "summary": "VOO/SPY = TIGER S&P500 · QQQ = KODEX 미국나스닥100 · SCHD = TIGER 미국배당다우존스 · SOXX = TIGER 미국필라델피아반도체 · MAGS = ACE 미국빅테크TOP7…",
+  "source": "본인",
+  "access": "free",
+  "id": "2007441442789306439",
+  "partial": false
+ },
+ {
+  "title": "우리 집 두 딸 증여 기반 장기 투자 계좌 구성",
+  "date": "2026-06-18",
+  "category": "money",
+  "sub": "연금·절세·증여",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2067502476732096788",
+  "summary": "각 아이마다 똑같은 구성으로 두 개의 계좌가 있어요. · 미국 직접 투자 계좌 · 2년 전에 증여 후 아무 추가 자금도 넣지 않았고 · 한 번 매수한 후 그냥 홀딩 중입니다. · 연금 저축 계좌 · 미국 직투 계…",
+  "source": "본인",
+  "access": "free",
+  "id": "2067502476732096788",
+  "partial": false
+ },
+ {
+  "title": "자녀 증여 미국 직투·연금저축 30년 복리 추정 ㅣ260618",
+  "date": "2026-06-18",
+  "category": "money",
+  "sub": "연금·절세·증여",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2067481831352742065",
+  "summary": "전제부터 정리함. · 앞서 인적공제 박탈 기준을 인지하고 다음의 가정시 · 2천만원 자녀 증여 후 1천만원은 $QLD 에 넣고 절대 안 팔고 30년 홀딩 · 나머지 1천만원은 연금저축펀드에서 $QQQ 와 $SPY…",
+  "source": "본인",
+  "access": "free",
+  "id": "2067481831352742065",
+  "partial": false
+ },
+ {
+  "title": "자녀 증여 시 인적공제 정리 ㅣ260618",
+  "date": "2026-06-18",
+  "category": "money",
+  "sub": "연금·절세·증여",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2067475193694724591",
+  "summary": "부양가족 기본공제 요건은 연간 소득금액 합계액 100만원 이하임. · 근로소득만 있으면 총급여 500만원 이하까지 가능함 · 양도소득은 소득금액에 포함됨. · 미국 직투 계좌에서 해외주식 매매차익이 100만원을…",
+  "source": "본인",
+  "access": "free",
+  "id": "2067475193694724591",
+  "partial": false
+ },
+ {
+  "title": "자녀 명의 계좌 증여 전략 ㅣ260709",
+  "date": "2026-07-09",
+  "category": "money",
+  "sub": "연금·절세·증여",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2075091389352988817",
+  "summary": "자녀 이름으로 자산을 만들 때 제일 먼저 할 일은 계좌의 역할을 나누는 거임. 계좌 하나에 안정성과 수익성을 동시에 담으려 하면 서로 부딪히기 때문에, 처음부터 두 계좌로 쪼개서 각자 다른 일을 시키는 게 맞음.…",
+  "source": "정리",
+  "access": "free",
+  "id": "2075091389352988817",
+  "partial": false
+ },
+ {
+  "title": "연말 250만원 미만 손절, 해야 하나? ㅣ251231",
+  "date": "2025-12-31",
+  "category": "money",
+  "sub": "연금·절세·증여",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2006367540365386098",
+  "summary": "연말 250만원 미만 손절이 절세에 도움이 되는 건 양도소득세 기본공제(연 250만원)가 손익 통산 후 적용되기 때문임. 해외주식 등에서 손실 종목 팔아 수익과 상계하면 공제 범위 내 세금 0원 만들 수 있음.…",
+  "source": "정리",
+  "access": "free",
+  "id": "2006367540365386098",
+  "partial": false
+ },
+ {
+  "title": "연말정산 절세 방법(연금저축·IRP·ISA)",
+  "date": "2025-11-19",
+  "category": "money",
+  "sub": "연금·절세·증여",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1990938981014687853",
+  "summary": "연말정산 시 절세를 극대화하려면 연금저축, IRP, ISA 등 세 가지 상품을 모두 활용하는 것이 좋음. 우선 연금저축에 600만 원, IRP에 300만 원을 납입하는 것을 기본 전략으로 삼아야 함. 이 두 계좌…",
+  "source": "정리",
+  "access": "free",
+  "id": "1990938981014687853",
+  "partial": false
+ },
+ {
+  "title": "절세 3종 계좌 기본 원칙",
+  "date": "2025-12-05",
+  "category": "money",
+  "sub": "연금·절세·증여",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1996841535779037650",
+  "summary": "연금저축·IRP·ISA는 “절세 3종 계좌”로, 기본 원칙은 ① 세액공제 되는 연금계좌(연금저축+IRP)를 먼저 채우고 ② 남는 여윳돈을 ISA에 넣어 운용 후 만기에 다시 연금계좌로 옮기며 한 번 더 절세를 받…",
+  "source": "정리",
+  "access": "free",
+  "id": "1996841535779037650",
+  "partial": false
+ },
+ {
+  "title": "12월 마지막 연말정산 기회",
+  "date": "2025-12-09",
+  "category": "money",
+  "sub": "연금·절세·증여",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1998384586653659549",
+  "summary": "12월에는 이미 쓴 지출을 되돌릴 수 없어서, 남은 보름 동안 “추가로 넣으면 바로 세액공제 늘어나는 항목” 위주로 체리피킹하는 게 효율적임. 핵심은 연금(연금저축·IRP), 월세, 신용카드/체크카드 사용 구조…",
+  "source": "정리",
+  "access": "free",
+  "id": "1998384586653659549",
+  "partial": false
+ },
+ {
+  "title": "2025 해외주식 양도소득세 절세 10가지",
+  "date": "2025-09-23",
+  "category": "money",
+  "sub": "연금·절세·증여",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1970345997394936138",
+  "summary": "해외주식 양도차익과 손실은 같은 해에 상계 가능함. · 연간 양도차익 250만 원 이하로 맞추면 세금 안 냄. · 배우자나 가족에게 증여 후 1년 이상 보유 후 매도해야 절세 효과 있음. · 초고배당 ETF 배당…",
+  "source": "정리",
+  "access": "free",
+  "id": "1970345997394936138",
+  "partial": false
+ },
+ {
+  "title": "연금저축·IRP·ISA 혜택 비교(이미지)",
+  "date": "2025-11-19",
+  "category": "money",
+  "sub": "연금·절세·증여",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1990927260954890437",
+  "summary": "연금저축·IRP·ISA 혜택을 한 장으로 비교한 이미지 글.",
+  "source": "본인",
+  "access": "free",
+  "id": "1990927260954890437",
+  "partial": false
+ },
+ {
+  "title": "ISA의 본질과 투자전략 ㅣ260804",
+  "date": "2026-08-04",
+  "category": "money",
+  "sub": "연금·절세·증여",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2084596114402218056",
+  "summary": "ISA(개인종합자산관리계좌)의 본질은 ‘절세를 위한 그릇’임. 하나의 계좌 안에 예적금, 국내주식, 펀드, ETF, 채권까지 함께 담아 굴리고, 거기서 나온 손익을 한데 묶어 세금을 매기는 구조임. · 일반 계좌…",
+  "source": "정리",
+  "access": "free",
+  "id": "2084596114402218056",
+  "partial": false
+ },
+ {
+  "title": "연금저축펀드 인출 전략 완전 정리 ㅣ260215",
+  "date": "2026-02-15",
+  "category": "money",
+  "sub": "연금·절세·증여",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2022949516216090699",
+  "summary": "연금저축펀드는 만 55세 이상이면서 5년 이상 가입 유지한 경우 연금 수령이 가능함. 이는 노후 생활자금 확보를 위한 최소 요건으로, 두 조건을 모두 충족해야만 정상적인 연금 형태로 인출할 수 있음. 만약 55세…",
+  "source": "정리",
+  "access": "free",
+  "id": "2022949516216090699",
+  "partial": false
+ },
+ {
+  "title": "연금저축펀드 인출 전략",
+  "date": "2025-11-26",
+  "category": "money",
+  "sub": "연금·절세·증여",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1993559314167218225",
+  "summary": "개인연금저축펀드는 5년 이상 유지하고 55세 이상이면 수령 가능임. · 연금 개시 시점과 수령 방식(확정기간형, 종신형, 체증형, 수시인출 등)은 본인이 선택함. · 연금은 매월, 매년, 혹은 필요시 원하는 만큼…",
+  "source": "정리",
+  "access": "free",
+  "id": "1993559314167218225",
+  "partial": false
+ },
+ {
+  "title": "가족에게 연금저축펀드 상속하는 방법",
+  "date": "2025-11-26",
+  "category": "money",
+  "sub": "연금·절세·증여",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1993561445406249283",
+  "summary": "부친 사망 시 연금저축펀드의 상속 방식 크게 두 가지임: 배우자가 승계해 연금처럼 분할 수령하거나, 해지 후 자녀·배우자가 일시금 상속 받는 방식임. 절세 전략은 배우자 승계 후 장기(확정/종신형)로 연금 분할…",
+  "source": "정리",
+  "access": "free",
+  "id": "1993561445406249283",
+  "partial": false
+ },
+ {
+  "title": "은퇴 후 노후 생활 최소 자금",
+  "date": "2025-11-22",
+  "category": "money",
+  "sub": "연금·절세·증여",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1992085555811663956",
+  "summary": "은퇴 후 노후 생활 최소 자금이 8억 원 이상 필요하다는 조사 결과가 있음. 2인 가구 기준 월 240만 원 생활비를 30년간 유지하는 데 드는 비용으로 산정됨. 30~40대(3040세대)는 적립 기간이 길고 투…",
+  "source": "정리",
+  "access": "free",
+  "id": "1992085555811663956",
+  "partial": false
+ },
+ {
+  "title": "개인연금과 퇴직연금",
+  "date": "2025-09-23",
+  "category": "money",
+  "sub": "연금·절세·증여",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1970314729852711305",
+  "summary": "2010년 이전에 만든 개인연금저축 계좌는 금융기관을 바꿔도 최초 가입 시점이 유지돼 기존 계좌로 계속 인정된다 개인연금은 55세가 되는 해부터 연차가 자동으로 쌓이며, 수령을 시작하지 않아도 연차는 올라간다.…",
+  "source": "정리",
+  "access": "free",
+  "id": "1970314729852711305",
+  "partial": false
+ },
+ {
+  "title": "미성년 자녀 연금저축, 증여 통로",
+  "date": "2025-08-24",
+  "category": "money",
+  "sub": "연금·절세·증여",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1959573895385940042",
+  "summary": "10년 최대 2000만원 증여 가능 · 월 16만원 정도씩 납입하면 과세이연으로 복리 효과 극대화 · 적립식 증여 미리 신고하면 월 18만원씩 납입할 수도 있어 · 취업 후 납입금 소급 세액공제 · 자녀의 미래를…",
+  "source": "정리",
+  "access": "free",
+  "id": "1959573895385940042",
+  "partial": false
+ },
+ {
+  "title": "일반계좌 국내상장 해외 ETF Q&A",
+  "date": "2025-09-22",
+  "category": "money",
+  "sub": "자산배분·ETF",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1970072299005964304",
+  "summary": "Q1: 왜 일반계좌에서 국내상장 해외 ETF에 투자할 이유가 없나요? · A1: · 국내에 상장된 해외 ETF에 투자할 때, 일반계좌에서는 매매차익과 배당금에 대해 15.4%의 배당소득세가 원천징수됩니다. · 동…",
+  "source": "정리",
+  "access": "free",
+  "id": "1970072299005964304",
+  "partial": false
+ },
+ {
+  "title": "순자산 17억 30대 직장인 자산배분 포트폴리오 ㅣ260125",
+  "date": "2026-01-25",
+  "category": "money",
+  "sub": "자산배분·ETF",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2015352544919486961",
+  "summary": "싱글 파이어 클립 정리 및 후기 ㅣ 260125 · 30대 직장인 투자자 백승호임. 『AI 시대, 재지는 쓰지만 엔비디아는 놓쳤습니다』 저자임. · 경제적 자유란 노동소득보다 자본소득이 커질 때 달성된다고 생각함…",
+  "source": "정리",
+  "access": "free",
+  "id": "2015352544919486961",
+  "partial": false
+ },
+ {
+  "title": "자산배분 왜 해야 함? ㅣ260827",
+  "date": "2026-08-27",
+  "category": "money",
+  "sub": "자산배분·ETF",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2092737622435385718",
+  "summary": "키움투자자산운용 김상민 본부장ㅣWepoll 방송 내용 · 키움투자자산운용 김상민 본부장이 자산배분을 왜 해야 하는지 설명함. · 개인이 안 할 걸 알면서도 강조하는 이유는, 알고 안 하는 것과 모르고 못 하는 것…",
+  "source": "정리",
+  "access": "free",
+  "id": "2092737622435385718",
+  "partial": false
+ },
+ {
+  "title": "\"빚부터 갚지 마세요\" 돈 못 모으는 습관 ㅣ261007",
+  "date": "2026-10-07",
+  "category": "money",
+  "sub": "파이어·배당·돈 습관",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2107608060084818173",
+  "summary": "대출이 있는 상태에서 여유자금이 생기면 대출의 성격부터 따져야 한다는 게 김현호 소장 설명임. 금액이 크고 만기가 긴 주택담보대출(집을 담보로 받은 대출)은 갚지 않고 그 돈을 투자하는 쪽이 유리하다고 봄. 무이…",
+  "source": "정리",
+  "access": "free",
+  "id": "2107608060084818173",
+  "partial": false
+ },
+ {
+  "title": "\"2억으로 파이어했어요\" 월 배당 200만원 40대 ㅣ260824",
+  "date": "2026-08-24",
+  "category": "money",
+  "sub": "파이어·배당·돈 습관",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2091669970740826274",
+  "summary": "인터뷰이는 대형마트에서 배달일을 14년간 하다 은퇴한 배당 투자자로, 유튜브 ‘또배당’ 채널을 운영함. 은퇴 3년차이며 배당금만으로 생활 중임. 순자산은 집 대출을 빼고 약 5억 6천만 원 수준임. 자가 아파트가…",
+  "source": "정리",
+  "access": "free",
+  "id": "2091669970740826274",
+  "partial": false
+ },
+ {
+  "title": "파이어를 위한 직장인 투자 원칙 ㅣ260701",
+  "date": "2026-07-01",
+  "category": "money",
+  "sub": "파이어·배당·돈 습관",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2072091366814105714",
+  "summary": "대기업에서 15~16년 일하다 희망퇴직으로 회사를 나와 농사 지으며 사는 사람의 이야기임. 강사도 전문가도 아니고, 그냥 실수도 숱하게 하고 깨지면서 자산을 불려온 한 직장인의 실전 기록임. 그래서 맞다 틀리다로…",
+  "source": "정리",
+  "access": "free",
+  "id": "2072091366814105714",
+  "partial": false
+ },
+ {
+  "title": "한 달 50만원 현금흐름의 가치",
+  "date": "2025-12-13",
+  "category": "money",
+  "sub": "파이어·배당·돈 습관",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1999766824473485598",
+  "summary": "한 달 50만 원 현금흐름은 안정 배당·대출 상환·부동산 임대 등 자산 가치로 환산하면 1억~1.5억 원 규모 자산, 혹은 3~5천만 원 원금 복리 성장에 해당하는 상당한 경제적 버팀목임. 배당주 안정 수익 기준…",
+  "source": "정리",
+  "access": "free",
+  "id": "1999766824473485598",
+  "partial": false
+ },
+ {
+  "title": "19살에 시작한 주식 80년, 할아버지의 돈 굴리는 법 ㅣ260713",
+  "date": "2026-07-13",
+  "category": "money",
+  "sub": "파이어·배당·돈 습관",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2076331214005563710",
+  "summary": "금리, 시간의 값 · 20대부터 전력질주로 돈을 쫓은 일본인 사토 씨가 등장함. 회사에서 아무리 위로 올라가도 인생은 한 번뿐이라는 생각으로 중기 목표를 세웠다고 함. 지금 그의 자산은 스스로도 \"많다고는 말할…",
+  "source": "정리",
+  "access": "free",
+  "id": "2076331214005563710",
+  "partial": false
+ },
+ {
+  "title": "돈의 의미를 묻게 될 만큼 부자가 되는 법(알렉스 호모지) ㅣ261003",
+  "date": "2026-10-03",
+  "category": "money",
+  "sub": "파이어·배당·돈 습관",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2106241489101840707",
+  "summary": "알렉스 호모지가 2023년 8월 5일 유튜브에 올린 51분 분량 강연의 핵심은 레버리지로 부를 쌓는 세 가지 전략임. · 같은 내용은 팟캐스트 803화로도 공개됐음. · 호모지는 강연에서 자신이 20대 후반에 큰…",
+  "source": "정리",
+  "access": "free",
+  "id": "2106241489101840707",
+  "partial": false
+ },
+ {
+  "title": "잠실에서 만난 주민들이 말한 내 집 마련 ㅣ261005",
+  "date": "2026-10-05",
+  "category": "realestate",
+  "sub": "시장·인터뷰",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2106907072659111967",
+  "summary": "유튜브 채널 부자 친구들 취재진이 송파구 잠실 주민들에게 재테크와 자녀 교육 방식을 물었음. · 인터뷰 장소는 잠실엘스, 리센츠, 트리지움이 모인 잠실새내역 사거리와 시그니엘 앞이었음. · 첫 번째로 만난 74세…",
+  "source": "정리",
+  "access": "free",
+  "id": "2106907072659111967",
+  "partial": false
+ },
+ {
+  "title": "전월세 대란 시작됐다(서울대 김경민 교수) ㅣ261011",
+  "date": "2026-10-11",
+  "category": "realestate",
+  "sub": "시장·인터뷰",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2109093397797720393",
+  "summary": "서울 전세는 2022년을 제외하고 15년간 매년 물가보다 약 4%p 더 올랐음. · 전세에는 투자 수요가 없고 실거주 수요만 반영됨. · 그래서 전세 상승률은 그 지역이 실제로 선호되는지를 가장 정직하게 보여주는…",
+  "source": "정리",
+  "access": "free",
+  "id": "2109093397797720393",
+  "partial": false
+ },
+ {
+  "title": "부동산 월세 vs 배당주, 어디가 더 좋을까",
+  "date": "2025-12-09",
+  "category": "realestate",
+  "sub": "구조·비교",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1998275140661231916",
+  "summary": "부동산 월세와 배당주는 “어느 쪽이 더 유망하다”라기보다, 수익 구조·리스크·유동성이 완전히 달라서 상황·목표에 따라 답이 갈리는 자산임. · 수익률 숫자만 놓고 보면 · 한국 주요 도시 아파트의 현재 평균 총…",
+  "source": "정리",
+  "access": "free",
+  "id": "1998275140661231916",
+  "partial": false
+ },
+ {
+  "title": "빠트님 글 행간 해설",
+  "date": "2026-02-08",
+  "category": "realestate",
+  "sub": "구조·비교",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2020367631740707309",
+  "summary": "서울 아파트의 평균 매매가격이 2025년 12월 처음으로 15억 원을 돌파하면서 대중들의 가격 감각에 큰 변화가 생김. KB부동산 통계에 따르면 2025년 12월 기준 서울 아파트 평균가는 15억 810만 원을…",
+  "source": "정리",
+  "access": "free",
+  "id": "2020367631740707309",
+  "partial": false
+ },
+ {
+  "title": "부동산이 오르는 구조적 이유 ㅣ260919",
+  "date": "2026-09-19",
+  "category": "realestate",
+  "sub": "구조·비교",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2101165130964734288",
+  "summary": "먼저 전제를 정리하면, 부동산은 어디서나 항상 오르는 것이 아니라 장기적으로 오르는 경향이 강한 것임. 실제로 한국도 2022년 금리 급등기에 집값이 크게 떨어졌고, 일본은 1990년대 초 자산 거품이 붕괴한 뒤…",
+  "source": "정리",
+  "access": "free",
+  "id": "2101165130964734288",
+  "partial": false
+ },
+ {
+  "title": "서울 부동산 vs S&P 500, EVA 프레임워크 ㅣ260329",
+  "date": "2026-03-29",
+  "category": "realestate",
+  "sub": "구조·비교",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2038070431916417330",
+  "summary": "자산을 비교할 때 수익률만 보면 안 되는 이유가 있음. 투자자들이 흔히 \"서울 부동산은 PIR(소득 대비 집값 비율) 기준으로 너무 비싸다\"거나 \"S&P 500이 역사적으로 수익률이 훨씬 좋았다\"고 말하는데, 이…",
+  "source": "정리",
+  "access": "free",
+  "id": "2038070431916417330",
+  "partial": false
+ },
+ {
+  "title": "9억 이하 아파트, 노원·성북·강서로 매수 몰린 이유 ㅣ251112",
+  "date": "2025-11-12",
+  "category": "realestate",
+  "sub": "정책·뉴스",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1988586168934600931",
+  "summary": "10·15 부동산 대책에 따라 서울 내 신규 지정된 토지거래허가구역(토허구역) 중 노원, 성북, 강서구가 거래 허가 신청 최다 지역임. 세 지역 모두 평균 매매가격이 6억~9억 원대로, 대출 한도 최대 6억 원까…",
+  "source": "정리",
+  "access": "free",
+  "id": "1988586168934600931",
+  "partial": false
+ },
+ {
+  "title": "10·15 부동산 대책",
+  "date": "2025-10-14",
+  "category": "realestate",
+  "sub": "정책·뉴스",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1977982799723565433",
+  "summary": "정부가 10월 15일 발표 예정인 대책에서 서울 전역, 경기 분당·과천·하남·광명, 인천 일부 등 수도권 핵심 지역을 투기과열지구와 조정대상지역으로 확대 지정 검토함. 서울의 경우 25개 자치구 전역(강남3구·용…",
+  "source": "정리",
+  "access": "free",
+  "id": "1977982799723565433",
+  "partial": false
+ },
+ {
+  "title": "삼성맨 사내대출과 수원 영통 불장 ㅣ260913",
+  "date": "2026-09-13",
+  "category": "realestate",
+  "sub": "정책·뉴스",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2098997907022397500",
+  "summary": "9월 첫째주(7일 기준) 서울 아파트값 상승률은 전주 0.23%에서 0.22%로 소폭 줄며 2주 연속 둔화됨. 오름세는 유지되지만 상승 동력이 꺾이는 흐름임. KB국민은행 주간KB아파트시장동향 자료임. 서울 자치…",
+  "source": "정리",
+  "access": "free",
+  "id": "2098997907022397500",
+  "partial": false
+ },
+ {
+  "title": "서울 전세난, 왜 생겼고 어디로 가나 ㅣ261009",
+  "date": "2026-10-09",
+  "category": "realestate",
+  "sub": "정책·뉴스",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2108407961387425891",
+  "summary": "서울 아파트 전셋값이 매매가격을 앞지를 만큼 빠르게 오르고 있음. · 한국부동산원 기준 10월 첫째 주까지 올해 누적 상승률은 전세 8.35%, 매매 8.31%임. · 8월 서울 아파트 평균 전세가는 6억 3,6…",
+  "source": "정리",
+  "access": "free",
+  "id": "2108407961387425891",
+  "partial": false
+ },
+ {
+  "title": "이더리움 개요·ETH와 가스·PoS 구조",
+  "date": "2025-12-22",
+  "category": "macro",
+  "sub": "디지털자산",
+  "tickers": [
+   "ETH"
+  ],
+  "url": "https://x.com/babybluecream/status/2003109147123052719",
+  "summary": "이더리움은 블록체인 위에서 스마트 컨트랙트와 탈중앙화 애플리케이션(DApp) 생태계를 구축할 수 있는 플랫폼임. 비트코인보다 확장성과 유연성이 높으며, 스테이블코인 등 다양한 토큰 시스템이 이더리움 같은 플랫폼…",
+  "source": "정리",
+  "access": "free",
+  "id": "2003109147123052719",
+  "partial": false
+ },
+ {
+  "title": "디지털 자산의 진화: 블록체인에서 스테이블코인까지",
+  "date": "2025-12-22",
+  "category": "macro",
+  "sub": "디지털자산",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2003106197021614080",
+  "summary": "블록체인은 거래 데이터를 일정 단위로 묶은 블록을 암호학적 해시함수로 서로 연결한 분산원장임. 모든 참여자가 거래 내역을 공유하고 검증하기 때문에 중앙기관 없이도 신뢰가 유지되며, 한 블록이라도 조작하려면 이전…",
+  "source": "정리",
+  "access": "free",
+  "id": "2003106197021614080",
+  "partial": false
+ },
+ {
+  "title": "양자컴퓨터, 비트코인 해킹 가능?",
+  "date": "2025-12-24",
+  "category": "macro",
+  "sub": "디지털자산",
+  "tickers": [
+   "BTC"
+  ],
+  "url": "https://x.com/babybluecream/status/2003743027320455568",
+  "summary": "양자컴퓨터가 비트코인 해킹 가능하다는 주장은 쇼어 알고리즘으로 ECDSA 타원곡선 암호 공개키에서 개인키 역산하는 데서 나오는데 고전 컴퓨터 지수시간 vs 양자 다항시간으로 256비트 키 몇 시간 만에 깨지만 논…",
+  "source": "정리",
+  "access": "free",
+  "id": "2003743027320455568",
+  "partial": false
+ },
+ {
+  "title": "미국 국채는 이제 스테이블코인이 산다",
+  "date": "2025-03-12",
+  "category": "macro",
+  "sub": "디지털자산",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1899826510405763482",
+  "summary": "스테이블 코인이란? · 스테이블 코인은 법정화폐(USD 등)를 담보로 하여 발행되는 디지털 자산으로, 이를 발행하는 기업들은 일정량의 법정화폐 또는 이에 준하는 자산을 준비금으로 보유해야 한다. · 현재 $200…",
+  "source": "정리",
+  "access": "free",
+  "id": "1899826510405763482",
+  "partial": false
+ },
+ {
+  "title": "비트코인 최악의 겨울 국면 분석 ㅣ260206",
+  "date": "2026-02-06",
+  "category": "macro",
+  "sub": "디지털자산",
+  "tickers": [
+   "BTC"
+  ],
+  "url": "https://x.com/babybluecream/status/2019680229665697992",
+  "summary": "비트코인 가격이 작년 10월 고점 대비 약 44% 하락한 상태이며, 다른 암호화폐들은 더 큰 낙폭을 기록하고 있음. 이번이 역사상 가장 큰 하락장은 아닐 수 있으나, 지금까지의 크립토 겨울 중 체감상 가장 혹독한…",
+  "source": "정리",
+  "access": "free",
+  "id": "2019680229665697992",
+  "partial": false
+ },
+ {
+  "title": "$MSTR 순 비트코인 가치 vs 시가총액",
+  "date": "2025-12-02",
+  "category": "us",
+  "sub": "디지털자산 관련주",
+  "tickers": [
+   "MSTR",
+   "BTC"
+  ],
+  "url": "https://x.com/babybluecream/status/1995716084172029964",
+  "summary": "비트코인 시가 – 부채 + 현금으로 계산한 순 비트코인 가치가 회사 시가총액보다 수십억 달러 이상 높다. 정말일까? 코인 뉴스·애널리스트 자료 종합하면, MicroStrategy(현재 사명 Strategy)가 보…",
+  "source": "정리",
+  "access": "free",
+  "id": "1995716084172029964",
+  "partial": false
+ },
+ {
+  "title": "$STRC 우선주 구조와 투자 타당성 ㅣ260321",
+  "date": "2026-03-21",
+  "category": "us",
+  "sub": "디지털자산 관련주",
+  "tickers": [
+   "STRC",
+   "MSTR",
+   "BTC"
+  ],
+  "url": "https://x.com/babybluecream/status/2035252000167010347",
+  "summary": "우선주 구조와 투자 타당성 딥다이브 · $STRC 는 Strategy(옛 MicroStrategy)가 2025년 7월 도입한 'Series A Variable Rate Stretch Preferred Stock'…",
+  "source": "정리",
+  "access": "free",
+  "id": "2035252000167010347",
+  "partial": false
+ },
+ {
+  "title": "환율이 오를 때 어떻게 투자하나",
+  "date": "2025-12-20",
+  "category": "macro",
+  "sub": "금리·환율·지정학",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2002253473145106660",
+  "summary": "환율이 오른다는 건 내 모국 통화 가치가 떨어지고, 달러 같은 외화 가치가 올라간다는 뜻이라서, 기본 전략은 “외화자산 비중을 조금씩 늘리면서, 통화 위험을 분산·헷지하는 것”으로 보면 됨. 단기 환차익 노리기보…",
+  "source": "정리",
+  "access": "free",
+  "id": "2002253473145106660",
+  "partial": false
+ },
+ {
+  "title": "이란 전면전 재개, 4대 리스크 ㅣ260719",
+  "date": "2026-07-19",
+  "category": "macro",
+  "sub": "금리·환율·지정학",
+  "tickers": [
+   "LMT",
+   "RTX",
+   "USO",
+   "XOM"
+  ],
+  "url": "https://x.com/babybluecream/status/2078660459583164924",
+  "summary": "지금은 ‘제한전이냐 전면전이냐’의 갈림길임. 약 40일 전쟁 뒤 휴전이 왔는데, 백악관이 다시 판을 키우는 걸 검토 중임. 악시오스는 14일 상황실 회의에서 호르무즈 주변에 묶여 있던 작전을 대규모 공세로 넓히는…",
+  "source": "정리",
+  "access": "free",
+  "id": "2078660459583164924",
+  "partial": false
+ },
+ {
+  "title": "켄 그리핀이 진단한 AI·지정학·에너지 ㅣ260924",
+  "date": "2026-09-24",
+  "category": "macro",
+  "sub": "금리·환율·지정학",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2102995700338577900",
+  "summary": "켄 그리핀은 세계 최대급 헤지펀드 시타델과 시장조성 회사 시타델 증권을 세운 창업자 겸 CEO임. 이번 대담은 2026년 6월 2일 골드만삭스 에이펙스 심포지엄에서 녹화됐고, 진행자 라지 마하잔과의 세 번째 공개…",
+  "source": "정리",
+  "access": "free",
+  "id": "2102995700338577900",
+  "partial": false
+ },
+ {
+  "title": "2025년 10대 수출 품목 ㅣ251231",
+  "date": "2025-12-31",
+  "category": "macro",
+  "sub": "국내증시·한국 반도체",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2006358569516769393",
+  "summary": "2025년 한국 수출 1위 반도체가 전체 수출의 17~20% 차지하며 부동의 왕좌 지켰는데 AI 서버용 HBM·DDR5 고부가 제품 수요 폭발로 1~11월 월간 최대 172억 달러 기록함. 메모리·비메모리 모두…",
+  "source": "정리",
+  "access": "free",
+  "id": "2006358569516769393",
+  "partial": false
+ },
+ {
+  "title": "금리 인상기 미국 증시 전망 ㅣ260923",
+  "date": "2026-09-23",
+  "category": "macro",
+  "sub": "미국 시황",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2102517549984534812",
+  "summary": "레그넘 투자자문 이춘광 대표는 이번 주부터 미국 증시가 강하게 움직일 가능성이 크다고 전망함. 근거는 22일 개막한 유엔총회와 24일부터 예정된 미중 정상회담이라는 두 개의 외교 일정임. 정상회담을 앞둔 9월 1…",
+  "source": "정리",
+  "access": "free",
+  "id": "2102517549984534812",
+  "partial": false
+ },
+ {
+  "title": "삼성전기 급등 ㅣ260618",
+  "date": "2026-06-18",
+  "category": "macro",
+  "sub": "국내증시·한국 반도체",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2067374273396928556",
+  "summary": "삼성전기 올해 주가 상승률 코스피 1위 기록 중임. 연초 대비 약 +700%대 상승으로 시장 내 압도적 퍼포먼스 시현함. · 단순 업황 반등이 아닌 구조적 성장 기대 반영된 흐름으로 해석됨 · 최근 종가 기준 2…",
+  "source": "정리",
+  "access": "free",
+  "id": "2067374273396928556",
+  "partial": false
+ },
+ {
+  "title": "삼성전자·SK하이닉스 목표주가 상향 경쟁 ㅣ260926",
+  "date": "2026-09-26",
+  "category": "macro",
+  "sub": "국내증시·한국 반도체",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2103854899499012436",
+  "summary": "삼성전자와 SK하이닉스가 AI 메모리 공급 부족이 길어질 것이라는 전망에 힘입어 각각 30만원, 200만원 회복 기대를 키우고 있음. 증권가는 삼성전자 목표주가를 최고 63만원, SK하이닉스는 최고 500만원까지…",
+  "source": "정리",
+  "access": "free",
+  "id": "2103854899499012436",
+  "partial": false
+ },
+ {
+  "title": "인도 Nifty 50 지수 구조 ㅣ261002",
+  "date": "2026-10-02",
+  "category": "macro",
+  "sub": "해외지수",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2105838671991828772",
+  "summary": "Nifty 50은 인도 대형주 50개의 점수고, 회사 크기에 따라 비중을 다르게 줌. · 비중 10%인 종목이 10% 내리면 지수만 약 1% 내려감. 비중 1%인 종목이 같은 폭으로 내려도 지수는 약 0.1%만…",
+  "source": "정리",
+  "access": "free",
+  "id": "2105838671991828772",
+  "partial": false
+ },
+ {
+  "title": "세차장 무제한 구독 모델 이야기 ㅣ261006",
+  "date": "2026-10-06",
+  "category": "econ",
+  "sub": "비즈니스 모델",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2107241811878318581",
+  "summary": "미국 세차장에는 이미 깨끗한 차들이 줄을 서는 경우가 많음. · 2010년대 후반부터 세차장들이 월정액을 내면 횟수 제한 없이 세차할 수 있는 무제한 구독 상품을 팔기 시작했기 때문임. · 회원은 이미 돈을 냈으…",
+  "source": "정리",
+  "access": "free",
+  "id": "2107241811878318581",
+  "partial": false
+ },
+ {
+  "title": "삼성전자가 화성에 반도체 공장을 지은 배경",
+  "date": "2025-12-31",
+  "category": "econ",
+  "sub": "산업 배경",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2006349972988711397",
+  "summary": "삼성전자가 화성에 반도체 공장을 지은 핵심 배경은 1999년 글로벌 반도체 불황 극복을 위한 300mm 대형 웨이퍼 선행 투자 결정에 있음. 당시 기흥캠퍼스(1983년 착공, 초순수·공기 정화 우수)가 생산 한계…",
+  "source": "정리",
+  "access": "free",
+  "id": "2006349972988711397",
+  "partial": false
+ },
+ {
+  "title": "무인매장 잔혹사 ㅣ261010",
+  "date": "2026-10-10",
+  "category": "econ",
+  "sub": "비즈니스 모델",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2108705629217108115",
+  "summary": "전국 무인 프랜차이즈 매장 수는 2018년 2천여곳에서 올해 7월 1만8천여곳으로 9배 넘게 늘었음. 인건비가 들지 않고 하루 30분~1시간만 관리하면 된다는 홍보에 전업주부, 퇴직자, 부업을 원하는 직장인이 창…",
+  "source": "정리",
+  "access": "free",
+  "id": "2108705629217108115",
+  "partial": false
+ },
+ {
+  "title": "시가총액 기초: 주가 × 주식수",
+  "date": "2025-07-27",
+  "category": "econ",
+  "sub": "투자 기초 개념",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1949265310059729388",
+  "summary": "시가 총액은 주가 * 주식수임 · 주식수도 가변적이지만 이것보다 주로 주가가 오르고 내려서 시가 총액이 바뀜 · 주가는 사려는 사람이 많아지면 오르고 팔려는 사람이 많으면 떨어짐 · 시가 총액이 급격히 오르는건…",
+  "source": "본인",
+  "access": "free",
+  "id": "1949265310059729388",
+  "partial": false
+ },
+ {
+  "title": "투자 관련 사이트 모음(공짜만)",
+  "date": "2025-10-01",
+  "category": "tips",
+  "sub": "투자 툴",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1973125496931275212",
+  "summary": "무료로 쓸 수 있는 투자 관련 사이트 모음(이미지 글).",
+  "source": "본인",
+  "access": "free",
+  "id": "1973125496931275212",
+  "partial": false
+ },
+ {
+  "title": "증권사 레포트 무료 열람 사이트",
+  "date": "2026-04-25",
+  "category": "tips",
+  "sub": "투자 툴",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2048006314945818835",
+  "summary": "증권사 레포트를 무료로 열람할 수 있는 사이트 소개(이미지 글, 직링크는 원문 댓글).",
+  "source": "본인",
+  "access": "free",
+  "id": "2048006314945818835",
+  "partial": false
+ },
+ {
+  "title": "5분 만에 세계 경제 상황 파악하는 법",
+  "date": "2026-04-24",
+  "category": "tips",
+  "sub": "투자 툴",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2047463146802319692",
+  "summary": "세계 경제 상황을 5분 만에 파악하는 방법을 담은 링크 공유 글(링크 내용 미확인).",
+  "source": "본인",
+  "access": "free",
+  "id": "2047463146802319692",
+  "partial": false
+ },
+ {
+  "title": "펀드·ETF·MMF 한 번에 찾는 무료 사이트",
+  "date": "2026-01-19",
+  "category": "tips",
+  "sub": "투자 툴",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2012912429756453019",
+  "summary": "펀드·ETF·MMF 상품을 조건별로 한 번에 검색하는 무료 사이트(링크는 원문 댓글).",
+  "source": "본인",
+  "access": "free",
+  "id": "2012912429756453019",
+  "partial": false
+ },
+ {
+  "title": "무료 시총 비중 조회 사이트",
+  "date": "2026-01-20",
+  "category": "tips",
+  "sub": "투자 툴",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2013559275550056666",
+  "summary": "약 20분 시차 있지만 무료 열람 가능 · 우리나라는 원투가 30% 비중임 · 시총 순위는 사람들이 생각 하는 시대의 흐름임",
+  "source": "본인",
+  "access": "free",
+  "id": "2013559275550056666",
+  "partial": false
+ },
+ {
+  "title": "redzacal님 저평가주 빠르게 찾는 법",
+  "date": "2025-06-17",
+  "category": "tips",
+  "sub": "투자 툴",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1934825315978862633",
+  "summary": "redzacal 저평가주 빠르게 찾는 방법 1가지 · 제가 저평가주를 찾는 방법 중 1가지 알려드리겠습니다 · 증권사 리포트에 목표주가와 현재주가 괴리율을 체크한다 · 차트가 엔벨로프 저점 부근에 있는지 · 체크…",
+  "source": "정리",
+  "access": "free",
+  "id": "1934825315978862633",
+  "partial": false
+ },
+ {
+  "title": "목표주가 괴리율 TOP 10 찾는 사이트(redzacal님)",
+  "date": "2025-06-17",
+  "category": "tips",
+  "sub": "투자 툴",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1934925923683586522",
+  "summary": "목표주가 괴리율 TOP 10 종목 쉽게 찾는 팁 사이트 1가지 · 애널리스트들의 목표주가와 현재주가의 괴리율을 체크하면 유망 종목은 발굴하는데 도움이 될 수 있습니다 · 검색창에 에프앤가이드 상장기업 분석 · 검…",
+  "source": "정리",
+  "access": "free",
+  "id": "1934925923683586522",
+  "partial": false
+ },
+ {
+  "title": "Finviz Map에서 섹터 ETF 보기",
+  "date": "2025-10-25",
+  "category": "tips",
+  "sub": "투자 툴",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1981880383953338593",
+  "summary": "Finviz Map에서 ETF를 누르고 왼쪽 하단 US Sector를 보면 섹터별 ETF가 보인다는 팁.",
+  "source": "본인",
+  "access": "free",
+  "id": "1981880383953338593",
+  "partial": false
+ },
+ {
+  "title": "Finviz 포트폴리오 노트 기능 ㅣ260326",
+  "date": "2026-03-26",
+  "category": "tips",
+  "sub": "투자 툴",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2037140134760415641",
+  "summary": "Finviz가 2026년 3월 19일 공식적으로 'Portfolio Notes' 기능을 전체 회원에게 출시했음. 이 기능은 투자자가 자신의 포트폴리오에 있는 모든 종목과 개별 거래 내역에 직접 메모를 붙일 수 있…",
+  "source": "정리",
+  "access": "free",
+  "id": "2037140134760415641",
+  "partial": false
+ },
+ {
+  "title": "주담대·전세·신용대출 무료 비교 사이트",
+  "date": "2026-01-19",
+  "category": "tips",
+  "sub": "생활·무료",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2012911513674080526",
+  "summary": "주담대·전세자금대출·신용대출을 한 번에 무료 조회. 저축금액·기간·이자 방식·우대 조건까지 설정해 계산 가능(링크는 원문 댓글).",
+  "source": "본인",
+  "access": "free",
+  "id": "2012911513674080526",
+  "partial": false
+ },
+ {
+  "title": "지금도 무료로 쓸 수 있는 웹사이트 8곳 ㅣ261006",
+  "date": "2026-10-06",
+  "category": "tips",
+  "sub": "생활·무료",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2107244545805267079",
+  "summary": "라디오 가든( 지구본 위 초록색 점을 누르면 그 지역 라디오 방송을 바로 들을 수 있는 사이트임. 2016년 네덜란드에서 시작됐고 회원 가입 없이 웹과 모바일 앱에서 무료로 쓸 수 있음. 각 방송국이 인터넷으로…",
+  "source": "정리",
+  "access": "free",
+  "id": "2107244545805267079",
+  "partial": false
+ },
+ {
+  "title": "24개 무료 AI 툴",
+  "date": "2025-01-23",
+  "category": "tips",
+  "sub": "생활·무료",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1882263731419382099",
+  "summary": "Character AI - AI 기반 채팅 · Pi - 개인화된 AI 어시스턴트 · Perplexity - AI 질의응답 인터페이스 · ChatGPT - 가장 인기 있는 AI 도구 · ELSA Speak - 영어…",
+  "source": "정리",
+  "access": "free",
+  "id": "1882263731419382099",
+  "partial": false
+ },
+ {
+  "title": "치과 보험 잘 쓰는 법",
+  "date": "2025-12-21",
+  "category": "tips",
+  "sub": "생활·무료",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2002591513340256658",
+  "summary": "치과 보험 잘 쓰는 법의 핵심은 급여·비급여 구분+실손·치아보험 중복 활용임. 건강보험 급여(충치 치료·신경 치료)는 본인부담 30%만 내고 실손보험으로 90% 환급받고, 비급여(임플란트·크라운)는 치아보험으로…",
+  "source": "본인",
+  "access": "free",
+  "id": "2002591513340256658",
+  "partial": false
+ },
+ {
+  "title": "임플란트 비용 검색 팁",
+  "date": "2025-02-02",
+  "category": "tips",
+  "sub": "생활·무료",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1885883171419635985",
+  "summary": "여기 들어가면 비급여항목 조회가 됩니다 · 그럼 선호하시는 지역 임플란트 까지 조회 됩니다 · 그리고 추가로 더 저렴하게 하는 방법은 · 신도시 보다 좀 오래된 군소도시가 저렴 · 예를 들면 동탄 보다 오산이 쌉…",
+  "source": "본인",
+  "access": "free",
+  "id": "1885883171419635985",
+  "partial": false
+ },
+ {
+  "title": "대학 입시요강·기출 무료 열람 사이트",
+  "date": "2026-05-17",
+  "category": "tips",
+  "sub": "생활·무료",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2055896914420474121",
+  "summary": "대학교 입시요강·기출 자료를 회원 가입 없이 무료로 열람하는 사이트(링크는 원문 댓글).",
+  "source": "본인",
+  "access": "free",
+  "id": "2055896914420474121",
+  "partial": false
+ },
+ {
+  "title": "경기 초등 온배움교실(무료 학습 자료)",
+  "date": "2026-05-26",
+  "category": "tips",
+  "sub": "생활·무료",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2058951906740122022",
+  "summary": "경기도교육청이 운영하는 초등 학습 자료 사이트, 무료(링크는 원문 댓글).",
+  "source": "본인",
+  "access": "free",
+  "id": "2058951906740122022",
+  "partial": false
+ },
+ {
+  "title": "위급 상황 대비 팁(미국 영사관 가이드)",
+  "date": "2025-05-02",
+  "category": "tips",
+  "sub": "생활·무료",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1918190135533011134",
+  "summary": "미국 양키형들 탈출 루트를 따라간다 · 이형들은 부산으로 아웃해서 일본으로 토끼는게 루트임 · 미국 영사관 가이드는 · 이머전시 앱 다운 · 스마트폰과 태블릿에서 한국 행정안전부의 “Emergency Ready…",
+  "source": "정리",
+  "access": "free",
+  "id": "1918190135533011134",
+  "partial": false
+ },
+ {
+  "title": "[번역] 해외 투자자의 12월 포트폴리오 업데이트(+447%)",
+  "date": "2026-01-11",
+  "category": "translation",
+  "sub": "해외 투자자 포트폴리오",
+  "tickers": [
+   "HIMS",
+   "IREN",
+   "ONDS",
+   "PATH",
+   "POET",
+   "TE",
+   "UAMY"
+  ],
+  "url": "https://x.com/babybluecream/status/2010146246544240970",
+  "summary": "해외 투자자 1인칭 글을 옮긴 것으로 보임(원저자 미확인) — 펭귄 본인 성과 아님. 원문: 연초 대비: +447.18% · 지난 30일간: -11.7% · 장기 포트폴리오 · $IREN · $ONDS · $HIMS · 단기 포트폴리오 · $TE · $UAMY · $PATH · $POET · 이번 달에는…",
+  "source": "번역",
+  "access": "free",
+  "id": "2010146246544240970",
+  "partial": false
+ },
+ {
+  "title": "[번역] 해외 투자자의 상위 보유 종목($RKLB 등)",
+  "date": "2025-08-31",
+  "category": "translation",
+  "sub": "해외 투자자 포트폴리오",
+  "tickers": [
+   "ABAT",
+   "AREC",
+   "BTC",
+   "CRWV",
+   "GEV",
+   "INVZ",
+   "KTOS",
+   "MP"
+  ],
+  "url": "https://x.com/babybluecream/status/1961912443820814511",
+  "summary": "해외 투자자 1인칭 글을 옮긴 것으로 보임(원저자 미확인) — 펭귄 본인 성과 아님. 원문: % 증가에 따른 상위 보유 자산 · $RKLB +184% 내 최대 포지션, 이제 막 시작입니다. 10달러 이하로 첫 10,000주 매수했습니다. · $MP + 170% 희토류 원소는 이 나라에서 이제 막 시작일…",
+  "source": "번역",
+  "access": "free",
+  "id": "1961912443820814511",
+  "partial": false
+ },
+ {
+  "title": "[번역] 2년 연속 세 자릿수 수익률을 낸 투자자의 방법",
+  "date": "2026-08-21",
+  "category": "translation",
+  "sub": "해외 투자자 포트폴리오",
+  "tickers": [
+   "ALM",
+   "ARM",
+   "FPS",
+   "IONQ",
+   "MRVL",
+   "MU",
+   "NBIS",
+   "ONDS"
+  ],
+  "url": "https://x.com/babybluecream/status/2090566454341185756",
+  "summary": "해외 투자자 1인칭 글을 옮긴 것으로 보임(원저자 미확인) — 펭귄 본인 성과 아님. 원문: 2년 연속 세 자릿수 수익률을 기록했음. 올해 누적 +113%, 작년 누적 +160%이고 포트폴리오 규모는 수십만 달러대임(누적 수익률은 연초 원금 대비 지금까지 얼마나 불었는지를 뜻함). 특별한 건 방법임. 옵…",
+  "source": "번역",
+  "access": "free",
+  "id": "2090566454341185756",
+  "partial": false
+ },
+ {
+  "title": "[번역] 장기 투자할 회사를 고르는 과정(피터 린치 인용)",
+  "date": "2025-09-07",
+  "category": "translation",
+  "sub": "투자 철학",
+  "tickers": [
+   "MSTR"
+  ],
+  "url": "https://x.com/babybluecream/status/1964487033482858898",
+  "summary": "해외 투자자 1인칭 글을 옮긴 것으로 보임(원저자 미확인) — 펭귄 본인 성과 아님. 원문: 장기 투자할 회사를 고르는 과정 – 투자 철학과 실제 기준 · 제가 존경하는 투자자 중 한 명인 피터 린치가 한 말이 있습니다. “만약 어떤 개별 주식에 투자한다면, 왜 이 주식에 투자하는지 그 이유를 2분 동안…",
+  "source": "번역",
+  "access": "free",
+  "id": "1964487033482858898",
+  "partial": false
+ },
+ {
+  "title": "전효진 공부법",
+  "date": "2025-11-16",
+  "category": "extra",
+  "sub": "공부법",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/1989894685297709433",
+  "summary": "전효진 공부법 정리(타래·이미지 형식, 본문은 X에서 확인).",
+  "source": "정리",
+  "access": "free",
+  "id": "1989894685297709433",
+  "partial": false
+ },
+ {
+  "title": "영어 리스닝 실력을 늘리는 방법",
+  "date": "2026-01-03",
+  "category": "extra",
+  "sub": "공부법",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2007360224097964336",
+  "summary": "영어 리스닝과 회화 실력을 베이스로 삼아 빠르게 향상시키려면 BBC 6 Minute English나 TED Talks 같은 팟캐스트를 매일 30분씩 반복 청취하면서 shadowing 즉 따라 말하기 연습을 병행하…",
+  "source": "정리",
+  "access": "free",
+  "id": "2007360224097964336",
+  "partial": false
+ },
+ {
+  "title": "수학 잘하는 법",
+  "date": "2026-04-07",
+  "category": "extra",
+  "sub": "공부법",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2041511959997419777",
+  "summary": "수학을 못하는 사람과 잘하는 사람의 가장 큰 차이는 개념을 대하는 태도에 있음. · 많은 학생들이 공식을 외워서 문제에 끼워 맞추는 방식으로 공부하는데 · 이 방식은 유형이 조금만 바뀌어도 바로 무너짐. · 반면…",
+  "source": "정리",
+  "access": "free",
+  "id": "2041511959997419777",
+  "partial": false
+ },
+ {
+  "title": "비문학 문해력 훈련법 ㅣ260907",
+  "date": "2026-09-07",
+  "category": "extra",
+  "sub": "공부법",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2096904369572827276",
+  "summary": "비문학 독서를 잘하려면 세 가지가 충족돼야 함. · 글을 제대로 읽는 문해력 · 지문을 빠르게 파악하는 독해 스킬 · 문제를 잘 푸는 문제풀이 스킬임. · 이 중 오늘은 가장 기본인 문해력 키우는 훈련법을 다룸.…",
+  "source": "정리",
+  "access": "free",
+  "id": "2096904369572827276",
+  "partial": false
+ },
+ {
+  "title": "[구독 홍보] Finviz Elite 기반 기업분석·스크리닝",
+  "date": "2026-01-23",
+  "category": "start",
+  "sub": "구독 안내",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2014479516211761286",
+  "summary": "Finviz Elite(유료)를 이용한 기업분석과 시장 흐름 스크리닝을 제공한다는 고정 글. Finviz 공식 계정이 팔로우·스폰서.",
+  "source": "본인",
+  "access": "free",
+  "id": "2014479516211761286",
+  "partial": false
+ },
+ {
+  "title": "구독 서비스 소개(네 가지 구성)",
+  "date": "2026-05-09",
+  "category": "start",
+  "sub": "구독 안내",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2052942261311422599",
+  "summary": "구독 콘텐츠 네 가지(Finviz 기반 기업 분석, Finviz 기반 스크리닝 등) 소개. 특정 종목 매매 추천(리딩)은 하지 않는다고 명시.",
+  "source": "본인",
+  "access": "free",
+  "id": "2052942261311422599",
+  "partial": false
+ },
+ {
+  "title": "[구독자분 후기] 중장기 투자 지향점",
+  "date": "2026-01-27",
+  "category": "start",
+  "sub": "구독 안내",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2015807996069327128",
+  "summary": "소중한 구독자 @neunghoee 님께 허락을 구하고 후기 내용 올립니다. 저는 트레이딩 하시는 분들과는 달리 스윙을 넘어 중장기 투자를 지향하고 있습니다. 따라서 지난 포스팅을 보시면 매수/매도 타점과 차트를…",
+  "source": "본인",
+  "access": "free",
+  "id": "2015807996069327128",
+  "partial": false
+ },
+ {
+  "title": "[구독 컨텐츠 맛보기] 구성 안내",
+  "date": "2026-01-13",
+  "category": "start",
+  "sub": "구독 안내",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2011074357574189473",
+  "summary": "구독 콘텐츠 구성: 유료 매체 기사, 관심·요청 종목 Deep Dive(유료 툴), 컨콜 정리, 여러 생각 공유.",
+  "source": "본인",
+  "access": "free",
+  "id": "2011074357574189473",
+  "partial": false
+ },
+ {
+  "title": "채권시장이 베센트에게 준 뼈아픈 교훈",
+  "date": "2026-08-23",
+  "category": "macro",
+  "sub": "금리·환율·지정학",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2091181084272636110",
+  "summary": "",
+  "source": "정리",
+  "access": "free",
+  "id": "2091181084272636110",
+  "partial": false,
+  "xarticle": true,
+  "label": "WSJ 정리"
+ },
+ {
+  "title": "애플이 CIA에 진 숨겨진 빚",
+  "date": "2026-08-22",
+  "category": "econ",
+  "sub": "산업 배경",
+  "tickers": [
+   "AAPL"
+  ],
+  "url": "https://x.com/babybluecream/status/2091079391115952574",
+  "summary": "",
+  "source": "정리",
+  "access": "free",
+  "id": "2091079391115952574",
+  "partial": false,
+  "xarticle": true,
+  "label": "WSJ 정리"
+ },
+ {
+  "title": "CNBC ㅣ SK하이닉스 최태원 인터뷰",
+  "date": "2026-08-15",
+  "category": "macro",
+  "sub": "국내증시·한국 반도체",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2088279762146148864",
+  "summary": "CNBC 260814 방송 AI 시대라 사람도 AI도 방대한 메모리가 필요함. AI를 지금은 4살짜리 어린아이에 비유함. 자라면서 더 많은 기능과 경험, 지식이 필요해지고, 인간처럼 그 지식을 어딘가에 저장해야…",
+  "source": "정리",
+  "access": "free",
+  "id": "2088279762146148864",
+  "partial": false,
+  "xarticle": true
+ },
+ {
+  "title": "지금은 창업 최고의 시기",
+  "date": "2026-08-04",
+  "category": "econ",
+  "sub": "비즈니스 모델",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2084298794318069983",
+  "summary": "10년 전 스탠퍼드에서 창업 강연을 했던 샘 올트먼에게 그동안 가장 크게 바뀐 게 뭐냐 물으면 답은 명백함. AI임. 소수 인원이 할 수 있는 일의 범위와 속도가 완전히 달라졌고, 경쟁에서 살아남기 위해 해야 하…",
+  "source": "정리",
+  "access": "free",
+  "id": "2084298794318069983",
+  "partial": false,
+  "xarticle": true
+ },
+ {
+  "title": "CIA 스파이가 만든 UAE의 AI 승리",
+  "date": "2026-07-19",
+  "category": "macro",
+  "sub": "금리·환율·지정학",
+  "tickers": [
+   "NVDA"
+  ],
+  "url": "https://x.com/babybluecream/status/2078710655562170369",
+  "summary": "",
+  "source": "정리",
+  "access": "free",
+  "id": "2078710655562170369",
+  "partial": false,
+  "xarticle": true,
+  "label": "WSJ 정리"
+ },
+ {
+  "title": "옵티머스 3세대, 슬라이드에서 발주서로 전환",
+  "date": "2026-07-10",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "TSLA"
+  ],
+  "url": "https://x.com/babybluecream/status/2075250842865897842",
+  "summary": "옵티머스는 $TSLA 가 지난 몇 년간 개발해온 인간형 로봇의 프로젝트명임. 인간처럼 두 발로 걷고, 손가락으로 물건을 집으며, 카메라로 세상을 바라보고, 소프트웨어로 판단하는 기계임. 지금까지 대중에게 이 로봇…",
+  "source": "정리",
+  "access": "free",
+  "id": "2075250842865897842",
+  "partial": false,
+  "xarticle": true
+ },
+ {
+  "title": "마벨 주총 6분, 통과되지 않은 단 하나의 안건",
+  "date": "2026-06-29",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "MRVL"
+  ],
+  "url": "https://x.com/babybluecream/status/2071589473738174927",
+  "summary": "마벨 테크놀로지($MRVL )의 2026년 정기주주총회는 6분 만에 끝났음. 태평양 시간 6월 25일 오전 9시에 개회해 9시 6분에 폐회했음. 이사 7명 선임, 임원 보수 승인, 회계법인(딜로이트) 추인까지 회…",
+  "source": "정리",
+  "access": "free",
+  "id": "2071589473738174927",
+  "partial": false,
+  "xarticle": true
+ },
+ {
+  "title": "세일러의 전환",
+  "date": "2026-06-29",
+  "category": "us",
+  "sub": "디지털자산 관련주",
+  "tickers": [
+   "MSTR",
+   "STRC",
+   "BTC"
+  ],
+  "url": "https://x.com/babybluecream/status/2071588139307831614",
+  "summary": "스트래티지(옛 마이크로스트래티지)가 6월 29일 '디지털 크레딧 자본 프레임워크'를 발표했음. 이제 비트코인을 팔 수 있다는 선언임. $MSTR 은 발표 직후 장 시작 전 거래에서 약 7% 올랐고 4년 넘게 \"안…",
+  "source": "정리",
+  "access": "free",
+  "id": "2071588139307831614",
+  "partial": false,
+  "xarticle": true
+ },
+ {
+  "title": "100달러 부품으로 만든 해자",
+  "date": "2026-06-28",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "AAPL"
+  ],
+  "url": "https://x.com/babybluecream/status/2070905078077325751",
+  "summary": "에어팟은 겉보기엔 단순한 흰색 콩 두 개임. 그런데 뜯어보면 손가락 한 마디 안에 무선 라디오, 오디오 DSP(디지털 신호처리), 전력관리, 센서가 전부 욱여넣어진 초소형 시스템임. *BOM은 그 가치가 어디에…",
+  "source": "정리",
+  "access": "free",
+  "id": "2070905078077325751",
+  "partial": false,
+  "xarticle": true
+ },
+ {
+  "title": "고기는 왜 맛있을까",
+  "date": "2026-06-28",
+  "category": "extra",
+  "sub": "교양",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2070894750597853301",
+  "summary": "고기 맛의 출발점은 감칠맛임. 단맛 짠맛 신맛 쓴맛에 더해 1908년 일본의 이케다 기쿠나에가 다섯 번째 맛으로 규정한 게 우마미, 즉 감칠맛임. 이 맛의 정체는 글루탐산이라는 아미노산임. 생고기 속 글루탐산은…",
+  "source": "정리",
+  "access": "free",
+  "id": "2070894750597853301",
+  "partial": false,
+  "xarticle": true
+ },
+ {
+  "title": "시간 앞에서는 모두가 빈손이다",
+  "date": "2026-06-22",
+  "category": "extra",
+  "sub": "에세이",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2069059419262832756",
+  "summary": "전 세계 억만장자 2700명의 재산을 다 합쳐도 살 수 없는 게 딱 하나 있음. 내일이라는 시간임. 이상한 일임. 돈으로 못 사는 게 거의 없는 시대인데, 유독 시간 앞에서는 모두가 똑같이 무력함. 빌릴 수도…",
+  "source": "정리",
+  "access": "free",
+  "id": "2069059419262832756",
+  "partial": false,
+  "xarticle": true
+ },
+ {
+  "title": "당신의 시간이 곧 할인율이다",
+  "date": "2026-06-22",
+  "category": "principle",
+  "sub": "투자 철학·심리",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2068713716582146424",
+  "summary": "당신의 시간이 곧 할인율이다. 주식 가격은 신비로운 숫자가 아니다. 사겠다는 사람과 팔겠다는 사람이 만나 합의한 한 점일 뿐이다. 그날 그 순간, 누군가는 이 값이면 넘기겠다 하고 누군가는 이 값이면 받겠다 했다…",
+  "source": "정리",
+  "access": "free",
+  "id": "2068713716582146424",
+  "partial": false,
+  "xarticle": true
+ },
+ {
+  "title": "추론의 시대, 칩과 모델이 함께 달리다",
+  "date": "2026-06-21",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2068705728450421174",
+  "summary": "LLM의 무게중심이 학습에서 추론으로 넘어갔음. 한때는 모델을 얼마나 크게 훈련하느냐가 전부였는데, 이제는 이미 만든 모델을 얼마나 싸고 안정적으로 굴리느냐가 승부처임. 학습은 한 번이고 추론은 매일 수십억 번…",
+  "source": "정리",
+  "access": "free",
+  "id": "2068705728450421174",
+  "partial": false,
+  "xarticle": true
+ },
+ {
+  "title": "HBM이 아니라 평범한 D램이 2026년 메모리 시장을 뒤흔든다",
+  "date": "2026-06-21",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "MU"
+  ],
+  "url": "https://x.com/babybluecream/status/2068586707037962287",
+  "summary": "2026년 메모리 반도체 시장에서 가장 의외인 사실은 AI의 핵심으로 불리는 HBM이 아니라 평범한 전통 D램 가격이 더 가파르게 올랐다는 점임. S&P Global 산하 Visible Alpha 컨센서스에 따르…",
+  "source": "정리",
+  "access": "free",
+  "id": "2068586707037962287",
+  "partial": false,
+  "xarticle": true
+ },
+ {
+  "title": "Anthropic ㅣ과학자의 이동, 그 숫자들의 이야기",
+  "date": "2026-06-21",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "GOOGL"
+  ],
+  "url": "https://x.com/babybluecream/status/2068367556021551482",
+  "summary": "세상에 돈으로 못 사는 게 거의 없어진 시대인데, 딱 하나 예외가 있음. 한 사람이 어느 조직에서 \"내가 이 회사의 궤적을 바꿀 수 있다\"고 느끼는 순간임. 그건 연봉표에 적을 수 없고, 지분으로 바꿔치기도 안…",
+  "source": "정리",
+  "access": "free",
+  "id": "2068367556021551482",
+  "partial": false,
+  "xarticle": true
+ },
+ {
+  "title": "Claude Fable 5와 Mythos 5 전략",
+  "date": "2026-06-10",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2064455631785034154",
+  "summary": "Claude Fable 5는 Anthropic이 일반 공개한 최신 Mythos-class 모델임. 공식 발표 기준으로 “일반 사용을 위해 안전하게 만든 Mythos-class 모델”이라는 포지션임. 이 모델의 핵…",
+  "source": "정리",
+  "access": "free",
+  "id": "2064455631785034154",
+  "partial": false,
+  "xarticle": true
+ },
+ {
+  "title": "베타 먼저, 알파는 나중ㅣ260425",
+  "date": "2026-04-26",
+  "category": "principle",
+  "sub": "대가 전략·규칙",
+  "tickers": [
+   "NVDA",
+   "TSM"
+  ],
+  "url": "https://x.com/babybluecream/status/2048158950831624679",
+  "summary": "드루켄밀러식 탑다운 투자는 순서가 있음. 먼저 세상이 어느 방향으로 흘러가는지를 읽고, 그 흐름에 올라탄 다음, 마지막으로 그 안에서 제일 좋은 종목을 고름. 이게 전부임. 그런데 대부분의 투자자들은 이 순서를…",
+  "source": "정리",
+  "access": "free",
+  "id": "2048158950831624679",
+  "partial": false,
+  "xarticle": true
+ },
+ {
+  "title": "주가는 왜 움직이는가 — 수요·기대·심리의 삼각구도",
+  "date": "2026-04-18",
+  "category": "principle",
+  "sub": "투자 철학·심리",
+  "tickers": [
+   "SPY",
+   "QQQ"
+  ],
+  "url": "https://x.com/babybluecream/status/2045274613484298377",
+  "summary": "$SPY $QQQ $KOSPI | 260418 주가는 왜 움직이는가 — 수요·기대·심리의 삼각구도 주가는 사고 싶은 사람과 팔고 싶은 사람 사이의 균형점에서 실시간으로 결정됨. 수요가 공급을 앞지르면 가격이 오르…",
+  "source": "정리",
+  "access": "free",
+  "id": "2045274613484298377",
+  "partial": false,
+  "xarticle": true
+ },
+ {
+  "title": "$MSTR 투자 thesis",
+  "date": "2026-04-18",
+  "category": "us",
+  "sub": "디지털자산 관련주",
+  "tickers": [
+   "MSTR",
+   "BTC"
+  ],
+  "url": "https://x.com/babybluecream/status/2045265244327645573",
+  "summary": "mNAV·BPS 상승과 스트래티지 투자 테시스 스트래티지는 마이클 세일러가 이끄는 회사로, 2020년 8월부터 비트코인을 주요 재무자산으로 편입했음. 2026년 4월 기준 보유량은 총 780,897 BTC로, 상…",
+  "source": "정리",
+  "access": "free",
+  "id": "2045265244327645573",
+  "partial": false,
+  "xarticle": true
+ },
+ {
+  "title": "TERAFAB | The Largest Chip Manufacturing Facility Ever",
+  "date": "2026-04-11",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "TSLA"
+  ],
+  "url": "https://x.com/babybluecream/status/2042634240475672717",
+  "summary": "일론머스크, 테라팹 260407 프레젠테이션 내용 정리 인류의 궁극적인 목표는 지구에만 머무르는 것이 아니라, 은하 문명으로 확장하는 데 있음. 이는 SF 소설처럼 우주로 나가서 여러 천체에 거점을 두는 것을 현…",
+  "source": "정리",
+  "access": "free",
+  "id": "2042634240475672717",
+  "partial": false,
+  "xarticle": true
+ },
+ {
+  "title": "마이크론 4분기 실적 예측치 Deep Dive (구독 아티클)",
+  "date": "2026-09-30",
+  "category": "us",
+  "sub": "구독 아티클",
+  "tickers": [
+   "MU"
+  ],
+  "url": "https://x.com/babybluecream/status/2105295589860851767",
+  "summary": "",
+  "source": "본인",
+  "access": "locked",
+  "id": "2105295589860851767",
+  "partial": false
+ }
 ]
