@@ -3,53 +3,71 @@
     "title": "$NTRA Deep Dive ㅣ260826",
     "date": "2026-08-26",
     "category": "deepdive",
-    "tickers": ["NTRA"],
+    "tickers": [
+      "NTRA"
+    ],
     "url": "https://x.com/babybluecream/status/2092553323794813003",
     "summary": "나테라는 미국 텍사스 오스틴에 본사를 둔 분자진단 기업. 피에 떠다니는 미세한 DNA 조각을 읽어 병을 잡아내는 검사를 만들고 판매함.",
-    "badge": "구독 컨텐츠 예시"
+    "badge": "구독 컨텐츠 예시",
+    "access": "구독"
   },
   {
     "title": "$ABCL Deep Dive ㅣ260826",
     "date": "2026-08-26",
     "category": "deepdive",
-    "tickers": ["ABCL"],
+    "tickers": [
+      "ABCL"
+    ],
     "url": "https://x.com/babybluecream/status/2092591313137041908",
     "summary": "애브셀레라는 캐나다 밴쿠버에 본사를 둔 임상단계 바이오텍. 핵심 자산은 항체 신약을 초고속으로 찾아내는 발굴 플랫폼.",
-    "badge": "구독 컨텐츠 예시"
+    "badge": "구독 컨텐츠 예시",
+    "access": "구독"
   },
   {
     "title": "$LPTH Deep Dive ㅣ260826",
     "date": "2026-08-26",
     "category": "deepdive",
-    "tickers": ["LPTH"],
+    "tickers": [
+      "LPTH"
+    ],
     "url": "https://x.com/babybluecream/status/2092608557858652254",
     "summary": "라이트패스 테크놀로지스는 미국 플로리다 올랜도에 본사를 둔 광학·적외선 부품 제조사. 렌즈·적외선 광학·열화상 카메라 같은 실물 광학 제품을 만듦.",
-    "badge": "구독 컨텐츠 예시"
+    "badge": "구독 컨텐츠 예시",
+    "access": "구독"
   },
   {
     "title": "$TSLA Deep Dive ㅣ260828",
     "date": "2026-08-28",
     "category": "deepdive",
-    "tickers": ["TSLA"],
+    "tickers": [
+      "TSLA"
+    ],
     "url": "https://x.com/babybluecream/status/2093309069000147421",
-    "summary": "테슬라는 미국 텍사스 오스틴에 본사를 둔 전기차·에너지저장·AI 기업. 사업 폭이 자동차 한 곳에 머물지 않는 초대형주."
+    "summary": "테슬라는 미국 텍사스 오스틴에 본사를 둔 전기차·에너지저장·AI 기업. 사업 폭이 자동차 한 곳에 머물지 않는 초대형주.",
+    "access": "공개"
   },
   {
     "title": "$ALAB 구독자 포스팅",
     "date": "2026-09-04",
     "category": "deepdive",
-    "tickers": ["ALAB"],
+    "tickers": [
+      "ALAB"
+    ],
     "url": "https://x.com/babybluecream/status/2095886442597859372",
-    "summary": "9/3 구독자 포스팅 했는데 오늘 11%."
+    "summary": "9/3 구독자 포스팅 했는데 오늘 11%.",
+    "access": "구독"
   },
   {
     "title": "성장주 스크리닝 ㅣOscar Mikeㅣ260828",
     "date": "2026-08-28",
     "category": "screening",
-    "tickers": ["NVDA", "TSM", "PLTR", "CRDO"],
+    "tickers": [
+      "NVDA"
+    ],
     "url": "https://x.com/babybluecream/status/2093216525364924560",
     "summary": "첫 번째 종목은 $NVDA. AI 가속기(GPU) 설계 절대강자로 데이터센터가 매출의 약 92%. Q2(FY27) 매출 $96.2B(+106%), 블랙웰 울트라 램프가 견인.",
-    "badge": "구독자 컨텐츠 예시"
+    "badge": "구독자 컨텐츠 예시",
+    "access": "구독"
   },
   {
     "title": "성장주 스크리닝 ㅣ261006",
@@ -57,6 +75,669 @@
     "category": "screening",
     "tickers": [],
     "url": "https://x.com/babybluecream/status/2107376947332362292",
-    "summary": "기술적 지표보다 기본적 지표. 개인의 무기는 시간이며, 실적 기반 좋은 기업을 오래 보유해 복리를 누려야 한다는 관점의 스크리닝."
+    "summary": "기술적 지표보다 기본적 지표. 개인의 무기는 시간이며, 실적 기반 좋은 기업을 오래 보유해 복리를 누려야 한다는 관점의 스크리닝.",
+    "access": "공개"
+  },
+  {
+    "title": "$ALM Deep Dive ㅣ260328",
+    "date": "2026-03-18",
+    "category": "deepdive",
+    "tickers": [
+      "ALM"
+    ],
+    "url": "https://x.com/babybluecream/status/2034257999326560364",
+    "summary": "공개된 구독자 컨텐츠. Almonty Industries는 텅스텐을 채굴·가공해 반도체 기업, 방위산업체, 산업용 고객에게 공급하는 광산 기업.",
+    "access": "구독"
+  },
+  {
+    "title": "$RELY 구독자 컨텐츠 맛보기 ㅣ260422",
+    "date": "2026-04-22",
+    "category": "deepdive",
+    "tickers": [
+      "RELY"
+    ],
+    "url": "https://x.com/babybluecream/status/2046962578447126668",
+    "summary": "디지털 해외송금의 조용한 정복자, Remitly. 이민자의 본국 송금 시장을 모바일 앱으로 파고든 핀테크 기업.",
+    "access": "구독"
+  },
+  {
+    "title": "$HSHP Deep Dive ㅣ260510",
+    "date": "2026-05-10",
+    "category": "deepdive",
+    "tickers": [
+      "HSHP"
+    ],
+    "url": "https://x.com/babybluecream/status/2053340381023236216",
+    "summary": "Himalaya Shipping. 스크리닝 기준 PEG 1 이하, Forward PE 15 이하. Q4 2025 실적, Q1 2026 상업 업데이트, BCI 지수, 배당 내역 기반.",
+    "access": "구독"
+  },
+  {
+    "title": "$MU Deep Dive ㅣ260510",
+    "date": "2026-05-10",
+    "category": "deepdive",
+    "tickers": [
+      "MU"
+    ],
+    "url": "https://x.com/babybluecream/status/2053347910129996100",
+    "summary": "Micron Technology. FQ2 2026 실적, HBM4 양산 개시, FQ3 2026 가이던스를 기반으로 작성한 분석.",
+    "access": "구독"
+  },
+  {
+    "title": "$TTMI Deep Dive",
+    "date": "2026-05-22",
+    "category": "deepdive",
+    "tickers": [
+      "TTMI"
+    ],
+    "url": "https://x.com/babybluecream/status/2057825110980227401",
+    "summary": "",
+    "access": "구독"
+  },
+  {
+    "title": "$INOD Deep Dive 레포트",
+    "date": "2026-06-05",
+    "category": "deepdive",
+    "tickers": [
+      "INOD"
+    ],
+    "url": "https://x.com/babybluecream/status/2062669045544190238",
+    "summary": "Finviz Peer Group에서 유일하게 살아남은 종목. Deep Dive 레포트를 구독자 아티클로 작성.",
+    "access": "구독"
+  },
+  {
+    "title": "$ETON 구독자 컨텐츠 일부 ㅣ260803",
+    "date": "2026-08-03",
+    "category": "deepdive",
+    "tickers": [
+      "ETON"
+    ],
+    "url": "https://x.com/babybluecream/status/2084287627650592892",
+    "summary": "이튼 파마슈티컬스, 희귀질환 치료제를 개발·상업화하는 나스닥 상장 제약사.",
+    "access": "구독"
+  },
+  {
+    "title": "$ALAB 아스테라 랩스 ㅣ260903",
+    "date": "2026-09-03",
+    "category": "deepdive",
+    "tickers": [
+      "ALAB"
+    ],
+    "url": "https://x.com/babybluecream/status/2095462518491840731",
+    "summary": "산호세 본사 팹리스. GPU가 아니라 GPU·XPU 사이 연결 칩을 판매. 2025 매출 $8.525억, 전년 대비 +115%.",
+    "access": "구독"
+  },
+  {
+    "title": "매출, 이익 기반 스크리너 ㅣOscar Mikeㅣ260507",
+    "date": "2026-05-07",
+    "category": "screening",
+    "tickers": [
+      "LLY",
+      "NBIX"
+    ],
+    "url": "https://x.com/babybluecream/status/2052129998388265423",
+    "summary": "구독 컨텐츠 일부. 최근 5거래일 주간 수익률 기준 섹터별 정리와 사업 설명.",
+    "access": "구독"
+  },
+  {
+    "title": "펀더멘탈 기본 + 모멘텀 스크리닝",
+    "date": "2026-06-12",
+    "category": "screening",
+    "tickers": [],
+    "url": "https://x.com/babybluecream/status/2065370245775458678",
+    "summary": "",
+    "access": "구독"
+  },
+  {
+    "title": "공개 스크리닝 타래 ㅣ$RDDT",
+    "date": "2026-07-02",
+    "category": "screening",
+    "tickers": [
+      "RDDT"
+    ],
+    "url": "https://x.com/babybluecream/status/2072585350648918486",
+    "summary": "구독자 컨텐츠로 올리던 스크리닝을 공개 타래로 올린 글.",
+    "access": "구독"
+  },
+  {
+    "title": "$NBIX 구독 스크리닝 ㅣ260707",
+    "date": "2026-07-08",
+    "category": "screening",
+    "tickers": [
+      "NBIX"
+    ],
+    "url": "https://x.com/babybluecream/status/2074508970266595601",
+    "summary": "뉴로크린 바이오사이언시스, 신경학·내분비학 전문 생명공학 기업.",
+    "access": "구독"
+  },
+  {
+    "title": "$BTSG 구독 스크리닝 ㅣ260708",
+    "date": "2026-07-08",
+    "category": "screening",
+    "tickers": [
+      "BTSG"
+    ],
+    "url": "https://x.com/babybluecream/status/2074510288012070946",
+    "summary": "너가 모를뿐 오르는 주식은 있음.",
+    "access": "구독"
+  },
+  {
+    "title": "구독 스크리닝 공개본 ㅣ260806",
+    "date": "2026-08-06",
+    "category": "screening",
+    "tickers": [],
+    "url": "https://x.com/babybluecream/status/2085284250748846271",
+    "summary": "구독글로 올리는 스크리닝을 공개글로도 한 번 올린 글.",
+    "access": "구독"
+  },
+  {
+    "title": "Oscar Mike ㅣ성장 모멘텀 스크리닝ㅣ260814",
+    "date": "2026-08-14",
+    "category": "screening",
+    "tickers": [
+      "CRDO",
+      "SKHY"
+    ],
+    "url": "https://x.com/babybluecream/status/2088234976596852849",
+    "summary": "구독자 컨텐츠. 주간 수익률 상위 종목을 섹터와 상승 배경과 함께 정리.",
+    "access": "구독"
+  },
+  {
+    "title": "Oscar Mike ㅣ260929",
+    "date": "2026-09-29",
+    "category": "screening",
+    "tickers": [
+      "P",
+      "SITM",
+      "MXL"
+    ],
+    "url": "https://x.com/babybluecream/status/2104899205202596066",
+    "summary": "Oscar Mike(On the Move) 스크리닝.",
+    "access": "공개"
+  },
+  {
+    "title": "스탠리 드러켄밀러 종목 스크리닝",
+    "date": "2025-11-30",
+    "category": "screening",
+    "tickers": [],
+    "url": "https://x.com/babybluecream/status/1995091582580932638",
+    "summary": "탑다운 매크로 스타일로 큰 그림을 먼저 보고 수혜 업종·자산군을 고른 뒤 개별 종목으로 내려가는 방식.",
+    "access": "공개"
+  },
+  {
+    "title": "딥시크가 가격을 올린 진짜 이유ㅣ토큰 전쟁의 방향이 바뀌었다 ㅣTango Down ㅣ260818",
+    "date": "2026-08-18",
+    "category": "article",
+    "tickers": [],
+    "url": "https://x.com/babybluecream/status/2089539564503462250",
+    "summary": "구독자 아티클 업데이트 공지.",
+    "access": "구독"
+  },
+  {
+    "title": "애플이 중국에서만 따로 만든 AI 모델ㅣ알리바바와의 이원 전략이 의미하는 것 ㅣTango Down ㅣ260818",
+    "date": "2026-08-18",
+    "category": "article",
+    "tickers": [],
+    "url": "https://x.com/babybluecream/status/2089555107016999396",
+    "summary": "구독자 아티클 업데이트 공지.",
+    "access": "구독"
+  },
+  {
+    "title": "드러켄밀러 26.2분기 딥다이브 ㅣTango Down ㅣ260818",
+    "date": "2026-08-18",
+    "category": "article",
+    "tickers": [],
+    "url": "https://x.com/babybluecream/status/2089630989324898710",
+    "summary": "구독자 아티클 업데이트 공지.",
+    "access": "구독"
+  },
+  {
+    "title": "시추에이션 어웨어니스 붕괴 하는 그날 사건",
+    "date": "2026-08-18",
+    "category": "article",
+    "tickers": [],
+    "url": "https://x.com/babybluecream/status/2089662195361886292",
+    "summary": "구독자 아티클 안내.",
+    "access": "구독"
+  },
+  {
+    "title": "DB, Morgan Stanley가 최근 다르게 본 기업",
+    "date": "2026-06-28",
+    "category": "article",
+    "tickers": [],
+    "url": "https://x.com/babybluecream/status/2071222342270017707",
+    "summary": "구독자 아티클로는 표를 많이 냈음.",
+    "access": "구독"
+  },
+  {
+    "title": "안두릴 투자 가능한 방법",
+    "date": "2026-04-28",
+    "category": "article",
+    "tickers": [],
+    "url": "https://x.com/babybluecream/status/2048953009972064327",
+    "summary": "구독자는 댓글의 아티클 링크 확인.",
+    "access": "구독"
+  },
+  {
+    "title": "SpaceX S-1 관련 아티클",
+    "date": "2026-05-25",
+    "category": "article",
+    "tickers": [],
+    "url": "https://x.com/babybluecream/status/2058853339895574745",
+    "summary": "구독자 아티클 추가 안내.",
+    "access": "구독"
+  },
+  {
+    "title": "머스크가 세계 최대 칩 공장을 텍사스에 짓는 이유 ㅣ260807",
+    "date": "2026-08-07",
+    "category": "article",
+    "tickers": [
+      "SPCX",
+      "TSLA"
+    ],
+    "url": "https://x.com/babybluecream/status/2085547707402433001",
+    "summary": "구독 아티클 안내.",
+    "access": "구독"
+  },
+  {
+    "title": "$PENG 업데이트 ㅣ260709",
+    "date": "2026-07-09",
+    "category": "article",
+    "tickers": [
+      "PENG"
+    ],
+    "url": "https://x.com/babybluecream/status/2075229411243385090",
+    "summary": "구독자는 구독자 글 참조.",
+    "access": "구독"
+  },
+  {
+    "title": "$SITM 27.32% 업데이트",
+    "date": "2026-05-07",
+    "category": "article",
+    "tickers": [
+      "SITM"
+    ],
+    "url": "https://x.com/babybluecream/status/2052391285340930328",
+    "summary": "스크리닝 정상 작동중. 26.1분기 실적 발표: 비GAAP EPS 1.44달러, 매출 1억 1360만 달러로 예상치 상회.",
+    "access": "구독"
+  },
+  {
+    "title": "$CBRS 세레브라스 Raise Summit 컨퍼런스콜 일부",
+    "date": "2026-07-12",
+    "category": "article",
+    "tickers": [
+      "CBRS"
+    ],
+    "url": "https://x.com/babybluecream/status/2076251310639468698",
+    "summary": "오픈AI 컴퓨팅 인프라 총괄과 세레브라스 CEO의 대화 정리.",
+    "access": "공개"
+  },
+  {
+    "title": "$PENG 병목ㅣ컴퓨팅이 아니라 메모리",
+    "date": "2026-07-13",
+    "category": "article",
+    "tickers": [
+      "PENG"
+    ],
+    "url": "https://x.com/babybluecream/status/2076328910242062448",
+    "summary": "CEO 발언 정리: 인퍼런스와 에이전틱 AI 확대로 HBM 등 메모리 수요가 커지는 흐름.",
+    "access": "공개"
+  },
+  {
+    "title": "레노버 CEO, 메모리발 원가 인플레이션 언급",
+    "date": "2026-07-01",
+    "category": "article",
+    "tickers": [],
+    "url": "https://x.com/babybluecream/status/2072081453803094127",
+    "summary": "2월·5월 실적 컨퍼런스콜과 인터뷰 기준. 메모리 가격 상승에 따른 PC 출하 압박 경고.",
+    "access": "공개"
+  },
+  {
+    "title": "모건스탠리, 톱픽 삼성전자→삼성전기 ㅣ260812",
+    "date": "2026-08-12",
+    "category": "article",
+    "tickers": [],
+    "url": "https://x.com/babybluecream/status/2087372466599743808",
+    "summary": "모건스탠리가 국내 기술주 최선호주를 삼성전자에서 삼성전기로 변경.",
+    "access": "공개"
+  },
+  {
+    "title": "모건스탠리 연준 동결 전망 ㅣ260904",
+    "date": "2026-09-04",
+    "category": "article",
+    "tickers": [],
+    "url": "https://x.com/babybluecream/status/2095822452958101610",
+    "summary": "매파적 잭슨홀 연설에도 9월 동결 전망. 근거는 8월 코어 CPI·PCE 전망치.",
+    "access": "공개"
+  },
+  {
+    "title": "피터틸 포트폴리오ㅣ데이터센터로 가는 전기에 베팅 ㅣ260826",
+    "date": "2026-08-26",
+    "category": "article",
+    "tickers": [],
+    "url": "https://x.com/babybluecream/status/2092370738003206603",
+    "summary": "틸 매크로의 2분기 말 13F 기준 포트폴리오 정리.",
+    "access": "공개"
+  },
+  {
+    "title": "주식이 아니라 비즈니스를 봐라 ㅣ260508",
+    "date": "2026-05-08",
+    "category": "article",
+    "tickers": [
+      "IREN",
+      "NVDA"
+    ],
+    "url": "https://x.com/babybluecream/status/2052531876754268196",
+    "summary": "주가는 단기 감정이, 장기로는 비즈니스가 결정. 매출·이익률·수주잔고·신규 고객을 보라는 글.",
+    "access": "공개"
+  },
+  {
+    "title": "세일즈포스, ‘에이전트포스’ 간판 일부 내린다 ㅣ260912",
+    "date": "2026-09-12",
+    "category": "article",
+    "tickers": [
+      "ORCL",
+      "CRM"
+    ],
+    "url": "https://x.com/babybluecream/status/2098711596742881633",
+    "summary": "드림포스를 앞두고 일부 주력 제품 이름에서 에이전트포스를 떼기로 한 결정 정리.",
+    "access": "공개"
+  },
+  {
+    "title": "슈퍼위크, 소음과 신호 사이 ㅣ260706",
+    "date": "2026-07-06",
+    "category": "article",
+    "tickers": [],
+    "url": "https://x.com/babybluecream/status/2073917477982228718",
+    "summary": "국내 증시 방향을 가를 이벤트가 몰린 한 주. 코스피 8000선 회복과 삼성전자 잠정실적 일정.",
+    "access": "공개"
+  },
+  {
+    "title": "$TQQQ 세 계좌 26년 성과 비교 ㅣ261012",
+    "date": "2026-10-12",
+    "category": "article",
+    "tickers": [
+      "TQQQ"
+    ],
+    "url": "https://x.com/babybluecream/status/2109421368525857232",
+    "summary": "나스닥100 하루 등락의 3배를 따라가는 레버리지 ETF 구조와 세 계좌 성과 비교.",
+    "access": "공개"
+  },
+  {
+    "title": "테슬라 AI 비전과 주가 전환점 ㅣ261008",
+    "date": "2026-10-08",
+    "category": "article",
+    "tickers": [
+      "TSLA"
+    ],
+    "url": "https://x.com/babybluecream/status/2107950992713302480",
+    "summary": "시장이 지불하는 근거는 자동차가 아니라 현실 세계 AI. 방향은 맞지만 일정이 밀려 있다는 점이 핵심.",
+    "access": "공개"
+  },
+  {
+    "title": "엔비디아 멀티플이 M7보다 낮아진 이유 ㅣ261007",
+    "date": "2026-10-07",
+    "category": "article",
+    "tickers": [
+      "NVDA"
+    ],
+    "url": "https://x.com/babybluecream/status/2107723225656607070",
+    "summary": "선행 PER 20배 아래로 M7 평균보다 낮아짐. 원인은 주가 약세가 아니라 이익 급증.",
+    "access": "공개"
+  },
+  {
+    "title": "엔비디아 자사주 매입 확대 ㅣ261007",
+    "date": "2026-10-07",
+    "category": "article",
+    "tickers": [
+      "NVDA"
+    ],
+    "url": "https://x.com/babybluecream/status/2107723805418557482",
+    "summary": "분기 자사주 매입이 두 분기 연속 약 200억달러로 사상 최대 수준.",
+    "access": "공개"
+  },
+  {
+    "title": "깅코 바이오웍스 신고가 직후 급락 ㅣ261007",
+    "date": "2026-10-07",
+    "category": "article",
+    "tickers": [
+      "DNA",
+      "TWST",
+      "TXG"
+    ],
+    "url": "https://x.com/babybluecream/status/2107735367554347170",
+    "summary": "52주 신고가 직후 하루 15.6% 하락. 바이오 AI 테마 전체에서 동시 매도.",
+    "access": "공개"
+  },
+  {
+    "title": "구글과 콘스텔레이션 원전 전력 계약, 발전주 동반 급등 ㅣ261006",
+    "date": "2026-10-07",
+    "category": "article",
+    "tickers": [
+      "GOOGL",
+      "CEG"
+    ],
+    "url": "https://x.com/babybluecream/status/2107604957151326279",
+    "summary": "두 건의 전력 계약, 합계 약 3,590메가와트.",
+    "access": "공개"
+  },
+  {
+    "title": "골드만삭스, 테슬라 주가는 AI 사업 전망이 좌우 ㅣ261007",
+    "date": "2026-10-07",
+    "category": "article",
+    "tickers": [
+      "TSLA"
+    ],
+    "url": "https://x.com/babybluecream/status/2107599372947161092",
+    "summary": "3분기 실적 앞두고 투자의견 중립, 목표주가 360달러 유지.",
+    "access": "공개"
+  },
+  {
+    "title": "오픈AI와 메타의 AI 수익화 경로 ㅣ261008",
+    "date": "2026-10-08",
+    "category": "article",
+    "tickers": [],
+    "url": "https://x.com/babybluecream/status/2108121091097166011",
+    "summary": "오픈AI ARR이 2026년 9월 말 약 700억 달러에 근접. 증가를 이끈 건 기업 매출.",
+    "access": "공개"
+  },
+  {
+    "title": "소비자 AI의 수익 구조와 한계 ㅣ261008",
+    "date": "2026-10-08",
+    "category": "article",
+    "tickers": [
+      "META"
+    ],
+    "url": "https://x.com/babybluecream/status/2108125576963973555",
+    "summary": "소비자 AI 수요는 확인됐지만 유료 이용자는 아직 적고, 더 큰 문제는 비용.",
+    "access": "공개"
+  },
+  {
+    "title": "반도체 고점론 ㅣ261010",
+    "date": "2026-10-10",
+    "category": "article",
+    "tickers": [
+      "MU"
+    ],
+    "url": "https://x.com/babybluecream/status/2108907077779550567",
+    "summary": "삼성전자 3분기 잠정실적 역대 최대. 마이크론 가이던스의 매출총이익률 하락을 근거로 한 고점론 정리.",
+    "access": "공개"
+  },
+  {
+    "title": "유가 105달러 돌파와 AI 실적 호조 ㅣ261009",
+    "date": "2026-10-09",
+    "category": "article",
+    "tickers": [
+      "TSM",
+      "APLD",
+      "PEP"
+    ],
+    "url": "https://x.com/babybluecream/status/2108281413804134424",
+    "summary": "유가·금리 상승으로 선물 하락, 반면 TSMC 9월 매출 +54.6% 등 AI 실적은 호조.",
+    "access": "공개"
+  },
+  {
+    "title": "나이트콜 ㅣ주요 뉴스 ㅣ261007",
+    "date": "2026-10-08",
+    "category": "article",
+    "tickers": [
+      "SPCX",
+      "NVDA",
+      "APO",
+      "TSM",
+      "AMZN"
+    ],
+    "url": "https://x.com/babybluecream/status/2107952943723118616",
+    "summary": "스페이스X의 엔비디아 칩 구매용 400억달러 조달 추진 등 주요 뉴스 정리.",
+    "access": "공개"
+  },
+  {
+    "title": "모닝콜 ㅣ미국 증시 사상 최고치 마감 ㅣ261006",
+    "date": "2026-10-07",
+    "category": "article",
+    "tickers": [
+      "SPX",
+      "COMP",
+      "CEG",
+      "GOOGL"
+    ],
+    "url": "https://x.com/babybluecream/status/2107594830507598012",
+    "summary": "금리 하락과 원전 계약이 상승을 주도한 장 마감 정리.",
+    "access": "공개"
+  },
+  {
+    "title": "구글 AI 지금 뭐하누 ㅣ260930",
+    "date": "2026-09-30",
+    "category": "article",
+    "tickers": [
+      "GOOGL"
+    ],
+    "url": "https://x.com/babybluecream/status/2105253475525578929",
+    "summary": "구글이 검색·제미니앱·클라우드에 나눠 배포 중인 AI 에이전트 실행 기능 정리.",
+    "access": "공개"
+  },
+  {
+    "title": "제미니4 아르곤 제한공개 ㅣ261001",
+    "date": "2026-10-01",
+    "category": "article",
+    "tickers": [],
+    "url": "https://x.com/babybluecream/status/2105421326311956803",
+    "summary": "여러 단계를 이어서 끝내는 모델. 현재는 방어 담당 기관용 페어윈드 테스터만 사용.",
+    "access": "공개"
+  },
+  {
+    "title": "AMD 첫 600달러 돌파, AI 에이전트발 CPU 재평가 ㅣ260922",
+    "date": "2026-09-22",
+    "category": "article",
+    "tickers": [
+      "AMD",
+      "META"
+    ],
+    "url": "https://x.com/babybluecream/status/2102143283095114222",
+    "summary": "종가 615.52달러로 사상 첫 600달러 돌파. 메타 AI 에이전트 뮤즈 출시가 계기.",
+    "access": "공개"
+  },
+  {
+    "title": "OpenAI 연방기관 요금제 전환 ㅣ260910",
+    "date": "2026-09-10",
+    "category": "article",
+    "tickers": [],
+    "url": "https://x.com/babybluecream/status/2098051355906920664",
+    "summary": "기관당 연 1달러 요금제를 끝내고 정가 50% 할인으로 전환.",
+    "access": "공개"
+  },
+  {
+    "title": "아이폰 20 프로 루머 ㅣ260905",
+    "date": "2026-09-05",
+    "category": "article",
+    "tickers": [
+      "AAPL"
+    ],
+    "url": "https://x.com/babybluecream/status/2096003684392173873",
+    "summary": "2027년 20주년 리디자인 모델 루머와 이름 문제 정리.",
+    "access": "공개"
+  },
+  {
+    "title": "테슬라 유럽 등록·FSD·사이버캡 ㅣ260903",
+    "date": "2026-09-03",
+    "category": "article",
+    "tickers": [
+      "TSLA"
+    ],
+    "url": "https://x.com/babybluecream/status/2095283925962863090",
+    "summary": "8월 유럽 등록 대수의 지역별 불균형, FSD 안전 대시보드 공개.",
+    "access": "공개"
+  },
+  {
+    "title": "테슬라 8월 유럽 신차 대수, FSD 승인전 사이버캡 출격 ㅣ260902",
+    "date": "2026-09-02",
+    "category": "article",
+    "tickers": [
+      "TSLA"
+    ],
+    "url": "https://x.com/babybluecream/status/2095118842259480578",
+    "summary": "프랑스 +279%, 덴마크 +104%, 노르웨이·스페인 -79% 등 나라별로 극명하게 갈린 한 달.",
+    "access": "공개"
+  },
+  {
+    "title": "소니가 콘솔을 비싸게 팔고도 이익을 지키는 이유 ㅣ260830",
+    "date": "2026-08-30",
+    "category": "article",
+    "tickers": [
+      "SONY"
+    ],
+    "url": "https://x.com/babybluecream/status/2093919690879836235",
+    "summary": "PS5 권장소비자가 재인상과 사업부별 이익률 정리.",
+    "access": "공개"
+  },
+  {
+    "title": "FSD 값, 경쟁이 세지면 오히려 떨어질까? ㅣ260825",
+    "date": "2026-08-25",
+    "category": "article",
+    "tickers": [
+      "TSLA"
+    ],
+    "url": "https://x.com/babybluecream/status/2092036452788076723",
+    "summary": "한계비용 0의 소프트웨어지만 학습 인프라에 먼저 큰돈을 붓는 구조.",
+    "access": "공개"
+  },
+  {
+    "title": "FSD 고정비 대 가격 ㅣ260824",
+    "date": "2026-08-24",
+    "category": "article",
+    "tickers": [
+      "TSLA"
+    ],
+    "url": "https://x.com/babybluecream/status/2091830655357505702",
+    "summary": "텍사스 학습 컴퓨트 115→260메가와트, 연말 목표 400메가와트. 감가상각 고정비 정리.",
+    "access": "공개"
+  },
+  {
+    "title": "오픈AI, 앤트로픽에 밀린 뒤 재기 시도 ㅣ260801",
+    "date": "2026-08-01",
+    "category": "article",
+    "tickers": [],
+    "url": "https://x.com/babybluecream/status/2083440590864429391",
+    "summary": "챗GPT 성장 둔화와 앤트로픽 부상, 참모진 재조정과 기업 고객 경쟁.",
+    "access": "공개"
+  },
+  {
+    "title": "메타·앤트로픽 컴퓨팅 임대 협상 ㅣ260716",
+    "date": "2026-07-18",
+    "category": "article",
+    "tickers": [
+      "META"
+    ],
+    "url": "https://x.com/babybluecream/status/2078271611312971999",
+    "summary": "NYT 보도: 2년간 최대 100억 달러 규모로 AI 데이터센터 컴퓨팅을 빌려주는 협상.",
+    "access": "공개"
+  },
+  {
+    "title": "모카, 테슬라 FSD 라이트 한국 실주행 후기 정리 ㅣ260716",
+    "date": "2026-07-17",
+    "category": "article",
+    "tickers": [],
+    "url": "https://x.com/babybluecream/status/2077932603102154855",
+    "summary": "5년 된 모델 Y로 밤·폭우 상황에서 FSD 라이트를 실주행 테스트한 내용.",
+    "access": "공개"
   }
 ]
