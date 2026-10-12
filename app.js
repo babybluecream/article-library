@@ -3,7 +3,7 @@
   var CFG = window.MOCK || {};
   var XURL = 'https://x.com/babybluecream';
   var FV = 'https://finviz.com/?affilId=324420513';
-  var CATS = [{ id: 'all', label: '전체' }], CAT_LABEL = { all: '전체' }, PATH = [];
+  var CATS = [{ id: 'all', label: '전체' }], CAT_LABEL = { all: '전체' }, PATH = [], PICK = {};
   var HIDDEN = { start: 1 }; // 시작하기(구독 안내)는 읽기 순서 0단계에서만 보임
   var posts = [], byId = {};
   var state = { view: 'index', stage: '0', cat: 'all', sub: null, free: false, xa: false, lock: false, q: '', sort: 'desc', ticker: null };
@@ -14,7 +14,7 @@
   function pad(n) { return ('00' + n).slice(-3); }
   function idOf(p) { return String(p.url).split('/').pop(); }
   function isFree(p) { return p.access !== 'locked'; }
-  function inCat(p, id) { return id === 'all' || (id === 'article' ? !!p.article : p.category === id); }
+  function inCat(p, id) { return id === 'all' || (id === 'pick' ? idOf(p) in PICK : id === 'article' ? !!p.article : p.category === id); }
   function visible(p) { return !HIDDEN[p.category]; }
   function pass(p, skip) {
     skip = skip || {};
@@ -103,7 +103,7 @@
       '<time class="date" datetime="' + esc(p.date) + '">' + esc(fmt(p.date)) + '</time>' +
       '<span class="cat">' + esc(CAT_LABEL[p.category] || p.category) + (p.sub ? '<i>' + esc(p.sub) + '</i>' : '') + '</span>' + accTag(p) +
       '<span class="ttl">' + srcTag(p) + ' ' + esc(p.title) + extraTags(p) + '</span>' +
-      (p.label && !p.summary ? '<span class="sum sum-note">원문 출처 저작권 보호를 위해 요약을 싣지 않습니다. X에서 확인하세요.</span>' : p.summary ? '<span class="sum">' + (p.partial ? '<em class="part">원문 일부</em> ' : '') + esc(p.summary) + '</span>' : '<span class="sum sum-empty"></span>') +
+      (state.cat === 'pick' && PICK[idOf(p)] ? '<span class="sum why"><b>추천 이유</b> ' + esc(PICK[idOf(p)].why) + '</span>' : p.label && !p.summary ? '<span class="sum sum-note">원문 출처 저작권 보호를 위해 요약을 싣지 않습니다. X에서 확인하세요.</span>' : p.summary ? '<span class="sum">' + (p.partial ? '<em class="part">원문 일부</em> ' : '') + esc(p.summary) + '</span>' : '<span class="sum sum-empty"></span>') +
       '<span class="tks">' + tks(p) + '</span>' +
       '<span class="go">' + CFG.goLabel + '</span></a></li>';
   }
@@ -115,6 +115,7 @@
   function renderList() {
     var list = posts.filter(function (p) { return pass(p); });
     list.sort(function (a, c) { var r = a.date < c.date ? -1 : a.date > c.date ? 1 : a._i - c._i; return state.sort === 'asc' ? r : -r; });
+    if (state.cat === 'pick') list.sort(function (a, c) { return PICK[idOf(a)].o - PICK[idOf(c)].o; });
     var html = '', ctaDone = false;
     list.forEach(function (p, i) {
       if (!ctaDone && p.access === 'locked') {
@@ -233,6 +234,8 @@
     var d = res[0], meta = res[1];
     (meta.cats || []).forEach(function (c) { CATS.push({ id: c[0], label: c[1] }); CAT_LABEL[c[0]] = c[1]; });
     CAT_LABEL.start = '시작하기';
+    (meta.picks || []).forEach(function (x, i) { PICK[x.id] = { why: x.why, o: i }; });
+    if (meta.picks && meta.picks.length) { CATS.unshift({ id: 'pick', label: '추천 글' }); CAT_LABEL.pick = '추천 글'; }
     PATH = meta.path || [];
     posts = (Array.isArray(d) ? d : []).filter(function (p) { return p && p.title && p.url && p.date; }).map(function (p, i) { p._i = i; p.tickers = Array.isArray(p.tickers) ? p.tickers.map(function (t) { return String(t).replace(/^\$/, '').toUpperCase(); }) : []; byId[idOf(p)] = p; return p; });
     posts.filter(visible).sort(function (a, c) { return a.date < c.date ? -1 : a.date > c.date ? 1 : a._i - c._i; }).forEach(function (p, i) { p._n = i + 1; });

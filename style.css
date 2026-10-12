@@ -186,3 +186,9 @@ a{color:inherit}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;
  .row.locked .hit{grid-template-areas:"no date cat acc acc" "ttl ttl ttl ttl ttl" "sum sum sum sum sum" "tks tks tks tks tks" "go go go go go"}
  .row.locked .go-lock{justify-self:start;margin-top:4px}
 }
+
+/* 추천 글 + 날짜 가독성 */
+.date{font-weight:700;font-size:13px;letter-spacing:.01em;color:var(--cyan)}
+.why{white-space:normal;color:var(--ink);font-size:13.5px;line-height:1.5}
+.why b{font-weight:700;color:var(--amber);font-size:11px;border:1px solid var(--amber);padding:0 4px;margin-right:6px;vertical-align:1px;font-family:var(--k)}
+@media(min-width:960px){.date{font-size:13.5px}.why{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}
