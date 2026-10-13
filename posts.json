@@ -679,6 +679,74 @@
   "article": true
  },
  {
+  "title": "펀드매니저 90%가 15년간 진 상대를 월급쟁이가 이기는 법 ㅣ261013",
+  "date": "2026-10-13",
+  "category": "money",
+  "sub": "자산배분·ETF",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2109794278763647417",
+  "summary": "SPIVA 기준 15년 이상 미국 대형주 액티브 펀드 약 90%가 S&P500에 짐. 패시브·연금계좌로 지수 수익률을 가져가는 법을 정리.",
+  "source": "본인",
+  "access": "free",
+  "id": "2109794278763647417",
+  "partial": false,
+  "article": true
+ },
+ {
+  "title": "모닝콜 ㅣ 미국 증시 혼조 마감, 에너지 강세와 기술주 약세 ㅣ261013",
+  "date": "2026-10-13",
+  "category": "macro",
+  "sub": "미국 시황",
+  "tickers": [
+   "AVGO",
+   "CIEN",
+   "LITE",
+   "MU",
+   "SNDK",
+   "JPM",
+   "C",
+   "WFC"
+  ],
+  "url": "https://x.com/babybluecream/status/2109775321998455199",
+  "summary": "10/12 다우·S&P 상승·나스닥 하락의 거래량 한산. 유가·에너지 강세, AVGO 발언에 기술·광통신·메모리 약세.",
+  "source": "본인",
+  "access": "free",
+  "id": "2109775321998455199",
+  "partial": false,
+  "article": true
+ },
+ {
+  "title": "일론 머스크 X Takeover 2026 화상 인터뷰 전문 ㅣ261013",
+  "date": "2026-10-13",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "TSLA",
+   "SPCX"
+  ],
+  "url": "https://x.com/babybluecream/status/2109772327726850425",
+  "summary": "기가 텍사스 X Takeover 2026 화상 인터뷰. 테슬라 파산 위기·스타십 14번째 궤도 진입·우주 데이터센터 구상까지 정리.",
+  "source": "본인",
+  "access": "free",
+  "id": "2109772327726850425",
+  "partial": false,
+  "article": true
+ },
+ {
+  "title": "돈을 버는 방식과 행복의 관계 ㅣ261013",
+  "date": "2026-10-13",
+  "category": "money",
+  "sub": "파이어·배당·돈 습관",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2109767730719318131",
+  "summary": "안정적 현금 흐름과 경제적 독립이 행복에 미치는 영향, 경쟁 적은 수익 방식과 에이징 커브까지 정리.",
+  "source": "본인",
+  "access": "free",
+  "id": "2109767730719318131",
+  "partial": false,
+  "article": true
+ },
+ {
   "title": "미국주식 주간 Top Picks 26.10.12 (대신증권)",
   "date": "2026-10-12",
   "category": "us",
