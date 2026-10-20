@@ -192,3 +192,25 @@ a{color:inherit}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;
 .why{white-space:normal;color:var(--ink);font-size:13.5px;line-height:1.5}
 .why b{font-weight:700;color:var(--amber);font-size:11px;border:1px solid var(--amber);padding:0 4px;margin-right:6px;vertical-align:1px;font-family:var(--k)}
 @media(min-width:960px){.date{font-size:13.5px}.why{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}
+
+/* ===== subscribe CTA (B2: 헤더 아래 전폭 배너) ===== */
+.sub-banner{display:flex;align-items:center;justify-content:space-between;gap:10px 16px;flex-wrap:wrap;padding:10px 14px;background:var(--panel);border-bottom:1px solid var(--amber);border-left:4px solid var(--amber)}
+.sb-t{margin:0;font-weight:600;font-size:15px;font-family:var(--k);color:var(--ink)}
+.sb-t b{color:var(--amber);font-family:var(--f);font-variant-numeric:tabular-nums}
+.sb-p{color:var(--green);font-family:var(--f);font-weight:700;margin-right:4px}
+.sb-c{display:inline-block;width:8px;height:15px;margin-left:6px;vertical-align:-2px;background:var(--green);animation:blink 1s steps(1) infinite}
+.sb-btn{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:0 16px;border:1px solid var(--amber);background:var(--amber);color:#000;font-weight:700;letter-spacing:.04em;white-space:nowrap;text-decoration:none}
+.sb-btn:hover{background:transparent;color:var(--amber)}
+:root[data-theme=light] .sb-btn{color:#fff}:root[data-theme=light] .sb-btn:hover{color:var(--amber)}
+@media(prefers-color-scheme:light){:root:not([data-theme=dark]) .sb-btn{color:#fff}:root:not([data-theme=dark]) .sb-btn:hover{color:var(--amber)}}
+@media(max-width:520px){.sub-banner{padding:10px 12px}.sb-t{font-size:14px}.sb-btn{width:100%}}
+@media(prefers-reduced-motion:reduce){.sb-c{animation:none}}
+/* 🔒 안내 박스: 구독하기(주) + 기존 X 버튼 */
+.cta-btns{display:flex;flex-wrap:wrap;gap:8px}
+.cta-in .go-btn.sub-main{background:var(--amber);color:#000;border-color:var(--amber)}
+.cta-in .go-btn.sub-main:hover{background:transparent;color:var(--amber)}
+:root[data-theme=light] .cta-in .go-btn.sub-main{color:#fff}:root[data-theme=light] .cta-in .go-btn.sub-main:hover{color:var(--amber)}
+@media(prefers-color-scheme:light){:root:not([data-theme=dark]) .cta-in .go-btn.sub-main{color:#fff}:root:not([data-theme=dark]) .cta-in .go-btn.sub-main:hover{color:var(--amber)}}
+@media(max-width:520px){.cta-btns{width:100%;flex-direction:column}.cta-btns .go-btn{width:100%}}
+/* 모바일 nav: 링크 줄([PATH][X↗][BLOG↗]) + 버튼 줄(Finviz·THEME) 두 줄, 줄바꿈으로 글자 잘림 방지 */
+@media(max-width:520px){.nav{width:100%;flex-wrap:wrap;justify-content:flex-end;row-gap:6px}.nav>*{white-space:nowrap;flex:none}.nav::before{content:"";order:1;flex-basis:100%}.nav .fv-top,.nav .theme{order:2}}

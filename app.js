@@ -2,6 +2,7 @@
   'use strict';
   var CFG = window.MOCK || {};
   var XURL = 'https://x.com/babybluecream';
+  var SUBURL = 'https://x.com/babybluecream/creator-subscriptions/subscribe';
   var FV = 'https://finviz.com/?affilId=324420513';
   var CATS = [{ id: 'all', label: '전체' }], CAT_LABEL = { all: '전체' }, PATH = [], PICK = {};
   var HIDDEN = { start: 1 }; // 시작하기(구독 안내)는 읽기 순서 0단계에서만 보임
@@ -111,6 +112,7 @@
     return '<li class="cta ' + (cls || '') + '"><div class="cta-in"><p class="cta-t">' + esc(text) + '</p>' + btnHtml +
       '<p class="cta-n">리딩 없음 · 정보 제공 목적. 특정 종목 매매 추천을 하지 않습니다. 구독 안내는 X 프로필에서 확인하세요.</p></div></li>';
   }
+  function subBtn(label) { return '<a class="go-btn sub sub-main" href="' + SUBURL + '" target="_blank" rel="noopener">' + esc(label) + '</a>'; }
   function xBtn(label) { return '<a class="go-btn sub" href="' + XURL + '" target="_blank" rel="noopener">' + esc(label) + '</a>'; }
   function renderList() {
     var list = posts.filter(function (p) { return pass(p); });
@@ -120,7 +122,7 @@
     list.forEach(function (p, i) {
       if (!ctaDone && p.access === 'locked') {
         ctaDone = true;
-        html += ctaBox('아래 🔒 글은 구독자 전용입니다. 방법은 공개 글로, 매주 실제 결과 티커는 구독자에게 공유합니다 🐧', xBtn('X에서 구독 확인 ↗'), 'cta-list');
+        html += ctaBox('아래 🔒 글은 구독자 전용입니다. 방법은 공개 글로, 매주 실제 결과 티커는 구독자에게 공유합니다 🐧', '<div class="cta-btns">' + subBtn('[ 구독하기 → ]') + xBtn('X에서 구독 확인 ↗') + '</div>', 'cta-list');
       }
       html += row(p, i);
     });
@@ -240,6 +242,7 @@
     posts = (Array.isArray(d) ? d : []).filter(function (p) { return p && p.title && p.url && p.date; }).map(function (p, i) { p._i = i; p.tickers = Array.isArray(p.tickers) ? p.tickers.map(function (t) { return String(t).replace(/^\$/, '').toUpperCase(); }) : []; byId[idOf(p)] = p; return p; });
     posts.filter(visible).sort(function (a, c) { return a.date < c.date ? -1 : a.date > c.date ? 1 : a._i - c._i; }).forEach(function (p, i) { p._n = i + 1; });
     $('startChips').innerHTML = PATH.filter(function (x) { return !x.side; }).map(function (x) { return '<button type="button" class="st mini" data-stage="' + esc(x.k) + '"><b>' + esc(x.k) + '</b><span>' + esc(x.name) + '</span></button>'; }).join('<span class="arr" aria-hidden="true">→</span>');
+    var subN = $('subN'); if (subN) subN.textContent = posts.filter(function (p) { return p.access === 'locked'; }).length;
     readHash(); renderStats(); render();
   }).catch(function (err) { var e = $('empty'); e.hidden = false; e.innerHTML = '<p class="big">불러오기 실패</p><p>posts.json/path.json을 웹 서버로 열어 주세요.</p>'; if (window.console) console.warn(err); });
 })();
