@@ -214,3 +214,54 @@ a{color:inherit}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;
 @media(max-width:520px){.cta-btns{width:100%;flex-direction:column}.cta-btns .go-btn{width:100%}}
 /* 모바일 nav: 링크 줄([PATH][X↗][BLOG↗]) + 버튼 줄(Finviz·THEME) 두 줄, 줄바꿈으로 글자 잘림 방지 */
 @media(max-width:520px){.nav{width:100%;flex-wrap:wrap;justify-content:flex-end;row-gap:6px}.nav>*{white-space:nowrap;flex:none}.nav::before{content:"";order:1;flex-basis:100%}.nav .fv-top,.nav .theme{order:2}}
+/* HUD 링크 박스 */
+.hbs{display:grid;gap:8px}
+.hb{display:flex;align-items:center;justify-content:center;min-height:44px;padding:0 8px;border:1px solid var(--amber);color:var(--amber);text-decoration:none;font-weight:700;white-space:nowrap;letter-spacing:.02em}
+.hb:hover{background:var(--amber);color:#000}
+.hb:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.hb-f{border-color:var(--green);color:var(--green)}.hb-f:hover{background:var(--green);color:#000}
+.hb-b{border-color:var(--cyan);color:var(--cyan)}.hb-b:hover{background:var(--cyan);color:#000}
+:root[data-theme=light] .hb:hover{color:#fff}
+@media(prefers-color-scheme:light){:root:not([data-theme=dark]) .hb:hover{color:#fff}}
+.ctas .disc{line-height:1.45}
+/* V3: 통계 박스와 같은 결의 한 덩어리 3칸 바 */
+.hbseg{grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.hbseg .hb{border:0;background:var(--panel);min-height:48px}
+.hbseg .hb-x{box-shadow:inset 0 2px 0 var(--amber)}.hbseg .hb-b{box-shadow:inset 0 2px 0 var(--cyan)}.hbseg .hb-f{box-shadow:inset 0 2px 0 var(--green)}
+.hbseg .hb:focus-visible{outline-offset:-3px}
+@media(min-width:900px){.hud{grid-template-columns:1.4fr 1fr 320px}}
+@media(max-width:360px){.hbseg .hb{padding:0 4px;font-size:13px}}
+
+/* ===== UX-QC 시안 (전환·홈) ===== */
+/* 앵커 이동 시 고정 영역에 가리지 않게 (WCAG C43) */
+html{scroll-padding-top:calc(var(--stick-all,46px) + 8px)}
+a.brand{color:inherit;text-decoration:none}
+/* 홈: START.HERE 한 줄 (모바일은 가로 스크롤) */
+.start{padding:12px 14px}
+.start .h2{margin-bottom:8px}
+.start-chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;padding-bottom:2px}
+.start-chips::-webkit-scrollbar{display:none}
+.start-chips .st{flex:none;white-space:nowrap}
+.start-side{margin-top:6px}
+/* TYPE 레일: 상단 바 바로 아래 고정, 한 줄 + 가로 스크롤 */
+.rail{position:sticky;top:var(--stick,46px);z-index:15;display:flex;align-items:center;gap:6px;padding:6px 14px;margin:0 0 8px;background:var(--bg);border-bottom:1px solid var(--line)}
+.rail .grp{flex:1;min-width:0;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent);padding-right:24px}
+.rail .grp::-webkit-scrollbar{display:none}
+.rail .fb{flex:none;white-space:nowrap}
+@media(min-width:960px){.rail .grp{gap:3px;flex-wrap:wrap;overflow:visible;-webkit-mask-image:none;mask-image:none;padding-right:0}.rail .fb{min-height:32px;padding:0 7px;font-size:12.5px;gap:4px}.rail .fl-lab{width:40px}
+ .fkeys{display:flex;flex-wrap:wrap;gap:8px 28px}.fkeys #subWrap{flex-basis:100%}
+ .chips{max-height:34px}}
+/* 모바일: 노란 바는 스크롤과 함께 올라가고, 목록을 볼 때는 TYPE 레일만 고정 (content-to-chrome 비율) */
+@media(max-width:520px){.bar{position:relative}.rail{top:0}.nav .nv-idx{display:inline}}
+/* 데이터 오기 전 자리 확보 → 첫 화면 밀림(CLS) 줄이기 */
+html:not(.ready) #list{min-height:100vh}
+html:not(.ready) .start-chips{min-height:36px}
+/* 더보기 */
+.more-wrap{margin:12px 14px 0;display:flex;justify-content:center}
+.more-btn{min-height:44px;padding:0 18px;border-color:var(--amber);color:var(--amber)}
+.more-btn .fn{color:var(--dim)}
+.more-btn:hover{background:var(--amber);color:#000;border-color:var(--amber)}
+/* 상단 바 링크 터치 영역 ≥32px (WCAG 2.5.8 24px 이상, 모양은 그대로) */
+.nav>a:not(.fv-top){display:inline-flex;align-items:center;min-height:32px;padding:0 2px}.bar a.brand{display:inline-block;line-height:32px}
+.theme,.fv-top{min-height:32px}
+@media(max-width:520px){.nav{row-gap:4px}.nav>a:not(.fv-top){padding:0 3px}.nav>a.nv-in:not(.fv-top){display:none}.fv-top{padding:3px 7px}}

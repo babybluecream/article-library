@@ -37,6 +37,7 @@ Penguin Terminal 🐧 — 펭귄(@babybluecream)의 미국 주식 노트 아카�
 ```
 
 - `category`: `us`(미국주식 리서치) / `principle`(투자론·원칙) / `method`(스크리닝 방법) / `money`(재테크·절세·연금) / `realestate`(부동산) / `market`(시황: 모닝콜·나이트콜·나이트캡·아페리티프 등 일일 시황) / `macro`(시장·매크로) / `econ`(경제 상식) / `tips`(팁·사이트 공유) / `translation`(번역) / `extra`(별도 읽을거리). `start`는 읽기 순서 0단계 전용(탭에 안 보임).
+- 화면 탭은 10개로 묶여 보입니다: `realestate`는 「재테크·부동산」(money) 탭, `econ`·`translation`은 「투자론」(principle) 탭 안의 서브로 표시. `article` 글은 탭 대신 ACCESS의 「아티클만」 필터로 봅니다. 데이터의 `category` 값은 그대로 쓰면 됩니다(`app.js`의 `MERGE`).
 - `sub`: 세부 분류 이름(자유 입력, 같은 이름끼리 묶임)
 - `source`: `본인` / `정리` / `번역` — 화면에는 `번역`만 [번역] 태그로 표시
 - `access`: `free`(공개) / `sample`(공개된 구독 샘플) / `locked`(구독자 전용 → 🔒 카드, 제목·날짜·티커만 표시하므로 `summary`는 비워 두기)

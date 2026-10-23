@@ -7,7 +7,9 @@
   var CATS = [{ id: 'all', label: '전체' }], CAT_LABEL = { all: '전체' }, PATH = [], PICK = {};
   var HIDDEN = { start: 1 }; // 시작하기(구독 안내)는 읽기 순서 0단계에서만 보임
   var posts = [], byId = {};
-  var state = { view: 'index', stage: '0', cat: 'all', sub: null, free: false, xa: false, lock: false, q: '', sort: 'desc', ticker: null };
+  var DEF = { view: 'index', stage: '0', cat: 'all', sub: null, free: false, xa: false, lock: false, q: '', sort: 'desc', ticker: null };
+  var PAGE = 60; // 첫 렌더 행 수 (더보기로 +60)
+  var state = Object.assign({ limit: PAGE }, DEF);
   var $ = function (id) { return document.getElementById(id); };
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
   function fmt(d) { var p = String(d).split('-'); return p.length === 3 ? p[0] + '.' + p[1] + '.' + p[2] : d; }
@@ -15,19 +17,41 @@
   function pad(n) { return ('00' + n).slice(-3); }
   function idOf(p) { return String(p.url).split('/').pop(); }
   function isFree(p) { return p.access !== 'locked'; }
-  function inCat(p, id) { return id === 'all' || (id === 'pick' ? idOf(p) in PICK : id === 'article' ? !!p.article : p.category === id); }
+  // 탭 합치기 (14→10): 부동산→재테크·부동산, 경제 상식·번역→투자론. 글 데이터의 category는 그대로 두고 화면에서만 묶음
+  var MERGE = { realestate: 'money', econ: 'principle', translation: 'principle' };
+  var TAB_LABEL = { money: '재테크·부동산', principle: '투자론' };
+  var SUB_AS_CAT = { econ: 1, translation: 1 }; // 작은 탭은 합친 탭 안에서 서브 하나로 보임
+  function tabOf(p) { return MERGE[p.category] || p.category; }
+  function subOf(p) { return SUB_AS_CAT[p.category] ? CAT_LABEL[p.category] : p.sub; }
+  function isArt(p) { return !!(p.article || p.xarticle); }
+  function inCat(p, id) { return id === 'all' || (id === 'pick' ? idOf(p) in PICK : tabOf(p) === id); }
   function visible(p) { return !HIDDEN[p.category]; }
+  // 티커 → 한글 이름 별칭 (검색용, 사용 빈도 상위 티커 중 널리 쓰이는 이름만)
+  var ALIAS = {
+    NVDA: '엔비디아', TSLA: '테슬라', SPCX: '스페이스X 스페이스엑스', MU: '마이크론', META: '메타 페이스북', TSM: 'TSMC 대만반도체',
+    SNDK: '샌디스크', AAPL: '애플', AMZN: '아마존', AVGO: '브로드컴', GOOGL: '구글 알파벳', GOOG: '구글 알파벳', SPY: 'S&P500 에스앤피',
+    SPX: 'S&P500 에스앤피', SKHY: 'SK하이닉스 하이닉스', CRWV: '코어위브', ALAB: '아스테라랩스', INTC: '인텔', NFLX: '넷플릭스',
+    QQQ: '나스닥100', COMP: '나스닥', DIA: '다우존스', DJI: '다우존스', MSFT: '마이크로소프트', BE: '블룸에너지',
+    MSTR: '스트래티지 마이크로스트래티지', NBIS: '네비우스', ORCL: '오라클', LLY: '일라이릴리', LRCX: '램리서치', BTC: '비트코인',
+    DELL: '델', JPM: 'JP모건 제이피모건', C: '씨티그룹', LITE: '루멘텀', STX: '씨게이트', WDC: '웨스턴디지털', MRVL: '마벨',
+    QCOM: '퀄컴', IWM: '러셀2000', CRM: '세일즈포스', GS: '골드만삭스', WFC: '웰스파고', RTX: '레이시온', LMT: '록히드마틴',
+    BA: '보잉', BAC: '뱅크오브아메리카', MS: '모건스탠리', ASML: 'ASML', ANET: '아리스타', UNH: '유나이티드헬스', T: 'AT&T',
+    BROS: '더치브로스', ASTS: 'AST스페이스모바일', AVAV: '에어로바이론먼트', AMD: 'AMD'
+  };
+  function hayOf(p) {
+    return norm(p.title + ' ' + (p.tickers || []).join(' ') + ' ' + (p.tickers || []).map(function (t) { return ALIAS[t] || ''; }).join(' ') + ' ' + (p.summary || '') + ' ' + (CAT_LABEL[p.category] || '') + ' ' + (p.sub || '') + ' ' + (p.source === '번역' ? '번역' : '') + ' ' + (p.label || '') + (p.xarticle || p.article ? ' 아티클 article' : ''));
+  }
   function pass(p, skip) {
     skip = skip || {};
     if (!visible(p)) return false;
     if (!skip.cat && !inCat(p, state.cat)) return false;
-    if (!skip.sub && state.sub && p.sub !== state.sub) return false;
+    if (!skip.sub && state.sub && subOf(p) !== state.sub) return false;
     if (!skip.free && state.free && !isFree(p)) return false;
-    if (!skip.xa && state.xa && !p.xarticle) return false;
+    if (!skip.xa && state.xa && !isArt(p)) return false;
     if (!skip.lock && state.lock && p.access !== 'locked') return false;
     if (!skip.ticker && state.ticker && (p.tickers || []).indexOf(state.ticker) === -1) return false;
     if (state.q) {
-      var hay = norm(p.title + ' ' + (p.tickers || []).join(' ') + ' ' + (p.summary || '') + ' ' + (CAT_LABEL[p.category] || '') + ' ' + (p.sub || '') + ' ' + (p.source === '번역' ? '번역' : '') + ' ' + (p.label || '') + (p.xarticle || p.article ? ' 아티클 article' : ''));
+      var hay = p._hay || (p._hay = hayOf(p));
       var t = state.q.toLowerCase().replace(/\$/g, '').split(/\s+/).filter(Boolean);
       for (var i = 0; i < t.length; i++) if (hay.indexOf(norm(t[i])) === -1) return false;
     }
@@ -62,23 +86,25 @@
       return b('data-cat', c.id, c.label, state.cat === c.id, n);
     }).join('');
     var subs = [];
-    if (state.cat !== 'all') posts.forEach(function (p) { if (p.category === state.cat && p.sub && subs.indexOf(p.sub) === -1) subs.push(p.sub); });
+    if (state.cat !== 'all') [0, 1].forEach(function (pass2) { posts.forEach(function (p) { var s = subOf(p); if (tabOf(p) === state.cat && !!MERGE[p.category] === !!pass2 && s && subs.indexOf(s) === -1) subs.push(s); }); }); // 원래 탭 서브 먼저, 합친 탭 서브는 뒤에
     $('subWrap').hidden = subs.length < 2;
     $('subs').innerHTML = subs.length < 2 ? '' : [b('data-sub', '', '전체', !state.sub)].concat(subs.map(function (s) {
-      var n = posts.filter(function (p) { return p.sub === s && pass(p, { sub: true }); }).length;
+      var n = posts.filter(function (p) { return subOf(p) === s && pass(p, { sub: true }); }).length;
       return b('data-sub', s, s, state.sub === s, n);
     })).join('');
     var nFree = posts.filter(function (p) { return isFree(p) && pass(p, { free: true }); }).length;
     $('freeBtn').setAttribute('aria-pressed', String(state.free));
     $('freeBtn').innerHTML = '<span class="fl">FREE만 보기</span><span class="fn">' + nFree + '</span>';
-    var nXa = posts.filter(function (p) { return p.xarticle && pass(p, { xa: true }); }).length;
+    var nXa = posts.filter(function (p) { return isArt(p) && pass(p, { xa: true }); }).length;
     $('xaBtn').setAttribute('aria-pressed', String(state.xa));
     var nLk = posts.filter(function (p) { return p.access === 'locked' && pass(p, { lock: true }); }).length;
     $('lockBtn').setAttribute('aria-pressed', String(state.lock));
     $('lockBtn').innerHTML = '<span class="fl">🔒 구독자 전용</span><span class="fn">' + nLk + '</span>';
-    $('xaBtn').innerHTML = '<span class="fl">X 아티클만</span><span class="fn">' + nXa + '</span>';
-    var c = tickerCounts(true), ks = Object.keys(c).sort();
+    $('xaBtn').innerHTML = '<span class="fl">아티클만</span><span class="fn">' + nXa + '</span>';
+    var c = tickerCounts(true), ks = Object.keys(c).sort(function (a, z) { return (c[z] - c[a]) || (a < z ? -1 : a > z ? 1 : 0); }); // 많이 쓰인 티커 먼저
     if (state.ticker && ks.indexOf(state.ticker) === -1) ks.unshift(state.ticker);
+    var open = $('tickerWrap').classList.contains('open');
+    if (!open && ks.length > 40) { var sel = state.ticker; ks = ks.slice(0, 40); if (sel && ks.indexOf(sel) === -1) ks.unshift(sel); } // 접힌 상태에선 보이는 만큼만 그림
     $('chips').innerHTML = ks.length ? ks.map(function (t) { return b('data-ticker', t, '$' + t, state.ticker === t, c[t] || 0); }).join('') : '<span class="none">해당 티커 없음</span>';
     $('sortBtn').textContent = state.sort === 'desc' ? CFG.sortDesc : CFG.sortAsc;
     $('clearQ').hidden = !state.q;
@@ -118,7 +144,8 @@
     var list = posts.filter(function (p) { return pass(p); });
     list.sort(function (a, c) { var r = a.date < c.date ? -1 : a.date > c.date ? 1 : a._i - c._i; return state.sort === 'asc' ? r : -r; });
     if (state.cat === 'pick') list.sort(function (a, c) { return PICK[idOf(a)].o - PICK[idOf(c)].o; });
-    var html = '', ctaDone = false;
+    var html = '', ctaDone = false, total = list.length;
+    list = list.slice(0, state.limit);
     list.forEach(function (p, i) {
       if (!ctaDone && p.access === 'locked') {
         ctaDone = true;
@@ -127,18 +154,21 @@
       html += row(p, i);
     });
     $('list').innerHTML = html;
+    var mw = $('moreWrap'), left = total - list.length;
+    mw.hidden = left <= 0;
+    mw.innerHTML = left > 0 ? '<button type="button" class="fb more-btn" id="moreBtn"><span class="fl">[ 더보기 +' + Math.min(PAGE, left) + ' ]</span><span class="fn">남은 ' + left + '편</span></button>' : '';
     var e = $('empty');
-    if (list.length) e.hidden = true;
+    if (total) e.hidden = true;
     else { e.hidden = false; e.innerHTML = '<p class="big">' + CFG.emptyBig + '</p><p>조건에 맞는 글이 없습니다.</p><button type="button" class="fb" id="resetAll"><span class="fl">필터 초기화</span></button>'; }
     var parts = [];
-    if (state.cat !== 'all') parts.push(CAT_LABEL[state.cat]);
+    if (state.cat !== 'all') parts.push(TAB_LABEL[state.cat] || CAT_LABEL[state.cat]);
     if (state.sub) parts.push(state.sub);
     if (state.free) parts.push('FREE');
-    if (state.xa) parts.push('X 아티클');
+    if (state.xa) parts.push('아티클');
     if (state.lock) parts.push('구독자 전용');
     if (state.ticker) parts.push('$' + state.ticker);
     if (state.q) parts.push('“' + state.q + '”');
-    $('count').textContent = CFG.countPrefix + (parts.length ? parts.join(' · ') + ' — ' : '') + list.length + ' / ' + posts.filter(visible).length;
+    $('count').textContent = CFG.countPrefix + (parts.length ? parts.join(' · ') + ' — ' : '') + total + ' / ' + posts.filter(visible).length;
   }
   // ---------- 전체 읽어보기 ----------
   function stageBy(k) { for (var i = 0; i < PATH.length; i++) if (PATH[i].k === k) return PATH[i]; return PATH[0]; }
@@ -183,7 +213,7 @@
   }
   function renderView() {
     var p = state.view === 'path';
-    $('index').hidden = p; $('path').hidden = !p; $('startBox').hidden = p; $('about').hidden = p; $('hud').hidden = p;
+    $('lst').hidden = p; $('path').hidden = !p; $('startBox').hidden = p; $('about').hidden = p; $('hud').hidden = p;
     document.querySelectorAll('[data-view]').forEach(function (a) { a.setAttribute('aria-current', a.getAttribute('data-view') === state.view ? 'page' : 'false'); });
     if (p) renderPath(); else { renderFilters(); renderList(); }
   }
@@ -191,35 +221,105 @@
   function readHash() {
     var h = location.hash.replace(/^#/, ''), kv = {};
     h.split('&').forEach(function (x) { var a = x.split('='); if (a[0]) kv[a[0]] = decodeURIComponent(a[1] || ''); });
-    if (kv.path != null || h === 'path') { state.view = 'path'; if (kv.path) state.stage = kv.path; }
-    else if (h === 'about' || h === 'index') { state.view = 'index'; }
-    else { state.view = 'index'; if (kv.cat && CAT_LABEL[kv.cat]) { state.cat = kv.cat; state.sub = null; } if (kv.free) state.free = kv.free === '1'; if (kv.xa) state.xa = kv.xa === '1'; if (kv.lock) state.lock = kv.lock === '1'; }
+    if (h === 'about' || h === 'lst') { state.view = 'index'; return; } // 구독 안내·목록 건너뛰기: 보던 탭 유지
+    var keepStage = state.stage;
+    Object.keys(DEF).forEach(function (k) { state[k] = DEF[k]; }); state.stage = keepStage; state.limit = PAGE;
+    if (kv.path != null || h === 'path') { state.view = 'path'; if (kv.path) state.stage = kv.path; return; }
+    if (kv.cat && CAT_LABEL[kv.cat]) state.cat = MERGE[kv.cat] || kv.cat;
+    if (state.cat === 'article') state.cat = 'all'; // 예전 아티클 탭 링크 → ACCESS 아티클 필터
+    if (kv.sub) state.sub = kv.sub;
+    state.free = kv.free === '1'; state.xa = kv.xa === '1' || kv.cat === 'article'; state.lock = kv.lock === '1';
+    if (kv.t) state.ticker = kv.t.toUpperCase();
+    if (kv.q) state.q = kv.q;
+    if (kv.sort === 'asc') state.sort = 'asc';
+    if ($('q')) $('q').value = state.q;
   }
-  function goStage(k) { state.view = 'path'; state.stage = k; history.replaceState(null, '', '#path=' + k); render(); window.scrollTo(0, $('path').offsetTop - 50); }
+  // 현재 상태 → URL. 탭·보기·단계 이동은 push(뒤로가기 한 단계), 필터·검색 입력은 replace(공유용으로만 기록)
+  function hashOf() {
+    if (state.view === 'path') return '#path=' + state.stage;
+    var a = [];
+    if (state.cat !== 'all') a.push('cat=' + state.cat);
+    if (state.sub) a.push('sub=' + encodeURIComponent(state.sub));
+    if (state.free) a.push('free=1'); if (state.xa) a.push('xa=1'); if (state.lock) a.push('lock=1');
+    if (state.ticker) a.push('t=' + state.ticker);
+    if (state.q) a.push('q=' + encodeURIComponent(state.q));
+    if (state.sort === 'asc') a.push('sort=asc');
+    return a.length ? '#' + a.join('&') : location.pathname + location.search;
+  }
+  function saveY(y) { try { history.replaceState({ y: y != null ? y : Math.round(window.scrollY), n: state.limit }, '', location.href); } catch (e) {} }
+  function commit(push, y) { var u = hashOf(); if (push) { saveY(y); history.pushState(null, '', u); } else history.replaceState(history.state, '', u); }
+  // 고정 영역(상단 바 + TYPE 레일) 높이
+  function stickH() { var bar = document.querySelector('.bar'), sticky = getComputedStyle(bar).position === 'sticky'; return sticky ? bar.offsetHeight : 0; }
+  function syncStick() { var h = stickH(); document.documentElement.style.setProperty('--stick', h + 'px'); document.documentElement.style.setProperty('--stick-all', (h + ($('rail') ? $('rail').offsetHeight : 0)) + 'px'); }
+  // 목록이 바뀔 때: 레일 아래로 내려와 있었다면 목록 첫 줄이 레일 바로 밑에 오게 (맨 위로 튀지 않음)
+  function keepListInView() {
+    var m = $('railMark'); if (!m || state.view !== 'index') return;
+    var natural = Math.round(m.getBoundingClientRect().top + window.scrollY - stickH());
+    if (window.scrollY > natural + 1) window.scrollTo(0, natural);
+  }
+  // 선택된 탭이 가로 스크롤 레일 안에서 보이도록
+  function revealTab() {
+    var g = $('cats'), on = g && g.querySelector('[aria-pressed=true]'); if (!on) return;
+    var l = on.offsetLeft - g.offsetLeft, rr = l + on.offsetWidth;
+    if (l < g.scrollLeft + 24 || rr > g.scrollLeft + g.clientWidth - 24) g.scrollLeft = Math.max(0, l - (g.clientWidth - on.offsetWidth) / 2);
+  }
+  // 재렌더 뒤 포커스 복원 (버튼이 innerHTML로 새로 그려져도 같은 버튼에 포커스 유지)
+  function refocus(sel) { if (!sel) return; var el = document.querySelector(sel); if (el) el.focus({ preventScroll: true }); }
+  function focusSel() {
+    var a = document.activeElement; if (!a || a === document.body) return null;
+    var k = ['data-cat', 'data-sub', 'data-ticker', 'data-stage'].filter(function (x) { return a.hasAttribute(x); })[0];
+    if (k) return (a.closest('#stages') ? '#stages ' : a.closest('#cats') ? '#cats ' : a.closest('#subs') ? '#subs ' : a.closest('#chips') ? '#chips ' : '') + '[' + k + '="' + String(a.getAttribute(k)).replace(/"/g, '\\"') + '"]';
+    return a.id ? '#' + a.id : null;
+  }
+  // 사용자 조작 → 상태 변경 → URL → 렌더 → 스크롤/포커스 정리
+  function act(push, fn) {
+    var y = Math.round(window.scrollY), n = state.limit, fs = focusSel(); // 바뀌기 전 화면 위치를 현재 기록에 저장
+    fn(); state.limit = PAGE;
+    if (push) { history.replaceState({ y: y, n: n }, '', location.href); history.pushState(null, '', hashOf()); } else history.replaceState(history.state, '', hashOf());
+    render(); keepListInView(); revealTab(); refocus(fs);
+  }
+  function goStage(k) {
+    var fs = focusSel(), was = state.view; state.view = 'path'; state.stage = k; commit(true); render();
+    window.scrollTo(0, was === 'path' ? $('path').offsetTop - stickH() : 0);
+    refocus(fs && fs.indexOf('#stages') === 0 ? fs : '#stages [data-stage="' + k + '"]');
+  }
   function bind() {
-    $('cats').addEventListener('click', function (e) { var x = e.target.closest('[data-cat]'); if (x) { state.cat = x.getAttribute('data-cat'); state.sub = null; render(); } });
-    $('subs').addEventListener('click', function (e) { var x = e.target.closest('[data-sub]'); if (x) { state.sub = x.getAttribute('data-sub') || null; render(); } });
-    $('freeBtn').addEventListener('click', function () { state.free = !state.free; if (state.free) state.lock = false; render(); });
-    $('xaBtn').addEventListener('click', function () { state.xa = !state.xa; render(); });
-    $('lockBtn').addEventListener('click', function () { state.lock = !state.lock; if (state.lock) state.free = false; render(); });
-    $('chips').addEventListener('click', function (e) { var x = e.target.closest('[data-ticker]'); if (!x) return; var t = x.getAttribute('data-ticker'); state.ticker = state.ticker === t ? null : t; render(); });
+    $('cats').addEventListener('click', function (e) { var x = e.target.closest('[data-cat]'); if (x && x.getAttribute('data-cat') !== state.cat) act(true, function () { state.cat = x.getAttribute('data-cat'); state.sub = null; }); });
+    $('subs').addEventListener('click', function (e) { var x = e.target.closest('[data-sub]'); if (x) act(false, function () { state.sub = x.getAttribute('data-sub') || null; }); });
+    $('freeBtn').addEventListener('click', function () { act(false, function () { state.free = !state.free; if (state.free) state.lock = false; }); });
+    $('xaBtn').addEventListener('click', function () { act(false, function () { state.xa = !state.xa; }); });
+    $('lockBtn').addEventListener('click', function () { act(false, function () { state.lock = !state.lock; if (state.lock) state.free = false; }); });
+    $('chips').addEventListener('click', function (e) { var x = e.target.closest('[data-ticker]'); if (!x) return; var t = x.getAttribute('data-ticker'); act(false, function () { state.ticker = state.ticker === t ? null : t; }); });
+    $('moreWrap').addEventListener('click', function (e) {
+      if (!e.target.closest('#moreBtn')) return; var from = state.limit; state.limit += PAGE; renderList(); saveY();
+      var rows = $('list').querySelectorAll('.row .hit'); if (rows[from]) rows[from].focus({ preventScroll: true });
+    });
     $('moreTickers').addEventListener('click', function () {
       var w = $('tickerWrap'), open = !w.classList.contains('open');
-      w.classList.toggle('open', open); this.setAttribute('aria-expanded', String(open)); this.textContent = open ? CFG.lessLabel : CFG.moreLabel;
+      w.classList.toggle('open', open); this.setAttribute('aria-expanded', String(open)); this.textContent = open ? CFG.lessLabel : CFG.moreLabel; renderFilters();
     });
     var tm;
-    $('q').addEventListener('input', function (e) { clearTimeout(tm); tm = setTimeout(function () { state.q = e.target.value.trim(); render(); }, 90); });
-    $('clearQ').addEventListener('click', function () { $('q').value = ''; state.q = ''; render(); $('q').focus(); });
-    $('sortBtn').addEventListener('click', function () { state.sort = state.sort === 'desc' ? 'asc' : 'desc'; render(); });
-    $('empty').addEventListener('click', function (e) { if (!e.target.closest('#resetAll')) return; state.cat = 'all'; state.sub = null; state.free = false; state.xa = false; state.lock = false; state.q = ''; state.ticker = null; $('q').value = ''; render(); });
+    $('q').addEventListener('input', function (e) { clearTimeout(tm); tm = setTimeout(function () { act(false, function () { state.q = e.target.value.trim(); }); }, 90); });
+    $('clearQ').addEventListener('click', function () { $('q').value = ''; act(false, function () { state.q = ''; }); $('q').focus(); });
+    $('sortBtn').addEventListener('click', function () { act(false, function () { state.sort = state.sort === 'desc' ? 'asc' : 'desc'; }); });
+    $('empty').addEventListener('click', function (e) { if (!e.target.closest('#resetAll')) return; $('q').value = ''; act(true, function () { state.cat = 'all'; state.sub = null; state.free = false; state.xa = false; state.lock = false; state.q = ''; state.ticker = null; }); refocus('#cats [data-cat="all"]'); });
     document.addEventListener('click', function (e) {
       var st = e.target.closest('[data-stage]'); if (st) { goStage(st.getAttribute('data-stage')); return; }
       var g = e.target.closest('[data-goto]'); if (g) { goStage(g.getAttribute('data-goto')); return; }
       var v = e.target.closest('[data-view]');
-      if (v) { e.preventDefault(); state.view = v.getAttribute('data-view'); history.replaceState(null, '', state.view === 'path' ? '#path=' + state.stage : '#index'); render(); window.scrollTo(0, 0); }
+      if (v) { e.preventDefault(); var nv = v.getAttribute('data-view'); if (nv === state.view && nv === 'index') { window.scrollTo(0, 0); return; } state.view = nv; commit(true); render(); window.scrollTo(0, 0); }
     });
     document.addEventListener('keydown', function (e) { if (e.key === '/' && document.activeElement !== $('q') && state.view === 'index') { e.preventDefault(); $('q').focus(); } });
-    window.addEventListener('hashchange', function () { readHash(); render(); });
+    // 뒤로/앞으로: URL에서 상태 복원 + 그 화면에서 보던 스크롤 위치 복원
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+    window.addEventListener('popstate', function (e) {
+      if (location.hash === '#lst') return; // 건너뛰기 링크는 브라우저 기본 이동에 맡김
+      var st = e.state || {}; readHash(); if (st.n) state.limit = st.n; render(); revealTab();
+      if (location.hash === '#about') { var ab = $('about'); window.scrollTo(0, ab.offsetTop - stickH()); return; }
+      window.scrollTo(0, st.y || 0);
+    });
+    window.addEventListener('scroll', function () { clearTimeout(window.__sy); window.__sy = setTimeout(saveY, 150); }, { passive: true });
+    window.addEventListener('resize', syncStick);
     $('themeToggle').addEventListener('click', function () {
       var r = document.documentElement;
       var cur = r.getAttribute('data-theme') || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
@@ -234,7 +334,7 @@
     fetch('path.json', { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
   ]).then(function (res) {
     var d = res[0], meta = res[1];
-    (meta.cats || []).forEach(function (c) { CATS.push({ id: c[0], label: c[1] }); CAT_LABEL[c[0]] = c[1]; });
+    (meta.cats || []).forEach(function (c) { CAT_LABEL[c[0]] = c[1]; if (!MERGE[c[0]] && c[0] !== 'article') CATS.push({ id: c[0], label: TAB_LABEL[c[0]] || c[1] }); });
     CAT_LABEL.start = '시작하기';
     (meta.picks || []).forEach(function (x, i) { PICK[x.id] = { why: x.why, o: i }; });
     if (meta.picks && meta.picks.length) { CATS.unshift({ id: 'pick', label: '추천 글' }); CAT_LABEL.pick = '추천 글'; }
@@ -243,6 +343,8 @@
     posts.filter(visible).sort(function (a, c) { return a.date < c.date ? -1 : a.date > c.date ? 1 : a._i - c._i; }).forEach(function (p, i) { p._n = i + 1; });
     $('startChips').innerHTML = PATH.filter(function (x) { return !x.side; }).map(function (x) { return '<button type="button" class="st mini" data-stage="' + esc(x.k) + '"><b>' + esc(x.k) + '</b><span>' + esc(x.name) + '</span></button>'; }).join('<span class="arr" aria-hidden="true">→</span>');
     var subN = $('subN'); if (subN) subN.textContent = posts.filter(function (p) { return p.access === 'locked'; }).length;
-    readHash(); renderStats(); render();
+    readHash(); var st0 = history.state || {}; if (st0.n) state.limit = st0.n; renderStats(); render(); syncStick(); revealTab();
+    if (location.hash === '#about') window.scrollTo(0, $('about').offsetTop - stickH()); else if (st0.y) window.scrollTo(0, st0.y);
+    document.documentElement.classList.add('ready');
   }).catch(function (err) { var e = $('empty'); e.hidden = false; e.innerHTML = '<p class="big">불러오기 실패</p><p>posts.json/path.json을 웹 서버로 열어 주세요.</p>'; if (window.console) console.warn(err); });
 })();

@@ -384,20 +384,6 @@
   "article": true
  },
  {
-  "title": "드러켄밀러 26.2분기 딥다이브 ㅣTango Down ㅣ260818",
-  "date": "2026-08-18",
-  "category": "us",
-  "tickers": [],
-  "url": "https://x.com/babybluecream/status/2089630989324898710",
-  "summary": "",
-  "access": "locked",
-  "sub": "구독 아티클",
-  "source": "본인",
-  "id": "2089630989324898710",
-  "partial": false,
-  "article": true
- },
- {
   "title": "시추에이션 어웨어니스 붕괴 하는 그날 사건",
   "date": "2026-08-18",
   "category": "us",
@@ -1800,7 +1786,7 @@
   "title": "무료로 실적 잘 나올 기업 스크리닝 하는 법(Fnguide)",
   "date": "2025-10-18",
   "category": "method",
-  "sub": "무료 툴 입문",
+  "sub": "실전 루틴",
   "tickers": [],
   "url": "https://x.com/babybluecream/status/1979357927283818550",
   "summary": "구글에서 에프엔 가이드 Fnguide 어닝서프라이즈로 검색 · 구글이 직접 링크를 띄워줌 · 3분기 실적 어닝서프라이즈 기업 · 4개 바로뜸 · 매출 기준 삼성전자, LG에너지솔루션, 한진, LG전자",
@@ -2558,7 +2544,7 @@
   "title": "금리 인상기 미국 증시 전망 ㅣ260923",
   "date": "2026-09-23",
   "category": "macro",
-  "sub": "미국 시황",
+  "sub": "금리·환율·지정학",
   "tickers": [],
   "url": "https://x.com/babybluecream/status/2102517549984534812",
   "summary": "레그넘 투자자문 이춘광 대표는 이번 주부터 미국 증시가 강하게 움직일 가능성이 크다고 전망함. 근거는 22일 개막한 유엔총회와 24일부터 예정된 미중 정상회담이라는 두 개의 외교 일정임. 정상회담을 앞둔 9월 1…",
@@ -2597,7 +2583,7 @@
   "title": "인도 Nifty 50 지수 구조 ㅣ261002",
   "date": "2026-10-02",
   "category": "macro",
-  "sub": "해외지수",
+  "sub": "금리·환율·지정학",
   "tickers": [],
   "url": "https://x.com/babybluecream/status/2105838671991828772",
   "summary": "Nifty 50은 인도 대형주 50개의 점수고, 회사 크기에 따라 비중을 다르게 줌. · 비중 10%인 종목이 10% 내리면 지수만 약 1% 내려감. 비중 1%인 종목이 같은 폭으로 내려도 지수는 약 0.1%만…",
@@ -3314,7 +3300,7 @@
   "title": "크리스 밀러 미중 기술 휴전 관련 구독 아티클",
   "date": "2026-08-01",
   "category": "macro",
-  "sub": "구독 아티클",
+  "sub": "금리·환율·지정학",
   "tickers": [
    "NVDA"
   ],
@@ -3902,7 +3888,7 @@
   "title": "폴 튜더 존스 \"지금은 1999년, 2027년은 힘든 해\"ㅣ261014",
   "date": "2026-10-14",
   "category": "macro",
-  "sub": "미국 시황",
+  "sub": "금리·환율·지정학",
   "tickers": [
    "SPCX"
   ],
@@ -4217,8 +4203,8 @@
  {
   "title": "Alexandr Wang 인터뷰 ㅣ Diamond mining vs. building skyscrapers",
   "date": "2026-10-15",
-  "category": "principle",
-  "sub": "비즈니스·철학",
+  "category": "extra",
+  "sub": "마인드·커리어",
   "tickers": [
    "META"
   ],
@@ -4259,8 +4245,8 @@
  {
   "title": "린치핀ㅣ261015",
   "date": "2026-10-15",
-  "category": "principle",
-  "sub": "태도·커리어",
+  "category": "extra",
+  "sub": "마인드·커리어",
   "tickers": [
    "TSLA"
   ],
@@ -5422,12 +5408,12 @@
  {
   "title": "앤트로픽 200억 달러 자금 조달 마무리 임박 | 260207",
   "date": "2026-02-07",
-  "category": "macro",
+  "category": "us",
   "tickers": [],
   "url": "https://x.com/babybluecream/status/2019980338467164529",
   "summary": "",
   "access": "locked",
-  "sub": "금리·환율·지정학",
+  "sub": "섹터·테마",
   "source": "본인",
   "id": "2019980338467164529",
   "partial": false
@@ -6293,12 +6279,12 @@
  {
   "title": "TQQQ 매매 전략ㅣ260404",
   "date": "2026-04-04",
-  "category": "macro",
+  "category": "principle",
   "tickers": [],
   "url": "https://x.com/babybluecream/status/2040326334573134125",
   "summary": "",
   "access": "locked",
-  "sub": "금리·환율·지정학",
+  "sub": "리스크·사이징·레버리지",
   "source": "본인",
   "id": "2040326334573134125",
   "partial": false
@@ -6479,12 +6465,12 @@
  {
   "title": "SpaceX, Cursor를 600억 달러에 인수할 수 있는 권리 확보 계약 체결 ㅣ260422",
   "date": "2026-04-22",
-  "category": "macro",
+  "category": "us",
   "tickers": [],
   "url": "https://x.com/babybluecream/status/2046723692282126767",
   "summary": "",
   "access": "locked",
-  "sub": "금리·환율·지정학",
+  "sub": "섹터·테마",
   "source": "본인",
   "id": "2046723692282126767",
   "partial": false
@@ -7304,7 +7290,7 @@
   "url": "https://x.com/babybluecream/status/2063920402309714243",
   "summary": "",
   "access": "locked",
-  "sub": "국내 시황",
+  "sub": "미국 시황",
   "source": "본인",
   "id": "2063920402309714243",
   "partial": false
@@ -7962,12 +7948,12 @@
  {
   "title": "미국 증시 시황 ㅣ 260709",
   "date": "2026-07-09",
-  "category": "realestate",
+  "category": "market",
   "tickers": [],
   "url": "https://x.com/babybluecream/status/2075230662626558433",
   "summary": "",
   "access": "locked",
-  "sub": "정책·뉴스",
+  "sub": "미국 시황",
   "source": "본인",
   "id": "2075230662626558433",
   "partial": false
@@ -10091,12 +10077,12 @@
  {
   "title": "UBS, WFE 전망 재차 상향ㅣ260905",
   "date": "2026-09-05",
-  "category": "macro",
+  "category": "us",
   "tickers": [],
   "url": "https://x.com/babybluecream/status/2096110645322404024",
   "summary": "",
   "access": "locked",
-  "sub": "금리·환율·지정학",
+  "sub": "실적·IB 전망",
   "source": "본인",
   "id": "2096110645322404024",
   "partial": false
@@ -10104,12 +10090,12 @@
  {
   "title": "UBS 반도체 Capex·WFE 상향 상세ㅣ260905",
   "date": "2026-09-05",
-  "category": "macro",
+  "category": "us",
   "tickers": [],
   "url": "https://x.com/babybluecream/status/2096111646158827551",
   "summary": "",
   "access": "locked",
-  "sub": "금리·환율·지정학",
+  "sub": "실적·IB 전망",
   "source": "본인",
   "id": "2096111646158827551",
   "partial": false
@@ -11759,7 +11745,7 @@
   "sub": "생활·무료",
   "tickers": [],
   "url": "https://x.com/babybluecream/status/2112309451978072540",
-  "summary": "링크는 댓글에 🏔",
+  "summary": "",
   "source": "정리",
   "access": "free",
   "id": "2112309451978072540",
@@ -15951,6 +15937,630 @@
   "source": "본인",
   "access": "locked",
   "id": "2111265059557306583",
+  "partial": false
+ },
+ {
+  "title": "AI 데이터센터 건설 자금 조달 비용이 오르는 이유ㅣ261022",
+  "date": "2026-10-22",
+  "category": "macro",
+  "sub": "금리·환율·지정학",
+  "tickers": [
+   "AMZN",
+   "CRWV",
+   "DLR",
+   "EQIX",
+   "GOOGL",
+   "META",
+   "MS",
+   "MSFT",
+   "ORCL"
+  ],
+  "url": "https://x.com/babybluecream/status/2113028478866215412",
+  "summary": "AI 서비스가 늘면서 AI 연산을 처리하는 서버를 모아 둔 데이터센터가 더 많이 필요해졌음. 데이터센터는 건물, 전력 설비, 냉각 설비를 갖추는 데 수십억 달러가 들어서 대부분 빌린 돈으로 지음. 그래서 돈을 빌리는 비용(금리)이 오르면 건설 계획 전체가 영향을 받음. 2. 올해",
+  "source": "본인",
+  "access": "free",
+  "id": "2113028478866215412",
+  "partial": false
+ },
+ {
+  "title": "세일러가 밝힌 스트래티지의 비트코인 신용 전략ㅣ261022",
+  "date": "2026-10-22",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "MSTR",
+   "SPY",
+   "STRC",
+   "STRD",
+   "STRF",
+   "STRK"
+  ],
+  "url": "https://x.com/babybluecream/status/2113026276978237530",
+  "summary": "마이클 세일러(스트래티지 회장)는 비트코인이 200주 이동평균선(최근 200주 가격의 평균을 이은 선)에서 반등해 새 강세장 초입에 있다고 밝혔음. 200주 이동평균선은 이 선 부근까지 내려가면 약세장이 끝나는 구간으로 해석되는 기준선임. 비트코인은 이 선에서 약 2만 달러(약 2",
+  "source": "본인",
+  "access": "free",
+  "id": "2113026276978237530",
+  "partial": false
+ },
+ {
+  "title": "시장 조정기에 대한 몇 가지 팁",
+  "date": "2026-10-22",
+  "category": "principle",
+  "sub": "투자 철학·심리",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2113024302090269142",
+  "summary": "살아남으세요. 2. 거래 횟수를 줄이세요. 3. 현금이 왕입니다. 4. 레버리지를 줄이세요. 5. 손실을 최소화하세요. 6. (정신적) 자본을 보호하세요. 7. 손실 포지션에 추가 매수를 하지 마세요. 8. 시장 저점을 예측하려고 절대 시도하지 마세요. 9. 소액으로 시작해 포지션",
+  "source": "정리",
+  "access": "free",
+  "id": "2113024302090269142",
+  "partial": false
+ },
+ {
+  "title": "가장 위험한 시장은 약세장이 아닙니다",
+  "date": "2026-10-22",
+  "category": "principle",
+  "sub": "투자 철학·심리",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2113023944932651258",
+  "summary": "가장 위험한 시장은 약세장이 아닙니다. 약세장에서는 방향이 명확합니다. 모든 것이 하락하고 있죠. 힘든 상황이지만, 적어도 어떤 상황에 처해 있는지 알 수 있습니다. 진정한 위험은 시장이 방향성을 잃었을 때 찾아옵니다. 급등과 급락이 반복됩니다. 하루는 열광이었고, 다음 날은 패닉입니다",
+  "source": "정리",
+  "access": "free",
+  "id": "2113023944932651258",
+  "partial": false
+ },
+ {
+  "title": "테슬라 3분기 실적 요약ㅣ261022",
+  "date": "2026-10-22",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "SPCX",
+   "TSLA"
+  ],
+  "url": "https://x.com/babybluecream/status/2113015365852914014",
+  "summary": "$TSLA 는 3분기 조정 주당순이익이 예상을 넘었고, 매출은 예상과 사실상 같았음. 조정 주당순이익(주식 보상비와 일회성 손익을 뺀 주당 이익)은 0.48달러(약 640원)로 예상 0.45달러(약 600원)보다 6.95% 높았음. 매출은 280억 5,000만 달러(약 37조 1,",
+  "source": "본인",
+  "access": "free",
+  "id": "2113015365852914014",
+  "partial": false
+ },
+ {
+  "title": "테슬라 26.3분기 실적ㅣ261022",
+  "date": "2026-10-22",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "SPCX",
+   "TSLA"
+  ],
+  "url": "https://x.com/babybluecream/status/2113012422504235325",
+  "summary": "$TSLA 는 3분기에 조정 주당순이익이 예상을 넘고 매출은 예상에 소폭 못 미쳤음. 조정 주당순이익(주식 보상비와 일회성 손익을 뺀 주당 이익)은 0.48달러(약 640원)로 예상 0.44달러(약 580원)를 웃돌았지만 전년 0.50달러보다 4% 낮았음. 매출은 280억 5,00",
+  "source": "본인",
+  "access": "free",
+  "id": "2113012422504235325",
+  "partial": false
+ },
+ {
+  "title": "GPU 가격과 수명을 둘러싼 우려ㅣ261021",
+  "date": "2026-10-21",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2112898034506019082",
+  "summary": "20일 시타델 증권 연례 컨퍼런스에서 GPU 공급이 수요를 넘어서면 GPU 가격이 급락할 수 있다는 우려가 나왔음. GPU(원래 그래픽 처리용이었으나 대량 계산에 강해 AI 학습과 운영의 핵심 부품이 된 반도체)는 AI 데이터센터 투자의 중심에 있는 장비임.",
+  "source": "본인",
+  "access": "free",
+  "id": "2112898034506019082",
+  "partial": false
+ },
+ {
+  "title": "Firmus IPO 철회와 $NVDA 지원 협의ㅣ261021",
+  "date": "2026-10-21",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "NVDA"
+  ],
+  "url": "https://x.com/babybluecream/status/2112895459526410457",
+  "summary": "$NVDA 가 호주 기업 Firmus에 수억 달러(수천억 원대)를 투자하는 방안을 협의 중이라는 보도가 20일(현지 시각) 나왔음. IT 전문 매체 The Information이 소식통을 인용해 전했고, Bloomberg도 이를 받아 보도했음. 협의는 Firmus가 주식시장 상장",
+  "source": "본인",
+  "access": "free",
+  "id": "2112895459526410457",
+  "partial": false
+ },
+ {
+  "title": "AI를 SI로 부르려는 이유ㅣ261021",
+  "date": "2026-10-21",
+  "category": "macro",
+  "sub": "금리·환율·지정학",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2112846575428919807",
+  "summary": "미국 정부가 인공지능(AI)을 초지능(SI, Super Intelligence)으로 바꿔 부르려는 이유는 공식적으로는 기술 수준을 더 정확히 나타내기 위해서라고 설명됨. 트럼프 대통령은 2026년 9월 22일 유엔총회 기조연설에서 AI 대신 SI라는 용어를 쓰자고 제안했음.",
+  "source": "본인",
+  "access": "free",
+  "id": "2112846575428919807",
+  "partial": false
+ },
+ {
+  "title": "3군 본부가 계룡대에 모인 이유ㅣ261021",
+  "date": "2026-10-21",
+  "category": "extra",
+  "sub": "교양",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2112845415561170988",
+  "summary": "3군 본부가 계룡대에 모인 출발점은 서울 도심에 흩어진 군 지휘부가 유사시 위험하다는 인식이었음. 본부란 군 전체의 작전과 인사, 군수를 총괄하는 최상급 지휘 조직임. 이전 전에는 육군본부가 서울 용산, 해군본부가 영등포 신길동, 공군본부가 동작",
+  "source": "본인",
+  "access": "free",
+  "id": "2112845415561170988",
+  "partial": false
+ },
+ {
+  "title": "복잡계와 단순계ㅣ261021",
+  "date": "2026-10-21",
+  "category": "extra",
+  "sub": "공부법",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2112842588428660938",
+  "summary": "세상을 복잡계와 단순계로 나눠 보는 이유는 대상의 성질에 따라 효과적인 대응 방식이 달라지기 때문임. 여기서 계(system)는 여러 구성요소가 서로 영향을 주고받으며 하나의 전체로 움직이는 묶음을 뜻함. 시계, 도시, 생태계, 금융시장이 모두 계에 해당함. 계의",
+  "source": "본인",
+  "access": "free",
+  "id": "2112842588428660938",
+  "partial": false
+ },
+ {
+  "title": "테슬라 실적 발표 일정ㅣ261021",
+  "date": "2026-10-21",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "TSLA"
+  ],
+  "url": "https://x.com/babybluecream/status/2112834421401309523",
+  "summary": "$TSLA 는 10월 20일 정규장 종가 $373.71(약 55만 3천원)로 마감함. 시간외 거래에서는 $380.29(약 56만 3천원)로 +$6.58(+1.76%)에 거래됨. 2. 10월 20일 장중 고가는 $377.59, 저가는 $363.64로 하루 변동폭은 $13.95(약 2",
+  "source": "본인",
+  "access": "free",
+  "id": "2112834421401309523",
+  "partial": false
+ },
+ {
+  "title": "3배 레버리지 기술주 3종 비교 ㅣ 261021",
+  "date": "2026-10-21",
+  "category": "principle",
+  "sub": "리스크·사이징·레버리지",
+  "tickers": [
+   "BULZ",
+   "FNGU",
+   "TQQQ"
+  ],
+  "url": "https://x.com/babybluecream/status/2112807812992782707",
+  "summary": "$BULZ 는 미국 기술주 15개, $FNGU 는 FANG+ 10개 종목을 같은 비중으로 담은 지수를 하루 3배로 추종함. $TQQQ 는 나스닥100 지수를 하루 3배로 추종하는 ETF임. $BULZ 와 $FNGU 는 ETN(증권사가 발행하는 상장 채권형 상품)이라 발행사 BMO의",
+  "source": "본인",
+  "access": "free",
+  "id": "2112807812992782707",
+  "partial": false
+ },
+ {
+  "title": "15억 이상 주담대 금지설, 금융위가 공식 부인ㅣ261021",
+  "date": "2026-10-21",
+  "category": "realestate",
+  "sub": "정책·뉴스",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2112800008626205038",
+  "summary": "\"15억 이상 대출 금지, 10억 이상 2억, 10억 이하 4억 제한\"이라는 주담대(주택담보대출) 추가 규제 찌라시가 오픈카톡방과 X를 중심으로 퍼졌음. 금융위원회는 20일 보도설명자료를 내고 전혀 사실이 아니라고 밝혔음. 2. 이억원 금융위원장도 같은 날 X에 직접 반박 글을 올",
+  "source": "본인",
+  "access": "free",
+  "id": "2112800008626205038",
+  "partial": false
+ },
+ {
+  "title": "새 기술을 알아보는 0.9%의 조건 — 시골의사 박경철이 2008년 강연에서 말한 1993년 WWW와 휴대폰 이야기ㅣ261021",
+  "date": "2026-10-21",
+  "category": "extra",
+  "sub": "마인드·커리어",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2112747963521102054",
+  "summary": "993년 서울의 한 경제연구소 강당에 박사급 연구원 50명이 모였음. 찢어진 청바지에 모자를 쓴 강연자가 칠판에 WWW를 쓰고, 이 안으로 은행과 증권사가 들어온다고 말했음. 30분 뒤 강당에는 앞줄 몇 명과 외부 손님만 남았음. 2. 당시는 그림을 함께 보여주는 웹 브라우저 모",
+  "source": "본인",
+  "access": "free",
+  "id": "2112747963521102054",
+  "partial": false
+ },
+ {
+  "title": "$SPCX 3분기 컨퍼런스콜 정리ㅣ261021",
+  "date": "2026-10-21",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "SPCX"
+  ],
+  "url": "https://x.com/babybluecream/status/2112685903378632992",
+  "summary": "매출 161% 증가, 1년 만의 흑자 전환, 그리고 테슬라 합병 특별위원회 공식 확인. 한 시간 동안 나온 숫자와 발언을 컨콜 진행 순서대로 풀어봄. (이어서 계속  🔗 👇🏻)",
+  "source": "본인",
+  "access": "free",
+  "id": "2112685903378632992",
+  "partial": false
+ },
+ {
+  "title": "닥신이 말하는 살면서 느낀점들 feat. 부족한척 하면서 살자 ㅣ 말뿐인 미안함과 오래 버티는 태도ㅣ261021",
+  "date": "2026-10-21",
+  "category": "extra",
+  "sub": "마인드·커리어",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2112682593355448536",
+  "summary": "\"미안하지만\"이라고 먼저 말하는 사람은 실제로는 별로 미안해하지 않는 경우가 있음. \"감사하지만\"도 따져보면 그다지 감사하지 않은 마음일 수 있음. 2. \"염치없지만\"은 더 분명함.",
+  "source": "본인",
+  "access": "free",
+  "id": "2112682593355448536",
+  "partial": false
+ },
+ {
+  "title": "스페이스X 테슬라 합병 검토 공식화ㅣ261021",
+  "date": "2026-10-21",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "SPCX",
+   "TSLA"
+  ],
+  "url": "https://x.com/babybluecream/status/2112674462114156755",
+  "summary": "일론 머스크가 20일(현지시간) 스페이스X 3분기 실적 발표 컨퍼런스콜에서 $SPCX 와 $TSLA 가 합병을 검토하는 특별위원회(이사회 안에서 특정 안건만 따로 심사하는 기구)를 각각 만들었다고 밝혔음. 주주들의 요청으로 꾸려졌고, 구성원은 경영진과",
+  "source": "본인",
+  "access": "free",
+  "id": "2112674462114156755",
+  "partial": false
+ },
+ {
+  "title": "27세의 스티브 잡스: 다르게 생각하는 법 ㅣ 세상을 바꾸는 사람들의 생각법ㅣ261021",
+  "date": "2026-10-21",
+  "category": "extra",
+  "sub": "마인드·커리어",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2112672144605991072",
+  "summary": "세상을 움직이는 결정을 내리는 사람들도 기본적으로 우리와 다르지 않음. 판단력이 조금 나을 수는 있어도 같은 사람임. 이 사실을 알게 되면 세상을 바꾸는 일이 남의 몫이 아니라 내 책임으로 바뀜. 2. 우리는 남이 키운 음식을 먹고, 남이 만든 옷을 입고, 남이 다듬은 언어와 수학",
+  "source": "본인",
+  "access": "free",
+  "id": "2112672144605991072",
+  "partial": false
+ },
+ {
+  "title": "40대와 50대가 피해야 할 다섯 가지 실수ㅣ261021",
+  "date": "2026-10-21",
+  "category": "money",
+  "sub": "파이어·배당·돈 습관",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2112671509173219342",
+  "summary": "40대와 50대는 \"나중에 하면 된다\"며 미루기 쉬운 나이임. 하지만 나중은 생각보다 빨리 옴. 그때 준비가 돼 있을지는 지금 무엇을 하고 무엇을 하지 않느냐에 달려 있음. 2. 가장 먼저 지켜야 할 건 건강임. 초과 근무와 대가 없는 업무를 계속 떠안으면 몸과 정신 건강, 가족",
+  "source": "본인",
+  "access": "free",
+  "id": "2112671509173219342",
+  "partial": false
+ },
+ {
+  "title": "스페이스X 3분기, AI가 매출 절반 넘겼음ㅣ261021",
+  "date": "2026-10-21",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "SPCX"
+  ],
+  "url": "https://x.com/babybluecream/status/2112669077961650221",
+  "summary": "매출은 $145억 8천만(약 19조 4천억 원)으로 1년 전보다 161% 늘었음. AI 매출이 9배 넘게 뛴 $76억(약 10조 1천억 원)으로 전체의 절반을 넘게 차지했음. 순이익 $44억(약 5조 8천억 원)은 시장 예상의 두 배를 넘었음. 이 발표로 $SPCX 는 시간외 거래(정규",
+  "source": "본인",
+  "access": "free",
+  "id": "2112669077961650221",
+  "partial": false
+ },
+ {
+  "title": "모닝콜 ㅣ 미국 증시, 기술주 반등에 3일 연속 상승ㅣ261022",
+  "date": "2026-10-22",
+  "category": "market",
+  "sub": "모닝콜",
+  "tickers": [
+   "NFLX",
+   "T",
+   "SPCX",
+   "TSLA",
+   "SMCI",
+   "HPE",
+   "DELL",
+   "IBM",
+   "META"
+  ],
+  "url": "https://x.com/babybluecream/status/2113030193879335048",
+  "summary": "",
+  "source": "본인",
+  "access": "locked",
+  "id": "2113030193879335048",
+  "partial": false
+ },
+ {
+  "title": "나이트캡 ㅣ SpaceX 실적과 합병 검토가 이끈 미국 증시ㅣ261022",
+  "date": "2026-10-22",
+  "category": "market",
+  "sub": "나이트캡",
+  "tickers": [
+   "SPCX",
+   "TSLA",
+   "T",
+   "VZ",
+   "TMUS",
+   "NVDA",
+   "NOK",
+   "SMCI",
+   "HPE",
+   "DELL",
+   "CRWV",
+   "NBIS",
+   "MS"
+  ],
+  "url": "https://x.com/babybluecream/status/2113009775797752035",
+  "summary": "",
+  "source": "본인",
+  "access": "locked",
+  "id": "2113009775797752035",
+  "partial": false
+ },
+ {
+  "title": "시타델 증권 연례 컨퍼런스 요약: AI 거품과 시장 변동성ㅣ261021",
+  "date": "2026-10-21",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "MSFT",
+   "AMZN"
+  ],
+  "url": "https://x.com/babybluecream/status/2112896551135948823",
+  "summary": "",
+  "source": "본인",
+  "access": "locked",
+  "id": "2112896551135948823",
+  "partial": false
+ },
+ {
+  "title": "$SPCX 3분기 컨퍼런스콜 핵심 정리ㅣ261021",
+  "date": "2026-10-21",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "SPCX"
+  ],
+  "url": "https://x.com/babybluecream/status/2112680926148993256",
+  "summary": "",
+  "source": "본인",
+  "access": "locked",
+  "id": "2112680926148993256",
+  "partial": false
+ },
+ {
+  "title": "스페이스X 3분기, AI 매출이 절반 넘기며 시간외 6% 상승ㅣ261021",
+  "date": "2026-10-21",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "SPCX",
+   "GOOGL"
+  ],
+  "url": "https://x.com/babybluecream/status/2112667182140379581",
+  "summary": "",
+  "source": "본인",
+  "access": "locked",
+  "id": "2112667182140379581",
+  "partial": false
+ },
+ {
+  "title": "피터 틸: AI의 진짜 위험은 당신이 생각하는 그것이 아니다 (The Builders 인터뷰)",
+  "date": "2026-10-23",
+  "category": "principle",
+  "sub": "비즈니스·철학",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2113388696863187046",
+  "summary": "1. AI는 디플레이션 요인이다 — 생산성↑·러다이트 비유부터 4~5개 기업 독점 우려. 2. AI 일시정지? 가속 페달을 밟아라. 3. AI의 진짜 위험은 종말론 그 자체. 4. 잡스 이후 애플은 아무것도 하지 않았다. 5. AI는 인터넷보다 크다.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113388696863187046",
+  "partial": false
+ },
+ {
+  "title": "주가 하락에 던지기 전에 생각해볼 것ㅣ261023",
+  "date": "2026-10-23",
+  "category": "principle",
+  "sub": "투자 철학·심리",
+  "tickers": [
+   "ASTS",
+   "RKLB",
+   "SPCX",
+   "HOOD",
+   "NBIS"
+  ],
+  "url": "https://x.com/babybluecream/status/2113368850662322586",
+  "summary": "주가가 떨어졌다는 이유만으로 항복(capitulation, 손실을 감수하고 내던지는 투매)한다면 애초에 투자 논리나 확신이 거의 없었다는 뜻임. 2024년의 $HOOD, 2025년 후반의 $NBIS처럼 개인투자자들이 몰렸던 종목들도 그 과정에는 항상 투매 구간이 있었음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113368850662322586",
+  "partial": false
+ },
+ {
+  "title": "당신의 브이로그가 영화처럼 보이지 않는 이유 (카메라 때문이 아닙니다)",
+  "date": "2026-10-22",
+  "category": "extra",
+  "sub": "교양",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2113255529468567806",
+  "summary": "1. 영화처럼 보이는 비결은 카메라가 아니다 — 오디오의 중요성. 2. 따라 하면 다 똑같아진다. 3. 말하고 싶은 걸 찾기 전, '왜'를 찾아라. 4. 좋은 스토리는 '잘 전달된' 스토리다. 5. 완벽함은 더하는 게 아니라 빼는 것이다.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113255529468567806",
+  "partial": false
+ },
+ {
+  "title": "반도체, 이번 메모리 사이클은 다르다 (SK증권, 10/21)",
+  "date": "2026-10-22",
+  "category": "macro",
+  "sub": "국내증시·한국 반도체",
+  "tickers": [
+   "GOOGL",
+   "AMZN",
+   "MSFT",
+   "META",
+   "ORCL",
+   "CRWV",
+   "NVDA"
+  ],
+  "url": "https://x.com/babybluecream/status/2113215661715722669",
+  "summary": "AI 메모리 수요는 수요처, 워크로드, 동시성, 집약도, 복제율 같은 변수 때문에 한 사이클 안에서도 계속 상향 재추정. 그 결과물이 강화된 장기공급계약(LTA). 가격 하단을 높이고 사이클 진폭을 줄임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113215661715722669",
+  "label": "증권사 리포트 정리",
+  "partial": false
+ },
+ {
+  "title": "내가 8분 안에 당신에게 말할 내용을 깨닫는 데 40년이 걸렸습니다ㅣ261022",
+  "date": "2026-10-22",
+  "category": "extra",
+  "sub": "마인드·커리어",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2113041670904459599",
+  "summary": "가장 먼저 꼽은 교훈은 시간이 가장 귀한 자원이라는 점임. 돈과 달리 시간은 더 만들 수 없고 1초도 되돌릴 수 없음. 어떤 일을 하느냐보다 어떤 사람이냐가 더 중요하다는 설명임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113041670904459599",
+  "partial": false
+ },
+ {
+  "title": "저커버그가 말한 큰 일을 시작하는 방법ㅣ261022",
+  "date": "2026-10-22",
+  "category": "principle",
+  "sub": "비즈니스·철학",
+  "tickers": [
+   "META"
+  ],
+  "url": "https://x.com/babybluecream/status/2113032814270796199",
+  "summary": "마크 저커버그는 변화가 빠른 시대에는 위험을 피하는 것이 가장 큰 위험이라고 말했음. 실수는 피하려 하기보다 빨리 배우는 쪽이 중요하고, 아이디어는 만들어 가면서 분명해진다고 했음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113032814270796199",
+  "partial": false
+ },
+ {
+  "title": "메타 3분기 실적, 매출 26% 증가와 AI 앱 이용자 1,000만 명ㅣ261022",
+  "date": "2026-10-22",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "META"
+  ],
+  "url": "https://x.com/babybluecream/status/2113031494428209445",
+  "summary": "$META의 3분기 매출은 646억 달러로 1년 전보다 26% 늘었고, 시장 예상 633억 7,000만 달러를 넘었음. 메타는 AI 앱 뮤즈의 이용자가 1,000만 명을 넘었다고 처음으로 공개했음.",
+  "source": "본인",
+  "access": "free",
+  "id": "2113031494428209445",
+  "partial": false
+ },
+ {
+  "title": "AI 투자 부담과 반도체 공급 경고에 밀린 미국장ㅣ261022",
+  "date": "2026-10-23",
+  "category": "market",
+  "sub": "미국 시황",
+  "tickers": [
+   "META",
+   "LRCX",
+   "NVDA",
+   "TSLA"
+  ],
+  "url": "https://x.com/babybluecream/status/2113386486204895443",
+  "summary": "",
+  "source": "본인",
+  "access": "locked",
+  "id": "2113386486204895443",
+  "partial": false
+ },
+ {
+  "title": "아페리티프 ㅣ 10월 21일 장 마감 후 월가 투자의견 변경ㅣ261022",
+  "date": "2026-10-22",
+  "category": "market",
+  "sub": "아페리티프",
+  "tickers": [
+   "NOC",
+   "FTNT",
+   "ACN",
+   "ISRG"
+  ],
+  "url": "https://x.com/babybluecream/status/2113095713391624688",
+  "summary": "",
+  "source": "본인",
+  "access": "locked",
+  "id": "2113095713391624688",
+  "partial": false
+ },
+ {
+  "title": "테슬라 3분기 컨퍼런스콜ㅣ261022",
+  "date": "2026-10-22",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "TSLA"
+  ],
+  "url": "https://x.com/babybluecream/status/2113064577009336500",
+  "summary": "",
+  "source": "본인",
+  "access": "locked",
+  "id": "2113064577009336500",
+  "partial": false
+ },
+ {
+  "title": "미래 때문에 스트레스받고 있다면, 이 영상을 보세요ㅣ261023",
+  "date": "2026-10-23",
+  "category": "extra",
+  "sub": "마인드·커리어",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2113404616838975883",
+  "summary": "전환점이 된 질문은 \"내 목표가 결국 이루어진다고 완전히 믿는가\"였음. 닉 세이번은 경기를 6초짜리 플레이의 연속으로 보고 눈앞의 플레이에만 집중함. 결국 통제할 수 있는 건 오늘의 노력과 마음가짐뿐임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113404616838975883",
+  "partial": false
+ },
+ {
+  "title": "아페리티프 — 10월 23일(금) 장후 등급 브리핑",
+  "date": "2026-10-23",
+  "category": "market",
+  "sub": "아페리티프",
+  "tickers": [
+   "ALLE",
+   "HESM",
+   "MSM",
+   "PHVS",
+   "VLY",
+   "AVTX",
+   "CASS",
+   "DECK",
+   "FR",
+   "GL",
+   "NCLH",
+   "NVR",
+   "ORI"
+  ],
+  "url": "https://x.com/babybluecream/status/2113629116666908912",
+  "summary": "",
+  "source": "본인",
+  "access": "locked",
+  "id": "2113629116666908912",
+  "partial": false
+ },
+ {
+  "title": "모건테슬라 $TSLA 신형 로드스터 공개와 3분기 실적 평가ㅣ261023",
+  "date": "2026-10-23",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "TSLA"
+  ],
+  "url": "https://x.com/babybluecream/status/2113512626437398690",
+  "summary": "",
+  "source": "정리",
+  "access": "locked",
+  "id": "2113512626437398690",
   "partial": false
  }
 ]
