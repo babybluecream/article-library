@@ -3,6 +3,7 @@
   var CFG = window.MOCK || {};
   var XURL = 'https://x.com/babybluecream';
   var SUBURL = 'https://x.com/babybluecream/creator-subscriptions/subscribe';
+  var HLURL = 'https://x.com/babybluecream/highlights';
   var FV = 'https://finviz.com/?affilId=324420513';
   var CATS = [{ id: 'all', label: '전체' }], CAT_LABEL = { all: '전체' }, PATH = [], PICK = {};
   var HIDDEN = { start: 1 }; // 시작하기(구독 안내)는 읽기 순서 0단계에서만 보임
@@ -135,9 +136,11 @@
       '<span class="go">' + CFG.goLabel + '</span></a></li>';
   }
   function ctaBox(text, btnHtml, cls) {
-    return '<li class="cta ' + (cls || '') + '"><div class="cta-in"><p class="cta-t">' + esc(text) + '</p>' + btnHtml +
+    return '<li class="cta ' + (cls || '') + '"><div class="cta-in"><p class="cta-t">' + hlLink(esc(text)) + '</p>' + btnHtml +
       '<p class="cta-n">리딩 없음 · 정보 제공 목적. 특정 종목 매매 추천을 하지 않습니다. 구독 안내는 X 프로필에서 확인하세요.</p></div></li>';
   }
+  // 이스케이프된 cta 문구 안의 단어 'Highlights'만 X 하이라이트 탭 링크로 바꿈 (path.json 문구는 계속 esc 처리)
+  function hlLink(html) { return html.replace(/\bHighlights\b/, '<a class="lnk" href="' + HLURL + '" target="_blank" rel="noopener">Highlights</a>'); }
   function subBtn(label) { return '<a class="go-btn sub sub-main" href="' + SUBURL + '" target="_blank" rel="noopener">' + esc(label) + '</a>'; }
   function xBtn(label) { return '<a class="go-btn sub" href="' + XURL + '" target="_blank" rel="noopener">' + esc(label) + '</a>'; }
   function renderList() {
@@ -149,7 +152,7 @@
     list.forEach(function (p, i) {
       if (!ctaDone && p.access === 'locked') {
         ctaDone = true;
-        html += ctaBox('아래 🔒 글은 구독자 전용입니다. 방법은 공개 글로, 매주 실제 결과 티커는 구독자에게 공유합니다 🐧', '<div class="cta-btns">' + subBtn('[ 구독하기 → ]') + xBtn('X에서 구독 확인 ↗') + '</div>', 'cta-list');
+        html += ctaBox("Invest in your dreams. Grind now. Shine later. ✨ The good stuff's in Highlights ⚡️", '<div class="cta-btns">' + subBtn('[ 구독하기 → ]') + xBtn('X에서 구독 확인 ↗') + '</div>', 'cta-list');
       }
       html += row(p, i);
     });
@@ -342,7 +345,6 @@
     posts = (Array.isArray(d) ? d : []).filter(function (p) { return p && p.title && p.url && p.date; }).map(function (p, i) { p._i = i; p.tickers = Array.isArray(p.tickers) ? p.tickers.map(function (t) { return String(t).replace(/^\$/, '').toUpperCase(); }) : []; byId[idOf(p)] = p; return p; });
     posts.filter(visible).sort(function (a, c) { return a.date < c.date ? -1 : a.date > c.date ? 1 : a._i - c._i; }).forEach(function (p, i) { p._n = i + 1; });
     $('startChips').innerHTML = PATH.filter(function (x) { return !x.side; }).map(function (x) { return '<button type="button" class="st mini" data-stage="' + esc(x.k) + '"><b>' + esc(x.k) + '</b><span>' + esc(x.name) + '</span></button>'; }).join('<span class="arr" aria-hidden="true">→</span>');
-    var subN = $('subN'); if (subN) subN.textContent = posts.filter(function (p) { return p.access === 'locked'; }).length;
     readHash(); var st0 = history.state || {}; if (st0.n) state.limit = st0.n; renderStats(); render(); syncStick(); revealTab();
     if (location.hash === '#about') window.scrollTo(0, $('about').offsetTop - stickH()); else if (st0.y) window.scrollTo(0, st0.y);
     document.documentElement.classList.add('ready');

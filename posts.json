@@ -16562,5 +16562,1201 @@
   "access": "locked",
   "id": "2113512626437398690",
   "partial": false
+ },
+ {
+  "title": "솔리다임 상장 철회ㅣ261024",
+  "date": "2026-10-24",
+  "category": "macro",
+  "sub": "국내증시·한국 반도체",
+  "tickers": [
+   "SKHY"
+  ],
+  "url": "https://x.com/babybluecream/status/2113759815227052120",
+  "summary": "솔리다임은 $SKHY가 인텔의 낸드플래시와 SSD 사업을 인수하며 출범시킨 미국 법인임. 논란의 핵심인 중복상장은 모회사와 자회사가 함께 증시에 올라 있는 상태를 뜻함. 블룸버그는 규제당국과 주주의 강한 반대 속에 약 100억 달러 규모 상장이 무산됐다고 보도했음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113759815227052120",
+  "partial": false
+ },
+ {
+  "title": "이번 주 미국 실적 발표 대표 종목ㅣ261024",
+  "date": "2026-10-24",
+  "category": "us",
+  "sub": "실적·캘린더",
+  "tickers": [
+   "VZ",
+   "CDNS",
+   "NUE",
+   "V",
+   "KO",
+   "BA",
+   "UPS",
+   "GOOGL",
+   "MSFT",
+   "NOW"
+  ],
+  "url": "https://x.com/babybluecream/status/2113795324359905332",
+  "summary": "수요일(28일)에는 $GOOGL 과 $MSFT 와 $NOW 가 발표함. 빅테크와 소프트웨어 실적이 이날 몰려 있음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113795324359905332",
+  "partial": false
+ },
+ {
+  "title": "양홍원 불륜 의혹 쟁점ㅣ261024",
+  "date": "2026-10-24",
+  "category": "extra",
+  "sub": "교양",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2113808867834695872",
+  "summary": "A씨가 공개한 내용만으로는 불륜 여부를 판단하기 어렵다는 것이 언론의 공통된 평가임. 고소 결과로 수사기관이 녹취와 영상의 편집 여부, 금전 요구 여부를 확인할 예정이어서 현 단계의 주장은 모두 확정된 사실이 아님.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113808867834695872",
+  "partial": false
+ },
+ {
+  "title": "번스타인 ㅣ AI 데이터센터 연결망 구리와 광통신의 경계ㅣ261024",
+  "date": "2026-10-24",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "NVDA",
+   "AVGO",
+   "ANET"
+  ],
+  "url": "https://x.com/babybluecream/status/2113811291441893755",
+  "summary": "랙(서버를 쌓는 선반) 안은 구리, 랙 밖은 광통신을 쓰는 구조가 당분간 기본임. 의미 있는 CPO 채택은 2030년 이후로 전망되며, 그 전까지 스케일업(GPU끼리 묶는 내부 연결망)은 구리가 중심임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113811291441893755",
+  "partial": false
+ },
+ {
+  "title": "번스타인 ㅣ AI 연결망 부품 5개 종목 평가ㅣ261024",
+  "date": "2026-10-24",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "APH",
+   "TEL",
+   "LITE",
+   "COHR",
+   "GLW"
+  ],
+  "url": "https://x.com/babybluecream/status/2113812525230014603",
+  "summary": "$APH , $TEL , $LITE , $COHR 4개는 Outperform(업종 평균보다 높은 수익 예상), $GLW 는 Market-Perform(평균 수준 예상)으로 평가됨. 목표가 대비 상승 여력은 $LITE 가 약 36.1%로 가장 큼.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113812525230014603",
+  "partial": false
+ },
+ {
+  "title": "오세훈 서울시장은 왜 정치자금법 재판을 받았나ㅣ261024",
+  "date": "2026-10-24",
+  "category": "extra",
+  "sub": "교양",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2113825305077203171",
+  "summary": "정치자금법은 선거 자금의 출처와 흐름을 투명하게 하여 돈이 선거 결과를 왜곡하지 못하게 막는 법임. 이 사건에서 대납을 직접 뒷받침하는 증거는 사실상 명 씨 진술뿐이었기 때문에 진술의 신빙성이 승패를 갈랐음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113825305077203171",
+  "partial": false
+ },
+ {
+  "title": "주식으로 맘고생하는 이유ㅣ261024",
+  "date": "2026-10-24",
+  "category": "principle",
+  "sub": "투자 철학·심리",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2113827942971404605",
+  "summary": "지수가 오른 것과 내가 산 종목이 오른 것은 별개라는 점이 이 격차의 출발점임. 이런 구조를 만드는 핵심 원인은 손실회피라는 심리 편향임. 결과적으로 수익은 작게 굳히고 손실은 크게 키우는 방향으로 매매하게 됨.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113827942971404605",
+  "partial": false
+ },
+ {
+  "title": "삼전닉스에 몰린 개인 100조, 왜 손실 구간인가?｜261024",
+  "date": "2026-10-24",
+  "category": "macro",
+  "sub": "국내증시·한국 반도체",
+  "tickers": [
+   "SNDK",
+   "MU"
+  ],
+  "url": "https://x.com/babybluecream/status/2113831185176781035",
+  "summary": "올해 개인투자자는 20일까지 코스피를 100조7123억원어치 순매수했음. 이 자금은 삼성전자와 SK하이닉스 두 종목에 집중되었음. 매수 시점이 주가 고점 구간과 겹쳤음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113831185176781035",
+  "partial": false
+ },
+ {
+  "title": "인강 공부법ㅣ261024",
+  "date": "2026-10-24",
+  "category": "extra",
+  "sub": "공부법",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2113833082759651371",
+  "summary": "인강은 듣는 시간보다 강의를 끄고 직접 떠올리고 풀어 보는 시간이 성적에 더 크게 영향을 준다고 정리됨. 그래서 최근 학습법 글들은 강의 1시간을 들었으면 최소 30분은 직접 풀거나 떠올리는 데 쓰라고 제시함.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113833082759651371",
+  "partial": false
+ },
+ {
+  "title": "태국 약값이 싸다던데 정말일까?ㅣ261024",
+  "date": "2026-10-24",
+  "category": "extra",
+  "sub": "교양",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2113840059606806785",
+  "summary": "약값은 약을 누가 얼마나 많이 사느냐와 판매자가 몇 곳이냐에 따라 달라짐. 태국은 이 두 조건을 정부가 직접 관리하는 나라임. 협상이 성과를 내는 이유는 정부가 가장 큰 단일 구매자이기 때문임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113840059606806785",
+  "partial": false
+ },
+ {
+  "title": "롯데리아 옆에 롯데마트가 있는 이유ㅣ261024",
+  "date": "2026-10-24",
+  "category": "econ",
+  "sub": "비즈니스 모델",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2113844897509961781",
+  "summary": "롯데 브랜드가 곳곳에서 보이는 이유는 롯데가 하나의 회사가 아니라 여러 업종의 계열사를 거느린 기업집단이기 때문임. 이름이 공통인 이유는 그룹 브랜드를 공유해 소비자 신뢰를 여러 업종에 함께 활용하기 위해서임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113844897509961781",
+  "partial": false
+ },
+ {
+  "title": "삼세판ㅣ261024",
+  "date": "2026-10-24",
+  "category": "extra",
+  "sub": "교양",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2113857469198074368",
+  "summary": "삼세판은 표준국어대사전에서 더도 덜도 없이 꼭 세 판을 뜻하는 명사로 풀이함. 승부 상황에서 삼세판은 최대 세 번 겨뤄 두 번을 먼저 이기는 쪽이 승자가 되는 방식으로 이해됨.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113857469198074368",
+  "partial": false
+ },
+ {
+  "title": "연금저축펀드로 부자가 될수 있을까?ㅣ261024",
+  "date": "2026-10-24",
+  "category": "money",
+  "sub": "연금·절세·증여",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2113860958229774746",
+  "summary": "사실 연금저축펀드만으로 부자가 된 공식 통계나 사례는 확인되지 않았고 노후 자산을 불리는 수단으로 보는 것이 정확함. 30년간 매년 300만원을 넣으면 연 2%일 때 약 1억 2천만원, 연 7%일 때 약 2억 8천만원이 됨.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113860958229774746",
+  "partial": false
+ },
+ {
+  "title": "프랑스 사태 쉽게 알기ㅣ261024",
+  "date": "2026-10-24",
+  "category": "extra",
+  "sub": "교양",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2113863246428147753",
+  "summary": "이번 프랑스 사태는 고물가와 교육, 공공서비스 부실에 대한 항의 시위가 폭력 사태로 번진 것임. 예산안이 쟁점인 이유는 정부가 재정적자를 줄이려고 지출을 깎아야 하는데 그 삭감이 시위의 원인과 정면으로 충돌하기 때문임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113863246428147753",
+  "partial": false
+ },
+ {
+  "title": "프랑스 학생 시위 원인ㅣ261024",
+  "date": "2026-10-24",
+  "category": "extra",
+  "sub": "교양",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2113864918655185074",
+  "summary": "프랑스 학생들이 화난 직접 원인은 교사 부족과 과밀학급, 낡은 학교 시설임. 이런 상황의 바탕에는 10년 넘게 제자리인 교육 예산이 있음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113864918655185074",
+  "partial": false
+ },
+ {
+  "title": "김태원 청년미래비서관 재산 공개ㅣ261024",
+  "date": "2026-10-24",
+  "category": "extra",
+  "sub": "교양",
+  "tickers": [
+   "GOOG",
+   "NVDA",
+   "AAPL",
+   "MSFT"
+  ],
+  "url": "https://x.com/babybluecream/status/2113868832808821017",
+  "summary": "김태원 대통령비서실 청년미래비서관이 재산 161억 4,241만원을 신고해 재직자 중 1위에 오름. 재산의 74%가 증권이고 해외 빅테크 비중이 큼.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113868832808821017",
+  "partial": false
+ },
+ {
+  "title": "ETF 1달 퍼포먼스 ㅣ AI 인프라주 급락과 인버스 ETF 급등ㅣ261024",
+  "date": "2026-10-24",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "CBRZ",
+   "IREZ",
+   "CORD",
+   "NBIZ",
+   "SOXS",
+   "CRWV",
+   "NBIS",
+   "IREN",
+   "CBRS"
+  ],
+  "url": "https://x.com/babybluecream/status/2113876564027064733",
+  "summary": "상위 종목 대부분은 개별 종목이나 지수의 하락에 2배, 3배로 연동되는 인버스 ETF(기초자산이 내리면 오르도록 설계된 상품)임. 직접 원인은 반도체와 AI 인프라주의 연속 하락임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113876564027064733",
+  "partial": false
+ },
+ {
+  "title": "인강 필기와 복습 방법ㅣ261024",
+  "date": "2026-10-24",
+  "category": "extra",
+  "sub": "공부법",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2113879395052232779",
+  "summary": "인강은 필기를 전부 받아 적기보다 핵심만 짧게 적는 쪽이 효과적임. 강의 직후에는 자료를 덮고 흰 종이에 기억나는 내용을 전부 적는 백지 인출을 함. 다음 복습은 간격을 두고 같은 방식으로 반복함.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113879395052232779",
+  "partial": false
+ },
+ {
+  "title": "하루라도 책을 읽지 않으면 입안에 가시가 돋는다ㅣ261024",
+  "date": "2026-10-24",
+  "category": "extra",
+  "sub": "교양",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2113888282513915970",
+  "summary": "일일부독서 구중생형극(一日不讀書 口中生荊棘)은 하루라도 책을 읽지 않으면 입안에 가시가 돋는다는 뜻의 한문 문장임. 이 문장이 대중에게 알려진 계기는 안중근 의사가 남긴 유묵이라는 점임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113888282513915970",
+  "partial": false
+ },
+ {
+  "title": "콘크리트ㅣ261024",
+  "date": "2026-10-24",
+  "category": "extra",
+  "sub": "교양",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2113950016670744619",
+  "summary": "콘크리트의 시초는 한 사람의 발명이 아니라 수천 년에 걸쳐 단계적으로 발전한 결과임. MIT 연구진은 로마인이 생석회를 화산재와 먼저 섞은 뒤 물을 넣는 열혼합 방식을 썼다고 결론냈음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113950016670744619",
+  "partial": false
+ },
+ {
+  "title": "립밤ㅣ261024",
+  "date": "2026-10-24",
+  "category": "extra",
+  "sub": "교양",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2113954344932614326",
+  "summary": "립밤은 고대부터 있던 입술 보호용 연고에서 출발했음. 현대적 립밤은 미국 버지니아주 린치버그의 약사 찰스 브라운 플리트가 만들었음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2113954344932614326",
+  "partial": false
+ },
+ {
+  "title": "주간 ETF 퍼포먼스 ㅣ 소프트웨어 2배 롱 급등과 AI 인프라 인버스 강세ㅣ261024",
+  "date": "2026-10-24",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "CBRZ",
+   "CORD",
+   "CRWV",
+   "CBRS",
+   "METQ",
+   "BEZ",
+   "META",
+   "FIGG"
+  ],
+  "url": "https://x.com/babybluecream/status/2113877709608865873",
+  "summary": "",
+  "source": "본인",
+  "access": "locked",
+  "id": "2113877709608865873",
+  "partial": false
+ },
+ {
+  "title": "Oscar Mike ㅣ 성장주 스크리닝ㅣ 주간 상승 9종목 실적과 일정ㅣ261024",
+  "date": "2026-10-24",
+  "category": "us",
+  "sub": "스크리닝 결과",
+  "tickers": [
+   "LLY",
+   "BLLN",
+   "PLTR",
+   "GLBE",
+   "FLYW",
+   "SEZL",
+   "CLOV",
+   "NU"
+  ],
+  "url": "https://x.com/babybluecream/status/2113849019424538997",
+  "summary": "",
+  "source": "본인",
+  "access": "locked",
+  "id": "2113849019424538997",
+  "partial": false
+ },
+ {
+  "title": "번스타인 ㅣ AI 연결망 부품 5개 종목 평가ㅣ261024",
+  "date": "2026-10-24",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "APH",
+   "TEL",
+   "LITE",
+   "COHR",
+   "GLW"
+  ],
+  "url": "https://x.com/babybluecream/status/2113812085100732903",
+  "summary": "",
+  "source": "정리",
+  "access": "locked",
+  "id": "2113812085100732903",
+  "partial": false
+ },
+ {
+  "title": "번스타인 ㅣ AI 데이터센터 연결망 구리와 광통신의 경계ㅣ261024",
+  "date": "2026-10-24",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "NVDA",
+   "AVGO",
+   "META",
+   "ANET",
+   "LITE",
+   "CRDO"
+  ],
+  "url": "https://x.com/babybluecream/status/2113810708869894510",
+  "summary": "",
+  "source": "정리",
+  "access": "locked",
+  "id": "2113810708869894510",
+  "partial": false
+ },
+ {
+  "title": "이번 주 미국 실적 발표 일정ㅣ261024",
+  "date": "2026-10-24",
+  "category": "us",
+  "sub": "실적·캘린더",
+  "tickers": [
+   "VZ",
+   "WELL",
+   "CDNS",
+   "NUE",
+   "PSA",
+   "HIG",
+   "V",
+   "KO",
+   "BA",
+   "UPS"
+  ],
+  "url": "https://x.com/babybluecream/status/2113793337073557694",
+  "summary": "",
+  "source": "본인",
+  "access": "locked",
+  "id": "2113793337073557694",
+  "partial": false
+ },
+ {
+  "title": "모닝콜 ㅣ 미국 증시 하락 마감, 브렌트유 4월 이후 최고ㅣ261024",
+  "date": "2026-10-24",
+  "category": "market",
+  "sub": "모닝콜",
+  "tickers": [
+   "SLB",
+   "SPCX",
+   "CCI",
+   "AMT",
+   "T",
+   "TMUS",
+   "VZ",
+   "CRWD",
+   "PANW",
+   "BE",
+   "AXP"
+  ],
+  "url": "https://x.com/babybluecream/status/2113788609467969625",
+  "summary": "",
+  "source": "본인",
+  "access": "locked",
+  "id": "2113788609467969625",
+  "partial": false
+ },
+ {
+  "title": "머스크가 말한 좌초 컴퓨팅, 200개 네오클라우드의 자금줄이 막혔음ㅣ261026",
+  "date": "2026-10-26",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "SPCX",
+   "CRWV",
+   "NBIS",
+   "IREN",
+   "ORCL",
+   "NVDA",
+   "WULF"
+  ],
+  "url": "https://x.com/babybluecream/status/2114463896149151897",
+  "summary": "머스크는 최근 몇 주간 부채 시장이 AI 데이터센터 외에 상당한 수익이 없는 회사의 자금 접근을 거의 완전히 차단했다며, 200개 이상의 네오클라우드가 대규모 도태와 통합을 겪을 것이라고 전망했음. Gartner는 네오클라우드 업체의 80% 이상이 2030년까지 독립적으로 운영되지 못할 것으로 봤음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114463896149151897",
+  "partial": false
+ },
+ {
+  "title": "기능을 극단까지 밀어 명품이 된 브랜드ㅣ261026",
+  "date": "2026-10-26",
+  "category": "econ",
+  "sub": "비즈니스 모델",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2114397833696825658",
+  "summary": "아크테릭스는 1989년 캐나다에서 등반가용 생존 장비 회사로 시작했음. 매출은 2020년 500M$에서 2024년 2B$ 넘게 4배 이상 커졌고, 성장을 이끈 것은 등반가가 아니라 고프코어 유행이었음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114397833696825658",
+  "partial": false
+ },
+ {
+  "title": "Grok Bot 0.77 업데이트, 공식 확인 내용 정리 | 261026",
+  "date": "2026-10-26",
+  "category": "extra",
+  "sub": "교양",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2114391070071238722",
+  "summary": "Grok Bot 0.77 버전의 핵심 변화는 사용자 대신 전화를 걸어 통화하는 기능이며, Tailscale 사설망 연동도 함께 추가됐음. 베타 출시 이후 두 달 남짓 사이에 통화 자동화, 사설망 연동, 팀 단위 협업 기능이 연달아 더해졌음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114391070071238722",
+  "partial": false
+ },
+ {
+  "title": "즐긴 사람이 결국 이긴다 | 261026",
+  "date": "2026-10-26",
+  "category": "extra",
+  "sub": "마인드·커리어",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2114385389486325799",
+  "summary": "\"즐긴 사람이 이긴다\"는 말은 심리학의 내재적 동기와 외재적 동기의 차이로 설명할 수 있음. 몰입은 도전과 실력의 균형에서 생기며, 이 균형점을 찾는 사람이 지치지 않고 오래 나아갈 수 있음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114385389486325799",
+  "partial": false
+ },
+ {
+  "title": "$WDC, 주가는 빠졌는데 가격은 오른다 | 261026",
+  "date": "2026-10-26",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "WDC"
+  ],
+  "url": "https://x.com/babybluecream/status/2114383616956661873",
+  "summary": "$WDC 2027 회계연도 1분기 실적에서 하드디스크 TB당 평균 판매가격이 전년 대비 28% 올랐음. 매출은 43억8100만 달러로 55% 늘고 조정 EPS 4.64달러로 예상치를 넘었지만, 주가는 6월 이후 53% 하락한 상태였음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114383616956661873",
+  "partial": false
+ },
+ {
+  "title": "$META, 실적은 좋았는데 왜 주가는 빠졌나 | 261026",
+  "date": "2026-10-26",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "META"
+  ],
+  "url": "https://x.com/babybluecream/status/2114381714130899331",
+  "summary": "3분기 매출은 646억 달러로 전년 대비 26% 늘며 예상을 웃돌았지만 다음 날 주가는 7% 가까이 빠졌음. 괴리를 만든 첫 번째 원인은 자본지출(capex) 가이던스였음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114381714130899331",
+  "partial": false
+ },
+ {
+  "title": "$TSLA, 합병 기대와 실적 부진 사이 | 261026",
+  "date": "2026-10-26",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "TSLA"
+  ],
+  "url": "https://x.com/babybluecream/status/2114379824710193174",
+  "summary": "머스크가 $TSLA 와 SpaceX 합병을 \"좋은 아이디어\"라고 말하자 SpaceX 주가는 8~10%, $TSLA 는 1.8~3.8% 올랐음. 실적보다 시장을 더 흔든 건 2026년 capex 목표를 약 200억 달러로 낮춘 가이던스 하향이었음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114379824710193174",
+  "partial": false
+ },
+ {
+  "title": "버블이라 외치면서 왜 더 사는가 | 261026",
+  "date": "2026-10-26",
+  "category": "macro",
+  "sub": "금리·환율·지정학",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2114376680517329129",
+  "summary": "BofA 글로벌 펀드매니저 설문에서 37%가 기술주 비중을 늘렸다고 답해 2020년 8월 이후 가장 높은 수준이었음. 같은 설문에서 45%는 2027년까지 AI 버블이 나타날 것으로 봐, 우려와 매수 행동이 정반대로 움직였음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114376680517329129",
+  "partial": false
+ },
+ {
+  "title": "중국 반도체 자립, 구호가 아니라 수치로 보면 | 261026",
+  "date": "2026-10-26",
+  "category": "macro",
+  "sub": "국내증시·한국 반도체",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2114372674390773762",
+  "summary": "한국이 10년 넘게 쌓아온 메모리 기술 격차를 중국은 5년 만에 지웠다는 평가가 나옴. CXMT는 HBM3 양산을 목표로 하지만 SK하이닉스는 이미 HBM4로 넘어가 있음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114372674390773762",
+  "partial": false
+ },
+ {
+  "title": "TQQQ -81.66%, 복구엔 +445% 필요하다 | 261025",
+  "date": "2026-10-25",
+  "category": "principle",
+  "sub": "리스크·사이징·레버리지",
+  "tickers": [
+   "TQQQ",
+   "QQQ"
+  ],
+  "url": "https://x.com/babybluecream/status/2114368271449477387",
+  "summary": "TQQQ는 2021년 11월 고점에서 2022년 12월 저점까지 -81.66% 빠졌고, 같은 기간 QQQ는 -35.12%였음. 원래 자리로 돌아가려면 +445%가 필요하며, 근본 원인은 매일 포지션을 다시 맞추는 구조임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114368271449477387",
+  "partial": false
+ },
+ {
+  "title": "북중 접경 회담, 정상회담은 없었다 | 261025",
+  "date": "2026-10-25",
+  "category": "macro",
+  "sub": "금리·환율·지정학",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2114362631813566935",
+  "summary": "김정은 위원장이 10월 24일 중국을 방문했지만 시진핑과의 정상회담은 성사되지 않았고 왕후닝 주석이 단둥에서 맞았음. 이번 접촉은 정상회담이라는 형식보다 경제협력이라는 실질적 내용에 무게가 실린 만남이었음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114362631813566935",
+  "partial": false
+ },
+ {
+  "title": "짐 폴슨 : 기술주 비중 줄이고 방어주로 옮겨라 l 기술주 약세장 경계와 방어주 비중 확대 논리ㅣ261025",
+  "date": "2026-10-25",
+  "category": "macro",
+  "sub": "금리·환율·지정학",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2114356299299508391",
+  "summary": "미국 기술주는 약 20년 동안 S&P 500보다 높은 수익률을 냈고, 문제는 위험을 의식하지 않게 된 안주 상태라는 점임. 대응 방법은 기술주를 전량 매도하는 것이 아니라 비중을 낮추고 방어주로 돌리는 것임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114356299299508391",
+  "partial": false
+ },
+ {
+  "title": "AI 거품은 어디에 있을까?ㅣ261025",
+  "date": "2026-10-25",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "NVDA",
+   "CRWV",
+   "AVGO",
+   "MU",
+   "IREN",
+   "CIFR",
+   "META",
+   "MSFT",
+   "GOOGL",
+   "AMZN"
+  ],
+  "url": "https://x.com/babybluecream/status/2114353644309283253",
+  "summary": "올해 AI 관련주는 주가가 올랐는데 PER은 낮아져, 투자자들이 위험만큼 할인해서 사고 있음. 거품이 있다면 상장 주식이 아니라 아직 상장하지 않은 AI 선두 기업에 있음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114353644309283253",
+  "partial": false
+ },
+ {
+  "title": "후회를 고르는 일ㅣ261025",
+  "date": "2026-10-25",
+  "category": "extra",
+  "sub": "마인드·커리어",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2114351455989862478",
+  "summary": "핵심은 가장 좋은 선택을 찾는 게 아니라 내가 어떤 후회를 안고 살지 정하고 결정하는 것임. 정했으면 그 길에서 얻을 수 있는 것에 집중하는 편이 남는 장사임.",
+  "source": "본인",
+  "access": "free",
+  "id": "2114351455989862478",
+  "partial": false
+ },
+ {
+  "title": "페다고지 공부법 ㅣ 261025",
+  "date": "2026-10-25",
+  "category": "extra",
+  "sub": "공부법",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2114322416306626894",
+  "summary": "현대 페다고지는 교수 접근법, 교수 이론, 피드백과 평가의 세 영역으로 나뉘며, 공부법도 확인과 수정까지 포함해야 완성됨. AI는 먼저 직접 풀어 본 뒤 정답이 아닌 힌트를 요청하는 순서로 써야 함.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114322416306626894",
+  "partial": false
+ },
+ {
+  "title": "서울반도체고 4.73대 1 ㅣ 261025",
+  "date": "2026-10-25",
+  "category": "extra",
+  "sub": "교양",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2114259950755103101",
+  "summary": "내년 3월 개교하는 서울반도체고는 64명 모집에 303명이 지원해 4.73대 1을 기록했음. 다만 100% 취업은 학교가 세운 목표이며 달성된 실적은 아님.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114259950755103101",
+  "partial": false
+ },
+ {
+  "title": "코인 과세, 또 미룰까 ㅣ 261026",
+  "date": "2026-10-26",
+  "category": "money",
+  "sub": "연금·절세·증여",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2114495470173364275",
+  "summary": "청와대가 내년 1월 시행 예정인 가상자산 과세를 다시 유예하는 방향에 무게를 두고 검토 중임. 청와대 관계자는 시행을 미루는 방향으로 논의 중이라고 밝혔음. 다만 청와대 공식 공지는 검토 중이며 결정된 바는 없다는 것임. 최종 결론은 당정 협의를 거쳐 나올 예정임. 유예가 확정되면 이번이 네 번째 유예임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114495470173364275",
+  "partial": false
+ },
+ {
+  "title": "11월 블랙프라이데이 총 정리",
+  "date": "2026-10-26",
+  "category": "tips",
+  "sub": "생활·무료",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2114635419954426002",
+  "summary": "📌올리브영 11월 1일(일)~ 11월 7일(토) 📌 29cm 11월 2일(월)~ 11월 12일(목) 📌무신사 11월 15일(일)~ 11월 25일(수) 📌자라 11월 27일(금)~ 12월 1일(화) 📌스파오 11월 23일(월) ~ 11월 29일(일) 📌탑텐 11월 18일(수)~ 11월 30(월) 📌H&M 11월 27일(금) ~ 11월 30일(월) 📌유니클로 11월 20일(금)~ 11월 27일(금) 📌지그재그 11월 17일(화)~ 12월 1일(화) 📌에이블리 11월 16일(월) 12월 2일(수).",
+  "source": "정리",
+  "access": "free",
+  "id": "2114635419954426002",
+  "partial": false
+ },
+ {
+  "title": "10년 뒤 웃는 주식은 따로 있음ㅣ261026",
+  "date": "2026-10-26",
+  "category": "principle",
+  "sub": "투자 철학·심리",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2114670179460567487",
+  "summary": "10년 동안 S&P 500이 162% 오를 때 퀄리티 주식 지수는 284%나 올랐음. 기간은 2014년부터 2023년까지고, MSCI 월드 퀄리티 지수 기준임. 같은 기간 단기 테마주 지수는 원금이 깎였음. 그렇다면 오른 주식을 쫓는 것보다 덜 빠지는 주식을 들고 있는 편이 복리에서 이긴다는 얘기임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114670179460567487",
+  "partial": false
+ },
+ {
+  "title": "스페이스X 40B$ GPU 조달ㅣ261026",
+  "date": "2026-10-26",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "APO"
+  ],
+  "url": "https://x.com/babybluecream/status/2114706077447225676",
+  "summary": "스페이스X가 AI 칩과 데이터센터 하드웨어를 리스(장비를 직접 사지 않고 빌려 쓰는 계약)하는 약 40B$(약 56조원) 규모 계약을 맺었음. 상대방은 $APO (세계적인 대체투자 운용사 아폴로 글로벌 매니지먼트)가 운용하는 법인임. 일론 머스크 CEO가 직접 이 자금 조달 내용을 공개했음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114706077447225676",
+  "partial": false
+ },
+ {
+  "title": "엔비디아 AI 공장 운영 플랫폼 공개ㅣ261026",
+  "date": "2026-10-26",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "HPE",
+   "NVDA"
+  ],
+  "url": "https://x.com/babybluecream/status/2114706578230419749",
+  "summary": "엔비디아가 베라 루빈(엔비디아의 차세대 AI 칩과 서버 묶음 제품군) 제품군에 미네르바라는 AI 운영 관리 플랫폼을 내놓았음. AI 공장(AI 모델을 학습시키고 돌리는 대규모 데이터센터)의 설비와 작업 상태를 한 곳에서 살펴보고, 고장 나기 전에 미리 정비 시점을 알려주는 기능이 핵심임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114706578230419749",
+  "partial": false
+ },
+ {
+  "title": "바클레이즈 테슬라 투자의견 상향ㅣ261026",
+  "date": "2026-10-26",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "TSLA"
+  ],
+  "url": "https://x.com/babybluecream/status/2114706876432871638",
+  "summary": "바클레이즈가 $TSLA 투자의견을 이퀄웨이트(시장 평균 수준의 수익을 낼 것이라는 중립 의견)에서 오버웨이트(시장 평균보다 높은 수익을 낼 것이라는 비중 확대 의견)로 한 단계 올렸음. 목표주가는 450$(약 63만원)로 제시했음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114706876432871638",
+  "partial": false
+ },
+ {
+  "title": "솔리다임 미국 상장 철회ㅣ261026",
+  "date": "2026-10-26",
+  "category": "macro",
+  "sub": "국내증시·한국 반도체",
+  "tickers": [
+   "SKHY"
+  ],
+  "url": "https://x.com/babybluecream/status/2114707305296228639",
+  "summary": "SK하이닉스가 자회사 솔리다임의 미국 증시 상장 계획을 취소했음. 솔리다임은 SK하이닉스가 인텔의 낸드플래시(전원이 꺼져도 데이터가 남는 저장용 반도체) 사업부를 인수해 만든 회사임. 기업용 SSD(낸드로 만든 고속 저장장치) 쪽에 강점이 있어서 AI 데이터센터 저장장치 수요와 연결되는 사업임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114707305296228639",
+  "partial": false
+ },
+ {
+  "title": "메타 95B$ 자금 조달 계획ㅣ261026",
+  "date": "2026-10-26",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "NVDA",
+   "AMD",
+   "AVGO"
+  ],
+  "url": "https://x.com/babybluecream/status/2114709377513029640",
+  "summary": "메타가 총 35B$(약 49조원) 규모의 주식 발행에 나섰음. 발행 방식은 두 가지가 동시에 진행되는 인수단 공모임. 하나는 의무전환 우선주 예탁주식(일정 시점이 되면 보통주로 반드시 바뀌는 우선주)이고, 다른 하나는 클래스A 보통주임. 앞서 보도된 신주 발행의 구체적인 구조가 이번에 확인된 것임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114709377513029640",
+  "partial": false
+ },
+ {
+  "title": "머스크 네오클라우드 사망 경고ㅣ261026",
+  "date": "2026-10-26",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "CRWV"
+  ],
+  "url": "https://x.com/babybluecream/status/2114709772092244471",
+  "summary": "일론 머스크가 X에서 네오클라우드 업체들에 구피 수준의 죽음이 온다고 예측했음. 네오클라우드는 GPU를 대량으로 사들여 AI 개발사에 빌려주는 신생 클라우드 업체를 말함. 구피는 작은 관상용 물고기여서, 덩치가 작은 업체들이 대거 도태된다는 뜻으로 읽힘.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114709772092244471",
+  "partial": false
+ },
+ {
+  "title": "룰라 재선에 브라질 자산 급락ㅣ261026",
+  "date": "2026-10-26",
+  "category": "macro",
+  "sub": "금리·환율·지정학",
+  "tickers": [
+   "NU",
+   "XP",
+   "PAGS",
+   "STNE",
+   "EWZ"
+  ],
+  "url": "https://x.com/babybluecream/status/2114709986584707498",
+  "summary": "룰라 대통령이 재선에 성공하면서 브라질 자산이 프리마켓에서 일제히 급락했음. AP는 일요일 밤 룰라가 51.8%를 얻어 당선을 확정했다고 보도했음. 1차 투표 때는 보우소나루 쪽이 유리하다는 기대가 우세했기 때문에 결과가 시장 예상을 뒤집은 셈임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114709986584707498",
+  "partial": false
+ },
+ {
+  "title": "케이던스 AI 설계 모델 공개ㅣ261026",
+  "date": "2026-10-26",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "CDNS"
+  ],
+  "url": "https://x.com/babybluecream/status/2114710464693215496",
+  "summary": "$CDNS 가 칩과 시스템 설계용 AI 모델 묶음인 마에스트로 AI 모델 포트폴리오를 공개했음. 케이던스는 반도체 설계 소프트웨어(EDA, 칩 회로를 설계하고 검증하는 프로그램)를 만드는 업체임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114710464693215496",
+  "partial": false
+ },
+ {
+  "title": "오라클 에이전틱 AI 앱 공개ㅣ261026",
+  "date": "2026-10-26",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "ORCL"
+  ],
+  "url": "https://x.com/babybluecream/status/2114710662706598059",
+  "summary": "$ORCL 이 오라클 퓨전 클라우드 애플리케이션용 에이전틱 AI 플랫폼과 퓨전 에이전틱 애플리케이션을 공개했음. 퓨전 클라우드는 기업이 회계, 인사, 공급망, 고객관리를 하나의 클라우드 프로그램으로 처리하는 오라클의 기업용 소프트웨어 묶음임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114710662706598059",
+  "partial": false
+ },
+ {
+  "title": "네비우스 머스크 발언에 약세ㅣ261026",
+  "date": "2026-10-26",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "NBIS"
+  ],
+  "url": "https://x.com/babybluecream/status/2114710944844763582",
+  "summary": "$NBIS 가 프리마켓에서 153.89$(약 21만 5천원)로 3.06% 내렸음. 원인은 일론 머스크가 X에서 스페이스X는 네오클라우드 회사를 인수하지 않겠다고 밝히고, 이 업종에 구피 수준의 죽음과 통합이 올 것이라고 예측한 것임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114710944844763582",
+  "partial": false
+ },
+ {
+  "title": "팔란티어 소버린 AI 확대ㅣ261026",
+  "date": "2026-10-26",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "PLTR",
+   "LHX",
+   "NVDA",
+   "STGW"
+  ],
+  "url": "https://x.com/babybluecream/status/2114711252144718132",
+  "summary": "$PLTR 이 소버린 AI(기업이나 국가가 데이터와 AI 운영을 외부에 맡기지 않고 자체 통제 아래 구축하는 방식) 도입 사례를 넓혔음. 대표 고객으로 $LHX (방산 기업 L3해리스), 건설사 매카시, $NVDA , 온다스의 레그나 AI, 탬파 제너럴 병원이 이름을 올렸음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114711252144718132",
+  "partial": false
+ },
+ {
+  "title": "LCO ETF 5% 급등 출발ㅣ261026",
+  "date": "2026-10-26",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "LCO",
+   "META",
+   "AMZN",
+   "MU",
+   "GOOGL",
+   "NVDA"
+  ],
+  "url": "https://x.com/babybluecream/status/2114711699618148412",
+  "summary": "$LCO (로직IQ 컨트래리언 오퍼튜니티스 ETF)가 프리마켓에서 27.22$(약 3만 8천원)로 5.84% 올랐음. 전 거래일 종가는 25.72$(약 3만 6천원)였고 거래량은 3주에 그쳐서 호가가 얇은 상태에서 나온 움직임임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114711699618148412",
+  "partial": false
+ },
+ {
+  "title": "젠맙 페토섹탐탑 임상 호조ㅣ261026",
+  "date": "2026-10-26",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "GMAB",
+   "INCY"
+  ],
+  "url": "https://x.com/babybluecream/status/2114712268466483644",
+  "summary": "$GMAB 이 이중특이항체(두 가지 표적에 동시에 결합하는 항체) 페토섹탐탑의 2상 업데이트 결과를 공개했음. 1차 치료(처음 받는 항암 치료)로 PD-L1 양성 두경부암 환자에게 키트루다(면역항암제 펨브롤리주맙)와 함께 투여한 결과임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114712268466483644",
+  "partial": false
+ },
+ {
+  "title": "솔리다임 상장 철회가 마이크론에 호재ㅣ261026",
+  "date": "2026-10-26",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "MU"
+  ],
+  "url": "https://x.com/babybluecream/status/2114713279440560405",
+  "summary": "린스(LYNX)가 SK하이닉스의 솔리다임 미국 상장 취소를 $MU 에 우호적인 재료로 평가했음. 솔리다임은 낸드플래시(전원이 꺼져도 데이터가 남는 저장용 반도체)를 만드는 SK하이닉스 자회사임. 상장이 무산되면서 향후 낸드 공급 과잉에 대한 우려 하나가 사라졌다는 분석임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114713279440560405",
+  "partial": false
+ },
+ {
+  "title": "PHP2Shell 위협에 보안주 동반 강세ㅣ261026",
+  "date": "2026-10-26",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "PANW",
+   "NET",
+   "CRWD"
+  ],
+  "url": "https://x.com/babybluecream/status/2114713497279897837",
+  "summary": "$PANW 가 PHP2Shell 취약점 위협이 커지면서 6.6% 올랐음. PHP2Shell은 웹 서버 언어인 PHP의 심각한 보안 취약점을 노린 공격으로, 공격자가 서버를 원격으로 장악할 수 있게 됨. 같은 흐름에서 사이버보안 종목 전반이 함께 올랐음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114713497279897837",
+  "partial": false
+ },
+ {
+  "title": "아폴로 스페이스X 40B$ 리스ㅣ261026",
+  "date": "2026-10-26",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "APO"
+  ],
+  "url": "https://x.com/babybluecream/status/2114713716390547546",
+  "summary": "$APO 가 스페이스X와 약 40B$(약 56조원) 규모의 장비 금융 리스 계약을 맺었음. 장비 금융 리스는 스페이스X가 AI 칩을 직접 사는 대신 아폴로가 자금을 대서 장비를 구입하고 스페이스X가 이를 빌려 쓰는 방식임. 이 자금은 AI 칩 구매에 쓰이며 거래 마감은 연말 전으로 예상됨.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114713716390547546",
+  "partial": false
+ },
+ {
+  "title": "바클리즈 나이키 목표주가 45$로 상향ㅣ261026",
+  "date": "2026-10-26",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "NKE"
+  ],
+  "url": "https://x.com/babybluecream/status/2114721496518344716",
+  "summary": "바클리즈가 $NKE 목표주가를 37$(약 5.4만원)에서 45$(약 6.5만원)로 올렸음. 투자의견은 Overweight(비중확대, 시장 평균보다 많이 담으라는 의견)를 유지함. 경영진 미팅을 마친 뒤 나온 조정임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114721496518344716",
+  "partial": false
+ },
+ {
+  "title": "문장 교정 20년, 가장 먼저 지우는 네 글자는 이것이었습니다 ㅣ 261026",
+  "date": "2026-10-26",
+  "category": "extra",
+  "sub": "공부법",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2114730176617820371",
+  "summary": "교정자 김정선이 문장에서 가장 먼저 지우는 글자는 \"적\", \"의\", \"들\", \"것\"입니다. 『내 문장이 그렇게 이상한가요?』 책 소개는 이 네 글자만 빼도 문장이 훨씬 나아진다고 말합니다.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114730176617820371",
+  "partial": false
+ },
+ {
+  "title": "X 추천 타임라인이 게시물을 고르는 순서와 10월에 바뀐 숫자 다섯 가지 ㅣ 261026",
+  "date": "2026-10-27",
+  "category": "tips",
+  "sub": "투자 툴",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2114734036770050293",
+  "summary": "X 추천 타임라인은 게시물을 모으고, 거르고, 점수를 매겨 점수가 높은 순서로 보여 줍니다. 10월에는 이 과정에서 숫자 다섯 가지가 바뀌었습니다. 후보 상한 방식, 새 게시물 초기 노출 조건, 좋아요 점수, 관심 없음 점수, 인기 게시물 통로입니다.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114734036770050293",
+  "partial": false
+ },
+ {
+  "title": "옵티머스 프리몬트 초기 생산 시작과 생산 속도 ㅣ261027",
+  "date": "2026-10-27",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "TSLA"
+  ],
+  "url": "https://x.com/babybluecream/status/2114855866562494495",
+  "summary": "옵티머스(휴머노이드 로봇)는 프리몬트의 대량 생산 라인에서 초기 생산을 시작했음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114855866562494495",
+  "partial": false
+ },
+ {
+  "title": "배우 김민님 인터뷰, 쓰러져 가는 집과 시동 안 걸리는 오토바이가 소중한 이유 ㅣ261027",
+  "date": "2026-10-27",
+  "category": "extra",
+  "sub": "마인드·커리어",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2114857955556495668",
+  "summary": "쓰러져 가는 집과 가끔 시동이 안 걸리는 오토바이가 소중한 까닭은 좋아서도, 비싸서도 아닙니다. 누군가의 기억이 묻어 있기 때문이라고 김민 씨는 말했습니다.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114857955556495668",
+  "partial": false
+ },
+ {
+  "title": "SK하이닉스 영업이익 전망 76조 원인데 주가는 왜 한 달 새 31.5% 빠졌을까 ㅣ 261027",
+  "date": "2026-10-27",
+  "category": "macro",
+  "sub": "국내증시·한국 반도체",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2114933811863863656",
+  "summary": "시장이 76조 원 전망치보다 호황이 이어질지와 추가 주주환원을 보기 때문임. SK하이닉스 3분기 영업이익 전망치는 증권사 평균(컨센서스)으로 약 76조 원이고, 2분기 60조 5426억 원보다 26%쯤 많음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114933811863863656",
+  "partial": false
+ },
+ {
+  "title": "TSMC가 첨단 패키징 가격을 최대 20% 올린다는 보도, 왜 나왔을까 ㅣ 261027",
+  "date": "2026-10-27",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "TSM"
+  ],
+  "url": "https://x.com/babybluecream/status/2114937837678383462",
+  "summary": "AI 반도체 수요가 첨단 패키징 공급을 넘어섰기 때문임. 대만 상업시보는 업계 소식통을 인용해 TSMC $TSM 이 첨단 패키징 가격을 최대 20% 올릴 것으로 보인다고 보도함. TSMC는 공식 입장을 내놓지 않았고, 적용 시점과 고객사도 확정되지 않음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114937837678383462",
+  "partial": false
+ },
+ {
+  "title": "용접과 달리 모재를 녹이지 않고 금속을 붙이는 브레이징ㅣ 261027",
+  "date": "2026-10-27",
+  "category": "extra",
+  "sub": "교양",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2114944846310031759",
+  "summary": "브레이징은 붙일 금속(모재)을 녹이지 않고 용가재만 녹여 접합하는 방법임. 용접은 모재와 용가재를 함께 녹여 굳히므로 이 점이 가장 큰 차이임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114944846310031759",
+  "partial": false
+ },
+ {
+  "title": "룰라가 4선에 성공하자 브라질 증시는 왜 하루 13.88% 무너졌을까 ㅣ 261027",
+  "date": "2026-10-27",
+  "category": "macro",
+  "sub": "금리·환율·지정학",
+  "tickers": [
+   "XP",
+   "PBR",
+   "EWZ"
+  ],
+  "url": "https://x.com/babybluecream/status/2114962470250979332",
+  "summary": "룰라 대통령이 4선에 성공한 뒤 첫 거래일인 26일(현지시간), 보베스파 지수는 13.88% 떨어진 176,608에 마감했음. 2020년 3월 이후 하루 최대 낙폭임. 장 시작 직후 낙폭이 10%에 이르자 거래소 B3가 거래를 30분 멈췄음. 서킷브레이커 발동은 코로나19 이후 6년 7개월 만임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2114962470250979332",
+  "partial": false
+ },
+ {
+  "title": "11월 2일~6일 디지털 온누리상품권 10% 특별할인",
+  "date": "2026-10-27",
+  "category": "tips",
+  "sub": "생활·무료",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115000738384580888",
+  "summary": "디지털 온누리상품권 10% 특별할인 예정 ✅ 최대 20만 원까지 10% 할인 ✅ 20만 원어치 → 18만 원에 구매 ✅ 기존 7% 할인보다 3% 더 이득!.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115000738384580888",
+  "partial": false
+ },
+ {
+  "title": "GPU가 비행기 좌석이라면 내년 좌석은 이미 예약됐을까 ㅣ 261027",
+  "date": "2026-10-27",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "AMZN",
+   "IT",
+   "PANW"
+  ],
+  "url": "https://x.com/babybluecream/status/2115012424252490156",
+  "summary": "$AMZN 은 올해 현금 설비투자를 약 2,200억 달러(약 308조원)로 늘렸음. 앤디 재시 CEO는 2분기 실적 발표에서 이 금액으로도 2026년 수요를 다 채우기에는 용량이 모자란다고 했음. 내년인 2027년 용량 대부분은 고객이 이미 예약했다고 밝혔음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115012424252490156",
+  "partial": false
+ },
+ {
+  "title": "리센느 빵 2주 만에 60만 개, 구매자 10명 중 7명은 남성 ㅣ 261027",
+  "date": "2026-10-27",
+  "category": "econ",
+  "sub": "비즈니스 모델",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115027583775736275",
+  "summary": "리센느 빵은 CU에서 9월 17일 출시해 10월 1일까지 누적 60만 개를 넘게 팔았음. BGF리테일이 밝힌 수치임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115027583775736275",
+  "partial": false
+ },
+ {
+  "title": "살면서 1번은 쓰는 생활 상담 전화번호 모음",
+  "date": "2026-10-27",
+  "category": "tips",
+  "sub": "생활·무료",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115028772022100125",
+  "summary": "돈 없을 때 응급실 129 (국가가 먼저 냄).",
+  "source": "정리",
+  "access": "free",
+  "id": "2115028772022100125",
+  "partial": false
+ },
+ {
+  "title": "나이트콜 ㅣ 유가에 눌린 세탁기와 비행기, 홀로 뛴 데이터센터 ㅣ 261027",
+  "date": "2026-10-27",
+  "category": "market",
+  "sub": "나이트콜",
+  "tickers": [
+   "WHR",
+   "JBLU",
+   "CLS",
+   "SOFI",
+   "KO",
+   "BA",
+   "GM"
+  ],
+  "url": "https://x.com/babybluecream/status/2115081866823061653",
+  "summary": "유가 급등 여파가 월풀 $WHR 가전 수요와 제트블루 $JBLU 연료비에 닿았고, 데이터센터 장비 업체 셀레스티카 $CLS 만 매출이 83% 늘며 뛰었음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115081866823061653",
+  "partial": false
+ },
+ {
+  "title": "Grok Bot을 잘 쓰는 방법 ㅣ 사용할때 필해야할 가이드ㅣ 261028",
+  "date": "2026-10-28",
+  "category": "extra",
+  "sub": "교양",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115185116658184500",
+  "summary": "Grok Bot을 겉만 쓰게 만드는 습관은 시각 알람으로 깨우기, 한 줄 지시, 같은 승인 반복, 정보 수동 입력, 무테스트 예약, Bot 하나에 몰아주기, 기억 방치입니다.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115185116658184500",
+  "partial": false
  }
 ]
