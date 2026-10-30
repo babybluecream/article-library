@@ -244,7 +244,7 @@
   "category": "us",
   "tickers": [],
   "url": "https://x.com/babybluecream/status/2065370245775458678",
-  "summary": "",
+  "summary": "Finviz 스크리너로 펀더멘탈 기본 조건에 모멘텀 조건을 더해 거른 종목 결과 캡처. ROA·ROE·ROIC·부채비율·이익률 표와 주간~10년 수익률, 일봉 차트를 담았고 반도체·반도체 장비 종목이 많음.",
   "access": "sample",
   "sub": "스크리닝 결과",
   "source": "본인",
@@ -483,7 +483,7 @@
   "url": "https://x.com/babybluecream/status/2052391285340930328",
   "summary": "스크리닝 정상 작동중. 26.1분기 실적 발표: 비GAAP EPS 1.44달러, 매출 1억 1360만 달러로 예상치 상회.",
   "access": "sample",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "정리",
   "id": "2052391285340930328",
   "partial": false,
@@ -499,7 +499,7 @@
   "url": "https://x.com/babybluecream/status/2076251310639468698",
   "summary": "오픈AI 컴퓨팅 인프라 총괄과 세레브라스 CEO의 대화 정리.",
   "access": "free",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "정리",
   "id": "2076251310639468698",
   "partial": false,
@@ -515,7 +515,7 @@
   "url": "https://x.com/babybluecream/status/2076328910242062448",
   "summary": "CEO 발언 정리: 인퍼런스와 에이전틱 AI 확대로 HBM 등 메모리 수요가 커지는 흐름.",
   "access": "free",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "정리",
   "id": "2076328910242062448",
   "partial": false,
@@ -607,7 +607,7 @@
   "url": "https://x.com/babybluecream/status/2098711596742881633",
   "summary": "드림포스를 앞두고 일부 주력 제품 이름에서 에이전트포스를 떼기로 한 결정 정리.",
   "access": "free",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "정리",
   "id": "2098711596742881633",
   "partial": false,
@@ -705,7 +705,7 @@
   "title": "일론 머스크 X Takeover 2026 화상 인터뷰 전문 ㅣ261013",
   "date": "2026-10-13",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "tickers": [
    "TSLA",
    "SPCX"
@@ -824,7 +824,7 @@
   "title": "애플, 아이폰 18 프로 생산 축소 지시 (대신증권)",
   "date": "2026-10-12",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "tickers": [
    "AAPL"
   ],
@@ -890,7 +890,7 @@
   "url": "https://x.com/babybluecream/status/2107950992713302480",
   "summary": "시장이 지불하는 근거는 자동차가 아니라 현실 세계 AI. 방향은 맞지만 일정이 밀려 있다는 점이 핵심.",
   "access": "free",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "정리",
   "id": "2107950992713302480",
   "partial": false,
@@ -906,7 +906,7 @@
   "url": "https://x.com/babybluecream/status/2107723225656607070",
   "summary": "선행 PER 20배 아래로 M7 평균보다 낮아짐. 원인은 주가 약세가 아니라 이익 급증.",
   "access": "free",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "정리",
   "id": "2107723225656607070",
   "partial": false,
@@ -922,7 +922,7 @@
   "url": "https://x.com/babybluecream/status/2107723805418557482",
   "summary": "분기 자사주 매입이 두 분기 연속 약 200억달러로 사상 최대 수준.",
   "access": "free",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "정리",
   "id": "2107723805418557482",
   "partial": false,
@@ -957,7 +957,7 @@
   "url": "https://x.com/babybluecream/status/2107604957151326279",
   "summary": "두 건의 전력 계약, 합계 약 3,590메가와트.",
   "access": "free",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "정리",
   "id": "2107604957151326279",
   "partial": false,
@@ -988,7 +988,7 @@
   "url": "https://x.com/babybluecream/status/2108121091097166011",
   "summary": "오픈AI ARR이 2026년 9월 말 약 700억 달러에 근접. 증가를 이끈 건 기업 매출.",
   "access": "free",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "정리",
   "id": "2108121091097166011",
   "partial": false,
@@ -1004,7 +1004,7 @@
   "url": "https://x.com/babybluecream/status/2108125576963973555",
   "summary": "소비자 AI 수요는 확인됐지만 유료 이용자는 아직 적고, 더 큰 문제는 비용.",
   "access": "free",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "정리",
   "id": "2108125576963973555",
   "partial": false,
@@ -1020,7 +1020,7 @@
   "url": "https://x.com/babybluecream/status/2108907077779550567",
   "summary": "삼성전자 3분기 잠정실적 역대 최대. 마이크론 가이던스의 매출총이익률 하락을 근거로 한 고점론 정리.",
   "access": "free",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "정리",
   "id": "2108907077779550567",
   "partial": false,
@@ -1111,7 +1111,7 @@
   "url": "https://x.com/babybluecream/status/2105253475525578929",
   "summary": "구글이 검색·제미니앱·클라우드에 나눠 배포 중인 AI 에이전트 실행 기능 정리.",
   "access": "free",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "정리",
   "id": "2105253475525578929",
   "partial": false,
@@ -1142,7 +1142,7 @@
   "url": "https://x.com/babybluecream/status/2102143283095114222",
   "summary": "종가 615.52달러로 사상 첫 600달러 돌파. 메타 AI 에이전트 뮤즈 출시가 계기.",
   "access": "free",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "정리",
   "id": "2102143283095114222",
   "partial": false,
@@ -1172,7 +1172,7 @@
   "url": "https://x.com/babybluecream/status/2096003684392173873",
   "summary": "2027년 20주년 리디자인 모델 루머와 이름 문제 정리.",
   "access": "free",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "정리",
   "id": "2096003684392173873",
   "partial": false,
@@ -1188,7 +1188,7 @@
   "url": "https://x.com/babybluecream/status/2095283925962863090",
   "summary": "8월 유럽 등록 대수의 지역별 불균형, FSD 안전 대시보드 공개.",
   "access": "free",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "정리",
   "id": "2095283925962863090",
   "partial": false,
@@ -1204,7 +1204,7 @@
   "url": "https://x.com/babybluecream/status/2095118842259480578",
   "summary": "프랑스 +279%, 덴마크 +104%, 노르웨이·스페인 -79% 등 나라별로 극명하게 갈린 한 달.",
   "access": "free",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "정리",
   "id": "2095118842259480578",
   "partial": false,
@@ -1220,7 +1220,7 @@
   "url": "https://x.com/babybluecream/status/2093919690879836235",
   "summary": "PS5 권장소비자가 재인상과 사업부별 이익률 정리.",
   "access": "free",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "정리",
   "id": "2093919690879836235",
   "partial": false,
@@ -1236,7 +1236,7 @@
   "url": "https://x.com/babybluecream/status/2092036452788076723",
   "summary": "한계비용 0의 소프트웨어지만 학습 인프라에 먼저 큰돈을 붓는 구조.",
   "access": "free",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "정리",
   "id": "2092036452788076723",
   "partial": false,
@@ -1252,7 +1252,7 @@
   "url": "https://x.com/babybluecream/status/2091830655357505702",
   "summary": "텍사스 학습 컴퓨트 115→260메가와트, 연말 목표 400메가와트. 감가상각 고정비 정리.",
   "access": "free",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "정리",
   "id": "2091830655357505702",
   "partial": false,
@@ -1282,7 +1282,7 @@
   "url": "https://x.com/babybluecream/status/2078271611312971999",
   "summary": "NYT 보도: 2년간 최대 100억 달러 규모로 AI 데이터센터 컴퓨팅을 빌려주는 협상.",
   "access": "free",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "정리",
   "id": "2078271611312971999",
   "partial": false,
@@ -1296,7 +1296,7 @@
   "url": "https://x.com/babybluecream/status/2077932603102154855",
   "summary": "5년 된 모델 Y로 밤·폭우 상황에서 FSD 라이트를 실주행 테스트한 내용.",
   "access": "free",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "정리",
   "id": "2077932603102154855",
   "partial": false,
@@ -1455,7 +1455,7 @@
   "title": "매출총이익률 높은 12종목",
   "date": "2025-09-30",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "tickers": [
    "AVGO",
    "BKNG",
@@ -1477,7 +1477,7 @@
   "title": "AI 메모리 슈퍼사이클 ㅣ260414",
   "date": "2026-04-14",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [
    "AMAT",
    "LRCX",
@@ -3399,7 +3399,7 @@
   "title": "옵티머스 3세대, 슬라이드에서 발주서로 전환",
   "date": "2026-07-10",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "tickers": [
    "TSLA"
   ],
@@ -3416,7 +3416,7 @@
   "title": "마벨 주총 6분, 통과되지 않은 단 하나의 안건",
   "date": "2026-06-29",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [
    "MRVL"
   ],
@@ -3452,7 +3452,7 @@
   "title": "100달러 부품으로 만든 해자",
   "date": "2026-06-28",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "tickers": [
    "AAPL"
   ],
@@ -3514,7 +3514,7 @@
   "title": "추론의 시대, 칩과 모델이 함께 달리다",
   "date": "2026-06-21",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [],
   "url": "https://x.com/babybluecream/status/2068705728450421174",
   "summary": "LLM의 무게중심이 학습에서 추론으로 넘어갔음. 한때는 모델을 얼마나 크게 훈련하느냐가 전부였는데, 이제는 이미 만든 모델을 얼마나 싸고 안정적으로 굴리느냐가 승부처임. 학습은 한 번이고 추론은 매일 수십억 번…",
@@ -3529,7 +3529,7 @@
   "title": "HBM이 아니라 평범한 D램이 2026년 메모리 시장을 뒤흔든다",
   "date": "2026-06-21",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [
    "MU"
   ],
@@ -3546,7 +3546,7 @@
   "title": "Anthropic ㅣ과학자의 이동, 그 숫자들의 이야기",
   "date": "2026-06-21",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "tickers": [
    "GOOGL"
   ],
@@ -3632,7 +3632,7 @@
   "title": "TERAFAB | The Largest Chip Manufacturing Facility Ever",
   "date": "2026-04-11",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [
    "TSLA"
   ],
@@ -3665,7 +3665,7 @@
   "title": "중국 CXMT 서버 D램 발표에 메모리주 동반 하락ㅣ261013",
   "date": "2026-10-13",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [
    "SKHY",
    "MU",
@@ -3685,7 +3685,7 @@
   "title": "머스크가 본 중국 메모리 추격과 남은 기술 장벽ㅣ261013",
   "date": "2026-10-13",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [
    "TSLA",
    "MU"
@@ -3927,7 +3927,7 @@
   "title": "[반도체] Rubin의 출하 확대, HBM4 성장의 시작 (한화투자증권)",
   "date": "2026-10-14",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [
    "NVDA",
    "CRWV",
@@ -3977,7 +3977,7 @@
   "title": "머스크가 마이크론 메모리 가격을 칭찬한 배경ㅣ261014",
   "date": "2026-10-14",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [
    "MU",
    "TSM"
@@ -4111,7 +4111,7 @@
   "title": "[미국주식] 기술주에 대한 관점을 바꿀 때 (한화투자증권)",
   "date": "2026-10-14",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [
    "MU",
    "AMD",
@@ -4130,7 +4130,7 @@
   "title": "[DS 미국주식] 기세 좋은 엔비디아와 부진한 메모리, 바뀐 무게중심에 주목 (DS투자증권)",
   "date": "2026-10-14",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [
    "NVDA"
   ],
@@ -4146,7 +4146,7 @@
   "title": "중국 D램 증설과 2029년 메모리 공급과잉 경고ㅣ261016",
   "date": "2026-10-16",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [
    "MU",
    "SNDK",
@@ -4541,7 +4541,7 @@
   "url": "https://x.com/babybluecream/status/2009766975137026292",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2009766975137026292",
   "partial": false
@@ -4569,7 +4569,7 @@
   "url": "https://x.com/babybluecream/status/2010709333043261934",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2010709333043261934",
   "partial": false
@@ -4585,7 +4585,7 @@
   "url": "https://x.com/babybluecream/status/2010710856548704340",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2010710856548704340",
   "partial": false
@@ -4600,7 +4600,7 @@
   "url": "https://x.com/babybluecream/status/2010711772265894214",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2010711772265894214",
   "partial": false
@@ -4615,7 +4615,7 @@
   "url": "https://x.com/babybluecream/status/2010712540960178389",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2010712540960178389",
   "partial": false
@@ -4630,7 +4630,7 @@
   "url": "https://x.com/babybluecream/status/2010714644634329378",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2010714644634329378",
   "partial": false
@@ -4671,7 +4671,7 @@
   "url": "https://x.com/babybluecream/status/2010741934999175293",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2010741934999175293",
   "partial": false
@@ -4702,7 +4702,7 @@
   "url": "https://x.com/babybluecream/status/2011066864617791863",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2011066864617791863",
   "partial": false
@@ -4718,7 +4718,7 @@
   "url": "https://x.com/babybluecream/status/2011069247431327772",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2011069247431327772",
   "partial": false
@@ -4733,7 +4733,7 @@
   "url": "https://x.com/babybluecream/status/2011082393093095720",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2011082393093095720",
   "partial": false
@@ -4778,7 +4778,7 @@
   "url": "https://x.com/babybluecream/status/2012583039839395916",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2012583039839395916",
   "partial": false
@@ -4794,7 +4794,7 @@
   "url": "https://x.com/babybluecream/status/2012742000307826959",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2012742000307826959",
   "partial": false
@@ -4809,7 +4809,7 @@
   "url": "https://x.com/babybluecream/status/2012742497542557714",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2012742497542557714",
   "partial": false
@@ -4850,7 +4850,7 @@
   "url": "https://x.com/babybluecream/status/2012746933169947045",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2012746933169947045",
   "partial": false
@@ -4879,7 +4879,7 @@
   "url": "https://x.com/babybluecream/status/2013251709045539208",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2013251709045539208",
   "partial": false
@@ -4892,7 +4892,7 @@
   "url": "https://x.com/babybluecream/status/2013252738529038690",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2013252738529038690",
   "partial": false
@@ -4920,7 +4920,7 @@
   "url": "https://x.com/babybluecream/status/2013254612699210226",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2013254612699210226",
   "partial": false
@@ -4938,7 +4938,7 @@
   "url": "https://x.com/babybluecream/status/2013256451746419014",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2013256451746419014",
   "partial": false
@@ -4979,7 +4979,7 @@
   "url": "https://x.com/babybluecream/status/2013262828803850248",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2013262828803850248",
   "partial": false
@@ -5014,7 +5014,7 @@
   "url": "https://x.com/babybluecream/status/2013606785236771299",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2013606785236771299",
   "partial": false
@@ -5055,7 +5055,7 @@
   "url": "https://x.com/babybluecream/status/2013617167200330125",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2013617167200330125",
   "partial": false
@@ -5096,7 +5096,7 @@
   "url": "https://x.com/babybluecream/status/2013826451070689420",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2013826451070689420",
   "partial": false
@@ -5277,7 +5277,7 @@
   "url": "https://x.com/babybluecream/status/2017591322648162315",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2017591322648162315",
   "partial": false
@@ -5318,7 +5318,7 @@
   "url": "https://x.com/babybluecream/status/2018309042868007414",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2018309042868007414",
   "partial": false
@@ -5387,7 +5387,7 @@
   "url": "https://x.com/babybluecream/status/2019690491865121162",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2019690491865121162",
   "partial": false
@@ -5507,7 +5507,7 @@
   "url": "https://x.com/babybluecream/status/2024034181475684386",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2024034181475684386",
   "partial": false
@@ -5537,7 +5537,7 @@
   "url": "https://x.com/babybluecream/status/2024321273908920521",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2024321273908920521",
   "partial": false
@@ -5617,7 +5617,7 @@
   "url": "https://x.com/babybluecream/status/2026235662270365862",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2026235662270365862",
   "partial": false
@@ -5645,7 +5645,7 @@
   "url": "https://x.com/babybluecream/status/2026405368210010265",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2026405368210010265",
   "partial": false
@@ -5673,7 +5673,7 @@
   "url": "https://x.com/babybluecream/status/2027015499541020898",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2027015499541020898",
   "partial": false
@@ -5769,7 +5769,7 @@
   "url": "https://x.com/babybluecream/status/2032383790044344506",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2032383790044344506",
   "partial": false
@@ -5808,7 +5808,7 @@
   "url": "https://x.com/babybluecream/status/2033550911717708165",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2033550911717708165",
   "partial": false
@@ -5881,7 +5881,7 @@
  {
   "title": "성장주 스크리너 ㅣOscar Mike 260323",
   "date": "2026-03-23",
-  "category": "method",
+  "category": "us",
   "tickers": [
    "AMPX",
    "BW",
@@ -5895,7 +5895,7 @@
   "url": "https://x.com/babybluecream/status/2036048058476315032",
   "summary": "",
   "access": "locked",
-  "sub": "실전 루틴",
+  "sub": "스크리닝 결과",
   "source": "본인",
   "id": "2036048058476315032",
   "partial": false
@@ -6001,7 +6001,7 @@
   "url": "https://x.com/babybluecream/status/2037798465921859772",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2037798465921859772",
   "partial": false
@@ -6076,7 +6076,7 @@
   "url": "https://x.com/babybluecream/status/2038382562159313024",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2038382562159313024",
   "partial": false
@@ -6163,7 +6163,7 @@
   "url": "https://x.com/babybluecream/status/2038745019277049881",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2038745019277049881",
   "partial": false
@@ -6191,7 +6191,7 @@
   "url": "https://x.com/babybluecream/status/2038921891138986452",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2038921891138986452",
   "partial": false
@@ -6219,7 +6219,7 @@
   "url": "https://x.com/babybluecream/status/2039467040109719724",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2039467040109719724",
   "partial": false
@@ -6271,7 +6271,7 @@
   "url": "https://x.com/babybluecream/status/2040321417636614277",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2040321417636614277",
   "partial": false
@@ -6362,7 +6362,7 @@
   "url": "https://x.com/babybluecream/status/2040981665728934198",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2040981665728934198",
   "partial": false
@@ -6383,14 +6383,14 @@
  {
   "title": "성장주 스크리너ㅣOscar Mike 260407",
   "date": "2026-04-07",
-  "category": "method",
+  "category": "us",
   "tickers": [
    "LITE"
   ],
   "url": "https://x.com/babybluecream/status/2041508362404434045",
   "summary": "",
   "access": "locked",
-  "sub": "실전 루틴",
+  "sub": "스크리닝 결과",
   "source": "본인",
   "id": "2041508362404434045",
   "partial": false
@@ -6418,7 +6418,7 @@
   "url": "https://x.com/babybluecream/status/2043845988037849326",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2043845988037849326",
   "partial": false
@@ -6452,12 +6452,12 @@
  {
   "title": "매출, 이익 기반 스크리너ㅣ Oscar Mike 260419",
   "date": "2026-04-19",
-  "category": "method",
+  "category": "us",
   "tickers": [],
   "url": "https://x.com/babybluecream/status/2045875399268409501",
   "summary": "",
   "access": "locked",
-  "sub": "실전 루틴",
+  "sub": "스크리닝 결과",
   "source": "본인",
   "id": "2045875399268409501",
   "partial": false
@@ -6485,7 +6485,7 @@
   "url": "https://x.com/babybluecream/status/2047173016011026611",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2047173016011026611",
   "partial": false
@@ -6493,7 +6493,7 @@
  {
   "title": "성장주 스크리닝 | Oscar Mike 260423",
   "date": "2026-04-23",
-  "category": "method",
+  "category": "us",
   "tickers": [
    "ALAB",
    "ALGM",
@@ -6502,7 +6502,7 @@
   "url": "https://x.com/babybluecream/status/2047205604708778319",
   "summary": "",
   "access": "locked",
-  "sub": "실전 루틴",
+  "sub": "스크리닝 결과",
   "source": "본인",
   "id": "2047205604708778319",
   "partial": false
@@ -6543,7 +6543,7 @@
   "url": "https://x.com/babybluecream/status/2048781144188170721",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2048781144188170721",
   "partial": false
@@ -6582,7 +6582,7 @@
   "url": "https://x.com/babybluecream/status/2049104540897775691",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2049104540897775691",
   "partial": false
@@ -6597,7 +6597,7 @@
   "url": "https://x.com/babybluecream/status/2051123710887911597",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2051123710887911597",
   "partial": false
@@ -6610,7 +6610,7 @@
   "url": "https://x.com/babybluecream/status/2051923560076087638",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2051923560076087638",
   "partial": false
@@ -6820,7 +6820,7 @@
   "url": "https://x.com/babybluecream/status/2056353956692193296",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2056353956692193296",
   "partial": false
@@ -6951,29 +6951,16 @@
   "partial": false
  },
  {
-  "title": "investing.com",
-  "date": "2026-05-22",
-  "category": "us",
-  "tickers": [],
-  "url": "https://x.com/babybluecream/status/2057809210356973763",
-  "summary": "",
-  "access": "locked",
-  "sub": "섹터·테마",
-  "source": "본인",
-  "id": "2057809210356973763",
-  "partial": false
- },
- {
   "title": "AI 인프라·반도체·전력주 13선ㅣOscar Mike  260525",
   "date": "2026-05-25",
-  "category": "method",
+  "category": "us",
   "tickers": [
    "ALAB"
   ],
   "url": "https://x.com/babybluecream/status/2058779067466617271",
   "summary": "",
   "access": "locked",
-  "sub": "실전 루틴",
+  "sub": "스크리닝 결과",
   "source": "본인",
   "id": "2058779067466617271",
   "partial": false
@@ -7044,32 +7031,6 @@
   "partial": false
  },
  {
-  "title": "hankyung.com",
-  "date": "2026-05-29",
-  "category": "us",
-  "tickers": [],
-  "url": "https://x.com/babybluecream/status/2060150958982930434",
-  "summary": "",
-  "access": "locked",
-  "sub": "섹터·테마",
-  "source": "본인",
-  "id": "2060150958982930434",
-  "partial": false
- },
- {
-  "title": "hankyung.com",
-  "date": "2026-05-29",
-  "category": "us",
-  "tickers": [],
-  "url": "https://x.com/babybluecream/status/2060150984975020395",
-  "summary": "",
-  "access": "locked",
-  "sub": "섹터·테마",
-  "source": "본인",
-  "id": "2060150984975020395",
-  "partial": false
- },
- {
   "title": "중국형들이 만든 레딧 언급 티커 실시간 업데이트 사이트",
   "date": "2026-05-29",
   "category": "us",
@@ -7110,22 +7071,9 @@
   "url": "https://x.com/babybluecream/status/2060603955315708158",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2060603955315708158",
-  "partial": false
- },
- {
-  "title": "finance.yahoo.com",
-  "date": "2026-05-31",
-  "category": "us",
-  "tickers": [],
-  "url": "https://x.com/babybluecream/status/2060896721845293508",
-  "summary": "",
-  "access": "locked",
-  "sub": "섹터·테마",
-  "source": "본인",
-  "id": "2060896721845293508",
   "partial": false
  },
  {
@@ -7136,7 +7084,7 @@
   "url": "https://x.com/babybluecream/status/2061257422988328995",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2061257422988328995",
   "partial": false
@@ -7151,7 +7099,7 @@
   "url": "https://x.com/babybluecream/status/2061785151047401738",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2061785151047401738",
   "partial": false
@@ -7181,7 +7129,7 @@
   "url": "https://x.com/babybluecream/status/2061824508772941855",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2061824508772941855",
   "partial": false
@@ -7198,7 +7146,7 @@
   "url": "https://x.com/babybluecream/status/2062371006304657579",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2062371006304657579",
   "partial": false
@@ -7264,7 +7212,7 @@
   "url": "https://x.com/babybluecream/status/2063619904268583343",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2063619904268583343",
   "partial": false
@@ -7305,7 +7253,7 @@
   "url": "https://x.com/babybluecream/status/2063936261635838142",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2063936261635838142",
   "partial": false
@@ -7321,7 +7269,7 @@
   "url": "https://x.com/babybluecream/status/2064109554468811180",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2064109554468811180",
   "partial": false
@@ -7433,7 +7381,7 @@
   "url": "https://x.com/babybluecream/status/2065419005624455346",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2065419005624455346",
   "partial": false
@@ -7459,7 +7407,7 @@
   "url": "https://x.com/babybluecream/status/2067010947659727256",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2067010947659727256",
   "partial": false
@@ -7586,7 +7534,7 @@
   "url": "https://x.com/babybluecream/status/2069545176218124610",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2069545176218124610",
   "partial": false
@@ -7625,7 +7573,7 @@
   "url": "https://x.com/babybluecream/status/2069790293264888277",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2069790293264888277",
   "partial": false
@@ -7664,7 +7612,7 @@
   "url": "https://x.com/babybluecream/status/2071177315028238403",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2071177315028238403",
   "partial": false
@@ -7767,7 +7715,7 @@
   "url": "https://x.com/babybluecream/status/2073243461206372721",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2073243461206372721",
   "partial": false
@@ -7797,7 +7745,7 @@
   "url": "https://x.com/babybluecream/status/2073904354034430356",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2073904354034430356",
   "partial": false
@@ -7849,7 +7797,7 @@
   "url": "https://x.com/babybluecream/status/2074474158633967703",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2074474158633967703",
   "partial": false
@@ -7914,7 +7862,7 @@
   "url": "https://x.com/babybluecream/status/2075027330041549066",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2075027330041549066",
   "partial": false
@@ -7927,7 +7875,7 @@
   "url": "https://x.com/babybluecream/status/2075030376863695236",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2075030376863695236",
   "partial": false
@@ -7995,7 +7943,7 @@
   "url": "https://x.com/babybluecream/status/2076564954535317606",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2076564954535317606",
   "partial": false
@@ -8010,7 +7958,7 @@
   "url": "https://x.com/babybluecream/status/2076797421003427926",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2076797421003427926",
   "partial": false
@@ -8036,7 +7984,7 @@
   "url": "https://x.com/babybluecream/status/2076888428625666434",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2076888428625666434",
   "partial": false
@@ -8049,7 +7997,7 @@
   "url": "https://x.com/babybluecream/status/2076895197930332282",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2076895197930332282",
   "partial": false
@@ -8078,7 +8026,7 @@
   "url": "https://x.com/babybluecream/status/2077272621679276269",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2077272621679276269",
   "partial": false
@@ -8093,7 +8041,7 @@
   "url": "https://x.com/babybluecream/status/2077335145921835332",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2077335145921835332",
   "partial": false
@@ -8108,7 +8056,7 @@
   "url": "https://x.com/babybluecream/status/2077549336893039020",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2077549336893039020",
   "partial": false
@@ -8205,7 +8153,7 @@
   "url": "https://x.com/babybluecream/status/2078091603986813146",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2078091603986813146",
   "partial": false
@@ -8270,7 +8218,7 @@
   "url": "https://x.com/babybluecream/status/2079151596680913280",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2079151596680913280",
   "partial": false
@@ -8283,7 +8231,7 @@
   "url": "https://x.com/babybluecream/status/2079157725351776381",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2079157725351776381",
   "partial": false
@@ -8352,7 +8300,7 @@
   "url": "https://x.com/babybluecream/status/2079549884236222584",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2079549884236222584",
   "partial": false
@@ -8365,7 +8313,7 @@
   "url": "https://x.com/babybluecream/status/2079551622066450569",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2079551622066450569",
   "partial": false
@@ -8391,7 +8339,7 @@
   "url": "https://x.com/babybluecream/status/2079553116866064472",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2079553116866064472",
   "partial": false
@@ -8406,7 +8354,7 @@
   "url": "https://x.com/babybluecream/status/2079776946490331375",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2079776946490331375",
   "partial": false
@@ -8464,7 +8412,7 @@
   "url": "https://x.com/babybluecream/status/2080898287352389735",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2080898287352389735",
   "partial": false
@@ -8479,7 +8427,7 @@
   "url": "https://x.com/babybluecream/status/2080900679527481628",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2080900679527481628",
   "partial": false
@@ -8574,7 +8522,7 @@
   "url": "https://x.com/babybluecream/status/2082833558515970249",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2082833558515970249",
   "partial": false
@@ -8600,7 +8548,7 @@
   "url": "https://x.com/babybluecream/status/2083002920707235937",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2083002920707235937",
   "partial": false
@@ -8615,7 +8563,7 @@
   "url": "https://x.com/babybluecream/status/2083217213352497637",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2083217213352497637",
   "partial": false
@@ -8712,7 +8660,7 @@
   "url": "https://x.com/babybluecream/status/2084943183612678583",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2084943183612678583",
   "partial": false
@@ -8727,7 +8675,7 @@
   "url": "https://x.com/babybluecream/status/2084955044794061070",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2084955044794061070",
   "partial": false
@@ -8789,7 +8737,7 @@
   "url": "https://x.com/babybluecream/status/2085306554711261335",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2085306554711261335",
   "partial": false
@@ -8804,7 +8752,7 @@
   "url": "https://x.com/babybluecream/status/2085307472995123564",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2085307472995123564",
   "partial": false
@@ -8847,7 +8795,7 @@
   "url": "https://x.com/babybluecream/status/2085349461002473581",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2085349461002473581",
   "partial": false
@@ -8878,7 +8826,7 @@
   "url": "https://x.com/babybluecream/status/2085546943695175693",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2085546943695175693",
   "partial": false
@@ -8952,7 +8900,7 @@
   "url": "https://x.com/babybluecream/status/2086815021989052431",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2086815021989052431",
   "partial": false
@@ -8967,7 +8915,7 @@
   "url": "https://x.com/babybluecream/status/2086815352156205161",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2086815352156205161",
   "partial": false
@@ -9012,7 +8960,7 @@
   "url": "https://x.com/babybluecream/status/2086828014210515221",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2086828014210515221",
   "partial": false
@@ -9020,7 +8968,7 @@
  {
   "title": "성장주 스크리너 Oscar Mike ㅣ 260810",
   "date": "2026-08-11",
-  "category": "method",
+  "category": "us",
   "tickers": [
    "PLTR",
    "RDW"
@@ -9028,7 +8976,7 @@
   "url": "https://x.com/babybluecream/status/2086831994043081097",
   "summary": "",
   "access": "locked",
-  "sub": "실전 루틴",
+  "sub": "스크리닝 결과",
   "source": "본인",
   "id": "2086831994043081097",
   "partial": false
@@ -9056,7 +9004,7 @@
   "url": "https://x.com/babybluecream/status/2086994766714306671",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2086994766714306671",
   "partial": false
@@ -9138,7 +9086,7 @@
   "url": "https://x.com/babybluecream/status/2087303748289003966",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2087303748289003966",
   "partial": false
@@ -9166,7 +9114,7 @@
   "url": "https://x.com/babybluecream/status/2087550816538243352",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2087550816538243352",
   "partial": false
@@ -9224,7 +9172,7 @@
   "url": "https://x.com/babybluecream/status/2087864557993881852",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2087864557993881852",
   "partial": false
@@ -9252,7 +9200,7 @@
   "url": "https://x.com/babybluecream/status/2088024946794746253",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2088024946794746253",
   "partial": false
@@ -9275,7 +9223,7 @@
  {
   "title": "Oscar Mike ㅣ성장 모멘텀 스크리닝ㅣ260814",
   "date": "2026-08-14",
-  "category": "method",
+  "category": "us",
   "tickers": [
    "CRDO",
    "SKHY"
@@ -9283,7 +9231,7 @@
   "url": "https://x.com/babybluecream/status/2088029674924617956",
   "summary": "",
   "access": "locked",
-  "sub": "실전 루틴",
+  "sub": "스크리닝 결과",
   "source": "본인",
   "id": "2088029674924617956",
   "partial": false
@@ -9311,7 +9259,7 @@
   "url": "https://x.com/babybluecream/status/2089178059983532405",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2089178059983532405",
   "partial": false
@@ -9352,7 +9300,7 @@
   "url": "https://x.com/babybluecream/status/2089377229579092277",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2089377229579092277",
   "partial": false
@@ -9382,7 +9330,7 @@
   "url": "https://x.com/babybluecream/status/2089379488585109845",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2089379488585109845",
   "partial": false
@@ -9424,7 +9372,7 @@
   "url": "https://x.com/babybluecream/status/2089554822265766305",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2089554822265766305",
   "partial": false
@@ -9542,7 +9490,7 @@
  {
   "title": "Oscar Mike l 실적 성장주 스크리닝 ㅣ 260820",
   "date": "2026-08-20",
-  "category": "method",
+  "category": "us",
   "tickers": [
    "AFRM",
    "ARGX",
@@ -9563,7 +9511,7 @@
   "url": "https://x.com/babybluecream/status/2090091745551987049",
   "summary": "",
   "access": "locked",
-  "sub": "실전 루틴",
+  "sub": "스크리닝 결과",
   "source": "본인",
   "id": "2090091745551987049",
   "partial": false
@@ -9733,7 +9681,7 @@
   "url": "https://x.com/babybluecream/status/2091894483281686669",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2091894483281686669",
   "partial": false
@@ -9764,7 +9712,7 @@
   "url": "https://x.com/babybluecream/status/2092218716117213315",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2092218716117213315",
   "partial": false
@@ -9798,7 +9746,7 @@
   "url": "https://x.com/babybluecream/status/2092613978728132779",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2092613978728132779",
   "partial": false
@@ -9899,7 +9847,7 @@
   "url": "https://x.com/babybluecream/status/2094774263450653083",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2094774263450653083",
   "partial": false
@@ -9968,7 +9916,7 @@
   "url": "https://x.com/babybluecream/status/2095777493634728064",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2095777493634728064",
   "partial": false
@@ -9983,7 +9931,7 @@
   "url": "https://x.com/babybluecream/status/2095806160016384305",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2095806160016384305",
   "partial": false
@@ -9998,7 +9946,7 @@
   "url": "https://x.com/babybluecream/status/2095807234160955764",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2095807234160955764",
   "partial": false
@@ -10026,7 +9974,7 @@
   "url": "https://x.com/babybluecream/status/2095885681050656986",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2095885681050656986",
   "partial": false
@@ -10054,7 +10002,7 @@
   "url": "https://x.com/babybluecream/status/2096051197476270415",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2096051197476270415",
   "partial": false
@@ -10163,7 +10111,7 @@
   "url": "https://x.com/babybluecream/status/2097282163108688036",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2097282163108688036",
   "partial": false
@@ -10316,7 +10264,7 @@
   "url": "https://x.com/babybluecream/status/2097815623040643306",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2097815623040643306",
   "partial": false
@@ -10364,7 +10312,7 @@
   "url": "https://x.com/babybluecream/status/2098039359710609829",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2098039359710609829",
   "partial": false
@@ -10422,7 +10370,7 @@
   "url": "https://x.com/babybluecream/status/2098056317596557733",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2098056317596557733",
   "partial": false
@@ -10448,7 +10396,7 @@
   "url": "https://x.com/babybluecream/status/2098058378555891931",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2098058378555891931",
   "partial": false
@@ -10463,7 +10411,7 @@
   "url": "https://x.com/babybluecream/status/2098059880703897713",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2098059880703897713",
   "partial": false
@@ -10573,7 +10521,7 @@
   "url": "https://x.com/babybluecream/status/2100936405535048186",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2100936405535048186",
   "partial": false
@@ -10588,7 +10536,7 @@
   "url": "https://x.com/babybluecream/status/2100938002247946263",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2100938002247946263",
   "partial": false
@@ -10603,7 +10551,7 @@
   "url": "https://x.com/babybluecream/status/2100939185687589208",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2100939185687589208",
   "partial": false
@@ -10754,7 +10702,7 @@
   "url": "https://x.com/babybluecream/status/2103807903878799378",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2103807903878799378",
   "partial": false
@@ -10853,7 +10801,7 @@
   "url": "https://x.com/babybluecream/status/2105292693656203426",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2105292693656203426",
   "partial": false
@@ -10924,7 +10872,7 @@
   "url": "https://x.com/babybluecream/status/2106233283885547618",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "source": "본인",
   "id": "2106233283885547618",
   "partial": false
@@ -10986,14 +10934,14 @@
  {
   "title": "성장주 스크리닝  ㅣ Oscar Mike ㅣ261005",
   "date": "2026-10-05",
-  "category": "method",
+  "category": "us",
   "tickers": [
    "MXL"
   ],
   "url": "https://x.com/babybluecream/status/2106965844861538678",
   "summary": "",
   "access": "locked",
-  "sub": "실전 루틴",
+  "sub": "스크리닝 결과",
   "source": "본인",
   "id": "2106965844861538678",
   "partial": false
@@ -11023,7 +10971,7 @@
   "url": "https://x.com/babybluecream/status/2107039727400677522",
   "summary": "",
   "access": "locked",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "source": "본인",
   "id": "2107039727400677522",
   "partial": false
@@ -11426,7 +11374,7 @@
   "title": "백색나무 ㅣ AI 거품을 가르는 숫자 딱 하나 | 빅테크 2027년 투자 계획 총정리 ㅣ 261019",
   "date": "2026-10-19",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "tickers": [
    "MSFT",
    "GOOGL",
@@ -11563,7 +11511,7 @@
   "title": "$TSLA 로드스터 공개, 차보다 합병 신호가 더 주목받는 이유ㅣ261020",
   "date": "2026-10-20",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "tickers": [
    "TSLA"
   ],
@@ -11593,7 +11541,7 @@
   "title": "$CRWV 신용 공포와 정반대로 움직이는 수요 지표ㅣ261020",
   "date": "2026-10-20",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [
    "CRWV"
   ],
@@ -11745,7 +11693,7 @@
   "sub": "생활·무료",
   "tickers": [],
   "url": "https://x.com/babybluecream/status/2112309451978072540",
-  "summary": "",
+  "summary": "노지 캠핑 박지를 모아 보는 사이트 '낭만루트' 소개. 월류봉·금수산 학봉 같은 전망데크 박지를 사진·후기와 함께 보여 주고, 신규 박지 소식도 올라옴. 홈 화면에 추가하면 앱처럼 쓸 수 있음(링크는 원문 댓글).",
   "source": "정리",
   "access": "free",
   "id": "2112309451978072540",
@@ -11908,7 +11856,7 @@
   "title": "댄 나일스가 본 지난주 AI 반도체 급락 이유ㅣ261019",
   "date": "2026-10-19",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [],
   "url": "https://x.com/babybluecream/status/2111976852172743050",
   "summary": "댄 나일스는 2004년부터 롱숏 헤지펀드(오를 종목은 사고, 떨어질 종목은 빌려서 미리 파는 방식으로 운용하는 펀드)인 사토리 펀드를 운용하는 투자자임. · 그 전에는 약 10년 동안 로버트슨스티븐스와 리먼브라더…",
@@ -11993,7 +11941,7 @@
   "title": "머스크 \"AI가 인간보다 백만 배 똑똑해지면 인간이 통제하긴 어렵다\"ㅣ261020",
   "date": "2026-10-20",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "tickers": [
    "TSLA"
   ],
@@ -16044,7 +15992,7 @@
   "title": "GPU 가격과 수명을 둘러싼 우려ㅣ261021",
   "date": "2026-10-21",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [],
   "url": "https://x.com/babybluecream/status/2112898034506019082",
   "summary": "20일 시타델 증권 연례 컨퍼런스에서 GPU 공급이 수요를 넘어서면 GPU 가격이 급락할 수 있다는 우려가 나왔음. GPU(원래 그래픽 처리용이었으나 대량 계산에 강해 AI 학습과 운영의 핵심 부품이 된 반도체)는 AI 데이터센터 투자의 중심에 있는 장비임.",
@@ -16057,7 +16005,7 @@
   "title": "Firmus IPO 철회와 $NVDA 지원 협의ㅣ261021",
   "date": "2026-10-21",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [
    "NVDA"
   ],
@@ -16197,7 +16145,7 @@
   "title": "스페이스X 테슬라 합병 검토 공식화ㅣ261021",
   "date": "2026-10-21",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "tickers": [
    "SPCX",
    "TSLA"
@@ -16304,7 +16252,7 @@
   "title": "시타델 증권 연례 컨퍼런스 요약: AI 거품과 시장 변동성ㅣ261021",
   "date": "2026-10-21",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "tickers": [
    "MSFT",
    "AMZN"
@@ -16619,7 +16567,7 @@
   "title": "번스타인 ㅣ AI 데이터센터 연결망 구리와 광통신의 경계ㅣ261024",
   "date": "2026-10-24",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [
    "NVDA",
    "AVGO",
@@ -16806,7 +16754,7 @@
   "title": "ETF 1달 퍼포먼스 ㅣ AI 인프라주 급락과 인버스 ETF 급등ㅣ261024",
   "date": "2026-10-24",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [
    "CBRZ",
    "IREZ",
@@ -16881,7 +16829,7 @@
   "title": "주간 ETF 퍼포먼스 ㅣ 소프트웨어 2배 롱 급등과 AI 인프라 인버스 강세ㅣ261024",
   "date": "2026-10-24",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [
    "CBRZ",
    "CORD",
@@ -16944,7 +16892,7 @@
   "title": "번스타인 ㅣ AI 데이터센터 연결망 구리와 광통신의 경계ㅣ261024",
   "date": "2026-10-24",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [
    "NVDA",
    "AVGO",
@@ -17013,7 +16961,7 @@
   "title": "머스크가 말한 좌초 컴퓨팅, 200개 네오클라우드의 자금줄이 막혔음ㅣ261026",
   "date": "2026-10-26",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [
    "SPCX",
    "CRWV",
@@ -17186,7 +17134,7 @@
   "title": "AI 거품은 어디에 있을까?ㅣ261025",
   "date": "2026-10-25",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [
    "NVDA",
    "CRWV",
@@ -17288,7 +17236,7 @@
   "title": "스페이스X 40B$ GPU 조달ㅣ261026",
   "date": "2026-10-26",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [
    "APO"
   ],
@@ -17303,7 +17251,7 @@
   "title": "엔비디아 AI 공장 운영 플랫폼 공개ㅣ261026",
   "date": "2026-10-26",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [
    "HPE",
    "NVDA"
@@ -17349,7 +17297,7 @@
   "title": "메타 95B$ 자금 조달 계획ㅣ261026",
   "date": "2026-10-26",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [
    "NVDA",
    "AMD",
@@ -17366,7 +17314,7 @@
   "title": "머스크 네오클라우드 사망 경고ㅣ261026",
   "date": "2026-10-26",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [
    "CRWV"
   ],
@@ -17415,7 +17363,7 @@
   "title": "오라클 에이전틱 AI 앱 공개ㅣ261026",
   "date": "2026-10-26",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [
    "ORCL"
   ],
@@ -17430,7 +17378,7 @@
   "title": "네비우스 머스크 발언에 약세ㅣ261026",
   "date": "2026-10-26",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [
    "NBIS"
   ],
@@ -17463,7 +17411,7 @@
   "title": "LCO ETF 5% 급등 출발ㅣ261026",
   "date": "2026-10-26",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "tickers": [
    "LCO",
    "META",
@@ -17514,7 +17462,7 @@
   "title": "PHP2Shell 위협에 보안주 동반 강세ㅣ261026",
   "date": "2026-10-26",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "tickers": [
    "PANW",
    "NET",
@@ -17587,7 +17535,7 @@
   "title": "옵티머스 프리몬트 초기 생산 시작과 생산 속도 ㅣ261027",
   "date": "2026-10-27",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "tickers": [
    "TSLA"
   ],
@@ -17628,7 +17576,7 @@
   "title": "TSMC가 첨단 패키징 가격을 최대 20% 올린다는 보도, 왜 나왔을까 ㅣ 261027",
   "date": "2026-10-27",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "반도체·AI 인프라",
   "tickers": [
    "TSM"
   ],
@@ -17686,7 +17634,7 @@
   "title": "GPU가 비행기 좌석이라면 내년 좌석은 이미 예약됐을까 ㅣ 261027",
   "date": "2026-10-27",
   "category": "us",
-  "sub": "섹터·테마",
+  "sub": "빅테크·플랫폼",
   "tickers": [
    "AMZN",
    "IT",
@@ -17757,6 +17705,716 @@
   "source": "정리",
   "access": "free",
   "id": "2115185116658184500",
+  "partial": false
+ },
+ {
+  "title": "Anthropic 상장 서류에서 시장이 안심한 대목 ㅣ 261028",
+  "date": "2026-10-28",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115247909403021642",
+  "summary": "Anthropic이 10월 26일 공개한 상장 서류(S-1)에서 시장이 안심한 대목은 빠른 매출 증가와 현금 여력임. 상반기 매출은 162.9억 달러로 1년 전의 약 14배였고, 상반기 순손실 807억 달러 대부분은 회계 처리 비용임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115247909403021642",
+  "partial": false
+ },
+ {
+  "title": "칩 회사 CEO가 은행에 직접 전화한 사연 ㅣ 261028",
+  "date": "2026-10-28",
+  "category": "us",
+  "sub": "반도체·AI 인프라",
+  "tickers": [
+   "AVGO",
+   "BAC",
+   "C",
+   "MS",
+   "BX"
+  ],
+  "url": "https://x.com/babybluecream/status/2115250047692718320",
+  "summary": "브로드컴 혹 탄 CEO가 주말 막판 협상에 직접 나서 Anthropic의 630억 달러 대출을 성사시켰음. 특수목적법인이 돈을 빌려 TPU를 사고 Anthropic이 임대료로 갚는 구조이며, 못 갚으면 브로드컴이 보증함.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115250047692718320",
+  "partial": false
+ },
+ {
+  "title": "반도체가 기술주를 끌어올린 하루 ㅣ 261028",
+  "date": "2026-10-28",
+  "category": "market",
+  "sub": "미국 시황",
+  "tickers": [
+   "SOFI",
+   "KO",
+   "UPS",
+   "JBLU",
+   "ORCL",
+   "GOOGL",
+   "NVDA",
+   "META",
+   "MSFT"
+  ],
+  "url": "https://x.com/babybluecream/status/2115251042808197265",
+  "summary": "10월 27일 미국 증시는 반도체가 기술주를 끌어올려 나스닥 1.18%, S&P500 0.60% 올랐음. 계기는 Anthropic 상장 서류였고, SoFi는 실적·전망 상향에 13.42% 올랐으며 오라클은 구글 TPU 등 AI 칩을 자사 클라우드에 들이기로 했음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115251042808197265",
+  "partial": false
+ },
+ {
+  "title": "빅테크 실적과 연준이 한꺼번에 몰린 수요일 ㅣ 261028",
+  "date": "2026-10-28",
+  "category": "market",
+  "sub": "미국 시황",
+  "tickers": [
+   "GOOGL",
+   "MSFT"
+  ],
+  "url": "https://x.com/babybluecream/status/2115255429282533558",
+  "summary": "수요일에 연준 금리 결정과 알파벳·마이크로소프트 3분기 실적이 같은 날 나옴. 경제학자들은 매파적 동결을 예상하고, 이번 실적의 쟁점은 AI 투자비임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115255429282533558",
+  "partial": false
+ },
+ {
+  "title": "물가가 뜨거운데도 연준이 동결할 것 같은 이유 ㅣ 261028",
+  "date": "2026-10-28",
+  "category": "macro",
+  "sub": "금리·환율·지정학",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115255950051549432",
+  "summary": "9월 소비자물가가 3.7% 올랐지만 중간선거를 엿새 앞두고 연준은 동결이 유력하며 시장 동결 확률은 90.6%임. UBS는 1990년 이후 중간선거 전 10월 회의에서 인상한 적이 없다고 짚었고, 12월 인상 확률은 75.1%임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115255950051549432",
+  "partial": false
+ },
+ {
+  "title": "보잉이 매출은 늘고도 10% 급락한 이유 ㅣ 261028",
+  "date": "2026-10-28",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "BA"
+  ],
+  "url": "https://x.com/babybluecream/status/2115259760157348294",
+  "summary": "보잉은 3분기 매출이 4% 늘었지만 조정 주당 손실이 0.34달러로 예상(0.21달러)보다 컸고 737 증산 시점이 2027년 하반기로 밀리며 주가가 약 10% 떨어졌음. 국방 부문 매출은 15% 늘었고 수주잔고는 6,120억 달러임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115259760157348294",
+  "partial": false
+ },
+ {
+  "title": "유가가 내렸는데도 6개월 고점 근처에 머문 이유 ㅣ 261028",
+  "date": "2026-10-28",
+  "category": "macro",
+  "sub": "금리·환율·지정학",
+  "tickers": [
+   "JBLU",
+   "UPS"
+  ],
+  "url": "https://x.com/babybluecream/status/2115260904321474643",
+  "summary": "사우디·튀르키예·파키스탄과 이란의 협상 기대에 브렌트유가 110달러 아래로 내렸지만, 후티 반군의 사우디 공격이 이어져 6개월 고점 근처에 머물렀음. 호르무즈 해협 개방 여부가 유가 방향을 가르는 핵심 쟁점임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115260904321474643",
+  "partial": false
+ },
+ {
+  "title": "메타 신주 매각에 주문이 5배 몰린 속사정 ㅣ 261028",
+  "date": "2026-10-28",
+  "category": "us",
+  "sub": "빅테크·플랫폼",
+  "tickers": [
+   "META",
+   "NVDA",
+   "AMD",
+   "AVGO",
+   "MS",
+   "GS",
+   "GOOGL",
+   "AMZN"
+  ],
+  "url": "https://x.com/babybluecream/status/2115261203794845978",
+  "summary": "메타의 250억 달러 신주 매각에 장기 투자자들이 몰려 필요 물량의 약 5배 주문이 들어왔음. 메타는 AI 투자 자금으로 총 980억 달러를 주식으로 조달하려 하며, 공모가는 주당 625달러로 금요일 종가보다 2.7% 낮았음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115261203794845978",
+  "partial": false
+ },
+ {
+  "title": "Grok 마켓플레이스 영상 감독 봇 추가 방법ㅣ 261028",
+  "date": "2026-10-28",
+  "category": "extra",
+  "sub": "교양",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115264052461183332",
+  "summary": "Grok Bot 마켓플레이스의 Director 봇은 브리프 하나로 영상 기획, 촬영, 편집, 납품까지 맡음. Add나 Import Bot을 누르면 지침, 메모리, 스킬, 루틴이 담긴 복사본이 생기고, 스킬이 빠지는 경우가 있어 Private skills에서 확인할 필요가 있음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115264052461183332",
+  "partial": false
+ },
+ {
+  "title": "똑똑함은 공작 꼬리였다? 도발적인 가설 ㅣ 261028",
+  "date": "2026-10-28",
+  "category": "extra",
+  "sub": "교양",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115386372278390875",
+  "summary": "심리학자 제프리 밀러는 『메이팅 마인드』에서 사람의 똑똑함, 유머, 예술 감각이 공작 꼬리처럼 이성에게 잘 보이려고 발달했다고 주장함. 정설은 아니고 반론이 많으며, 다윈의 성선택 이론과 값비싼 신호 원리를 바탕으로 함.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115386372278390875",
+  "partial": true
+ },
+ {
+  "title": "최상위 플레이어의 루틴, 연구는 어디까지 편들까 ㅣ 261028",
+  "date": "2026-10-28",
+  "category": "extra",
+  "sub": "마인드·커리어",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115388599818686877",
+  "summary": "최상위 플레이어 루틴을 연구로 확인하면 좋은 관계, 운동, 수면 7시간 이상, 독서, 지금 하는 일에 집중하기, 규칙적인 식사는 근거가 있고 고독과 장기주의는 조건이 붙음. 하버드 성인발달연구, 에릭슨 바이올린 연구, 마시멜로 재현 실험 등을 근거로 듦.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115388599818686877",
+  "partial": false
+ },
+ {
+  "title": "설치 없이 바로 시작, 플스 클라우드가 한국에 상륙함 ㅣ 261028",
+  "date": "2026-10-28",
+  "category": "extra",
+  "sub": "교양",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115394360196133277",
+  "summary": "10월 28일 PS5 게임 클라우드 스트리밍이 국내에 정식 출시돼 PlayStation Plus 프리미엄 회원은 내려받지 않고 바로 게임을 실행할 수 있게 됨. 디지털 PS5 게임만 대상이고 최소 5Mbps가 필요하며, PS Portal은 콘솔 없이도 플레이할 수 있게 됨.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115394360196133277",
+  "partial": false
+ },
+ {
+  "title": "AI에게 머스크식 제1원리 사고를 시키는 6단계 프롬프트 ㅣ 261028",
+  "date": "2026-10-28",
+  "category": "extra",
+  "sub": "공부법",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115395589991198999",
+  "summary": "AI가 문제를 가정 점검, 기본 요소 분해, 비용 격차 계산, 재설계, 반박 시험, 수치 검증의 6단계로 뜯고 첫 30일 계획까지 내게 하는 프롬프트임. 머스크의 배터리(1kWh당 600달러 대 재료비 80달러)와 로켓 재료비 사례로 제1원리 사고를 풀어 설명함.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115395589991198999",
+  "partial": true
+ },
+ {
+  "title": "AI가 같은 실수를 반복할 때 고칠 곳은 프롬프트가 아니었다 ㅣ 261028",
+  "date": "2026-10-28",
+  "category": "extra",
+  "sub": "교양",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115408286262706456",
+  "summary": "AI 에이전트가 같은 실수를 반복하면 프롬프트나 모델보다 모델을 둘러싼 작업 환경(하네스)을 고치라는 글임. 계약, 지도, 도구와 권한, 바깥 기억, 센서, 기록, 권한 강제의 일곱 가지를 OpenAI·Anthropic 사례와 함께 정리함.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115408286262706456",
+  "partial": false
+ },
+ {
+  "title": "FOMC 발표",
+  "date": "2026-10-28",
+  "category": "macro",
+  "sub": "금리·환율·지정학",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115441778694533206",
+  "summary": "FOMC 발표는 한국 시간 10/29(목) 03:00, 기자회견 03:30. 현재 기준금리 3.75~4.00%, 점도표 2026년 말 중앙값 4.1%, 시장은 이번 동결·12월 인상 80%대로 봄. 10년물 금리 0.5%p 상승이면 가격 약 3.8% 하락.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115441778694533206",
+  "partial": false
+ },
+ {
+  "title": "가슴 두 발 뒤 머리 한 발, 이 훈련 이름이 나라 이름인 이유 ㅣ 261028",
+  "date": "2026-10-28",
+  "category": "extra",
+  "sub": "교양",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115447222615908732",
+  "summary": "가슴 두 발 뒤 머리 한 발을 쏘는 모잠비크 드릴은 모잠비크 독립전쟁 중 용병 마이크 루소의 경험담을 제프 쿠퍼가 훈련으로 만든 데서 이름이 붙었음. 1980년 LAPD에서 인종차별 우려로 '실패 훈련'으로 이름을 바꿨고, 지금은 두 이름이 같이 쓰임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115447222615908732",
+  "partial": false
+ },
+ {
+  "title": "금리 발표 앞두고 분기 영업이익 83조원 낸 SK하이닉스 ㅣ 261028",
+  "date": "2026-10-28",
+  "category": "market",
+  "sub": "미국 시황",
+  "tickers": [
+   "ENPH"
+  ],
+  "url": "https://x.com/babybluecream/status/2115453764220170251",
+  "summary": "SK하이닉스가 3분기 영업이익 83조 3,338억원(전년 대비 632.1% 증가, 영업이익률 80%)을 공시하고 배당 14조원·자사주 매입 20조원을 결의했음. 같은 날 엔페이즈 에너지는 4분기 매출 전망이 시장 예상보다 약 20% 낮았고, KPMG는 연준이 이번 동결 뒤 12월에 한 번 더 올릴 것으로 봄.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115453764220170251",
+  "partial": false
+ },
+ {
+  "title": "다모다란 교수, 앤트로픽 투자설명서 논평 ㅣ 24만 단어 설명서를 네 칸으로 쪼개 읽는 법 ㅣ 261029",
+  "date": "2026-10-29",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115616826562662470",
+  "summary": "다모다란 교수는 약 24만 단어의 앤트로픽 투자설명서를 매출 성장, 수익성, 재투자, 위험 네 칸으로 나눠 읽으라고 제시했음. 10년 뒤 매출 1조 달러 등을 가정해 자기자본 가치 1조 4,800억 달러를 산출했고, 지배 구조가 마음에 들지 않아 훨씬 큰 할인이 있어야 산다고 밝혔음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115616826562662470",
+  "partial": false
+ },
+ {
+  "title": "FOMC 동결",
+  "date": "2026-10-29",
+  "category": "macro",
+  "sub": "금리·환율·지정학",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115623101170065567",
+  "summary": "연준이 기준금리를 3.75~4.00%로 동결했고 워시 의장은 추가 인상 여지를 남겼으며, 다음 회의는 12월 8~9일임. 한미 금리차는 상단 기준 1.00%p이고, 씨티·노무라는 한은이 11월과 내년 2월에 각 0.25%p 올릴 것으로 전망함.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115623101170065567",
+  "partial": false
+ },
+ {
+  "title": "20년 버틴 고집 꺾은 애플, 맥북에 터치 들어옴",
+  "date": "2026-10-29",
+  "category": "us",
+  "sub": "빅테크·플랫폼",
+  "tickers": [
+   "AAPL"
+  ],
+  "url": "https://x.com/babybluecream/status/2115623597704434120",
+  "summary": "14·16인치 맥북 프로에 처음으로 OLED 터치스크린이 들어가고 노치 대신 다이내믹 아일랜드가 적용됐으며, 국내 가격은 479만원부터임. OLED 패널 초도 물량은 삼성디스플레이가 전량 공급하는 것으로 알려졌음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115623597704434120",
+  "partial": false
+ },
+ {
+  "title": "AI 칩 회사가 레이저 회사를 사려는 이유 ㅣ 261029",
+  "date": "2026-10-29",
+  "category": "us",
+  "sub": "반도체·AI 인프라",
+  "tickers": [
+   "MRVL",
+   "LITE"
+  ],
+  "url": "https://x.com/babybluecream/status/2115694871440957855",
+  "summary": "마벨이 GPU 사이 통신용 레이저와 광부품을 만드는 루멘텀 인수를 협상 중이며, 데이터센터 연결이 구리선에서 광 연결로 옮겨가는 흐름이 배경임. 번스타인은 현금만으로 치르기 어려운 규모라 자금 조달과 통합이 숙제라고 봤고, 가격과 지급 방식은 아직 나오지 않았음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115694871440957855",
+  "partial": false
+ },
+ {
+  "title": "체코 원전 시공협상 결렬에 대우건설 22% 급락 ㅣ 261029",
+  "date": "2026-10-29",
+  "category": "macro",
+  "sub": "국내증시·한국 반도체",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115723654051017140",
+  "summary": "한수원이 대우건설·두산에너빌리티 컨소시엄과의 체코 두코바니 원전 시공계약 협상을 종료해 대우건설이 22% 넘게 급락했음. 다만 체코와 한수원 간 주계약(총사업비 약 26조원)은 유지되고, 한수원은 내년 7월까지 새 시공사를 뽑겠다는 입장임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115723654051017140",
+  "partial": false
+ },
+ {
+  "title": "케빈 워시 연준 의장, FOMC 기자회견에서 한국 경제 언급",
+  "date": "2026-10-29",
+  "category": "macro",
+  "sub": "금리·환율·지정학",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115724157237244280",
+  "summary": "케빈 워시 연준 의장이 FOMC 기자회견에서 한국 경제에 생각보다 더 많은 관심을 기울이고 있다며, 기술 공급망 상당 부분이 한국·일본·싱가포르에서 온다고 설명했음. 신현송 한은 총재는 20년 전부터 알고 지낸 사이라고 말했음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115724157237244280",
+  "partial": false
+ },
+ {
+  "title": "삼성전자 주가가 낮아야 이재용 증여세가 준다는 말, 따져보니 ㅣ 261029",
+  "date": "2026-10-29",
+  "category": "macro",
+  "sub": "국내증시·한국 반도체",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115758307311030601",
+  "summary": "상장주식 증여세는 증여일 전후 각 2개월 종가 평균으로 계산해 삼성전자 주가가 낮을수록 이재용 회장의 증여세가 줄어드는 구조는 맞음. 29일 삼성전자는 주주환원 세부 방안 부재 등으로 4.13% 내렸고, 주주환원 확정 시점이 평가 기간 종료와 맞물린다는 지적이 나왔음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115758307311030601",
+  "partial": false
+ },
+ {
+  "title": "노태문 경질설 뒤에 놓인 DX 적자와 11월 인사 ㅣ 261029",
+  "date": "2026-10-29",
+  "category": "macro",
+  "sub": "국내증시·한국 반도체",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115759455766016476",
+  "summary": "삼성전자 DX부문은 2분기와 3분기 연속 영업손실 8000억원을 내 노태문 사장 경질설이 나왔지만, 사내이사 임기가 2028년 3월까지라 부문장 교체 가능성은 낮다는 관측임. 대신 11월 인사에서 MX사업부장에 새 인물이 오를 수 있다는 전망이 나옴.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115759455766016476",
+  "partial": false
+ },
+ {
+  "title": "옥주현 190억 한남더힐이 6개월 만에 경매에 나온 이유 ㅣ 261029",
+  "date": "2026-10-29",
+  "category": "realestate",
+  "sub": "시장·인터뷰",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115760263039537264",
+  "summary": "옥주현이 4월 190억원에 산 한남더힐에 근저당권자가 담보권 실행을 신청해 10월 14일 임의경매 개시 결정이 났고 청구금액은 약 21억 7000만원임. 소속사는 투자사와의 M&A로 채무를 정리 중이며 투자사가 대여금 전액을 상환할 예정이라고 밝혔음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115760263039537264",
+  "partial": false
+ },
+ {
+  "title": "오픈AI가 세레브라스 칩에 맡긴 일ㅣ 261029",
+  "date": "2026-10-29",
+  "category": "us",
+  "sub": "반도체·AI 인프라",
+  "tickers": [
+   "CBRS"
+  ],
+  "url": "https://x.com/babybluecream/status/2115761425767637222",
+  "summary": "오픈AI에서 세레브라스 칩은 AI가 답을 빨리 내놓게 하는 추론용 칩 역할을 맡고, 750MW 계약에 따라 2028년까지 단계적으로 가동됨. 첫 결과물은 엔비디아가 아닌 칩에서 돌린 첫 GPT 모델 GPT-5.3-Codex-Spark이고, 오픈AI는 엔비디아를 학습과 추론의 핵심으로 계속 둔다고 밝혔음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115761425767637222",
+  "partial": false
+ },
+ {
+  "title": "서울택시 기사가 손님을 태울 수 있는 곳과 내려줄 수 있는 곳 ㅣ 261029",
+  "date": "2026-10-29",
+  "category": "extra",
+  "sub": "교양",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115762086005612572",
+  "summary": "서울택시는 서울 사업구역(광명·인천/김포공항·위례 예외 포함) 안에서만 손님을 태울 수 있고 내려주는 곳은 서울 밖이어도 됨. 경기도 운행 거절은 그 자체로 승차거부가 아니지만 서울시 경계까지는 가야 하고, 경계를 넘으면 시계외 할증 20%가 붙음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115762086005612572",
+  "partial": false
+ },
+ {
+  "title": "구글은 떨어지고 마이크로소프트는 오른 이유는 현금흐름이었음 ㅣ 261029",
+  "date": "2026-10-29",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "MSFT",
+   "GOOG"
+  ],
+  "url": "https://x.com/babybluecream/status/2115762863889613274",
+  "summary": "클라우드 성장은 둘 다 높았지만 시간외에서 마이크로소프트는 약 4% 오르고 알파벳은 약 10% 내렸음. 알파벳은 매출·조정 EPS가 예상에 못 미치고 잉여현금흐름이 마이너스 90억 6500만 달러였던 반면, 마이크로소프트는 잉여현금흐름 186억 3000만 달러로 전망치의 2배를 넘었음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115762863889613274",
+  "partial": false
+ },
+ {
+  "title": "매출과 이익이 좋아도 주가가 잉여현금흐름에 흔들리는 이유 ㅣ 261029",
+  "date": "2026-10-29",
+  "category": "econ",
+  "sub": "투자 기초 개념",
+  "tickers": [
+   "MSFT",
+   "GOOG"
+  ],
+  "url": "https://x.com/babybluecream/status/2115768108921102548",
+  "summary": "잉여현금흐름은 영업활동 현금흐름에서 자본적지출을 뺀 실제로 남는 돈이며, 이익은 발생주의라 이익이 좋아도 현금이 부족할 수 있음. 알파벳은 잉여현금흐름이 마이너스 90억 6500만 달러로 예상보다 크게 빠져 주가가 10% 넘게 내렸고, 마이크로소프트는 186억 3000만 달러 흑자였음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115768108921102548",
+  "partial": false
+ },
+ {
+  "title": "삼성은 107조 벌었는데 폰은 6000억 적자, 원가표 열어봤음 ㅣ 261029",
+  "date": "2026-10-29",
+  "category": "macro",
+  "sub": "국내증시·한국 반도체",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115788592895373332",
+  "summary": "AI 서버 수요로 메모리 가격이 오르며 프리미엄폰 원가에서 메모리 비중이 약 41~43%까지 올랐음. 삼성은 3분기 전사 영업이익 107조 4000억원을 냈지만 폰 사업은 매출이 14% 늘고도 영업손실 6000억원을 기록했고, 4분기에도 높은 메모리 가격이 이어질 것으로 봤음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115788592895373332",
+  "partial": false
+ },
+ {
+  "title": "한국이 전장이 된 게임이 국내 매출 1위 ㅣ 261029",
+  "date": "2026-10-29",
+  "category": "extra",
+  "sub": "교양",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115797663094591635",
+  "summary": "한국을 전장으로 한 콜 오브 듀티: 모던 워페어 4가 10월 23일 출시 뒤 스팀 국내 매출 1위에 올랐고 스팀 예약 판매만 40만 건이었음. 서울 번화가 맵과 K2 소총이 등장하며, 정치권 언급과 전쟁 트라우마를 오락으로 만든다는 비판도 함께 나왔음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115797663094591635",
+  "partial": false
+ },
+ {
+  "title": "켄 그리핀은 AI를 왜 '거의 확실한 버블'이라 불렀나 ㅣ 261029",
+  "date": "2026-10-29",
+  "category": "macro",
+  "sub": "금리·환율·지정학",
+  "tickers": [
+   "AMZN"
+  ],
+  "url": "https://x.com/babybluecream/status/2115807644766343577",
+  "summary": "켄 그리핀은 투자자가 AI 버블 안에 있을 가능성이 '거의 확실하다'고 하면서도 AI 주식을 팔라는 말은 하지 않았음. 이유로 GPU 공급 과잉 시 가격 급락, GPU 수명, 기업의 들쭉날쭉한 AI 활용 능력을 들었고, 버블 뒤 살아남은 기업이 수십 년간 시장을 이끈다고 말했음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115807644766343577",
+  "partial": false
+ },
+ {
+  "title": "뇌는 쓰는 대로 바뀜, 신경 가소성 ㅣ 261029",
+  "date": "2026-10-29",
+  "category": "extra",
+  "sub": "교양",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115812347407368268",
+  "summary": "신경 가소성은 뇌가 경험과 환경, 부상에 맞춰 연결과 구조를 바꾸는 능력으로, 자주 쓰는 연결은 강해지고 안 쓰는 연결은 정리됨. 어른 뇌도 바뀌며 뇌졸중 재활에서는 방향이 잡힌 반복 연습이 핵심이라는 내용임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115812347407368268",
+  "partial": false
+ },
+ {
+  "title": "드론 만들던 회사가 노트북을 만드는 이유 ㅣ 261029",
+  "date": "2026-10-29",
+  "category": "us",
+  "sub": "반도체·AI 인프라",
+  "tickers": [
+   "QCOM"
+  ],
+  "url": "https://x.com/babybluecream/status/2115813508696920345",
+  "summary": "안두릴은 컴퓨터 부품을 중국에 기대는 구조가 국가 안보 약점이라고 보고 퀄컴과 군 기준 노트북 블루칩을 공개했음. 부품 원가 약 90%가 미국·동맹국산이고 주문은 2027년부터 받지만, 일반 PC보다 약 20% 비싸 소비자용으로는 아직 맞지 않는다고 럭키가 말함.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115813508696920345",
+  "partial": false
+ },
+ {
+  "title": "서비스나우, 실적은 좋았는데 프리마켓 19% 폭락한 이유 ㅣ 261029",
+  "date": "2026-10-29",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "NOW"
+  ],
+  "url": "https://x.com/babybluecream/status/2115814841797820757",
+  "summary": "서비스나우는 3분기 매출과 수익성 지표가 전망 상단을 넘었지만, 4분기 cRPO 성장률 전망이 18.5%로 월가 예상(약 19.8%)에 못 미쳐 프리마켓에서 19% 내렸음. 회사는 조기 갱신과 계약 구조를 이유로 들었고, 증권사들은 목표가를 내리면서도 매수 의견은 유지했음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115814841797820757",
+  "partial": false
+ },
+ {
+  "title": "유럽 AI 미스트랄이 모델을 공개하는 이유 ㅣ 261029",
+  "date": "2026-10-29",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115818046740906224",
+  "summary": "미스트랄 CEO 멘슈는 모델을 공개하면 기업이 자기 서버에 AI를 올려 끊길 걱정, 데이터가 새어 나갈 걱정, 돈 걱정을 줄일 수 있다고 설명함. 미스트랄은 9월 삼성전자 주도로 30억 유로를 조달했고 연간 반복 매출은 4억 달러를 넘었으며, 약 1조 파라미터의 라지 4 가중치 공개를 예고했음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115818046740906224",
+  "partial": false
+ },
+ {
+  "title": "젠슨 황이 중국 정보 공작의 표적이었다는 NYT 보도 ㅣ 261029",
+  "date": "2026-10-30",
+  "category": "us",
+  "sub": "반도체·AI 인프라",
+  "tickers": [
+   "NVDA"
+  ],
+  "url": "https://x.com/babybluecream/status/2115822118117970016",
+  "summary": "NYT는 미국 당국이 메가스피드 임원 출신 중국 국적 사업가 앨리스 황을 중국 정보기관을 위해 일한 인물로 판단했고 그가 젠슨 황 CEO와 여러 차례 만났다고 보도했음. 엔비디아는 통상적인 고객 만남이라고, 중국은 근거 없는 비방이라고 반박했음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115822118117970016",
+  "partial": false
+ },
+ {
+  "title": "매출 39% 뛴 릴리, 주당순이익은 왜 7%일까 ㅣ 261029",
+  "date": "2026-10-30",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "LLY"
+  ],
+  "url": "https://x.com/babybluecream/status/2115822364411994600",
+  "summary": "릴리 3분기 매출은 마운자로·젭바운드 판매량 증가로 39% 늘어 244억 달러였지만, 인수 연구비 4.57달러가 한꺼번에 잡혀 주당순이익은 7%만 늘었음. 2026년 매출 가이던스를 910억~920억 달러로 올린 반면 주당순이익 가이던스는 인수 비용 때문에 35.00~36.00달러로 내려갔음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115822364411994600",
+  "partial": false
+ },
+ {
+  "title": "마이클 세일러는 왜 비트코인을 사는 걸까 ㅣ 261030",
+  "date": "2026-10-30",
+  "category": "us",
+  "sub": "섹터·테마",
+  "tickers": [
+   "MSTR"
+  ],
+  "url": "https://x.com/babybluecream/status/2115823933568270783",
+  "summary": "세일러는 회사 현금이 인플레이션에 녹는다고 보고 발행량 2,100만 개로 정해진 비트코인을 2020년 8월부터 사 모았고, 2026년 10월 11일 기준 보유량은 84만 8,250개(평균 매수가 7만 5,444달러)임. 연 11.5% 우선주 STRC로 매수 자금을 대는데, 1분기 순손실 약 125억 달러와 6월 첫 비트코인 매도를 거친 뒤 3분기에는 평가이익 약 209억 달러로 돌아섰음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115823933568270783",
+  "partial": false
+ },
+ {
+  "title": "서버 78% 뛰고도 인텔 주가가 빠진 이유 ㅣ 261030",
+  "date": "2026-10-30",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "INTC"
+  ],
+  "url": "https://x.com/babybluecream/status/2115942002768691296",
+  "summary": "인텔 3분기는 조정 주당순이익 0.52달러로 예상을 넘었고 데이터센터·AI 매출이 78% 늘었지만, PC 칩 부진으로 4분기 매출 150억~160억 달러·주당순이익 0.25달러를 제시해 시간외 17~22% 내렸음. 매출총이익률도 43%에서 38%로 낮아질 전망이고, 공모로 희석 주식 수가 약 17% 늘었음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115942002768691296",
+  "partial": false
+ },
+ {
+  "title": "알파벳 이어 아마존도 실적 실망, 시간외 급락 ㅣ 261030",
+  "date": "2026-10-30",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "AMZN"
+  ],
+  "url": "https://x.com/babybluecream/status/2115945525426126959",
+  "summary": "아마존 3분기 매출 2,019억 달러와 주당순이익 1.89달러가 모두 예상에 못 미쳤음. AWS는 39.3% 늘어 영업이익의 60% 이상을 냈지만 광고 매출이 기대보다 10억 달러 넘게 모자랐고, 최근 12개월 잉여현금흐름이 424억 달러 적자로 커져 시간외 4% 넘게 더 빠졌음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115945525426126959",
+  "partial": false
+ },
+ {
+  "title": "외국인 9월에 다시 셀코리아 ㅣ 261030",
+  "date": "2026-10-30",
+  "category": "macro",
+  "sub": "국내증시·한국 반도체",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115960372985545120",
+  "summary": "금감원 집계로 외국인이 9월 상장주식 19조 1,160억원을 순매도해(코스피 17조 4,530억원) 8월 첫 순매수 뒤 한 달 만에 매도로 돌아섰음. 영국·미국 순으로 많이 팔았지만 보유 잔액은 시총의 34.8%인 2,295조원으로 늘었고, 채권은 두 달째 순회수였음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115960372985545120",
+  "partial": false
+ },
+ {
+  "title": "나를 다스리는 열 가지 순서 ㅣ 261030",
+  "date": "2026-10-30",
+  "category": "extra",
+  "sub": "마인드·커리어",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2115975724326928558",
+  "summary": "남의 시선과 비교를 내려놓는 것에서 시작해 내 직감 따르기, 어제의 나와 견주기, 실패를 정보로 쓰기, 날짜와 숫자가 붙은 계획, 계속 배우기, 넘을 수 있다는 믿음까지 열 단계를 앞 단계가 다음 단계로 이어지는 순서로 정리했음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2115975724326928558",
+  "partial": false
+ },
+ {
+  "title": "빅테크 4사 AI 투자 965조원, MS 빼고 현금흐름 적자 ㅣ 261030",
+  "date": "2026-10-30",
+  "category": "us",
+  "sub": "빅테크·플랫폼",
+  "tickers": [
+   "AMZN",
+   "MSFT",
+   "GOOGL",
+   "META"
+  ],
+  "url": "https://x.com/babybluecream/status/2116021027448991774",
+  "summary": "아마존·MS·알파벳·메타의 올해 설비투자가 7,200억 달러(약 965조원)를 넘을 전망이라는 NYT 보도를 바탕으로, MS를 뺀 세 곳의 잉여현금흐름이 적자로 돌아섰다고 정리했음. 메타는 지급 의무가 8,000억 달러를 넘었고, MS는 설비투자가 예상보다 적어 흑자를 유지하는 중임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2116021027448991774",
+  "partial": false
+ },
+ {
+  "title": "9월 산업생산, 15년 6개월 만에 최대폭 증가 ㅣ 261030",
+  "date": "2026-10-30",
+  "category": "macro",
+  "sub": "국내증시·한국 반도체",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2116033605852107007",
+  "summary": "9월 전산업생산이 전월보다 3.0% 늘어 2011년 3월 이후 가장 크게 올랐고, 제조업은 반도체 +19.2%·자동차 +39.9%에 힘입어 9.9% 늘었음. 소매판매(+3.6%)·설비투자(+5.3%)까지 석 달 만에 함께 늘었지만 3분기 전체 소매판매는 1.0% 줄었음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2116033605852107007",
+  "partial": false
+ },
+ {
+  "title": "샌디스크 매출 5배, 8대1 액면분할 ㅣ 261030",
+  "date": "2026-10-30",
+  "category": "us",
+  "sub": "실적·IB 전망",
+  "tickers": [
+   "SNDK"
+  ],
+  "url": "https://x.com/babybluecream/status/2116036373673029682",
+  "summary": "샌디스크 7~9월 매출이 110억 달러로 1년 전보다 378% 늘어 예상을 넘었고 조정 매출총이익률은 85.1%였음. 다음 분기 가이던스 122억~126억 달러도 예상보다 높았고 11월 19일부터 8대1 액면분할을 하지만, 시간외에서는 3.83% 내렸음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2116036373673029682",
+  "partial": false
+ },
+ {
+  "title": "바이낸스 8.8조원 대부분이 20분 만에 빠져나감, 지목된 곳은 북한 ㅣ 261030",
+  "date": "2026-10-30",
+  "category": "macro",
+  "sub": "금리·환율·지정학",
+  "tickers": [
+   "BTC"
+  ],
+  "url": "https://x.com/babybluecream/status/2116049702680764596",
+  "summary": "바이낸스에서 63억 달러(약 8.8조원) 상당 자산이 20분 안에 대부분 빠져나갔고, TRM랩스·체이널리시스는 북한 해킹조직을 지목했음. 엔지니어 노트북을 통해 승인 안 된 출금이 실행됐고, 스테이블코인 일부는 동결됐지만 비트코인·이더리움은 회수 수단이 없으며 손실은 바이낸스가 기금으로 메우기로 했음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2116049702680764596",
+  "partial": false
+ },
+ {
+  "title": "이란 대공습 임박설, 호르무즈에선 유조선 4척 기뢰 충돌 ㅣ 261030",
+  "date": "2026-10-30",
+  "category": "macro",
+  "sub": "금리·환율·지정학",
+  "tickers": [],
+  "url": "https://x.com/babybluecream/status/2116141819163517393",
+  "summary": "WSJ은 미 중부사령부 사령관이 트럼프에게 이란 공격 옵션을 직접 보고했고 국방부가 중동에 방공장비를 추가로 보냈다고 보도했음. 같은 날 이란 혁명수비대는 호르무즈 해협에서 유조선 4척이 기뢰에 부딪혀 불이 났다고 발표했고, 미군이 기뢰를 다 제거했다고 밝힌 지 하루 만이었음.",
+  "source": "정리",
+  "access": "free",
+  "id": "2116141819163517393",
   "partial": false
  }
 ]

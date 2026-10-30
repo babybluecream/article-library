@@ -88,6 +88,8 @@
     }).join('');
     var subs = [];
     if (state.cat !== 'all') [0, 1].forEach(function (pass2) { posts.forEach(function (p) { var s = subOf(p); if (tabOf(p) === state.cat && !!MERGE[p.category] === !!pass2 && s && subs.indexOf(s) === -1) subs.push(s); }); }); // 원래 탭 서브 먼저, 합친 탭 서브는 뒤에
+    // 시안3: 새 서브 2개는 '섹터·테마' 바로 뒤에
+    ['빅테크·플랫폼', '반도체·AI 인프라'].forEach(function (x) { var i = subs.indexOf(x), j; if (i < 0) return; subs.splice(i, 1); j = subs.indexOf('섹터·테마'); subs.splice(j < 0 ? subs.length : j + 1, 0, x); });
     $('subWrap').hidden = subs.length < 2;
     $('subs').innerHTML = subs.length < 2 ? '' : [b('data-sub', '', '전체', !state.sub)].concat(subs.map(function (s) {
       var n = posts.filter(function (p) { return subOf(p) === s && pass(p, { sub: true }); }).length;
@@ -150,6 +152,11 @@
     var html = '', ctaDone = false, total = list.length;
     list = list.slice(0, state.limit);
     list.forEach(function (p, i) {
+      if (!ctaDone && p.access === 'locked' && state.lock) {
+        // 🔒 구독자 전용 필터일 때만: 기존 2버튼 안내 대신 상자형 X 구독 링크 하나 (용사님 10/29 23:45 KST 승인, 시안 A)
+        ctaDone = true;
+        html += '<li class="cta cta-sub"><a class="sub-box" href="' + SUBURL + '" target="_blank" rel="noopener" aria-label="X에서 구독하기 (새 탭)"><span>🔒 글 전체는 구독 후 읽으실 수 있습니다</span><b>X에서 구독하기 →</b></a><p class="cta-n">리딩 없음 · 정보 제공 목적</p></li>';
+      }
       if (!ctaDone && p.access === 'locked') {
         ctaDone = true;
         html += ctaBox("Invest in your dreams. Grind now. Shine later. ✨ The good stuff's in Highlights ⚡️", '<div class="cta-btns">' + subBtn('[ 구독하기 → ]') + xBtn('X에서 구독 확인 ↗') + '</div>', 'cta-list');
@@ -162,7 +169,15 @@
     mw.innerHTML = left > 0 ? '<button type="button" class="fb more-btn" id="moreBtn"><span class="fl">[ 더보기 +' + Math.min(PAGE, left) + ' ]</span><span class="fn">남은 ' + left + '편</span></button>' : '';
     var e = $('empty');
     if (total) e.hidden = true;
-    else { e.hidden = false; e.innerHTML = '<p class="big">' + CFG.emptyBig + '</p><p>조건에 맞는 글이 없습니다.</p><button type="button" class="fb" id="resetAll"><span class="fl">필터 초기화</span></button>'; }
+    else {
+      e.hidden = false;
+      // 탭·필터 안에서 0건이지만 전체에는 있는 검색어 → 전체 결과로 가는 상자 링크 하나만 (버튼 늘리지 않음)
+      var narrowed = state.cat !== 'all' || state.sub || state.free || state.xa || state.lock || state.ticker;
+      var nAll = state.q && narrowed ? posts.filter(function (p) { return pass(p, { cat: true, sub: true, free: true, xa: true, lock: true, ticker: true }); }).length : 0;
+      e.innerHTML = '<p class="big">' + CFG.emptyBig + '</p><p>' + (nAll ? esc(TAB_LABEL[state.cat] || CAT_LABEL[state.cat] || '이 조건') + '에는 “' + esc(state.q) + '” 글이 없습니다.' : '조건에 맞는 글이 없습니다.') + '</p>' +
+        (nAll ? '<button type="button" class="all-box" id="allQ"><span>전체에서 ‘' + esc(state.q) + '’ ' + nAll + '편 보기</span><b aria-hidden="true">→</b></button>'
+              : '<button type="button" class="fb" id="resetAll"><span class="fl">필터 초기화</span></button>');
+    }
     var parts = [];
     if (state.cat !== 'all') parts.push(TAB_LABEL[state.cat] || CAT_LABEL[state.cat]);
     if (state.sub) parts.push(state.sub);
@@ -250,7 +265,12 @@
     return a.length ? '#' + a.join('&') : location.pathname + location.search;
   }
   function saveY(y) { try { history.replaceState({ y: y != null ? y : Math.round(window.scrollY), n: state.limit }, '', location.href); } catch (e) {} }
-  function commit(push, y) { var u = hashOf(); if (push) { saveY(y); history.pushState(null, '', u); } else history.replaceState(history.state, '', u); }
+  function commit(push, y) { var u = hashOf(); if (push) { saveY(y != null ? y : downY()); history.pushState(null, '', u); } else history.replaceState(history.state, '', u); }
+  // 누르기 직전 스크롤 위치: 탭을 누르는 순간 브라우저가 포커스·자동 스크롤로 화면을 옮겨도 원래 보던 위치를 기록
+  var down = { y: null, t: 0 };
+  function downY() { return down.y != null && Date.now() - down.t < 1500 ? down.y : Math.round(window.scrollY); }
+  // 새 기록에도 현재 위치 저장 (앞으로 가기 때 그 화면 위치로)
+  function saveNew() { try { history.replaceState({ y: Math.round(window.scrollY), n: state.limit }, '', location.href); } catch (e) {} }
   // 고정 영역(상단 바 + TYPE 레일) 높이
   function stickH() { var bar = document.querySelector('.bar'), sticky = getComputedStyle(bar).position === 'sticky'; return sticky ? bar.offsetHeight : 0; }
   function syncStick() { var h = stickH(); document.documentElement.style.setProperty('--stick', h + 'px'); document.documentElement.style.setProperty('--stick-all', (h + ($('rail') ? $('rail').offsetHeight : 0)) + 'px'); }
@@ -276,14 +296,14 @@
   }
   // 사용자 조작 → 상태 변경 → URL → 렌더 → 스크롤/포커스 정리
   function act(push, fn) {
-    var y = Math.round(window.scrollY), n = state.limit, fs = focusSel(); // 바뀌기 전 화면 위치를 현재 기록에 저장
+    var y = downY(), n = state.limit, fs = focusSel(); // 바뀌기 전 화면 위치를 현재 기록에 저장
     fn(); state.limit = PAGE;
     if (push) { history.replaceState({ y: y, n: n }, '', location.href); history.pushState(null, '', hashOf()); } else history.replaceState(history.state, '', hashOf());
-    render(); keepListInView(); revealTab(); refocus(fs);
+    render(); keepListInView(); revealTab(); refocus(fs); if (push) saveNew(); down.y = null;
   }
   function goStage(k) {
     var fs = focusSel(), was = state.view; state.view = 'path'; state.stage = k; commit(true); render();
-    window.scrollTo(0, was === 'path' ? $('path').offsetTop - stickH() : 0);
+    window.scrollTo(0, was === 'path' ? $('path').offsetTop - stickH() : 0); saveNew(); down.y = null;
     refocus(fs && fs.indexOf('#stages') === 0 ? fs : '#stages [data-stage="' + k + '"]');
   }
   function bind() {
@@ -305,21 +325,24 @@
     $('q').addEventListener('input', function (e) { clearTimeout(tm); tm = setTimeout(function () { act(false, function () { state.q = e.target.value.trim(); }); }, 90); });
     $('clearQ').addEventListener('click', function () { $('q').value = ''; act(false, function () { state.q = ''; }); $('q').focus(); });
     $('sortBtn').addEventListener('click', function () { act(false, function () { state.sort = state.sort === 'desc' ? 'asc' : 'desc'; }); });
-    $('empty').addEventListener('click', function (e) { if (!e.target.closest('#resetAll')) return; $('q').value = ''; act(true, function () { state.cat = 'all'; state.sub = null; state.free = false; state.xa = false; state.lock = false; state.q = ''; state.ticker = null; }); refocus('#cats [data-cat="all"]'); });
+    $('empty').addEventListener('click', function (e) { if (e.target.closest('#allQ')) { act(true, function () { state.cat = 'all'; state.sub = null; state.free = false; state.xa = false; state.lock = false; state.ticker = null; }); refocus('#cats [data-cat="all"]'); return; } if (!e.target.closest('#resetAll')) return; $('q').value = ''; act(true, function () { state.cat = 'all'; state.sub = null; state.free = false; state.xa = false; state.lock = false; state.q = ''; state.ticker = null; }); refocus('#cats [data-cat="all"]'); });
     document.addEventListener('click', function (e) {
       var st = e.target.closest('[data-stage]'); if (st) { goStage(st.getAttribute('data-stage')); return; }
       var g = e.target.closest('[data-goto]'); if (g) { goStage(g.getAttribute('data-goto')); return; }
       var v = e.target.closest('[data-view]');
-      if (v) { e.preventDefault(); var nv = v.getAttribute('data-view'); if (nv === state.view && nv === 'index') { window.scrollTo(0, 0); return; } state.view = nv; commit(true); render(); window.scrollTo(0, 0); }
+      if (v) { e.preventDefault(); var nv = v.getAttribute('data-view'); if (nv === state.view && nv === 'index') { window.scrollTo(0, 0); return; } state.view = nv; commit(true); render(); window.scrollTo(0, 0); saveNew(); down.y = null; }
     });
     document.addEventListener('keydown', function (e) { if (e.key === '/' && document.activeElement !== $('q') && state.view === 'index') { e.preventDefault(); $('q').focus(); } });
     // 뒤로/앞으로: URL에서 상태 복원 + 그 화면에서 보던 스크롤 위치 복원
     if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+    ['pointerdown', 'keydown'].forEach(function (t) { document.addEventListener(t, function () { down.y = Math.round(window.scrollY); down.t = Date.now(); }, { capture: true, passive: true }); });
     window.addEventListener('popstate', function (e) {
       if (location.hash === '#lst') return; // 건너뛰기 링크는 브라우저 기본 이동에 맡김
       var st = e.state || {}; readHash(); if (st.n) state.limit = st.n; render(); revealTab();
       if (location.hash === '#about') { var ab = $('about'); window.scrollTo(0, ab.offsetTop - stickH()); return; }
-      window.scrollTo(0, st.y || 0);
+      var ty = st.y || 0; window.scrollTo(0, ty);
+      // 목록을 다시 그린 뒤 레이아웃(글꼴·높이)이 늦게 잡혀도 한 번 더 맞춤
+      requestAnimationFrame(function () { if (Math.abs(window.scrollY - ty) > 1) window.scrollTo(0, ty); });
     });
     window.addEventListener('scroll', function () { clearTimeout(window.__sy); window.__sy = setTimeout(saveY, 150); }, { passive: true });
     window.addEventListener('resize', syncStick);
