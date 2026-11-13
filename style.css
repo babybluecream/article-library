@@ -296,3 +296,4 @@ html:not(.ready) .start-chips{min-height:36px}
 @media(prefers-color-scheme:light){:root:not([data-theme=dark]) .tag.ok{color:#3dff8f}:root:not([data-theme=dark]) .theme{color:#ffb627}:root:not([data-theme=dark]) .go-btn.fv:hover{color:#fff}:root:not([data-theme=dark]) .st[aria-pressed=true],:root:not([data-theme=dark]) .st[aria-pressed=true] b{color:#fff}:root:not([data-theme=dark]) .empty .all-box:hover,:root:not([data-theme=dark]) .empty .all-box:focus-visible{color:#fff}}
 :root[data-theme=light] .empty .all-box:focus-visible{color:#fff}
 /* G:END */
+.start-side .lnk, .foot a { display: inline-block; padding: 3px 2px; margin: 0 -2px; }

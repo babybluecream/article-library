@@ -268,7 +268,14 @@
   function commit(push, y) { var u = hashOf(); if (push) { saveY(y != null ? y : downY()); history.pushState(null, '', u); } else history.replaceState(history.state, '', u); }
   // 누르기 직전 스크롤 위치: 탭을 누르는 순간 브라우저가 포커스·자동 스크롤로 화면을 옮겨도 원래 보던 위치를 기록
   var down = { y: null, t: 0 };
-  function downY() { return down.y != null && Date.now() - down.t < 1500 ? down.y : Math.round(window.scrollY); }
+  // 마지막으로 '멈춰 있던' 위치 (누르기 직전 브라우저가 탭을 보이게 하려고 자동 스크롤해도 영향 없음)
+  var rest = { y: 0, t: 0, prev: 0 };
+  function trackRest() { var n = Date.now(); if (n - rest.t >= 250) rest.prev = rest.y; rest.y = Math.round(window.scrollY); rest.t = n; }
+  function restY() { if (!rest.t) return Math.round(window.scrollY); return Date.now() - rest.t >= 250 ? rest.y : rest.prev; }
+  function downY() { var r = restY(); return down.y != null && Date.now() - down.t < 1500 && Math.abs(down.y - r) < 2 ? down.y : r; }
+  // 탭(주소)별 스크롤 위치 — 뒤로가기 때 기록에 y가 없거나 어긋나도 이 값으로 복원
+  var TABY = {}; try { TABY = JSON.parse(sessionStorage.getItem('tabY') || '{}'); } catch (e) {}
+  function keepTabY(y) { TABY[location.hash || '#'] = y; try { sessionStorage.setItem('tabY', JSON.stringify(TABY)); } catch (e) {} }
   // 새 기록에도 현재 위치 저장 (앞으로 가기 때 그 화면 위치로)
   function saveNew() { try { history.replaceState({ y: Math.round(window.scrollY), n: state.limit }, '', location.href); } catch (e) {} }
   // 고정 영역(상단 바 + TYPE 레일) 높이
@@ -298,7 +305,7 @@
   function act(push, fn) {
     var y = downY(), n = state.limit, fs = focusSel(); // 바뀌기 전 화면 위치를 현재 기록에 저장
     fn(); state.limit = PAGE;
-    if (push) { history.replaceState({ y: y, n: n }, '', location.href); history.pushState(null, '', hashOf()); } else history.replaceState(history.state, '', hashOf());
+    if (push) { keepTabY(y); history.replaceState({ y: y, n: n }, '', location.href); history.pushState(null, '', hashOf()); } else history.replaceState(history.state, '', hashOf());
     render(); keepListInView(); revealTab(); refocus(fs); if (push) saveNew(); down.y = null;
   }
   function goStage(k) {
@@ -340,11 +347,11 @@
       if (location.hash === '#lst') return; // 건너뛰기 링크는 브라우저 기본 이동에 맡김
       var st = e.state || {}; readHash(); if (st.n) state.limit = st.n; render(); revealTab();
       if (location.hash === '#about') { var ab = $('about'); window.scrollTo(0, ab.offsetTop - stickH()); return; }
-      var ty = st.y || 0; window.scrollTo(0, ty);
+      var ty = st.y != null ? st.y : (TABY[location.hash || '#'] || 0); window.scrollTo(0, ty); rest = { y: ty, t: 1, prev: ty };
       // 목록을 다시 그린 뒤 레이아웃(글꼴·높이)이 늦게 잡혀도 한 번 더 맞춤
       requestAnimationFrame(function () { if (Math.abs(window.scrollY - ty) > 1) window.scrollTo(0, ty); });
     });
-    window.addEventListener('scroll', function () { clearTimeout(window.__sy); window.__sy = setTimeout(saveY, 150); }, { passive: true });
+    window.addEventListener('scroll', function () { trackRest(); clearTimeout(window.__sy); window.__sy = setTimeout(saveY, 150); }, { passive: true });
     window.addEventListener('resize', syncStick);
     $('themeToggle').addEventListener('click', function () {
       var r = document.documentElement;
