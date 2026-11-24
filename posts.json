@@ -22508,5 +22508,82 @@
   "access": "free",
   "id": "2124866249922662856",
   "partial": true
+ },
+ {
+  "title": "젠슨황 돌아왔다 반도체 바닥 찍었을까 ㅣ 261124",
+  "date": "2026-11-24",
+  "category": "us",
+  "sub": "반도체·AI 인프라",
+  "tickers": [
+   "NVDA"
+  ],
+  "url": "https://x.com/babybluecream/status/2125143633641058561",
+  "summary": "젠슨 황이 엔비디아 CEO로 복귀해 급락 원인 중 하나였던 CEO 공백이 풀렸음. 남은 변수는 중국 칩 규제와 데이터센터 규제이며, 최악으로 가정해도 2028년 서버용 DRAM 수요 감소는 9%라고 함.",
+  "source": "정리",
+  "access": "free",
+  "id": "2125143633641058561",
+  "partial": true
+ },
+ {
+  "title": "블루스윕이 데이터센터 발목 잡나 ㅣ 261124",
+  "date": "2026-11-24",
+  "category": "us",
+  "sub": "반도체·AI 인프라",
+  "tickers": [
+   "SOXX"
+  ],
+  "url": "https://x.com/babybluecream/status/2125145206446301240",
+  "summary": "11월 3일 미국 중간선거에서 민주당이 상·하원 다수당을 가져간 블루스윕 이후, 결과가 확정된 11월 5일 나스닥은 7.1%, 반도체 지수 $SOXX는 12.3% 하락했음. 핵심은 데이터센터 규제 강화와 건설 지연 우려임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2125145206446301240",
+  "partial": true
+ },
+ {
+  "title": "젠슨 황 복귀 후 조용한 Tae Kim ㅣ 261124",
+  "date": "2026-11-24",
+  "category": "us",
+  "sub": "반도체·AI 인프라",
+  "tickers": [
+   "NVDA",
+   "ARM"
+  ],
+  "url": "https://x.com/babybluecream/status/2125213032829812743",
+  "summary": "엔비디아 이사회는 11월 23일 젠슨 황을 CEO로 복귀시켰음. 11월 12일 사임 발표 후 약 11일 만에 결정이 뒤집힌 것이며, Tae Kim의 사임·복귀 관련 발언 변화를 시간순으로 정리함.",
+  "source": "정리",
+  "access": "free",
+  "id": "2125213032829812743",
+  "partial": true
+ },
+ {
+  "title": "머스크 회사끼리 합친다 ㅣ 261124",
+  "date": "2026-11-24",
+  "category": "us",
+  "sub": "빅테크·플랫폼",
+  "tickers": [
+   "TSLA",
+   "SPCX"
+  ],
+  "url": "https://x.com/babybluecream/status/2125214723742499075",
+  "summary": "FT는 11월 24일 $TSLA와 $SPCX가 합병 협상을 이끌 이사 5명을 지명했다고 보도했음. 머스크가 양쪽 CEO라 협상에서 빠지고, 양사 독립이사 특별위원회가 주식 교환 비율 등을 논의함.",
+  "source": "정리",
+  "access": "free",
+  "id": "2125214723742499075",
+  "partial": true
+ },
+ {
+  "title": "머스크가 인정한 AI 열세 ㅣ 261124",
+  "date": "2026-11-25",
+  "category": "us",
+  "sub": "빅테크·플랫폼",
+  "tickers": [
+   "SPCX"
+  ],
+  "url": "https://x.com/babybluecream/status/2125341681260396994",
+  "summary": "NYT는 머스크가 직원들에게 $SPCX가 AI 개발에서 뒤처지고 있다고 말했다고 보도했음. 모델 개선보다 컴퓨팅 자원을 빌려주는 쪽이 더 수익성이 높다는 설명임.",
+  "source": "정리",
+  "access": "free",
+  "id": "2125341681260396994",
+  "partial": true
  }
 ]
